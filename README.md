@@ -1,4 +1,4 @@
-# project01-hjjp
+# project02-hjjp
 UCLA Extension Full Stack Coding Bootcamp Team Project 02
 
 The Client is going to be an international businessman. 
