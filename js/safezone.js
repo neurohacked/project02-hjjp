@@ -2,7 +2,7 @@ var request = require('request');
 
 module.exports = {
 
-    // Get address in form of street, city, and state and return address object
+    // Get address in form of street, city, and state and return address object to be used in other API methods
     getAddressObj: function(address, city, state) {
         if (address) {
             var addressList = address.split(' ');
@@ -10,7 +10,7 @@ module.exports = {
             var addressList = '';
         }
         if (addressList === '' && city === '' && state === '') {
-            return 'empty';
+            return;
         } else {
             var addressObj = {
                 addressList: addressList,
@@ -21,10 +21,8 @@ module.exports = {
         }
     },
 
-    // Using address and search criteria, use Google Geo API to get Latitude and Longitude of location chosen
-    // After results obtained, run get Restaurant method which queries zomato restaurant search API based on geo location
+    // Using address and search criteria, use Google Geo API to get Latitude and Longitude of location chosen and return callback with result to get processed
     getGeoObj: function (addressObj, cb) {
-        var locationTypeList = ['embassy', 'hospital', 'police', 'airport', 'bank'];
         var query = '';
         var queryList = [];
         var addressList = addressObj.addressList;
@@ -46,23 +44,21 @@ module.exports = {
         request(queryURL, function (error, response, body) {
             if (!error && response.statusCode == 200) {
                 var returned = JSON.parse(body).results[0];
-                var lat = returned.geometry.location.lat;
-                var lng = returned.geometry.location.lng;
-                var address = returned.formatted_address;
                 var geoObj = {
-                    lat: lat,
-                    lng: lng,
-                    address: address
+                    lat: returned.geometry.location.lat,
+                    lng: returned.geometry.location.lng,
+                    address: returned.formatted_address 
                 };
 
                 cb(geoObj);
             } else {
                 console.log("Error on getting GeoCoordinates " + error);
+                return;
             }
         });
     },
 
-    // Get safezone locations
+    // Get safezone locations list based on current geoCoordinates and a location type specified by function caller and return callback with result to get processed
     getSafezoneList: function (geoObj, locationType, cb) {
 
         var queryURL = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=' + geoObj.lat +',' + geoObj.lng + '&radius=5000&types=' + locationType + '&key=AIzaSyCdKTEHizAqhcNWoqo7TjU3WN0E4miTwBc'
@@ -72,21 +68,18 @@ module.exports = {
             if (!error && response.statusCode == 200) {
                 var returned = JSON.parse(body).results;
                 returned.forEach(function(child) {
-                    var name = child.name;
-                    var address = child.vicinity;
-                    var lat = child.geometry.location.lat;
-                    var lng = child.geometry.location.lng;
                     var safezoneObj = {
-                        lat: lat,
-                        lng: lng,
-                        address: address,
-                        name: name
+                        lat: child.geometry.location.lat,
+                        lng: child.geometry.location.lng,
+                        address: child.vicinity,
+                        name: child.name
                     }
                     safezoneResultList.push(safezoneObj);
                 });
                 cb(safezoneResultList);
             } else {
                 console.log("Error on getting safezone Locations " + error);
+                return;
             }
         });
     }
