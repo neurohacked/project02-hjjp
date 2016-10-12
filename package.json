@@ -4,7 +4,8 @@
   "description": "UCLA Extension Full Stack Coding Bootcamp Team Project 02",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "express-handlebars": "^3.0.0",
     "method-override": "^2.3.6",
     "mysql": "^2.11.1",
+    "request": "^2.75.0",
     "sequelize": "^3.24.3"
   }
 }
