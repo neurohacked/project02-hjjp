@@ -2,10 +2,9 @@
   "name": "project02-hjjp",
   "version": "1.0.0",
   "description": "UCLA Extension Full Stack Coding Bootcamp Team Project 02",
-  "main": "server.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -18,12 +17,17 @@
   },
   "homepage": "https://github.com/jackemuk/project02-hjjp#readme",
   "dependencies": {
+    "bcryptjs": "^2.3.0",
     "body-parser": "^1.15.2",
+    "debug": "~2.2.0",
     "express": "^4.14.0",
     "express-handlebars": "^3.0.0",
+    "express-session": "^1.13.0",
     "method-override": "^2.3.6",
+    "morgan": "~1.6.1",
     "mysql": "^2.11.1",
-    "request": "^2.75.0",
-    "sequelize": "^3.24.3"
+    "sequelize": "^3.24.3",
+    "sequelize-cli": "^1.7.1",
+    "serve-favicon": "~2.3.0"
   }
 }
