@@ -10,7 +10,7 @@ router.get('/', function(req, res) {
 
 // get safezones
 router.post('/search', function(req, res) {
-    const addressObj = safezone.getAddressObj(req.body.city, req.body.state, req.body.address);
+    const addressObj = safezone.getAddressObj(req.body.address, req.body.city, req.body.state);
     safezone.getGeoObj(addressObj, function(geoObj) {
         safezone.getSafezoneList(geoObj, function(safezoneResultList) {
             res.send(safezoneResultList);
