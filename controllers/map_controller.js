@@ -3,30 +3,19 @@ const express = require('express');
 const router = express.Router();
 const safezone = require('../js/safezone.js');
 
+// get map input page
 router.get('/', function(req, res) {
-    const addressObj = safezone.getAddressObj('pasadena', 'ca');
+    res.render('map');
+});
+
+// get safezones
+router.post('/search', function(req, res) {
+    const addressObj = safezone.getAddressObj(req.body.city, req.body.state, req.body.address);
     safezone.getGeoObj(addressObj, function(geoObj) {
         safezone.getSafezoneList(geoObj, function(safezoneResultList) {
-            console.log(safezoneResultList);
+            res.send(safezoneResultList);
         });
     });
-
-    models.Data.findAll({
-            include: [models.User]
-        })
-        // connect the findAll to this .then
-        .then(function(data) {
-            // grab the user info from our req.
-            // How is it in our req?
-            // This info gets saved to req via the users_controller.js file.
-            res.render('index', {
-                user_id: req.session.user_id,
-                username: req.session.user_name,
-                email: req.session.user_email,
-                logged_in: req.session.logged_in,
-                data: data
-            });
-        });
 });
 
 module.exports = router;
