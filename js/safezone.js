@@ -3,7 +3,7 @@ var request = require('request');
 module.exports = {
 
     // Get address in form of street, city, and state and return address object to be used in other API methods
-    getAddressObj: function(city, state, address) {
+    getAddressObj: function(address, city, state) {
         if (address) {
             var addressList = address.split(' ');
         } else {
@@ -12,8 +12,13 @@ module.exports = {
         if (addressList === '' && city === '' && state === '') {
             return;
         } else {
+            if (addressList) {
+                var addressHash = addressList.join("") + city.split(" ").join("") + state.split(" ").join("");
+            } else {
+                var addressHash = city.split(" ").join("") + state.split(" ").join("");
+            }
             var addressObj = {
-                choiceHash: addressList.join("") + city + state,
+                choiceHash: addressHash, 
                 addressList: addressList,
                 city: city,
                 state: state
