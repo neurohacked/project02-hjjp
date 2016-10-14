@@ -90,8 +90,6 @@ ul, ol {
     webkit-padding: 0;
     moz-padding: 0;
 }
-
-
 /* Navigation */
 
 #menu {
@@ -120,7 +118,6 @@ ul, ol {
 
 #menu.navbar-default .navbar-nav>li>a.nb-btn {
     display: inline-block;
-    ;
     text-transform: uppercase;
     color: #ffffff;
     padding: 6px 10px;
@@ -155,8 +152,33 @@ ul, ol {
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #FFF;
 }
+/* Navigation - Logged In */
 
-
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    background-color: transparent;
+}
+.dropdown-menu {
+	text-align: right;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #ffffff;
+	padding: 0;
+    border: 1px solid #ffffff;
+	background-color: transparent;
+    border-radius: 0;
+}
+.dropdown-menu > li > a {
+	padding: 8px 20px;
+	color: #fff;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	color: #fff;
+	background-color: #8568BA;
+}
+.dropdown-menu .divider {
+	margin: 0;
+}
 /* Home Style */
 
 #home {
@@ -215,8 +237,6 @@ a.fa.fa-angle-down:hover {
     color: #ffffff;
     border: 2px solid #8568BA;
 }
-
-
 /* About Section */
 
 #about {
@@ -237,8 +257,6 @@ ul.about-list li {
 ul.about-list li span {
     margin-right: 10px;
 }
-
-
 /* Team Section */
 
 #team {
@@ -373,8 +391,6 @@ ul.team-social li {
 .owl-theme .owl-controls .owl-page.active span {
     background: #8568BA;
 }
-
-
 /* Services Section */
 
 #services {
@@ -405,8 +421,6 @@ ul.team-social li {
     background: #8568BA;
     color: #ffffff;
 }
-
-
 /* Signup */
 
 #signup.signup-form .panel {
@@ -449,8 +463,6 @@ ul.team-social li {
     background: #8568BA;
     border: 1px solid #8568BA;
 }
-
-
 /* Footer */
 
 nav#footer {

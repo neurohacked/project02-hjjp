@@ -1,0 +1,31 @@
+// INITIAL MIGRATION
+// This is the 0-state of the users table.
+// When executed, the table will be created.
+
+// This is also what sequelize db:migrate will refer to
+// as the base schema. All undos revert to this.
+
+"use strict";
+
+module.exports = {
+  up: function(queryInterface, Sequelize) {
+    return queryInterface
+      .createTable('users', {
+        id: {
+          type: Sequelize.INTEGER,
+          autoIncrement: true,
+          primaryKey: true
+        },
+        username: Sequelize.STRING,
+        email: Sequelize.STRING,
+        password_hash: Sequelize.STRING,
+        created_at: Sequelize.DATE,
+        updated_at: Sequelize.DATE
+      });
+  },
+
+  down: function(queryInterface, Sequelize) {
+    return queryInterface
+      .dropTable('users');
+  }
+};
