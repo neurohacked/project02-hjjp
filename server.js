@@ -7,8 +7,7 @@ const session = require('express-session');
 const exphbs = require('express-handlebars');
 const methodOverride = require('method-override');
 
-
-// model controllers
+// controllers
 const app_controller = require('./controllers/app_controller');
 const user_controller = require('./controllers/user_controller');
 
@@ -53,7 +52,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static('public'));
 
 app.use('/', app_controller);
-app.use('/signup', user_controller);
+app.use('/u', user_controller);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

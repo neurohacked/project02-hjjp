@@ -5,7 +5,7 @@
 
 // This way, we can set certain properties here
 // rather than having them take up space in server.js.
-var debug = require('debug')('sequelize-ramen-time');
+var debug = require('debug')('project02-hjjp');
 
 // we bring in the app we exported from server.js
 var app = require('../server');
@@ -23,6 +23,6 @@ models.sequelize.sync().then(function () {
   var server = app.listen(app.get('port'), function() {
   	// then save a log of the listening to our debugger.
     debug('Express server listening on port ' + server.address().port);
-    console.log('Express server listening on port ' + server.address().port);
+    console.log('Amazing things happening on port ' + server.address().port);
   });
 });
