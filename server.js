@@ -1,10 +1,10 @@
 // dependencies
 const express = require('express');
-const path = require('path');
 const favicon = require('serve-favicon');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
 const session = require('express-session');
+const exphbs = require('express-handlebars');
 const methodOverride = require('method-override');
 
 
@@ -31,13 +31,10 @@ if (app.get('env') === 'production') {
 
 app.use(session(sess));
 
-// view engine setup
-app.set('views', path.join(__dirname, 'views'))
-
 //set up handlebars
-const exphbs = require('express-handlebars');
 app.engine('handlebars', exphbs({
-    defaultLayout: 'main'
+    defaultLayout: 'main',
+    dashboardLayout: 'dashboard'
 }));
 app.set('view engine', 'handlebars');
 
@@ -52,7 +49,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
     extended: false
 }));
-app.use(express.static(path.join(__dirname, 'public/')));
+
+app.use(express.static('public'));
 
 app.use('/', app_controller);
 app.use('/signup', user_controller);

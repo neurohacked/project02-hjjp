@@ -3,7 +3,9 @@ const models = require('../models');
 const express = require('express');
 const router = express.Router();
 
-router.get('/sign-out', function(req, res) {
+
+// logout
+router.get('/logout', function(req, res) {
     req.session.destroy(function(err) {
         res.redirect('/');
     });
