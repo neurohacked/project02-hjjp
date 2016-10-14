@@ -20,10 +20,27 @@
                 <li><a href="#team" class="page-scroll">Team</a></li>
                 <li><a href="#services" class="page-scroll">Services</a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="/login" class="">Login</a></li>
-                <li><a href="/signup" class="btn nb-btn navbar-btn">Sign Up</a></li>
-            </ul>
+            {{#unless logged_in}}
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/login" class="">Login</a></li>
+                    <li><a href="/signup" class="btn nb-btn navbar-btn">Sign Up</a></li>
+                </ul>
+            {{/unless}}
+            {{#if logged_in}}
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{username}} <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/u/add">Add Location</a></li>
+                            <li><a href="/u/dashboard">Dashboard</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/u/account">Account</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/u/logout">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            {{/if}}
         </div>
         <!-- /.navbar-collapse -->
     </div>

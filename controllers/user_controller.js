@@ -35,6 +35,7 @@ router.post('/login', function(req, res) {
                 req.session.logged_in = true;
                 // the username to the session
                 req.session.user_name = user.username;
+                console.log("Username is:", user.username);
                 // the user id to the session
                 req.session.user_id = user.id;
                 // and the user's email.
@@ -45,7 +46,7 @@ router.post('/login', function(req, res) {
             // if the result is anything but true (password invalid)
             else {
                 // redirect user to sign in
-                res.redirect('/');
+                res.redirect('/signin');
             }
         });
     });
@@ -56,7 +57,7 @@ router.post('/login', function(req, res) {
 router.post('/create', function(req, res) {
     models.User.findAll({
         where: {
-			username: req.body.username,
+            username: req.body.username,
             email: req.body.email
         }
     }).then(function(users) {
@@ -74,7 +75,7 @@ router.post('/create', function(req, res) {
                     // Using the User model, create a new user,
                     // storing the email they sent and the hash you just made
                     models.User.create({
-							username: req.body.username,
+                            username: req.body.username,
                             email: req.body.email,
                             password_hash: hash
                         })
