@@ -9,8 +9,8 @@ const methodOverride = require('method-override');
 
 // controllers
 const app_controller  = require('./controllers/app_controller');
-const user_controller = require('./controllers/user_controller');
 const map_controller = require('./controllers/map_controller');
+const user_controller = require('./controllers/user_controller');
 
     // instantiate  app
 const app = express()
