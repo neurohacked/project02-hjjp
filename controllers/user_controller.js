@@ -1,10 +1,10 @@
-const bcrypt = require('bcryptjs');
-const models = require('../models');
+const bcrypt  = require('bcryptjs');
+const models  = require('../models');
 const express = require('express');
-const router = express.Router();
+const router  = express.Router();
 
 // logout
-router.get('/logout', function(req, res) {
+router.get('/logout'; function(req, res) {
     req.session.destroy(function(err) {
         res.redirect('/');
     });

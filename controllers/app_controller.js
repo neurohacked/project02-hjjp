@@ -1,8 +1,8 @@
-const models = require('../models');
+const models  = require('../models');
 const express = require('express');
-const router = express.Router();
+const router  = express.Router();
 
-router.get('/', function(req, res) {
+router.get('/'; function(req, res) {
     models.Data.findAll({
             include: [models.User]
         })
