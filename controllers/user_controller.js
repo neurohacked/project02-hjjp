@@ -1,7 +1,24 @@
-const bcrypt  = require('bcryptjs');
-const models  = require('../models');
+const bcrypt = require('bcryptjs');
+const models = require('../models');
 const express = require('express');
-const router  = express.Router();
+const router = express.Router();
+
+// user dashboard
+router.get('/dashboard', function(req, res) {
+    models.Data.findAll({
+            include: [models.User]
+        })
+        .then(function(data) {
+            res.render('dashboard', {
+                layout: 'dash',
+                user_id: req.session.user_id,
+                username: req.session.user_name,
+                email: req.session.user_email,
+                logged_in: req.session.logged_in,
+                data: data
+            });
+        });
+});
 
 // logout
 router.get('/logout', function(req, res) {
@@ -41,12 +58,12 @@ router.post('/login', function(req, res) {
                 // and the user's email.
                 req.session.user_email = user.email;
 
-                res.redirect('/');
+                res.redirect('dashboard');
             }
             // if the result is anything but true (password invalid)
             else {
-                // redirect user to sign in
-                res.redirect('/signin');
+                // redirect user login
+                res.redirect('/login');
             }
         });
     });
@@ -96,8 +113,8 @@ router.post('/create', function(req, res) {
                             // and the user's email.
                             req.session.user_email = user.email;
 
-                            // redirect to home on login
-                            res.redirect('/');
+                            // redirect to dashboard on login
+                            res.redirect('dashboard');
                         });
                 });
             });
