@@ -1,22 +1,22 @@
 // dependencies
-const express        = require('express');
-const favicon        = require('serve-favicon');
-const logger         = require('morgan');
-const bodyParser     = require('body-parser');
-const session        = require('express-session');
-const exphbs         = require('express-handlebars');
-const methodOverride = require('method-override');
+const express         = require('express');
+const favicon         = require('serve-favicon');
+const logger          = require('morgan');
+const bodyParser      = require('body-parser');
+const session         = require('express-session');
+const exphbs          = require('express-handlebars');
+const methodOverride  = require('method-override');
 
 // controllers
 const app_controller  = require('./controllers/app_controller');
-const map_controller = require('./controllers/map_controller');
+const map_controller  = require('./controllers/map_controller');
 const user_controller = require('./controllers/user_controller');
 
-    // instantiate  app
-const app = express()
-    // sessions
-    ,
-    sess = {
+// instantiate  app
+const app  = express();
+
+// sessions
+const sess = {
         secret: 'app',
         cookie: {
             maxAge: null
