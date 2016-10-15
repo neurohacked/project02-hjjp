@@ -20,8 +20,8 @@ module.exports = {
           type: Sequelize.INTEGER
         },
         data_name: Sequelize.STRING,
-        image: Sequelize.STRING,
-        devoured: {type: Sequelize.BOOLEAN, default: false},
+        location: Sequelize.STRING,
+        exists: {type: Sequelize.BOOLEAN, default: false},
         created_at: Sequelize.DATE,
         updated_at: Sequelize.DATE
       });
