@@ -1,27 +1,28 @@
 // dependencies
-const express = require('express');
-const favicon = require('serve-favicon');
-const logger = require('morgan');
-const bodyParser = require('body-parser');
-const session = require('express-session');
-const exphbs = require('express-handlebars');
+const express        = require('express');
+const favicon        = require('serve-favicon');
+const logger         = require('morgan');
+const bodyParser     = require('body-parser');
+const session        = require('express-session');
+const exphbs         = require('express-handlebars');
 const methodOverride = require('method-override');
 
 // controllers
-const app_controller = require('./controllers/app_controller');
+const app_controller  = require('./controllers/app_controller');
 const user_controller = require('./controllers/user_controller');
 
-// instantiate  app
-const app = express();
-// sessions
-const sess = {
-    secret: 'app',
-    cookie: {
-        maxAge: null
-    },
-    resave: true,
-    saveUninitialized: true
-}
+    // instantiate  app
+const app = express()
+    // sessions
+    ,
+    sess = {
+        secret: 'app',
+        cookie: {
+            maxAge: null
+        },
+        resave: true,
+        saveUninitialized: true
+    }
 
 if (app.get('env') === 'production') {
     app.set('trust proxy', 1) // trust first proxy
