@@ -9,14 +9,18 @@ router.get('/dashboard', function(req, res) {
             include: [models.User]
         })
         .then(function(data) {
-            res.render('dashboard', {
-                layout: 'dash',
-                user_id: req.session.user_id,
-                username: req.session.user_name,
-                email: req.session.user_email,
-                logged_in: req.session.logged_in,
-                data: data
-            });
+            if (req.session.user_name) {
+                res.render('dashboard', {
+                    layout: 'dash',
+                    user_id: req.session.user_id,
+                    username: req.session.user_name,
+                    email: req.session.user_email,
+                    logged_in: req.session.logged_in,
+                    data: data
+                });
+            } else {
+                res.redirect('/');
+            }
         });
 });
 

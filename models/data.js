@@ -3,7 +3,7 @@
 module.exports = function(sequelize, DataTypes) {
   const Data = sequelize.define("Data", {
     data_name: DataTypes.STRING,
-    image: DataTypes.STRING,
+    location: DataTypes.STRING,
     exists: { type: DataTypes.BOOLEAN, defaultValue: false }
   }, {
     // don't add the timestamp attributes (updatedAt, createdAt)
