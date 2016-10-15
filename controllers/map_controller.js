@@ -1,6 +1,6 @@
-const models = require('../models');
-const express = require('express');
-const router = express.Router();
+const models   = require('../models');
+const express  = require('express');
+const router   = express.Router();
 const safezone = require('../js/safezone.js');
 
 // get map input page

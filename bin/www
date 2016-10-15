@@ -5,10 +5,10 @@
 
 // This way, we can set certain properties here
 // rather than having them take up space in server.js.
-var debug = require('debug')('project02-hjjp');
+var debug  = require('debug')('project02-hjjp');
 
 // we bring in the app we exported from server.js
-var app = require('../server');
+var app    = require('../server');
 
 // we bring in the models we exported with index.js
 var models = require("../models");
