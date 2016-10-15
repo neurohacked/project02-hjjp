@@ -1,4 +1,7 @@
 $(document).ready(function() {
+
+
+
     $('#getSafezoneBtn').on('click', function() {
         $('.locationModal').modal('hide');
         var newLocation = {
@@ -15,7 +18,8 @@ $(document).ready(function() {
         $.post('/map/search', newLocation)
             .done(function(data) {
                 console.log(data);
-                // alert('Submitted Search. Look at console.log for JSON results for safezones. Still need to render to html');
+                eModal.confirm('Submitted Search. Look at console.log for JSON results for safezones. Still need to render to html')
+                .then(confirmCallback, optionalCancelCallback);
             });
 
         return false;
