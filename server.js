@@ -1,29 +1,31 @@
 // dependencies
-const express         = require('express');
-const favicon         = require('serve-favicon');
-const logger          = require('morgan');
-const bodyParser      = require('body-parser');
-const session         = require('express-session');
-const exphbs          = require('express-handlebars');
-const methodOverride  = require('method-override');
+const express = require('express');
+const path = require('path');
+const favicon = require('serve-favicon');
+const logger = require('morgan');
+const bodyParser = require('body-parser');
+const session = require('express-session');
+const hbs = require('handlebars');
+const exphbs = require('express-handlebars');
+const methodOverride = require('method-override');
 
 // controllers
-const app_controller  = require('./controllers/app_controller');
-const map_controller  = require('./controllers/map_controller');
+const app_controller = require('./controllers/app_controller');
+const map_controller = require('./controllers/map_controller');
 const user_controller = require('./controllers/user_controller');
 
 // instantiate  app
-const app  = express();
+const app = express();
 
 // sessions
 const sess = {
-        secret: 'app',
-        cookie: {
-            maxAge: null
-        },
-        resave: true,
-        saveUninitialized: true
-    }
+    secret: 'app',
+    cookie: {
+        maxAge: null
+    },
+    resave: true,
+    saveUninitialized: true
+}
 
 if (app.get('env') === 'production') {
     app.set('trust proxy', 1) // trust first proxy
@@ -32,11 +34,37 @@ if (app.get('env') === 'production') {
 
 app.use(session(sess));
 
+// view engine setup
+app.set('views', path.join(__dirname, 'views'));
+
 //set up handlebars
 app.engine('handlebars', exphbs({
     defaultLayout: 'main',
     dashboardLayout: 'dashboard'
 }));
+hbs.registerHelper("box-color", function(risk, value, box) {
+    if (risk >= 80) {
+        return "box-danger";
+    } else if (risk >= 60) {
+        return "box-warning";
+    } else if (risk >= 40) {
+        return "box-default";
+    } else {
+        return "box-success";
+    }
+})
+hbs.registerHelper("btn-color", function(risk, value, button) {
+    if (risk >= 80) {
+        return "bg-red";
+    } else if (risk >= 60) {
+        return "bg-orange";
+    } else if (risk >= 40) {
+        return "bg-gray";
+    } else {
+        return "bg-green";
+    }
+});
+
 app.set('view engine', 'handlebars');
 
 // uncomment when favicon.ico exists
