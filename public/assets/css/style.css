@@ -1,4 +1,4 @@
-    @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
 body, html {
     font-family: 'Lato', sans-serif;
@@ -40,7 +40,7 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
-p.intro {
+.intro {
     font-size: 16px;
     margin: 12px 0 0;
     line-height: 24px;
@@ -87,8 +87,6 @@ a:hover, a:focus {
 
 ul, ol {
     padding: 0;
-    webkit-padding: 0;
-    moz-padding: 0;
 }
 /* Navigation */
 
@@ -157,27 +155,38 @@ ul, ol {
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
     background-color: transparent;
 }
+
 .dropdown-menu {
-	text-align: right;
+    text-align: right;
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 1px;
     color: #ffffff;
-	padding: 0;
+    padding: 0;
     border: 0;
-	background-color: #222222;
+    background-color: #222222;
     border-radius: 0;
 }
-.dropdown-menu > li > a {
-	padding: 8px 20px;
-	color: #fff;
+
+.dropdown-menu>li>a {
+    padding: 8px 20px;
+    color: #fff;
 }
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-	color: #fff;
-	background-color: #8568BA;
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    color: #fff;
+    background-color: #8568BA;
 }
+
 .dropdown-menu .divider {
-	margin: 0;
+    margin: 0;
+}
+.nav-img .navbar-brand {
+    display: flex;
+    align-items: center;
+}
+#home .container {
+    padding: 280px 15px 0;
 }
 /* Home Style */
 
@@ -323,6 +332,7 @@ ul.about-list li span {
 
 .section-title h2, .section-title.center h2 {
     font-weight: 300;
+    line-height: 35px;
 }
 
 .section-title.center .line {
@@ -498,11 +508,7 @@ ul.team-social li {
 nav#footer {
     background: #222222;
     color: #ffffff;
-    padding: 20px 0 15px 0;
-}
-
-nav#footer .fnav {
-    vertical-align: middle;
+    padding:15px;
 }
 
 ul.footer-social li {
@@ -512,7 +518,7 @@ ul.footer-social li {
 
 nav#footer p {
     font-size: 12px;
-    margin-top: 10px;
+    margin: 0;
 }
 
 #footer i.fa {
@@ -530,8 +536,4 @@ nav#footer p {
     background: #8568BA;
     border-color: #8568BA;
     color: #ffffff;
-}
-
-.pointer {
-    cursor: pointer;
 }

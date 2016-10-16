@@ -19,12 +19,16 @@ router.get('/', function(req, res) {
 
 // signup
 router.get('/signup', function(req, res) {
-    res.render('signup');
+    res.render('signup', {
+        layout: 'auth'
+    });
 });
 
 // login
 router.get('/login', function(req, res) {
-    res.render('login');
+    res.render('login', {
+        layout: 'auth'
+    });
 });
 
 module.exports = router;
