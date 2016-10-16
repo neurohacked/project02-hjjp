@@ -148,8 +148,6 @@ function computeTotalDistance(result) {
 $(document).ready(function(){
 
     var modalCount = 0;
-    var marker = [];
-    var markerCount = 0;
     var srcLat;
     var srcLng;
     var dstLat;
@@ -245,17 +243,6 @@ $(document).ready(function(){
 
 
             // Information Window
-            var marker2 = new google.maps.Marker({
-              position: {lat: dstLat, lng: dstLng},
-              map: map,
-              title: 'site2',
-              icon: '/assets/img/police.png',
-              animation: google.maps.Animation.DROP
-            });
-            marker2.addListener('click', function() {
-              infowindow.open(map, marker2);
-            });
-
             for (var i = 0; i < data.length; i++) {
                 console.log(data[i]);
                 var address = data[i].address;
@@ -264,7 +251,7 @@ $(document).ready(function(){
                 var locationType = data[i].locationType;
                 var name = data[i].name;
                 var choiceHash = data[i].choiceHash;
-                var contentString = '<div id="content">'+
+                contentHtml = '<div id="content">'+
                     '<div id="siteNotice">'+
                     '</div>'+
                     '<h4 id="firstHeading" class="firstHeading">' + name + '</h4>'+
@@ -274,11 +261,7 @@ $(document).ready(function(){
                     '</div>'+
                     '</div>';
 
-                var infowindow = new google.maps.InfoWindow({
-                  content: contentString
-                });
-
-                marker[markerCount] = new google.maps.Marker({
+                marker = new google.maps.Marker({
                   position: {lat: lat, lng: lng},
                   map: map,
                   title: name,
@@ -286,11 +269,13 @@ $(document).ready(function(){
                   animation: google.maps.Animation.DROP
                 });
 
-                marker[markerCount].addListener('click', function() {
-                  infowindow.open(map, marker[markerCount]);
-                });
+                marker.content = contentHtml;
 
-                markerCount++;
+                var infoWindow = new google.maps.InfoWindow();
+                google.maps.event.addListener(marker, 'click', function () {
+                    infoWindow.setContent(this.content);
+                    infoWindow.open(this.getMap(), this);
+                });
 
             }
             $('#mapModal').modal('show');
