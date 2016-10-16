@@ -1,32 +1,76 @@
-<!-- Add Location
+<!-- Navigation
 ==========================================-->
-<div class="modal fade locationModal" tabindex="-1" role="dialog" aria-labelledby="locationModal">
-    <div class="modal-dialog modal-lg" role="document">
-        <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h5 class="modal-title">Add Location</h5>
-            </div>
-            <div class="modal-body">
-                <form action="/map/search" method="POST">
-                    <div class="form-group">
-                        <label for="address">Address</label>
-                        <input type="text" class="form-control" id="addressInput" name="address" required>
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+            <a class="navbar-brand page-scroll" href="/"><i class="fa fa-shield fa-fw"></i> Aegis</a>
+        </div>
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<!-- Sign Up
+==========================================-->
+<div id="home">
+    <div class="overlay">
+        <div class="content">
+            <div class="row">
+                <div class="col col-sm-4 col-sm-offset-4">
+                    <div id="signup" class="signup-form">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <form action="u/create" method="POST">
+                                    <div class="form-group">
+                                        <label for="address">Address</label>
+                                        <input type="text" class="form-control" id="addressInput" name="address" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="city">City</label>
+                                        <input type="text" class="form-control" id="cityInput" name="city" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="state">State</label>
+                                        <input type="text" class="form-control" id="stateInput" name="state" required>
+                                    </div>
+                                    <div class="signup-submit">
+                                        <button id="getSafezoneBtn" class="btn pull-right" type="submit">Look Up</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="city">City</label>
-                        <input type="text" class="form-control" id="cityInput" name="city" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="state">State</label>
-                        <input type="text" class="form-control" id="stateInput" name="state" required>
-                    </div>
+                </div>
             </div>
-            <div class="modal-footer">
-                <button id="getSafezoneBtn" class="btn pull-right" type="submit">Look Up</button>
-            </div>
-            </form>
         </div>
     </div>
 </div>
+
+<div id="mapModal" class="modal fade" role="dialog">
+  <div id="mapDialog" class="modal-dialog">
+
+    <!-- Modal content-->
+    <div id="mapContent" class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Safezone Locations</h4>
+      </div>
+      <div id="mapOutput" class="modal-body">
+      </div>
+      <div id="right-panel">
+          <p>Total Distance: <span id="total"></span></p>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBafXeEZdeN3wqsxir8ca5e8DhkMwuBmrI&callback=initMap"></script>

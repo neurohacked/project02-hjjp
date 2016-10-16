@@ -71,6 +71,14 @@ module.exports = {
         var safezoneCounter = 0;
         var safezoneResultList = [];
 
+        var sourceObj = {
+            lat: geoObj.lat,
+            lng: geoObj.lng,
+            address: geoObj.address,
+            choiceHash: geoObj.choiceHash
+        };
+        safezoneResultList.push(sourceObj);
+
         locationTypeList.forEach(function(locationType) {
 
             var queryURL = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=' + geoObj.lat +',' + geoObj.lng + '&radius=5000&types=' + locationType + '&key=AIzaSyCdKTEHizAqhcNWoqo7TjU3WN0E4miTwBc'
