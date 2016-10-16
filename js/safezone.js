@@ -75,6 +75,8 @@ module.exports = {
             lat: geoObj.lat,
             lng: geoObj.lng,
             address: geoObj.address,
+            name: 'Target Location',
+            locationType: 'home',
             choiceHash: geoObj.choiceHash
         };
         safezoneResultList.push(sourceObj);
