@@ -202,6 +202,12 @@ $(document).ready(function(){
             '</div>';
             $('#modalCollection').append(modalHtml);
 
+            var linkHtml = '<div>'+
+                '<button class="mapButton btn btn-success" data-name="' + mapModal + '">' +
+                mapId + '</button>'+
+              '</div>';
+            $('#mapLink').append(linkHtml);
+
             // Create a map object, and include the MapTypeId to add
             // to the map type control.
             var map = new google.maps.Map(document.getElementById(mapOutput), {
@@ -302,7 +308,6 @@ $(document).ready(function(){
                 });
 
             }
-            $(mapModal).modal('show');
             $(mapModal).on('shown.bs.modal', function() {
               var currentCenter = map.getCenter();  // Get current center before resizing
               google.maps.event.trigger(map, "resize");
@@ -311,6 +316,13 @@ $(document).ready(function(){
             });
           modalCount++;
         });
+
         return false;
     });
+
+    $('#mapLink').on('click', '.mapButton', function() {
+      var modalName = $(this).data('name');
+      $(modalName).modal('show');
+    });
+
 });
