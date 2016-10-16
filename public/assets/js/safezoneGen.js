@@ -147,6 +147,8 @@ function computeTotalDistance(result) {
 
 $(document).ready(function(){
 
+    var modalCount = 0;
+    var marker = [];
     var markerCount = 0;
     var srcLat;
     var srcLng;
@@ -167,14 +169,16 @@ $(document).ready(function(){
 
         $.post('http://localhost:3000/map/search', newLocation)
         .done(function (data) {
-            // console.log(data);
-            alert('Submitted Search. Look at console.log for JSON results for safezones. Still need to render to html');
 
-            srcLat = 34.052234;
-            srcLng = -118.243685;
-            dstLat = 34.055244;
-            dstLng = -118.243785;
-
+            for (var i = 0; i < 2; i++) {
+              if (i === 0) {
+                srcLat = data[i].lat;
+                srcLng = data[i].lng;
+              } else {
+                dstLat = data[i].lat;
+                dstLng = data[i].lng;
+              }
+            }
 
             // Create a map object, and include the MapTypeId to add
             // to the map type control.
@@ -241,47 +245,11 @@ $(document).ready(function(){
 
 
             // Information Window
-            var contentString = '<div id="content">'+
-                '<div id="siteNotice">'+
-                '</div>'+
-                '<h1 id="firstHeading" class="firstHeading">Uluru</h1>'+
-                '<div id="bodyContent">'+
-                '<p><b>Uluru</b>, also referred to as <b>LA</b>, is a large ' +
-                'sandstone rock formation in the southern part of the '+
-                'Northern Territory, California. It lies 335&#160;km (208&#160;mi) '+
-                'south west of the nearest large town, Alice Springs; 450&#160;km '+
-                '(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
-                'features of the Uluru - Kata Tjuta National Park. Uluru is '+
-                'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
-                'Aboriginal people of the area. It has many springs, waterholes, '+
-                'rock caves and ancient paintings. Uluru is listed as a World '+
-                'Heritage Site.</p>'+
-                '<p>Attribution: Uluru, <a target="_blank" href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
-                'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
-                '(last visited June 22, 2009).</p>'+
-                '</div>'+
-                '</div>';
-
-            var infowindow = new google.maps.InfoWindow({
-              content: contentString
-            });
-
-            var marker = new google.maps.Marker({
-              position: {lat: srcLat, lng: srcLng},
-              map: map,
-              title: 'Los Angeles',
-              // icon: 'embassy.png',
-              animation: google.maps.Animation.DROP
-            });
-            marker.addListener('click', function() {
-              infowindow.open(map, marker);
-            });
-
             var marker2 = new google.maps.Marker({
               position: {lat: dstLat, lng: dstLng},
               map: map,
               title: 'site2',
-              // icon: 'police.png',
+              icon: '/assets/img/police.png',
               animation: google.maps.Animation.DROP
             });
             marker2.addListener('click', function() {
@@ -290,33 +258,40 @@ $(document).ready(function(){
 
             for (var i = 0; i < data.length; i++) {
                 console.log(data[i]);
-                // var address = data[i].address;
-                // var lat = data[i].lat;
-                // var lng = data[i].lng;
-                // var locationType = data[i].locationType;
-                // var name = data[i].name;
-                // var choiceHash = data[i].choiceHash;
-                // if (i === 0) {
-                //     srcLat = lat;
-                //     srcLng = lng;
-                // }
-                // if (i === (data.length -1)) {
-                //     dstLat = lat;
-                //     dstLng = lng;
-                //     console.log("Source Lat: " + srcLat);
-                //     console.log("Source Lng: " + srcLng);
-                //     console.log("Destination Lat: " + dstLat);
-                //     console.log("Destination Lng: " + dstLng);
-                // }
-                // var tr = $('<tr>');
-                // tr.addClass('table-row');
-                // tr.append($('<td class="text-center">').text(name));
-                // tr.append($('<td class="text-center">').text(locationType));
-                // tr.append($('<td class="text-center">').text(address));
-                // tr.append($('<td class="text-center">').text(lat));
-                // tr.append($('<td class="text-center">').text(lng));
-                // // tr.append($('<td class="text-center">').text(choiceHash));
-                // $('#mapData').append(tr);
+                var address = data[i].address;
+                var lat = data[i].lat;
+                var lng = data[i].lng;
+                var locationType = data[i].locationType;
+                var name = data[i].name;
+                var choiceHash = data[i].choiceHash;
+                var contentString = '<div id="content">'+
+                    '<div id="siteNotice">'+
+                    '</div>'+
+                    '<h4 id="firstHeading" class="firstHeading">' + name + '</h4>'+
+                    '<div id="bodyContent">'+
+                    '<p><b>' + address + '</b></p>' +
+                    '<p>' + locationType + '</p>' +
+                    '</div>'+
+                    '</div>';
+
+                var infowindow = new google.maps.InfoWindow({
+                  content: contentString
+                });
+
+                marker[markerCount] = new google.maps.Marker({
+                  position: {lat: lat, lng: lng},
+                  map: map,
+                  title: name,
+                  icon: '/assets/img/' + locationType + '.png',
+                  animation: google.maps.Animation.DROP
+                });
+
+                marker[markerCount].addListener('click', function() {
+                  infowindow.open(map, marker[markerCount]);
+                });
+
+                markerCount++;
+
             }
             $('#mapModal').modal('show');
             $('#mapModal').on('shown.bs.modal', function() {
