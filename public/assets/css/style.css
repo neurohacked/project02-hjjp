@@ -88,6 +88,8 @@ a:hover, a:focus {
 ul, ol {
     padding: 0;
 }
+
+
 /* Navigation */
 
 #menu {
@@ -150,6 +152,8 @@ ul, ol {
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #FFF;
 }
+
+
 /* Navigation - Logged In */
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
@@ -181,25 +185,56 @@ ul, ol {
 .dropdown-menu .divider {
     margin: 0;
 }
+
 .nav-img .navbar-brand {
     display: flex;
     align-items: center;
 }
-#home .container {
+
+.home .container {
     padding: 280px 15px 0;
 }
+
 /* Home Style */
 
-#home {
+.home {
+    color: #cfcfcf;
+}
+
+.background-wrap {
+    background: url(../img/01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 950px;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.video-bg-elem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+}
+
+/*#home {
     background: url(../img/01.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: #cfcfcf;
-}
+}*/
 
-#home .overlay {
+.overlay {
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
     /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.8)), color-stop(17%, rgba(0, 0, 0, 0.73)), color-stop(35%, rgba(0, 0, 0, 0.66)), color-stop(62%, rgba(0, 0, 0, 0.55)), color-stop(100%, rgba(0, 0, 0, 0.4)));
@@ -216,10 +251,6 @@ ul, ol {
     /* IE6-9 */
     height: 950px;
     background-attachment: fixed;
-}
-
-#dashboard p.lead {
-    color: #e3e3e3;
 }
 
 .content {
@@ -246,38 +277,21 @@ a.fa.fa-angle-down:hover {
     color: #ffffff;
     border: 2px solid #8568BA;
 }
-/* Dashboard Style */
 
-#dashboard {
-    background-color: #ecf0f5;
-    color: #222222;
+.attention {
+    padding: 10px;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
-#dashboard .overlay {
-    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
-    /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.8)), color-stop(17%, rgba(0, 0, 0, 0.73)), color-stop(35%, rgba(0, 0, 0, 0.66)), color-stop(62%, rgba(0, 0, 0, 0.55)), color-stop(100%, rgba(0, 0, 0, 0.4)));
-    /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
-    /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
-    /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
-    /* IE10+ */
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
-    /* W3C */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000', GradientType=0);
-    /* IE6-9 */
-    height: 950px;
-    background-attachment: fixed;
-}
-
-#home p.lead {
+.home p.lead {
     color: #e3e3e3;
 }
+
+
 /* About Section */
 
-#about {
+.about {
     padding: 80px 0;
 }
 
@@ -295,9 +309,11 @@ ul.about-list li {
 ul.about-list li span {
     margin-right: 10px;
 }
+
+
 /* Team Section */
 
-#team {
+.team {
     background: url(../img/03.jpg);
     background-size: cover;
     background-position: center;
@@ -306,7 +322,7 @@ ul.about-list li span {
     color: #ffffff;
 }
 
-#team .overlay {
+.team .overlay {
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
     /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.8)), color-stop(17%, rgba(0, 0, 0, 0.73)), color-stop(35%, rgba(0, 0, 0, 0.66)), color-stop(62%, rgba(0, 0, 0, 0.55)), color-stop(100%, rgba(0, 0, 0, 0.4)));
@@ -353,11 +369,11 @@ ul.about-list li span {
     left: 17%;
 }
 
-#team-members {
+.team-members {
     margin: 0 auto
 }
 
-#team-members .item {
+.team-members .item {
     padding: 0;
     margin: 15px;
     color: #FFF;
@@ -376,7 +392,7 @@ ul.team-social li {
     margin-right: 10px;
 }
 
-#team i.fa {
+.team i.fa {
     height: 35px;
     width: 35px;
     border: 2px solid #eee;
@@ -387,22 +403,22 @@ ul.team-social li {
     transition: all 0.5s;
 }
 
-#team i.fa:hover {
+.team i.fa:hover {
     background: #8568BA;
     border-color: #8568BA;
     color: #ffffff;
 }
 
-#team .item .thumbnail:hover>img.img-circle.team-img {
+.team .item .thumbnail:hover>img.img-circle.team-img {
     border: 4px solid #8568BA;
 }
 
-#team .thumbnail {
+.team .thumbnail {
     background: transparent;
     border: 0;
 }
 
-#team .thumbnail .caption {
+.team .thumbnail .caption {
     padding: 9px;
     color: #F2F2F2;
 }
@@ -430,6 +446,8 @@ ul.team-social li {
 .owl-theme .owl-controls .owl-page.active span {
     background: #8568BA;
 }
+
+
 /* Services Section */
 
 #services {
@@ -460,6 +478,8 @@ ul.team-social li {
     background: #8568BA;
     color: #ffffff;
 }
+
+
 /* Signup */
 
 #signup.signup-form .panel {
@@ -503,12 +523,14 @@ ul.team-social li {
     background: #8568BA;
     border: 1px solid #8568BA;
 }
+
+
 /* Footer */
 
 nav#footer {
     background: #222222;
     color: #ffffff;
-    padding:15px;
+    padding: 15px;
 }
 
 ul.footer-social li {

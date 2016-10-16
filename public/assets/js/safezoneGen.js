@@ -148,8 +148,6 @@ function computeTotalDistance(result) {
 $(document).ready(function(){
 
     var modalCount = 0;
-    var marker = [];
-    var markerCount = 0;
     var srcLat;
     var srcLng;
     var dstLat;
@@ -180,9 +178,39 @@ $(document).ready(function(){
               }
             }
 
+            var mapId = 'mapModal' + modalCount.toString();
+            var mapOutput = 'mapOutput' + modalCount.toString();
+            var mapModal = '#mapModal' + modalCount.toString();
+            var rightPanel = 'right-panel' + modalCount.toString();
+            var modalHtml = '<div id="' + mapId + '" class="modal fade" role="dialog">'+
+                '<div class="modal-dialog">'+
+                    '<!-- Modal content-->'+
+                    '<div class="modal-content mapContent">'+
+                        '<div class="modal-header">'+
+                            '<button type="button" class="close" data-dismiss="modal">&times;</button>'+
+                            '<h4 class="modal-title">Safezone Locations</h4>'+
+                        '</div>'+
+                        '<div id="' + mapOutput + '" class="modal-body mapOutput">'+
+                        '</div>'+
+                        '<div id="' + rightPanel + '" class="rightPanel">'+
+                            '<p>Total Distance: <span id="total"></span></p>'+
+                        '</div>'+
+                        '<div class="modal-footer">'+
+                        '</div>'+
+                    '</div>'+
+                '</div>'+
+            '</div>';
+            $('#modalCollection').append(modalHtml);
+
+            var linkHtml = '<div>'+
+                '<button class="mapButton btn btn-success" data-name="' + mapModal + '">' +
+                mapId + '</button>'+
+              '</div>';
+            $('#mapLink').append(linkHtml);
+
             // Create a map object, and include the MapTypeId to add
             // to the map type control.
-            var map = new google.maps.Map(document.getElementById('mapOutput'), {
+            var map = new google.maps.Map(document.getElementById(mapOutput), {
               zoom: 11,
               center: {lat: srcLat, lng: srcLng},
               mapTypeControlOptions: {
@@ -234,7 +262,7 @@ $(document).ready(function(){
             var directionsDisplay = new google.maps.DirectionsRenderer({
               draggable: true,
               map: map,
-              panel: document.getElementById('right-panel')
+              panel: document.getElementById(rightPanel)
             });
 
             directionsDisplay.addListener('directions_changed', function() {
@@ -245,17 +273,6 @@ $(document).ready(function(){
 
 
             // Information Window
-            var marker2 = new google.maps.Marker({
-              position: {lat: dstLat, lng: dstLng},
-              map: map,
-              title: 'site2',
-              icon: '/assets/img/police.png',
-              animation: google.maps.Animation.DROP
-            });
-            marker2.addListener('click', function() {
-              infowindow.open(map, marker2);
-            });
-
             for (var i = 0; i < data.length; i++) {
                 console.log(data[i]);
                 var address = data[i].address;
@@ -264,7 +281,7 @@ $(document).ready(function(){
                 var locationType = data[i].locationType;
                 var name = data[i].name;
                 var choiceHash = data[i].choiceHash;
-                var contentString = '<div id="content">'+
+                contentHtml = '<div id="content">'+
                     '<div id="siteNotice">'+
                     '</div>'+
                     '<h4 id="firstHeading" class="firstHeading">' + name + '</h4>'+
@@ -274,11 +291,7 @@ $(document).ready(function(){
                     '</div>'+
                     '</div>';
 
-                var infowindow = new google.maps.InfoWindow({
-                  content: contentString
-                });
-
-                marker[markerCount] = new google.maps.Marker({
+                marker = new google.maps.Marker({
                   position: {lat: lat, lng: lng},
                   map: map,
                   title: name,
@@ -286,21 +299,30 @@ $(document).ready(function(){
                   animation: google.maps.Animation.DROP
                 });
 
-                marker[markerCount].addListener('click', function() {
-                  infowindow.open(map, marker[markerCount]);
+                marker.content = contentHtml;
+
+                var infoWindow = new google.maps.InfoWindow();
+                google.maps.event.addListener(marker, 'click', function () {
+                    infoWindow.setContent(this.content);
+                    infoWindow.open(this.getMap(), this);
                 });
 
-                markerCount++;
-
             }
-            $('#mapModal').modal('show');
-            $('#mapModal').on('shown.bs.modal', function() {
+            $(mapModal).on('shown.bs.modal', function() {
               var currentCenter = map.getCenter();  // Get current center before resizing
               google.maps.event.trigger(map, "resize");
               map.setCenter(currentCenter); // Re-set previous center
               map.setZoom(13);
             });
+          modalCount++;
         });
+
         return false;
     });
+
+    $('#mapLink').on('click', '.mapButton', function() {
+      var modalName = $(this).data('name');
+      $(modalName).modal('show');
+    });
+
 });
