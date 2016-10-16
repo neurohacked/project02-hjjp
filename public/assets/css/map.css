@@ -1,5 +1,5 @@
 /* Map */
-#right-panel {
+.rightPanel {
      font-family: 'Roboto','sans-serif';
      line-height: 30px;
      padding-left: 10px;
@@ -7,29 +7,29 @@
      overflow-y: scroll;
 }
 
-#right-panel select, #right-panel input {
+.rightPanel select, #right-panel input {
   font-size: 15px;
 }
 
-#right-panel select {
+.rightPanel select {
    width: 100%;
 }
 
-#right-panel i {
+.rightPanel i {
    font-size: 12px;
 }
-#mapOutput {
+.mapOutput {
    height: 600px;
    float: left;
    width: 525px;
    overflow-y: auto;
 }
-#right-panel {
+.rightPanel {
    float: right;
    width: 250px;
    height: 600px;
    padding-right: 20px;
 }
-#mapContent {
+.mapContent {
     width: 800px;
 }

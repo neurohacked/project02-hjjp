@@ -178,9 +178,33 @@ $(document).ready(function(){
               }
             }
 
+            var mapId = 'mapModal' + modalCount.toString();
+            var mapOutput = 'mapOutput' + modalCount.toString();
+            var mapModal = '#mapModal' + modalCount.toString();
+            var rightPanel = 'right-panel' + modalCount.toString();
+            var modalHtml = '<div id="' + mapId + '" class="modal fade" role="dialog">'+
+                '<div class="modal-dialog">'+
+                    '<!-- Modal content-->'+
+                    '<div class="modal-content mapContent">'+
+                        '<div class="modal-header">'+
+                            '<button type="button" class="close" data-dismiss="modal">&times;</button>'+
+                            '<h4 class="modal-title">Safezone Locations</h4>'+
+                        '</div>'+
+                        '<div id="' + mapOutput + '" class="modal-body mapOutput">'+
+                        '</div>'+
+                        '<div id="' + rightPanel + '" class="rightPanel">'+
+                            '<p>Total Distance: <span id="total"></span></p>'+
+                        '</div>'+
+                        '<div class="modal-footer">'+
+                        '</div>'+
+                    '</div>'+
+                '</div>'+
+            '</div>';
+            $('#modalCollection').append(modalHtml);
+
             // Create a map object, and include the MapTypeId to add
             // to the map type control.
-            var map = new google.maps.Map(document.getElementById('mapOutput'), {
+            var map = new google.maps.Map(document.getElementById(mapOutput), {
               zoom: 11,
               center: {lat: srcLat, lng: srcLng},
               mapTypeControlOptions: {
@@ -232,7 +256,7 @@ $(document).ready(function(){
             var directionsDisplay = new google.maps.DirectionsRenderer({
               draggable: true,
               map: map,
-              panel: document.getElementById('right-panel')
+              panel: document.getElementById(rightPanel)
             });
 
             directionsDisplay.addListener('directions_changed', function() {
@@ -278,13 +302,14 @@ $(document).ready(function(){
                 });
 
             }
-            $('#mapModal').modal('show');
-            $('#mapModal').on('shown.bs.modal', function() {
+            $(mapModal).modal('show');
+            $(mapModal).on('shown.bs.modal', function() {
               var currentCenter = map.getCenter();  // Get current center before resizing
               google.maps.event.trigger(map, "resize");
               map.setCenter(currentCenter); // Re-set previous center
               map.setZoom(13);
             });
+          modalCount++;
         });
         return false;
     });
