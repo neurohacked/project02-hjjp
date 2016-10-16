@@ -1,4 +1,16 @@
 /* Layout */
+body {
+    background-color: #ecf0f5;
+}
+
+a {
+    color: #5a5a5a;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    color: #777;
+}
 
 .wrapper {
     min-height: 100%;
@@ -930,6 +942,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-size: 12px;
 }
 
+.box-icons {
+    padding: 10px;
+}
+
 
 /* Widget: TODO LIST */
 
@@ -1159,8 +1175,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .info-box-content {
-    padding: 5px 10px;
-    margin-left: 90px;
+    padding: 10px 10px;
 }
 
 .info-box-number {

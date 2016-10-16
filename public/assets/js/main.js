@@ -37,7 +37,7 @@ function main() {
         })
 
         $(document).ready(function() {
-            $("#team-members").owlCarousel({
+            $(".team-members").owlCarousel({
 
                 navigation: false, // Show next and prev buttons
                 slideSpeed: 300,
