@@ -17,7 +17,7 @@
                 {{#each data}}
                     <div class="col-md-6">
                         {{!-- {{ifCond risk}}
-                        --}} <div class="box {{box-color this.risk value box}}">
+                        --}} <div class="box {{box-color this.risk}}">
                             <div class="box-header with-border">
                                 <h3 class="box-title">{{this.location}}</h3>
                                 <div class="box-tools pull-right">
@@ -34,7 +34,7 @@
                                     </div>
                                     <div class="col-xs-3 text-center">
                                         <a href="#" class="risk-info">
-                                            <button class="btn info-box {{btn-color this.risk value button}}">
+                                            <button class="btn info-box {{btn-color this.risk}}">
                                                 <div class="info-box-content">
                                                     <span class="info-box-text">Risk</span>
                                                     <span class="info-box-number">{{this.risk}}<small>%</small></span>

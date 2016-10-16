@@ -42,7 +42,7 @@ app.engine('handlebars', exphbs({
     defaultLayout: 'main',
     dashboardLayout: 'dashboard'
 }));
-hbs.registerHelper("box-color", function(risk, value, box) {
+hbs.registerHelper("box-color", function(risk) {
     if (risk >= 80) {
         return "box-danger";
     } else if (risk >= 60) {
@@ -52,8 +52,8 @@ hbs.registerHelper("box-color", function(risk, value, box) {
     } else {
         return "box-success";
     }
-})
-hbs.registerHelper("btn-color", function(risk, value, button) {
+});
+hbs.registerHelper("btn-color", function(risk) {
     if (risk >= 80) {
         return "bg-red";
     } else if (risk >= 60) {
