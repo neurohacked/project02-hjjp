@@ -288,36 +288,36 @@ $(document).ready(function(){
               infowindow.open(map, marker2);
             });
 
-            // for (var i = 0; i < data.length; i++) {
-            //     console.log(data[i]);
-            //     var address = data[i].address;
-            //     var lat = data[i].lat;
-            //     var lng = data[i].lng;
-            //     var locationType = data[i].locationType;
-            //     var name = data[i].name;
-            //     var choiceHash = data[i].choiceHash;
-            //     if (i === 0) {
-            //         srcLat = lat;
-            //         srcLng = lng;
-            //     }
-            //     if (i === (data.length -1)) {
-            //         dstLat = lat;
-            //         dstLng = lng;
-            //         console.log("Source Lat: " + srcLat);
-            //         console.log("Source Lng: " + srcLng);
-            //         console.log("Destination Lat: " + dstLat);
-            //         console.log("Destination Lng: " + dstLng);
-            //     }
-            //     var tr = $('<tr>');
-            //     tr.addClass('table-row');
-            //     tr.append($('<td class="text-center">').text(name));
-            //     tr.append($('<td class="text-center">').text(locationType));
-            //     tr.append($('<td class="text-center">').text(address));
-            //     tr.append($('<td class="text-center">').text(lat));
-            //     tr.append($('<td class="text-center">').text(lng));
-            //     // tr.append($('<td class="text-center">').text(choiceHash));
-            //     $('#mapData').append(tr);
-            // }
+            for (var i = 0; i < data.length; i++) {
+                console.log(data[i]);
+                // var address = data[i].address;
+                // var lat = data[i].lat;
+                // var lng = data[i].lng;
+                // var locationType = data[i].locationType;
+                // var name = data[i].name;
+                // var choiceHash = data[i].choiceHash;
+                // if (i === 0) {
+                //     srcLat = lat;
+                //     srcLng = lng;
+                // }
+                // if (i === (data.length -1)) {
+                //     dstLat = lat;
+                //     dstLng = lng;
+                //     console.log("Source Lat: " + srcLat);
+                //     console.log("Source Lng: " + srcLng);
+                //     console.log("Destination Lat: " + dstLat);
+                //     console.log("Destination Lng: " + dstLng);
+                // }
+                // var tr = $('<tr>');
+                // tr.addClass('table-row');
+                // tr.append($('<td class="text-center">').text(name));
+                // tr.append($('<td class="text-center">').text(locationType));
+                // tr.append($('<td class="text-center">').text(address));
+                // tr.append($('<td class="text-center">').text(lat));
+                // tr.append($('<td class="text-center">').text(lng));
+                // // tr.append($('<td class="text-center">').text(choiceHash));
+                // $('#mapData').append(tr);
+            }
             $('#mapModal').modal('show');
             $('#mapModal').on('shown.bs.modal', function() {
               var currentCenter = map.getCenter();  // Get current center before resizing
