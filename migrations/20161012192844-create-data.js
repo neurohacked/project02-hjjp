@@ -21,6 +21,7 @@ module.exports = {
         },
         data_name: Sequelize.STRING,
         location: Sequelize.STRING,
+        risk: Sequelize.INTEGER,
         exists: {type: Sequelize.BOOLEAN, default: false},
         created_at: Sequelize.DATE,
         updated_at: Sequelize.DATE
