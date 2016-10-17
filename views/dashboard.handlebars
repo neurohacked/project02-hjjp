@@ -24,8 +24,7 @@
                 {{#if locations}}
                     {{#each locations}}
                         <div class="col-md-6">
-                            {{!-- {{ifCond risk}}
-                            --}} <div class="box {{box-color this.risk}}">
+                            <div class="box {{box-color this.risk}}">
                                 <div class="box-header with-border">
                                     <h3 class="box-title">{{this.location}}</h3>
                                     <div class="box-tools pull-right">
@@ -82,21 +81,20 @@
                                     </div>
                                 </div>
                                 <!-- /.footer -->
+                            </div>
+                            <!-- /.box -->
                         </div>
-                        <!-- /.box -->
+                        <!-- /.col -->
+                    {{/each}}
+                {{/if}}
             </div>
-            <!-- /.col -->
-            {{/each}}
-            {{/if}}
+            <!-- /.row -->
+        </section>
+        <!-- /.content -->
     </div>
-    <!-- /.row -->
-    </section>
-    <!-- /.content -->
-</div>
-<!-- /.content-wrapper -->
+    <!-- /.content-wrapper -->
 </div>
 
 <!-- Add Location Modal -->
 {{!-- {{> map}}
---}}
-{{> location}}
+--}} {{> location}}
