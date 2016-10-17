@@ -1,14 +1,9 @@
 "use strict";
 
 module.exports = function(sequelize, DataTypes) {
-    const Data = sequelize.define("Data", {
-        data_name: DataTypes.STRING,
+    const Location = sequelize.define("Location", {
         location: DataTypes.STRING,
-        risk: DataTypes.INTEGER,
-        exists: {
-            type: DataTypes.BOOLEAN,
-            defaultValue: false
-        }
+        risk: DataTypes.INTEGER
     }, {
         // don't add the timestamp attributes (updatedAt, createdAt)
         //timestamps: false,
@@ -28,11 +23,11 @@ module.exports = function(sequelize, DataTypes) {
         freezeTableName: true,
 
         // define the table's name
-        tableName: 'data',
+        tableName: 'locations',
 
         classMethods: {
             associate: function(models) {
-                Data.belongsTo(models.User, {
+                Location.belongsTo(models.User, {
                     onDelete: "CASCADE",
                     foreignKey: {
                         allowNull: false
@@ -42,5 +37,5 @@ module.exports = function(sequelize, DataTypes) {
         }
     });
 
-    return Data;
+    return Location;
 };

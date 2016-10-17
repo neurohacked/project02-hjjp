@@ -1,20 +1,13 @@
-const models  = require('../models');
+const models = require('../models');
 const express = require('express');
-const router  = express.Router();
+const router = express.Router();
 
 router.get('/', function(req, res) {
-    models.Data.findAll({
-            include: [models.User]
-        })
-        .then(function(data) {
-            res.render('home', {
-                user_id: req.session.user_id,
-                username: req.session.user_name,
-                email: req.session.user_email,
-                logged_in: req.session.logged_in,
-                data: data
-            });
-        });
+    if (req.session.user_name) {
+        res.redirect('/dashboard');
+    } else {
+        res.render('home');
+    }
 });
 
 // signup

@@ -1,5 +1,5 @@
 // INITIAL MIGRATION
-// This is the 0-state of the data table.
+// This is the 0-state of the locations table.
 // When executed, the table will be created.
 
 // This is also what sequelize db:migrate will refer to
@@ -10,7 +10,7 @@
 module.exports = {
   up: function(queryInterface, Sequelize) {
     return queryInterface
-      .createTable('data', {
+      .createTable('locations', {
         id: {
           type: Sequelize.INTEGER,
           autoIncrement: true,
@@ -19,10 +19,8 @@ module.exports = {
         user_id: {
           type: Sequelize.INTEGER
         },
-        data_name: Sequelize.STRING,
         location: Sequelize.STRING,
         risk: Sequelize.INTEGER,
-        exists: {type: Sequelize.BOOLEAN, default: false},
         created_at: Sequelize.DATE,
         updated_at: Sequelize.DATE
       });
@@ -30,6 +28,6 @@ module.exports = {
 
   down: function(queryInterface, Sequelize) {
     return queryInterface
-      .dropTable('data');
+      .dropTable('locations');
   }
 };

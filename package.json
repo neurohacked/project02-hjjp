@@ -30,6 +30,7 @@
     "request": "^2.75.0",
     "sequelize": "^3.24.3",
     "sequelize-cli": "^1.7.1",
-    "serve-favicon": "~2.3.0"
+    "serve-favicon": "~2.3.0",
+    "weather-js": "^1.0.2"
   }
 }

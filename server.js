@@ -1,24 +1,25 @@
 // dependencies
-const express = require('express');
-const path = require('path');
-const favicon = require('serve-favicon');
-const logger = require('morgan');
-const bodyParser = require('body-parser');
-const session = require('express-session');
-const hbs = require('handlebars');
-const exphbs = require('express-handlebars');
-const methodOverride = require('method-override');
+const express             = require('express');
+const path                = require('path');
+const favicon             = require('serve-favicon');
+const logger              = require('morgan');
+const bodyParser          = require('body-parser');
+const session             = require('express-session');
+const hbs                 = require('handlebars');
+const exphbs              = require('express-handlebars');
+const methodOverride      = require('method-override');
 
 // controllers
-const app_controller = require('./controllers/app_controller');
-const map_controller = require('./controllers/map_controller');
-const user_controller = require('./controllers/user_controller');
+const app_controller      = require('./controllers/app_controller');
+const location_controller = require('./controllers/location_controller');
+const map_controller      = require('./controllers/map_controller');
+const user_controller     = require('./controllers/user_controller');
 
 // instantiate  app
-const app = express();
+const app                 = express();
 
 // sessions
-const sess = {
+const sess                = {
     secret: 'app',
     cookie: {
         maxAge: null
@@ -81,8 +82,8 @@ app.use(bodyParser.urlencoded({
 
 app.use(express.static('public'));
 
-app.use('/', app_controller);
-app.use('/u', user_controller);
+app.use('/', app_controller, user_controller);
+app.use('/location', location_controller);
 app.use('/map', map_controller);
 
 // catch 404 and forward to error handler
