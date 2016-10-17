@@ -5,10 +5,13 @@ const router = express.Router();
 
 // user dashboard
 router.get('/dashboard', function(req, res) {
-    models.Data.findAll({
+    models.Location.findAll({
+            where: {
+                user_id: req.session.user_id
+            },
             include: [models.User]
         })
-        .then(function(data) {
+        .then(function(locations) {
             if (req.session.user_name) {
                 res.render('dashboard', {
                     layout: 'dash',
@@ -16,7 +19,7 @@ router.get('/dashboard', function(req, res) {
                     username: req.session.user_name,
                     email: req.session.user_email,
                     logged_in: req.session.logged_in,
-                    data: data
+                    locations: locations
                 });
             } else {
                 res.redirect('/');

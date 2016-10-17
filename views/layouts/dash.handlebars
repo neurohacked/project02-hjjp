@@ -65,31 +65,23 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="/u/dashboard"><i class="fa fa-shield fa-fw"></i> Travel Aegis</a>
+                <a class="navbar-brand page-scroll" href="/dashboard"><i class="fa fa-shield fa-fw"></i> Travel Aegis</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-collapse">
-                {{#unless logged_in}}
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="/login" class="">Login</a></li>
-                        <li><a href="/signup" class="btn nb-btn navbar-btn">Sign Up</a></li>
-                    </ul>
-                {{/unless}}
-                {{#if logged_in}}
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{username}} <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#" data-toggle="modal" data-target=".locationModal">Add Location</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li><a href="/u/account">Account</a></li>
+                                <li><a href="/account">Account</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li><a href="/u/logout">Logout</a></li>
+                                <li><a href="/logout">Logout</a></li>
                             </ul>
                         </li>
                     </ul>
-                {{/if}}
             </div>
             <!-- /.navbar-collapse -->
         </div>

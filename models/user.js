@@ -28,7 +28,7 @@ module.exports = function(sequelize, DataTypes) {
 
         classMethods: {
             associate: function(models) {
-                User.hasMany(models.Data, {
+                User.hasMany(models.Location, {
                     onDelete: "CASCADE",
                     hooks: true,
                     foreignKey: {
