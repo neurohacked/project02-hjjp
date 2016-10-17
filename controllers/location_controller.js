@@ -10,7 +10,7 @@ router.post('/create', function(req, res) {
         })
         // connect the .create to this .then
         .then(function() {
-            res.redirect('u/dashboard');
+            res.redirect('/dashboard');
         });
 });
 
@@ -22,7 +22,7 @@ router.delete('/delete/:id', function(req, res) {
         })
         // connect it to this .then.
         .then(function() {
-            res.redirect('/');
+            res.redirect('/dashboard');
         });
 
 });

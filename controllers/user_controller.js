@@ -59,7 +59,6 @@ router.post('/login', function(req, res) {
                 req.session.logged_in = true;
                 // the username to the session
                 req.session.user_name = user.username;
-                console.log("Username is:", user.username);
                 // the user id to the session
                 req.session.user_id = user.id;
                 // and the user's email.
@@ -85,12 +84,10 @@ router.post('/create', function(req, res) {
             email: req.body.email
         }
     }).then(function(users) {
-
+        console.log('User Length', users.length);
         if (users.length > 0) {
-            console.log(users);
-            res.send('We already have an email or username for this account');
+            res.redirect('/signup')
         } else {
-
             // Using bcrypt, generate a 10-round salt,
             // then use that salt to hash the user's password.
             bcrypt.genSalt(10, function(err, salt) {
