@@ -1,0 +1,1006 @@
+startDate,endDate,countryName,ISO,location,disasterType,disasterSubtype,totalDeaths,totalAffected,disasterID
+00/09/1970,00/09/1970,United States of America (the),USA,San Diego,Wildfire,"Land fire (Brush, Bush, Pastur",,,1970-0045
+00/08/1970,00/00/1970,Brazil,BRA,Northeast,Drought,Drought,,10000000,1970-9005
+00/00/1972,00/00/1973,Honduras,HND,,Drought,Drought,,300000,1972-9077
+00/00/1973,00/00/1973,Costa Rica,CRI,Laguna Arenal,Drought,Drought,,,1973-9004
+00/11/1974,00/00/1974,Haiti,HTI,Northwest Peninsula,Drought,Drought,,507000,1974-9055
+00/04/1976,00/04/1976,Costa Rica,CRI,Chirripo Mountain,Wildfire,Forest fire,,,1976-0030
+00/05/1977,00/00/1977,Haiti,HTI,Countrywide,Drought,Drought,,450000,1977-9002
+00/00/1977,00/00/1977,Bolivia (Plurinational State of),BOL,Potosi department,Drought,Drought,,,1977-9005
+00/00/1977,00/00/1977,Brazil,BRA,North East,Drought,Drought,,,1977-9006
+00/01/1977,00/00/1980,Canada,CAN,Prairie provinces,Drought,Drought,,,1977-9294
+00/00/1978,00/00/1978,Brazil,BRA,Central and Southern,Drought,Drought,,,1978-9005
+00/00/1978,00/00/1978,Mexico,MEX,North,Drought,Drought,,,1978-9016
+00/00/1979,00/00/1979,Brazil,BRA,Northeastern,Drought,Drought,,5000000,1979-9012
+00/06/1980,00/06/1980,Canada,CAN,"Red Lake, Ontario",Wildfire,"Land fire (Brush, Bush, Pastur",,5000,1980-0211
+00/00/1980,00/00/1983,Haiti,HTI,Southwest,Drought,Drought,,103000,1980-9132
+00/01/1981,00/00/1983,Jamaica,JAM,,Drought,Drought,,,1981-9209
+00/00/1981,00/00/1983,Cuba,CUB,,Drought,Drought,,,1981-9307
+00/07/1982,00/00/1982,El Salvador,SLV,,Drought,Drought,,,1982-9286
+12/2/83,12/2/83,Dominican Republic (the),DOM,South-East of Constanza,Wildfire,Forest fire,,,1983-0044
+00/04/1983,00/00/1983,Bolivia (Plurinational State of),BOL,Altiplano (High Plateaux),Drought,Drought,,1583049,1983-9007
+00/01/1983,00/00/1983,Peru,PER,Puno department (Andean),Drought,Drought,,,1983-9007
+00/11/1983,00/00/1983,Antigua and Barbuda,ATG,,Drought,Drought,,75000,1983-9139
+00/09/1983,00/00/1983,Brazil,BRA,"Northeast, Sertao",Drought,Drought,20,20000000,1983-9206
+00/05/1983,00/00/1983,Panama,PAN,Panama city,Drought,Drought,,81000,1983-9331
+00/06/1983,00/00/1983,Paraguay,PRY,,Drought,Drought,,,1983-9332
+00/12/1983,00/00/1983,Bolivia (Plurinational State of),BOL,,Drought,Drought,,1500000,1983-9535
+00/01/1984,00/03/1985,Canada,CAN,"Quebec, Prince Edouard Islands, Alberta, Saskatchewan, Manitoba, Ontario provinces",Drought,Drought,,30000,1984-9211
+28/02/1985,28/02/1985,Ecuador,ECU,"Isabela IsL, Gualapagos",Wildfire,"Land fire (Brush, Bush, Pastur",,800,1985-0035
+00/07/1985,00/07/1985,Canada,CAN,Northeast of Vancouver,Wildfire,Forest fire,,,1985-0077
+00/11/1985,00/00/1985,Brazil,BRA,Rio Grande Do Sul,Drought,Drought,,,1985-9011
+15/05/1986,15/05/1986,Canada,CAN,"Grand Falls, Newfoundland",Wildfire,Forest fire,,1000,1986-0188
+15/05/1986,15/05/1986,Canada,CAN,"George Town & Burton, New Brunswick",Wildfire,Forest fire,,1000,1986-0242
+00/00/1986,00/00/1986,Cuba,CUB,,Drought,Drought,,,1986-9404
+22/01/1987,22/01/1987,Argentina,ARG,"Lanin area (Neuquen province), El Bolson area (Chubut province), Rio Negro province",Wildfire,Forest fire,,152752,1987-0002
+00/05/1987,00/05/1987,Guatemala,GTM,Peten,Wildfire,Forest fire,,,1987-0088
+00/08/1987,00/08/1987,Cuba,CUB,"Moa, Holguin",Wildfire,Forest fire,,,1987-0138
+00/06/1987,00/00/1988,Brazil,BRA,"Alagoas, Minas, Bahia, Maranhao, Piaui, Ceara, Rio Grande Do Norte, Paraiba, Pernambuco, Sergipe, Mina Gerais states",Drought,Drought,,750000,1987-9103
+00/00/1987,00/00/1988,Guatemala,GTM,Chiquimula area,Drought,Drought,,73000,1987-9588
+00/00/1988,00/00/1988,Guyana,GUY,,Drought,Drought,,,1988-9026
+00/02/1988,00/00/1988,Brazil,BRA,"Rio Grande Do Sul, Santa Catarina",Drought,Drought,,,1988-9064
+00/05/1988,00/00/1988,Mexico,MEX,"Sinaloa, Nayarit provinces",Drought,Drought,,,1988-9181
+00/10/1988,00/00/1988,Bolivia (Plurinational State of),BOL,"Santa Cruz, La Paz, Chaco area",Drought,Drought,,,1988-9449
+00/01/1988,00/00/1988,Canada,CAN,"British Columbia, Ontario",Drought,Drought,,,1988-9638
+00/04/1988,00/06/1988,United States of America (the),USA,,Drought,Drought,,,1988-9707
+00/07/1989,00/07/1989,Mexico,MEX,Quintana Roo,Wildfire,Forest fire,,,1989-0279
+00/01/1989,00/08/1989,Canada,CAN,"Entire country, especillay Labrador",Wildfire,Forest fire,1,25000,1989-0280
+00/00/1990,00/00/1990,Bolivia (Plurinational State of),BOL,"La paz, Oruro, Potosi, Cochabamba, Tarija departments",Drought,Drought,,283160,1990-9059
+00/08/1990,00/00/1990,Peru,PER,"Lambayeque, La Libertad, Cajamarca, Ancash, Ica, Huancavelica, Ayacucho, Arequipa, Apurimac, Cusco, Puno, Moquepa, Tacna, Lima departments",Drought,Drought,,2200000,1990-9059
+3/2/91,3/2/91,Colombia,COL,"Cano Yarumales, Rio Guayabero",Wildfire,Forest fire,,,1991-0126
+17/10/1991,17/10/1991,United States of America (the),USA,"Washington, Idaho, Montana, Wyoming, Colorado",Wildfire,Forest fire,2,300,1991-0425
+21/10/1991,22/10/1991,United States of America (the),USA,Oakland,Wildfire,Forest fire,26,,1991-0426
+15/01/1991,12/3/91,Nicaragua,NIC,North-West,Wildfire,Forest fire,,,1991-0479
+00/01/1991,00/05/1991,Chile,CHL,,Drought,Drought,,,1991-9006
+00/01/1991,00/07/1991,United States of America (the),USA,California,Drought,Drought,,,1991-9476
+00/07/1991,00/07/1991,United States of America (the),USA,"Pennsylvania, Maryland",Drought,Drought,,,1991-9523
+9/4/92,9/4/92,Costa Rica,CRI,Cerro Chiripo region of Talamanca,Wildfire,Forest fire,,1200,1992-0155
+17/08/1992,17/08/1992,United States of America (the),USA,"California, Idaho, Oregon, Utah",Wildfire,Forest fire,,990,1992-0269
+29/09/1992,29/09/1992,United States of America (the),USA,Tahoe (California),Wildfire,Forest fire,,,1992-0383
+00/00/1992,00/00/1992,Chile,CHL,,Wildfire,Forest fire,,,1992-0502
+00/07/1992,00/07/1992,Canada,CAN,Britsh Columbia province,Wildfire,Forest fire,,,1992-0503
+00/04/1992,00/00/1992,Haiti,HTI,,Drought,Drought,,1000000,1992-9140
+00/07/1992,00/00/1992,Peru,PER,,Drought,Drought,,1100000,1992-9229
+27/10/1993,3/11/93,United States of America (the),USA,"San Diego, Laguna Beach, Malibu, Los Angeles, Orange (California)",Wildfire,Forest fire,3,130,1993-0440
+00/01/1993,00/01/1993,Chile,CHL,South,Wildfire,Forest fire,,,1993-0523
+00/08/1993,00/00/1993,Haiti,HTI,Artibonite region,Drought,Drought,,,1993-9561
+00/00/1993,00/00/1993,Cuba,CUB,,Drought,Drought,,,1993-9585
+11/4/94,11/4/94,Ecuador,ECU,Santa Isabela Is. (Galapagos),Wildfire,Forest fire,,,1994-0042
+27/06/1994,27/06/1994,United States of America (the),USA,Los Angeles,Wildfire,Forest fire,,232,1994-0149
+6/7/94,6/7/94,United States of America (the),USA,Colorado,Wildfire,Forest fire,13,,1994-0154
+24/07/1994,24/07/1994,Canada,CAN,British Columbia,Wildfire,Forest fire,,3000,1994-0170
+6/8/94,6/8/94,United States of America (the),USA,"California, Montana, Iadaho, Oregon, Utah, Nevada, Washington states",Wildfire,Forest fire,,1200,1994-0192
+21/01/1994,21/01/1994,Argentina,ARG,"Near Puerto Madryn, Santa Rosa province, Pampa",Wildfire,"Land fire (Brush, Bush, Pastur",24,,1994-0611
+00/07/1994,00/09/1994,Costa Rica,CRI,,Drought,Drought,,,1994-9162
+00/07/1994,00/09/1994,Guatemala,GTM,,Drought,Drought,,,1994-9162
+00/07/1994,00/09/1994,Honduras,HND,,Drought,Drought,,,1994-9162
+00/07/1994,00/09/1994,Nicaragua,NIC,Western provinces,Drought,Drought,,75000,1994-9162
+00/07/1994,00/09/1994,Puerto Rico,PRI,,Drought,Drought,,,1994-9162
+00/07/1994,00/09/1994,El Salvador,SLV,,Drought,Drought,,,1994-9162
+00/00/1994,00/00/1994,Brazil,BRA,,Drought,Drought,,,1994-9207
+00/12/1994,00/00/1994,Bolivia (Plurinational State of),BOL,Potosi,Drought,Drought,,50000,1994-9692
+1/6/95,30/06/1995,Canada,CAN,Saskatchewan (British Colombia),Wildfire,Forest fire,,1500,1995-0098
+24/06/1995,24/06/1995,Canada,CAN,Ontario,Wildfire,Forest fire,,5000,1995-0135
+00/06/1995,00/06/1995,Mexico,MEX,"Coahuila, Durango, Chihuahua, Nuevo Leon",Drought,Drought,,,1995-9119
+19/10/1996,19/10/1996,United States of America (the),USA,California,Wildfire,Forest fire,,,1996-0250
+24/02/1996,24/02/1996,United States of America (the),USA,"Texas, Kensas, Oklahoma",Wildfire,"Land fire (Brush, Bush, Pastur",1,50,1996-0452
+00/05/1996,00/00/1996,Mexico,MEX,North,Drought,Drought,,,1996-9097
+6/4/97,6/4/97,Chile,CHL,Near Conception Port,Wildfire,Forest fire,10,300,1997-0078
+29/05/1997,29/05/1997,Canada,CAN,Quebec,Wildfire,Forest fire,,1600,1997-0119
+9/8/97,9/8/97,United States of America (the),USA,California,Wildfire,Forest fire,,700,1997-0174
+7/9/97,7/9/97,Peru,PER,Machu Picchu,Wildfire,Forest fire,,1000,1997-0210
+14/09/1997,14/09/1997,United States of America (the),USA,California,Wildfire,Forest fire,,300,1997-0219
+00/02/1997,00/00/1997,Ecuador,ECU,"Celica, Macara, Puyango, Pindal, Sozoranga, Zapotillo counties (Loja province), Arenillas, Las Lajas, Huaquillas counties (El Oro province)",Drought,Drought,,34000,1997-9023
+00/07/1997,00/00/1998,Guyana,GUY,Rupununi Region,Drought,Drought,,607200,1997-9074
+00/09/1997,00/00/1997,Nicaragua,NIC,"Mozonte, Ocotal, Santa Maria de Macuelito, San Lucas, Somoto, Yalaguina, Achuapa, Santa Rosa del Penon, Palacaguina, Totogalpa, San Juan de Limay, San Nicolas, Larreynaga, El Sauce, El Jicaral, San Francisco, San Pedro, Villanueva, Santo Tomas, Somototill",Drought,Drought,,290000,1997-9227
+00/12/1997,00/00/1997,Honduras,HND,"Choluteca, Valle, Francisco Morazan, El Paraíso, Comayagua departments",Drought,Drought,,,1997-9305
+15/03/1998,15/03/1998,Brazil,BRA,"Alta Alegre, Amajari, Apiau, Bom-Pim, Canta, Caracarai, Iracema, Maraca, Macajai, Normandia, Pacaraima, Uiramuta municipalities (Roraima state)",Wildfire,"Land fire (Brush, Bush, Pastur",1,12000,1998-0070
+2/5/98,2/5/98,Canada,CAN,"Alberta, British Columbia",Wildfire,Forest fire,,8000,1998-0123
+1/4/98,26/06/1998,Mexico,MEX,"Chipias, Oaxaca, Chimalapas, Puebla, Veracruz",Wildfire,Forest fire,50,,1998-0124
+25/05/1998,5/7/98,United States of America (the),USA,Florida,Wildfire,"Land fire (Brush, Bush, Pastur",1,40124,1998-0185
+31/08/1998,31/08/1998,United States of America (the),USA,San Diego county (California),Wildfire,"Land fire (Brush, Bush, Pastur",,132,1998-0286
+5/10/98,5/10/98,United States of America (the),USA,California,Wildfire,"Land fire (Brush, Bush, Pastur",1,600,1998-0306
+20/10/1998,20/10/1998,United States of America (the),USA,California,Wildfire,"Land fire (Brush, Bush, Pastur",,365,1998-0319
+11/9/98,11/9/98,Brazil,BRA,"Tocantins, Para Mato Grosso, Rondonia",Wildfire,Forest fire,,,1998-0326
+00/01/1998,00/00/1998,Colombia,COL,,Drought,Drought,,100000,1998-9077
+00/04/1998,00/00/1999,Brazil,BRA,"Nord East, Piaui State",Drought,Drought,,10000000,1998-9114
+00/01/1998,00/00/1998,Cuba,CUB,"Guantanamo, Las Tuna, Holguin, Santiago de Cuba, Granma, Matanzas Provinces",Drought,Drought,,820000,1998-9210
+00/05/1998,00/00/1998,Costa Rica,CRI,"Guarracaste, Central, South Pacific, Valle Central, Valle del Cuarco regions/provinces",Drought,Drought,,,1998-9216
+00/05/1998,00/00/1998,El Salvador,SLV,,Drought,Drought,,,1998-9216
+2/1/99,2/1/99,Chile,CHL,"San Fernando, Bio-Bio",Wildfire,Forest fire,,1000,1999-0013
+00/01/1999,00/01/1999,Argentina,ARG,Patagonia Province,Wildfire,Forest fire,,,1999-0048
+19/03/1999,19/03/1999,United States of America (the),USA,Nebraska,Wildfire,"Land fire (Brush, Bush, Pastur",1,300,1999-0094
+8/4/99,8/4/99,Cuba,CUB,Guane (Pinor del Rio Province),Wildfire,Forest fire,,,1999-0110
+15/04/1999,15/04/1999,United States of America (the),USA,Florida,Wildfire,Forest fire,,629,1999-0112
+00/02/1999,00/02/1999,Nicaragua,NIC,Atlantic Coast,Wildfire,Forest fire,,,1999-0133
+5/3/99,5/3/99,Canada,CAN,"Manitoba, Ontario",Wildfire,Forest fire,,1500,1999-0145
+13/08/1999,13/08/1999,Bolivia (Plurinational State of),BOL,"Ascension De Guarayos, San Ignacio De Moxos, Canandoa",Wildfire,"Land fire (Brush, Bush, Pastur",3,6300,1999-0273
+24/08/1999,24/08/1999,United States of America (the),USA,California,Wildfire,Forest fire,,90,1999-0297
+00/09/1999,00/09/1999,Brazil,BRA,"Mato Grosso, Mato Grosso do Sul",Wildfire,"Land fire (Brush, Bush, Pastur",,,1999-0329
+00/06/1999,00/00/2000,Uruguay,URY,"Artigas, Salto, Paysandu, Rio Negro, Cerro Largo, Tacuarembo, Rivera Departments",Drought,Drought,,,1999-9085
+00/05/1999,00/00/2000,Mexico,MEX,"Coahuila, Chichuahua, Durango, Sonora, Sinoloa State",Drought,Drought,,65000,1999-9171
+00/07/1999,00/00/1999,United States of America (the),USA,"Kentucky, Maryland, Ohio, Pennsylvania, Virginia , West Virginia",Drought,Drought,,,1999-9358
+00/06/1999,00/00/2002,Paraguay,PRY,"Concepcion, San Pedro Department, Alto Paraguay, Boqueon, Presidente Hayes",Drought,Drought,12,40000,1999-9404
+26/02/2000,26/02/2000,United States of America (the),USA,"Gainesville, Alachua areas (Alachua district, Florida province), Lafayette, Gulf districts (Florida province)",Wildfire,Forest fire,,600,2000-0128
+00/02/2000,00/02/2000,Honduras,HND,"Atlantida, Choluteca, Colon, Comayagua, Copan, Cortes, Francisco Morazan, Gracias A Dios, Intibuca, Islas De Bahia, La Paz, Lempira, Name Unknown, Ocotepeque, Olancho, Paraiso, Santa Barbara, Valle, Yoro provinces",Wildfire,Forest fire,,,2000-0215
+00/05/2000,00/09/2000,United States of America (the),USA,"Los Alamos, Rio Arriba, Sandoval, Santa Fe districts (New Mexico province)",Wildfire,Forest fire,,25400,2000-0240
+14/05/2000,14/05/2000,United States of America (the),USA,Sarasota district (Florida province),Wildfire,Forest fire,,,2000-0279
+12/6/00,12/6/00,United States of America (the),USA,"Park, Jefferson, Larimer districts (Colorado province)",Wildfire,Forest fire,,1010,2000-0363
+27/06/2000,27/06/2000,United States of America (the),USA,"Hanford area (Benton district, Washington province)",Wildfire,Forest fire,,8077,2000-0406
+00/07/2000,00/07/2000,United States of America (the),USA,Alaska province,Wildfire,Forest fire,,,2000-0450
+00/07/2000,00/08/2000,United States of America (the),USA,"Arizona, California, Colorado, Idaho, Montana, Nevada, New Mexico, Oregon, South Dakota, Texas, Utah, Washington, Wyoming, Florida, North Dakota provinces",Wildfire,Forest fire,14,1000,2000-0465
+00/12/2000,00/12/2000,Argentina,ARG,"La Pampa, Mendoza, San Luis, Formosa provinces",Wildfire,Forest fire,8,,2000-0853
+00/03/2000,00/00/2000,Jamaica,JAM,"Clarendon, Hanover, Manchester, Portland, Saint Ann, Saint Catherine, Saint Elizabeth, Saint James, Saint Thomas, Trelawny, Westmoreland provinces",Drought,Drought,,,2000-9138
+00/06/2000,00/00/2002,United States of America (the),USA,"South Carolina, Georgia, Alabama, Florida, Louisiana, Texas provinces",Drought,Drought,,,2000-9339
+00/08/2000,00/00/2001,Cuba,CUB,"Guantanamo, Santiago De Cuba, Las Tunas, Camaguey provinces",Drought,Drought,,,2000-9496
+00/11/2000,00/00/2000,United States of America (the),USA,Wyoming province,Drought,Drought,,,2000-9712
+00/07/2000,00/00/2000,Honduras,HND,"Montana de la Flor area (Marale district, Francisco Morazan province)",Drought,Drought,,1125,2000-9860
+00/07/2000,00/00/2000,Nicaragua,NIC,"Atlantico Norte, Jinotega, Nueva Segovia provinces",Drought,Drought,,,2000-9860
+00/04/2000,00/00/2000,Bolivia (Plurinational State of),BOL,Gran Chaco district (Tarija province),Drought,Drought,,20000,2000-9881
+00/04/2001,00/04/2001,United States of America (the),USA,Florida province,Wildfire,Forest fire,1,139,2001-0303
+28/05/2001,28/05/2001,Canada,CAN,Alberta province,Wildfire,Forest fire,,1200,2001-0340
+00/08/2001,00/08/2001,Argentina,ARG,La Rioja province,Wildfire,Forest fire,,,2001-0442
+00/08/2001,00/08/2001,United States of America (the),USA,"Oregon, Washington, Idaho, California, Nevada, Colorado, Arizona, Wyoming, Texas, Oklahoma provinces",Wildfire,Forest fire,,,2001-0451
+00/08/2001,00/08/2001,Colombia,COL,"Amazonas, Arauca, Boyaca, Caqueta, Casanare, Guainia, Guaviare, Meta, Norte De Santander, Putumayo, Vaupes, Vichada provinces",Wildfire,Forest fire,,,2001-0499
+30/10/2001,30/10/2001,United States of America (the),USA,"Tennessee, Kentucky, West Virginia, Virginia, Georgia provinces",Wildfire,Forest fire,1,,2001-0722
+00/09/2001,00/00/2001,Guatemala,GTM,Chiquimula province,Drought,Drought,41,113596,2001-9383
+00/07/2001,00/00/2004,Honduras,HND,"Choluteca, Valle, Francisco Morazan, Paraiso, La Paz, Comayagua, Intibuca, Yoro, Lempira provinces",Drought,Drought,,195000,2001-9383
+00/08/2001,00/00/2001,Nicaragua,NIC,"Nueva Segovia, Madriz, Esteli, Leon, Chinandega, Carazo, Boaco, Jinotega, Matagalpa provinces",Drought,Drought,,188000,2001-9383
+00/05/2001,00/00/2001,El Salvador,SLV,"Usulutan, San Miguel, Morazan, La Union provinces",Drought,Drought,,400000,2001-9383
+00/06/2001,00/00/2001,Brazil,BRA,Pernambuco province,Drought,Drought,,1000000,2001-9394
+00/02/2002,00/02/2002,Chile,CHL,Coquimbo province,Wildfire,Forest fire,,,2002-0089
+10/2/02,10/2/02,United States of America (the),USA,"Fallbrok area (San Diego district, Californie province)",Wildfire,Forest fire,,134,2002-0092
+00/03/2002,00/03/2002,United States of America (the),USA,Lincoln district (New Mexico province),Wildfire,Forest fire,,1300,2002-0184
+18/04/2002,18/04/2002,Nicaragua,NIC,"Atlantico Norte, Atlantico Sur, Boaco, Carazo, Chinandega, Chontales, Esteli, Granada, Jinotega, Leon, Madriz, Managua, Masaya, Matagalpa, Nueva Segovia, Rio San Juan, Rivas provinces",Wildfire,Forest fire,,16000,2002-0237
+00/04/2002,00/04/2002,United States of America (the),USA,Arizona province,Wildfire,"Land fire (Brush, Bush, Pastur",,,2002-0312
+00/05/2002,00/05/2002,United States of America (the),USA,"Georgia, Alaska provinces",Wildfire,Forest fire,,,2002-0331
+8/6/02,8/6/02,United States of America (the),USA,Colorado province,Wildfire,Forest fire,,1572,2002-0351
+20/06/2002,20/06/2002,United States of America (the),USA,Arizona province,Wildfire,Forest fire,,1269,2002-0379
+00/07/2002,00/07/2002,Canada,CAN,"Lac-Saint-Jean-Est, Le Domaine-du-Roy, Le Saguenay-et-son-Fjord, Maria-Chapdelaine, Nord-du-Québec districts (Quebec / Québec province)",Wildfire,Forest fire,,600,2002-0409
+17/08/2002,17/08/2002,Bolivia (Plurinational State of),BOL,"Sama, Tucumilla, Iscayachi, Lazareto, San Andres, Victoria, Coimata, Erquis Norte, Sur villages (Cercado district, Tarija province)",Wildfire,Forest fire,,,2002-0525
+22/09/2002,22/09/2002,United States of America (the),USA,"Claremont, Glendora, La Verne areas (Los Angeles district, California province))",Wildfire,Forest fire,,2213,2002-0618
+00/07/2002,00/07/2002,United States of America (the),USA,Oregon province,Wildfire,Forest fire,,,2002-0625
+00/04/2002,00/00/2002,Mexico,MEX,"Baja California, Coahuila, Tamaulipas, Veracruz, Sinaloa, Tlaxcala, Sonora, San Luis Potosi provinces",Drought,Drought,,,2002-9292
+00/09/2002,00/00/2002,Brazil,BRA,"Minas Gerais, Paraiba, Rio Grande do Norte, Pernambuco, Piaui provinces",Drought,Drought,,,2002-9605
+00/01/2002,00/00/2002,Honduras,HND,"Liure, Soledad districts (Paraiso province), Orocuina, El Corpus districts (Choculeta province)",Drought,Drought,,82000,2002-9838
+00/03/2002,00/00/2002,Peru,PER,"Amazonas, Ancash, Apurimac, Arequipa, Ayacucho, Cajamarca, Callao, Cusco, Huancavelica, Huanuco, Ica, Junin, La Libertad, Lambayeque, Lima, Loreto, Madre de Dios, Moquegua, Pasco, Piura, Puno, San Martin, Tacna, Tumbes, Ucayali provinces",Drought,Drought,,21500,2002-9843
+00/07/2002,00/08/2002,United States of America (the),USA,"Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin provinces",Drought,Drought,,,2002-9853
+23/01/2003,23/01/2003,Chile,CHL,"Vina del Mar town (Valparaiso district, Valparaiso province)",Wildfire,"Land fire (Brush, Bush, Pastur",,285,2003-0042
+17/06/2003,20/06/2003,United States of America (the),USA,"Summerhaven area (Pima district, Arizona province), Lemmon mount (Pima district, Arizona province)",Wildfire,Forest fire,,750,2003-0299
+1/8/03,14/09/2003,Canada,CAN,"British Columbia, Alberta, Saskatchewan, Manitoba provinces",Wildfire,Forest fire,1,,2003-0369
+25/10/2003,4/11/03,Mexico,MEX,"Baja California, Chihuahua, Sonora provinces",Wildfire,Forest fire,,,2003-0518
+25/10/2003,4/11/03,United States of America (the),USA,"Fontana, Rancho Cucamonga areas (San Bernardino district, California province)",Wildfire,Forest fire,14,27104,2003-0518
+00/03/2003,00/03/2003,Guatemala,GTM,Petén province,Wildfire,Forest fire,,,2003-0764
+21/10/2003,4/11/03,United States of America (the),USA,San Bernardino district (California province),Wildfire,Forest fire,4,40,2003-0786
+00/02/2003,00/00/2004,Haiti,HTI,"Saint Nicolas, Bombardopolis, Baie-de-Henne, Jean Rabel towns (Mole Saint Nicolas district, Nord Ouest province)",Drought,Drought,,35000,2003-9758
+00/06/2003,00/09/2003,Argentina,ARG,"Buenos Aires, Buenos Aires D.f., Entre Rios, Santa Fe provinces",Drought,Drought,,,2003-9785
+2/5/04,4/5/04,United States of America (the),USA,"Los Angeles, Riverside, San Diego, Santa Barbara districts (California province)",Wildfire,Forest fire,,15000,2004-0196
+12/7/04,16/07/2004,United States of America (the),USA,"Carson City district (Nevada province), Los Angeles district (California province)",Wildfire,Forest fire,,242,2004-0348
+13/08/2004,14/08/2004,United States of America (the),USA,"Shasta Lake area (Shasta districts, California province)",Wildfire,Forest fire,,245,2004-0446
+00/01/2004,00/00/2004,Peru,PER,Cajamarca province,Drought,Drought,,,2004-9063
+00/08/2004,00/00/2004,Cuba,CUB,"Holguin, Las Tunas, Camaguey, La Habane provinces",Drought,Drought,,,2004-9332
+00/07/2004,00/00/2004,Honduras,HND,"Atlantida, Choluteca, Colon, Comayagua, Copan, Cortes, Francisco Morazan, Gracias A Dios, Intibuca, Islas De Bahia, La Paz, Lempira, Name Unknown, Ocotepeque, Olancho, Paraiso, Santa Barbara, Valle, Yoro provinces",Drought,Drought,,137500,2004-9363
+00/10/2004,00/00/2005,Bolivia (Plurinational State of),BOL,"Beni, Chuquisaca, Cochabamba, Santa Cruz, Tarija provinces",Drought,Drought,,55000,2004-9576
+00/12/2004,00/03/2005,Brazil,BRA,"Rio Grande Do Sul, Paraiba, Ceara, Piaui, Sergipe, Alagoas, Bahia, Rio Grande do Norte, Pernambuco provinces",Drought,Drought,,,2004-9705
+00/07/2005,00/07/2005,Canada,CAN,Québec province,Wildfire,Forest fire,,,2005-0383
+00/08/2005,00/08/2005,Canada,CAN,Ontario province,Wildfire,Forest fire,,,2005-0460
+00/09/2005,00/09/2005,Bolivia (Plurinational State of),BOL,"Beni, Pando provinces",Wildfire,Forest fire,,3000,2005-0538
+27/12/2005,4/1/06,United States of America (the),USA,"Texas, Oklahoma provinces",Wildfire,Forest fire,5,1410,2005-0724
+11/3/05,11/3/05,Dominican Republic (the),DOM,"Bohechio, San Juan de la Maguana districts (San Juan province), San José de Las Matas district (Santiago province), San Ignacio de Sabaneta district (Santiago Rodriguez province)",Wildfire,Forest fire,,,2005-0739
+00/10/2005,00/10/2005,Brazil,BRA,"Manaquiri, Atalaia Do Norte, Anori, Caapiranga districts (Amazonas province)",Drought,Drought,,,2005-9569
+14/10/2005,00/00/2005,Paraguay,PRY,"Presidente Hayes, Boqueron, Alto Paraguay provinces",Drought,Drought,,52990,2005-9734
+9/7/06,14/07/2006,United States of America (the),USA,California province,Wildfire,--,1,167,2006-0374
+26/10/2006,27/10/2006,United States of America (the),USA,"Riverside, Palm Springs cities (Riverside district, California province), San Diego district (California province)",Wildfire,"Land fire (Brush, Bush, Pastur",4,103,2006-0576
+3/12/06,6/12/06,United States of America (the),USA,Ventura district (California province),Wildfire,"Land fire (Brush, Bush, Pastur",,15,2006-0662
+20/12/2006,00/00/2006,Panama,PAN,"Miria Ubgidandu island (Kuna Yala district, Kuna Yala province), Kuna de Madungandí district (Panama province), Kuna de Wargandí district (Darien province)",Wildfire,--,,1436,2006-0728
+00/01/2006,00/01/2006,Peru,PER,"Tumbes, Piura, Ica, Arequipa provinces",Drought,Drought,,,2006-9016
+24/06/2007,2/7/07,United States of America (the),USA,"Alpine, Amador, Calaveras, El Dorado, Mono, Placer, Tuolumne districts (California province)",Wildfire,Forest fire,,768,2007-0351
+00/09/2007,00/09/2007,Paraguay,PRY,"San Pedro, Concepcion, Presidente Hayes, Canindeyu, Amambay provinces",Wildfire,Forest fire,8,125000,2007-0454
+21/10/2007,24/10/2007,United States of America (the),USA,"Los Angeles, Orange, Riverside, San Bernardino, San Diego, Santa Barbara, Ventura districts (California province)",Wildfire,"Land fire (Brush, Bush, Pastur",8,640064,2007-0519
+24/11/2007,27/11/2007,United States of America (the),USA,"Malibu area (Los Angeles district, California province)",Wildfire,Forest fire,,10159,2007-0579
+00/10/2007,00/00/2007,Brazil,BRA,"Ceara, Piaui, Maranhao, Tocantins, Minas Gerais provinces",Drought,Drought,,1000000,2007-9514
+00/10/2007,00/06/2009,United States of America (the),USA,"California, Georgia, Maryland provinces",Drought,Drought,,,2007-9548
+20/06/2008,9/7/08,United States of America (the),USA,California province,Wildfire,Forest fire,1,300,2008-0253
+13/11/2008,18/11/2008,United States of America (the),USA,"Los Angeles, Orange, Riverside, Santa Barbara districts (California province)",Wildfire,--,,55020,2008-0524
+00/09/2008,00/00/2008,Paraguay,PRY,"Filadelfia, Loma Plata, Mariscal Estigarribia towns (Mcal. Estigarribia district, Boqueron province), Alto Paraguay, Presidente Hayes provinces",Drought,Drought,4,18000,2008-9550
+00/12/2008,00/00/2009,Bolivia (Plurinational State of),BOL,"La Paz, Oruro, Tarija, Chuquisaca, Santa Cruz provinces",Drought,Drought,,27500,2008-9661
+5/5/09,11/5/09,United States of America (the),USA,Santa Barbara district (California province),Wildfire,"Land fire (Brush, Bush, Pastur",,263,2009-0178
+7/7/09,27/10/2009,United States of America (the),USA,"Los Angeles, Monterey districts (California province)",Wildfire,"Land fire (Brush, Bush, Pastur",2,192,2009-0349
+00/01/2009,00/00/2009,Argentina,ARG,"Río Negro, La Pampa, Córdoba, Buenos Aires, Entre Ríos, Santa Fe, Corrientes, Chaco, Formosa, Santiago del Estero provinces",Drought,Drought,,,2009-9055
+00/01/2009,00/11/2009,Paraguay,PRY,"Boqueron, Presidente Hayes, Alto Paraguay, Concepción, Neembucú provinces",Drought,Drought,,200000,2009-9210
+00/11/2009,00/00/2010,Ecuador,ECU,"Manabi, Los Rios, Cotopaxi, Bolivar, Chimborazo, Tungurahua provinces",Drought,Drought,,107500,2009-9415
+00/03/2009,00/12/2009,Guatemala,GTM,"Baja Verapaz, El Progreso, Zacapa, Jalapa, Chiquimula, Santa Rosa, Jutiapa, Quiché provinces",Drought,Drought,,2500000,2009-9415
+12/00/2009,00/00/2009,El Salvador,SLV,"Ahuachapan, Cabanas, Chalatenango, Cuscatlan, La Libertad, La Paz, La Union, Morazan, San Miguel, San Salvador, San Vicente, Santa Ana, Sonsonate, Usulutan provinces",Drought,Drought,,,2009-9415
+00/11/2009,00/00/2010,Venezuela (Bolivarian Republic of),VEN,"Amazonas, Anzoategui, Apure, Aragua, Barinas, Bolivar, Carabobo, Cojedes, Delta Amacuro, Dependencias Federales, Falcon, Guarico, Lara, Merida, Miranda, Monagas, Nueva Esparta, Portuguesa, Sucre, Tachira, Trujillo, Yaracuy, Zulia, Vargas, Distrito Capital provinces",Drought,Drought,,,2009-9415
+00/11/2009,00/02/2011,Honduras,HND,"Paraiso, Francisco Morazan, Yoro, Choluteca, Valle, Intibuca provinces",Drought,Drought,,45000,2009-9559
+00/01/2010,6/4/10,Colombia,COL,"Antioquia, Arauca, Bolivar, Boyaca, Caldas, Caqueta, Casanare, Cauca, Cesar, Cordoba, Cundinamarca, Guainia, Guajira, Guaviare, Huila, Magdalena, Meta, Narino, Norte De Santander, Putumayo, Quindio, Risaralda, Santander, Sucre, Tolima, Valle Del Cauca, Vichada provinces",Wildfire,--,31,200,2010-0289
+00/08/2010,00/08/2010,Bolivia (Plurinational State of),BOL,"Beni, Pando, Santa Cruz, Cochabamba, La Paz provinces",Wildfire,Forest fire,,300,2010-0421
+00/01/2010,00/06/2010,Barbados,BRB,"Christ Church, St. Andrew, St. George, St. James, St. John, St. Joseph, St. Lucy, St. Michael, St. Peter, St. Phillip, St. Tomas provinces",Drought,Drought,,,2010-9077
+00/01/2010,00/06/2010,Grenada,GRD,"St. Patrick's, Name Unknown, St. George's provinces",Drought,Drought,,,2010-9077
+00/01/2010,00/06/2010,Guyana,GUY,"Barima Waini (region N°1), Cuyuni/mazaruni (region N°7), Pomeroon/supenaam (region N°2), Potaro/siparuni (region N°8), Upper Takutu/upper Essequibo (region N°9) provinces",Drought,Drought,,,2010-9077
+00/01/2010,00/06/2010,Saint Lucia,LCA,"Area Under National Administration, Region Number 1 - 8 provinces",Drought,Drought,,,2010-9077
+00/01/2010,00/06/2010,Trinidad and Tobago,TTO,"Arima, Chaguanas, Couva/Tabaquite/Talparo, Diego Martin, Penal/Debe, Point Fortin, Port Of Spain, Princes Town, Rio Claro/Mayaro, San Fernando, San Juan/Laventille, Sangre Grande, Siparia, Tobago, Tunapuna/Piarco provinces",Drought,Drought,,,2010-9077
+00/01/2010,00/06/2010,Saint Vincent and the Grenadines,VCT,"Carriacou, Petite Martinique islands (Grenadines province)",Drought,Drought,,,2010-9077
+00/06/2010,00/09/2010,Bolivia (Plurinational State of),BOL,"Santa Cruz, Tarija, Chuquisaca provinces",Drought,Drought,,62500,2010-9253
+00/10/2010,00/00/2010,Brazil,BRA,Amazonas province,Drought,Drought,,62000,2010-9556
+00/02/2011,00/02/2011,Chile,CHL,Maule province,Wildfire,"Land fire (Brush, Bush, Pastur",,400,2011-0097
+9/4/11,30/04/2011,United States of America (the),USA,Texas province,Wildfire,"Land fire (Brush, Bush, Pastur",2,1305,2011-0140
+00/03/2011,00/05/2011,Mexico,MEX,"Acuna, Muzquiz, Ocampo, Arteaga districts (Coahuila province)",Wildfire,"Land fire (Brush, Bush, Pastur",,,2011-0161
+4/9/11,9/9/11,United States of America (the),USA,Bastrop district (Texas province),Wildfire,Forest fire,4,4800,2011-0349
+29/12/2011,6/1/12,Chile,CHL,"Maule, Biobio, Magallanes y Antartica chilena, Araucania provinces",Wildfire,Forest fire,1,1082,2011-0584
+14/05/2011,16/05/2011,Canada,CAN,"Slave Lake area (Division No. 17 district, Alberta province)",Wildfire,Forest fire,1,7000,2011-0630
+29/05/2011,23/06/2011,United States of America (the),USA,"Arizona, Minnesota, Texas, Florida provinces",Wildfire,Forest fire,2,,2011-0639
+00/09/2011,00/12/2011,Mexico,MEX,"Nuevo Leon, Guanajuato, Sonora, Chihuahua, Coahuila, Durango, Zacatecas, San Luis Potosi provinces",Drought,Drought,,2500000,2011-9363
+00/01/2011,00/11/2011,United States of America (the),USA,"Texas, Oklahoma, New Mexico, Arizona, Kansas, Louisiana provinces",Drought,Drought,,,2011-9363
+23/06/2012,10/7/12,United States of America (the),USA,"Colorado Springs city (El Paso district, Colorado province)",Wildfire,--,2,1038,2012-0232
+3/8/12,8/8/12,United States of America (the),USA,"Cleveland, Creek, Oklahoma, Payne districts (Oklahoma province)",Wildfire,--,1,1809,2012-0542
+1/1/12,6/1/12,Chile,CHL,"Biobio, Magallanes y Antartica chilena provinces",Wildfire,--,7,,2012-0605
+1/5/12,25/09/2012,Ecuador,ECU,"Azuay, El Oro, Imbabura, Loja provinces",Wildfire,Forest fire,5,1945,2012-0608
+00/01/2012,00/01/2012,Paraguay,PRY,"Concepcion, San pedro, Cordillera, Guaira, Caaguazu, Caazapa, Itapua, Misiones, Paraguari, Alto Parana, Central, Neembucu, Amambay, Canindeyu provinces",Drought,Drought,,1391900,2012-9021
+00/06/2012,00/00/2012,United States of America (the),USA,"Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin provinces",Drought,Drought,,,2012-9235
+00/06/2012,00/00/2012,Guatemala,GTM,"Jalapa, El Progreso, Zacapa, Santa Rosa, Guatemala, Sacatepéquez, Solola, Chimaltenango, Baja Verapaz, Quiché, Huehuetenango provinces",Drought,Drought,,266485,2012-9355
+00/09/2012,00/09/2012,Honduras,HND,"Choluteca, Francisco Morazan, Gracias A Dios, La Paz, Olancho, Paraiso, Valle provinces",Drought,Drought,,125000,2012-9379
+00/06/2012,00/12/2012,United States of America (the),USA,"Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin, Arizona, California, Colorado, Nevada, New Mexico, Oklahoma, Texas, Utah provinces",Drought,Drought,,,2012-9489
+00/05/2012,00/05/2013,Brazil,BRA,"Minas Gerias, Pernambuco, Bahia provinces",Drought,Drought,,4000000,2012-9607
+30/05/2013,8/6/13,United States of America (the),USA,Los Angeles district (California province),Wildfire,Forest fire,,110,2013-0209
+6/6/13,20/06/2013,United States of America (the),USA,"Black Forest area (El Paso district, Colorado province)",Wildfire,Forest fire,2,1617,2013-0210
+28/06/2013,12/7/13,United States of America (the),USA,"Yarnell area (Yavapai district, Arizona province)",Wildfire,Forest fire,19,387,2013-0212
+3/8/13,1/9/13,United States of America (the),USA,"Yosemite valley (Mariposa district, California province)",Wildfire,--,,36,2013-0315
+9/9/13,15/09/2013,United States of America (the),USA,Shasta district (California province),Wildfire,--,1,225,2013-0404
+00/01/2013,00/05/2013,Panama,PAN,"Coclé, Veraguas, Los santos, Herrera provinces",Drought,Drought,,,2013-9185
+00/02/2013,00/06/2013,Ecuador,ECU,"Zapotillo, Celica, Paltas, Macara, Sozoranga districts (Loja province)",Drought,Drought,,3165,2013-9308
+00/01/2013,00/09/2013,Bolivia (Plurinational State of),BOL,"Tarija, Santa Cruz, Chuquisaca, Cochabamba, Beni, La Paz provinces",Drought,Drought,,340355,2013-9369
+00/09/2013,00/08/2014,Paraguay,PRY,"Presidente Hayes, Boqueron, Alto Paraguay, San Pedro, Concepcion, Amambay, Canindeyu, Alto Parana, Itapua, Cordillera, Guaira, Neembucu, Paraguari, Caazapa, Caaguazu provinces",Drought,Drought,,75000,2013-9496
+12/4/14,21/04/2014,Chile,CHL,Valparaiso province,Wildfire,"Land fire (Brush, Bush, Pastur",12,11000,2014-0118
+11/5/14,20/05/2014,United States of America (the),USA,"Hutchinson district (Texas province), San Diego district (California province)",Wildfire,Forest fire,2,429,2014-0165
+00/01/2014,00/12/2014,United States of America (the),USA,San Joaquin district (California province),Drought,Drought,,,2014-9023
+00/01/2014,00/04/2014,Brazil,BRA,"Alagoas, Bahia, Ceara, Maranhao, Paraiba, Pernambuco, Piaui, Rio Grande Do Norte, Sergipe provinces",Drought,Drought,,27000000,2014-9025
+00/01/2014,00/07/2015,Haiti,HTI,"Macaya area (Cayes district, Sud province), Nord province",Drought,Drought,,1000000,2014-9102
+00/08/2014,00/00/2016,Guatemala,GTM,"Baja Verapaz, El Progreso, Zacapa, Chiquimula, Jalapa, Jutiapa, Quiché, Huehuetenango, Totonicapán, San Marcos, Retalhuleu, Santa Rosa, Escuintla provinces",Drought,Drought,,1300000,2014-9277
+00/04/2014,00/07/2015,Honduras,HND,"San Marcos De Sierra, Camasca districts (Intibuca province), Moroceli, Alauca, Oropoli, Teupasenti districts (Paraiso province), Ocotepeque, Copan, Santa Barbara, Yoro, Comayagua, Olancho, Lempira, La Paz, Valle, Choluteca, Francisco Morazan provinces",Drought,Drought,,571710,2014-9332
+00/10/2014,00/10/2014,Bolivia (Plurinational State of),BOL,Santa Cruz province,Drought,Drought,,51180,2014-9457
+00/01/2014,00/11/2014,Jamaica,JAM,"Saint Thomas, Saint Mary, Portland, Clarendon, Manchester, Saint Catherine, Saint Andrew And Kingston provinces",Drought,Drought,,91545,2014-9469
+00/08/2015,00/08/2015,Costa Rica,CRI,"Alajuela, Cartago, Guanacaste, Heredia, Limon, Puntarenas, San Jose provinces",Drought,Drought,,,2014-9580
+00/08/2014,00/02/2015,Nicaragua,NIC,"Atlantico Norte, Atlantico Sur, Boaco, Carazo, Chinandega, Chontales, Esteli, Granada, Jinotega, Leon, Madriz, Managua, Masaya, Matagalpa, Nueva Segovia, Rio San Juan, Rivas provinces",Drought,Drought,,460000,2014-9580
+00/04/2015,00/04/2016,El Salvador,SLV,"La Union, San Miguel, Morazan, Usulutan, Ahuachapan, Sonsonate, Santa Ana, Chalatenango provinces",Drought,Drought,,500000,2014-9580
+13/03/2015,21/03/2015,Chile,CHL,Valparaiso province,Wildfire,Forest fire,1,32,2015-0092
+1/7/15,10/7/15,Canada,CAN,"Saskatchewan, Alberta, British Columbia provinces",Wildfire,Forest fire,,13036,2015-0275
+22/07/2015,13/08/2015,United States of America (the),USA,"Lake, Napa, Solano, Yolo, Modoc, Colusa districts (California province)",Wildfire,--,1,129,2015-0312
+13/08/2015,31/08/2015,United States of America (the),USA,"California, Idaho, Montana, Oregon, Washington provinces",Wildfire,--,4,608,2015-0401
+13/09/2015,20/09/2015,United States of America (the),USA,"Lake, Napa, Sonoma, Butte districts (California province)",Wildfire,"Land fire (Brush, Bush, Pastur",4,7302,2015-0421
+00/01/2015,00/12/2015,United States of America (the),USA,"California, Nevada, Oregon, Washington, Idaho, Montana, Utah, Arizona provinces",Drought,Drought,,,2015-9210
+00/08/2015,00/08/2015,Panama,PAN,"Coclé, Colón, Kuna Yala, Herrera, Los Santos, Panamá, Bocas del Toro, Chiriquí, Darién, Emberá, Ngöbe Buglé, Veraguas provinces",Drought,Drought,,,2015-9353
+00/10/2015,00/02/2016,Colombia,COL,"Caldas, Tolima, Quindio, Huila, Boyaca, Valle Del Cauca, Santander, Narino, Caqueta, Risaralda, Guajira, Atlantico, Magdalena, Bolivar, Arauca, Casanare provinces",Drought,Drought,,,2015-9372
+00/05/2015,00/06/2015,Cuba,CUB,Guantanamo province,Drought,Drought,,100000,2015-9372
+1/5/16,9/5/16,Canada,CAN,"Fort McMurray city (Wood Buffalo area, Division No. 16 district, Alberta province)",Wildfire,Forest fire,,7200,2016-0172
+25/06/2016,26/06/2016,United States of America (the),USA,California,Wildfire,Forest fire,2,891,2016-0206
+00/02/2016,00/03/2016,Haiti,HTI,,Drought,Drought,,3600000,2016-9052
+00/01/1972,00/00/1975,Benin,BEN,Entire country,Drought,Drought,,115000,1969-9006
+00/00/1972,00/00/1975,Cabo Verde,CPV,,Drought,Drought,,,1969-9006
+00/01/1971,00/00/1975,Gambia (the),GMB,Countrywide,Drought,Drought,,150000,1969-9006
+00/00/1972,00/00/1975,Guinea-Bissau,GNB,,Drought,Drought,,,1969-9006
+00/01/1970,00/01/1970,Hong Kong,HKG,,Wildfire,"Land fire (Brush, Bush, Pastur",,,1970-0093
+00/04/1970,00/04/1970,Hong Kong,HKG,,Wildfire,"Land fire (Brush, Bush, Pastur",,,1970-0094
+00/01/1970,00/00/1970,Botswana,BWA,Countrywide,Drought,Drought,,87600,1970-9073
+00/04/1971,00/04/1971,Hong Kong,HKG,,Wildfire,"Land fire (Brush, Bush, Pastur",,,1971-0100
+00/10/1971,00/10/1971,Hong Kong,HKG,,Wildfire,"Land fire (Brush, Bush, Pastur",,,1971-0102
+00/01/1971,00/00/1971,Cameroon,CMR,,Drought,Drought,,400000,1971-9001
+00/01/1971,00/00/1971,Ghana,GHA,Countrywide,Drought,Drought,,12000,1971-9003
+00/01/1971,00/00/1971,Kenya,KEN,Countrywide,Drought,Drought,,150000,1971-9004
+00/01/1971,00/00/1971,Morocco,MAR,,Drought,Drought,,137000,1971-9005
+00/01/1971,00/00/1971,Togo,TGO,Countrywide,Drought,Drought,,150000,1971-9006
+00/08/1971,00/00/1973,Afghanistan,AFG,"Central, North-West, North-East, West regions",Drought,Drought,,,1971-9085
+00/01/1972,00/01/1972,Hong Kong,HKG,,Wildfire,"Land fire (Brush, Bush, Pastur",,,1972-0097
+00/04/1972,00/04/1972,Hong Kong,HKG,,Wildfire,"Land fire (Brush, Bush, Pastur",,,1972-0098
+00/10/1972,00/10/1972,Hong Kong,HKG,,Wildfire,"Land fire (Brush, Bush, Pastur",,,1972-0099
+00/00/1972,00/00/1973,Nepal,NPL,Hill area,Drought,Drought,,900000,1972-9075
+00/00/1972,00/00/1973,India,IND,Central,Drought,Drought,,200000000,1972-9116
+00/00/1972,00/00/1973,Indonesia,IDN,"Central Java, Southern Isles",Drought,Drought,,3500000,1972-9131
+00/03/1973,00/03/1973,Gambia (the),GMB,,Wildfire,"Land fire (Brush, Bush, Pastur",,5000,1973-0059
+00/01/1973,00/01/1973,Hong Kong,HKG,,Wildfire,"Land fire (Brush, Bush, Pastur",,,1973-0095
+00/04/1973,00/04/1973,Hong Kong,HKG,,Wildfire,"Land fire (Brush, Bush, Pastur",,,1973-0096
+00/12/1973,00/00/1978,Ethiopia,ETH,"Tigre, Wollo, North Shoa, Tigray, Kangra provinces",Drought,Drought,100000,3000000,1973-9005
+00/12/1974,00/00/1976,Somalia,SOM,North West to Central areas,Drought,Drought,19000,230000,1973-9005
+00/01/1974,00/01/1974,Hong Kong,HKG,,Wildfire,"Land fire (Brush, Bush, Pastur",,,1974-0114
+00/04/1974,00/04/1974,Hong Kong,HKG,,Wildfire,"Land fire (Brush, Bush, Pastur",,,1974-0115
+00/10/1974,00/10/1974,Hong Kong,HKG,,Wildfire,"Land fire (Brush, Bush, Pastur",,,1974-0117
+00/10/1974,00/00/1974,Bangladesh,BGD,Northwest,Drought,Drought,,,1974-9049
+00/12/1974,00/01/1975,Australia,AUS,Central New South Wales,Drought,Drought,,,1974-9100
+00/01/1975,00/01/1975,Australia,AUS,Kangaroo Isl.,Wildfire,"Land fire (Brush, Bush, Pastur",,,1975-0102
+00/01/1975,00/01/1975,Australia,AUS,Mildura region,Wildfire,"Land fire (Brush, Bush, Pastur",,,1975-0103
+00/01/1975,00/00/1975,Yemen P Dem Rep,YMD,,Drought,Drought,,,1975-9133
+00/00/1976,00/00/1976,Australia,AUS,"Victoria, South Australia, Southern Inland New South Wales",Drought,Drought,,,1976-9126
+00/05/1976,00/08/1976,Australia,AUS,Southwest of Western Australia,Drought,Drought,,,1976-9127
+00/01/1976,00/05/1976,Hong Kong,HKG,Hong Kong,Drought,Drought,,,1976-9134
+00/00/1977,00/00/1978,Burkina Faso,BFA,Nationwide,Drought,Drought,,442000,1976-9152
+00/00/1977,00/00/1978,Gambia (the),GMB,,Drought,Drought,,,1976-9152
+00/00/1978,00/00/1978,Mali,MLI,Niger River area,Drought,Drought,,,1976-9152
+00/00/1976,00/00/1977,Mauritania,MRT,,Drought,Drought,,1420000,1976-9152
+00/00/1977,00/00/1978,Senegal,SEN,Countrywide,Drought,Drought,,3715000,1976-9152
+00/07/1976,00/00/1976,Belgium,BEL,,Drought,Drought,,,1976-9162
+00/00/1976,00/00/1977,Rwanda,RWA,Widespread,Drought,Drought,,1700000,1976-9196
+00/02/1977,00/02/1977,Australia,AUS,Western district,Wildfire,"Land fire (Brush, Bush, Pastur",,,1977-0225
+00/12/1977,00/12/1977,Australia,AUS,"Blue Mountains, New South Wales",Wildfire,"Land fire (Brush, Bush, Pastur",3,,1977-0227
+00/00/1977,00/00/1977,Sri Lanka,LKA,,Drought,Drought,,250000,1977-9021
+00/00/1977,00/00/1977,"Tanzania, United Republic of",TZA,Tanga,Drought,Drought,,20000,1977-9022
+00/00/1977,00/00/1977,Tunisia,TUN,"South, Central regions",Drought,Drought,,31400,1977-9024
+00/00/1977,00/00/1977,Yemen Arab Rep,YMN,,Drought,Drought,,,1977-9026
+00/00/1977,00/00/1977,Yemen P Dem Rep,YMD,,Drought,Drought,,,1977-9026
+00/00/1977,00/00/1977,Lao People's Democratic Republic (the),LAO,Southern provinces,Drought,Drought,,3500000,1977-9029
+00/04/1977,00/00/1977,Japan,JPN,Okinawa,Drought,Drought,,,1977-9055
+00/05/1977,00/00/1977,Ghana,GHA,"North, Upper regions",Drought,Drought,,,1977-9062
+00/01/1977,00/05/1977,Hong Kong,HKG,,Drought,Drought,,,1977-9195
+10/4/78,10/4/78,Benin,BEN,Aguegues (Portonovo),Wildfire,Forest fire,2,7200,1978-0053
+00/01/1978,00/01/1978,Hong Kong,HKG,,Wildfire,"Land fire (Brush, Bush, Pastur",,,1978-0206
+00/10/1978,00/10/1978,Hong Kong,HKG,,Wildfire,"Land fire (Brush, Bush, Pastur",,,1978-0208
+00/04/1978,00/00/1978,Indonesia,IDN,Flores (Tilor Isl.),Drought,Drought,63,17220,1978-9002
+00/00/1978,00/00/1978,China,CHN,"Anhwei, Kiangsu Province",Drought,Drought,,6000000,1978-9008
+00/00/1978,00/00/1979,Congo (the Democratic Republic of the),COD,Bas Zaire,Drought,Drought,,500000,1978-9125
+00/00/1978,00/04/1979,Mauritania,MRT,Southern,Drought,Drought,,27000,1978-9126
+00/02/1978,00/00/1978,Philippines (the),PHL,Santos City,Drought,Drought,,3665,1978-9167
+00/00/1978,00/00/1978,Australia,AUS,"Southern Queensland, New South Wales, Victoria, Northeast Tasmania",Drought,Drought,,,1978-9200
+00/02/1979,00/02/1979,Myanmar,MMR,,Wildfire,Forest fire,,30000,1979-0023
+00/01/1979,00/01/1979,Hong Kong,HKG,,Wildfire,"Land fire (Brush, Bush, Pastur",,,1979-0201
+00/10/1979,00/10/1979,Hong Kong,HKG,,Wildfire,"Land fire (Brush, Bush, Pastur",,,1979-0203
+00/02/1979,00/02/1979,Australia,AUS,"Act, Gouldburn,Yass, Mittagong, New South Wales",Wildfire,"Land fire (Brush, Bush, Pastur",,,1979-0241
+00/00/1979,00/00/1982,China,CHN,Hwei province,Drought,Drought,,,1979-9004
+00/00/1979,00/00/1979,India,IND,,Drought,Drought,,10000000,1979-9005
+00/01/1979,00/00/1982,Mozambique,MOZ,"Nampula (North province), Cabo Delgado, Nampula, Tete, Manica provinces",Drought,Drought,,6000000,1979-9118
+00/00/1979,00/00/1980,Senegal,SEN,"Louga, Senegal Oriental",Drought,Drought,,950000,1979-9122
+00/00/1979,00/00/1980,Uganda,UGA,Karamoja,Drought,Drought,,500000,1979-9128
+00/00/1979,00/00/1980,Nepal,NPL,,Drought,Drought,,3500000,1979-9131
+00/00/1979,00/00/1980,Kenya,KEN,Turkana district,Drought,Drought,,40000,1979-9177
+00/10/1979,00/12/1979,Hong Kong,HKG,,Drought,Drought,,,1979-9200
+00/01/1979,00/00/1979,Sri Lanka,LKA,,Drought,Drought,,,1979-9238
+00/06/1979,00/00/1979,Bangladesh,BGD,"Chittagong, Rangpur Mymenshingh region",Drought,Drought,18,2000,1979-9270
+00/01/1980,00/01/1980,Hong Kong,HKG,,Wildfire,"Land fire (Brush, Bush, Pastur",,,1980-0214
+00/10/1980,00/10/1980,Hong Kong,HKG,,Wildfire,"Land fire (Brush, Bush, Pastur",,,1980-0217
+00/02/1980,00/02/1980,Australia,AUS,Adelaide Hills (South),Wildfire,"Land fire (Brush, Bush, Pastur",,40,1980-0288
+00/06/1980,00/00/1980,Djibouti,DJI,"Countrywide, especially Tadjourah",Drought,Drought,,145000,1980-9005
+00/01/1980,00/00/1980,Somalia,SOM,,Drought,Drought,,,1980-9005
+00/06/1980,00/00/1980,Sudan (the),SDN,,Drought,Drought,,,1980-9005
+00/03/1980,00/00/1980,Sri Lanka,LKA,Central,Drought,Drought,,,1980-9011
+00/01/1983,00/00/1985,Benin,BEN,"Oueme, Zou, Borgou, Atacora provinces",Drought,Drought,,2100000,1980-9114
+00/11/1980,00/00/1985,Burkina Faso,BFA,,Drought,Drought,,1250000,1980-9114
+00/00/1982,00/00/1985,Cabo Verde,CPV,,Drought,Drought,,,1980-9114
+00/11/1981,00/00/1985,Chad,TCD,,Drought,Drought,3000,1500000,1980-9114
+00/00/1983,00/00/1983,Côte dIvoire,CIV,Central,Drought,Drought,,,1980-9114
+00/09/1980,00/00/1985,Gambia (the),GMB,Countrywide,Drought,Drought,,500000,1980-9114
+00/10/1983,00/00/1985,Ghana,GHA,Countrywide,Drought,Drought,,12500000,1980-9114
+00/02/1981,00/00/1983,Guinea,GIN,Upper and Middle region,Drought,Drought,,,1980-9114
+00/00/1982,00/00/1985,Guinea-Bissau,GNB,,Drought,Drought,,,1980-9114
+00/02/1983,00/00/1983,Liberia,LBR,,Drought,Drought,,,1980-9114
+00/01/1980,00/00/1985,Mali,MLI,Western region,Drought,Drought,,1500000,1980-9114
+00/06/1980,00/00/1985,Mauritania,MRT,,Drought,Drought,,1600000,1980-9114
+00/06/1980,00/00/1985,Niger (the),NER,,Drought,Drought,,3500000,1980-9114
+00/00/1982,00/00/1985,Senegal,SEN,,Drought,Drought,,1200000,1980-9114
+00/02/1983,00/00/1983,Togo,TGO,,Drought,Drought,,,1980-9114
+00/08/1980,00/00/1980,South Africa,ZAF,Natal,Drought,Drought,,,1980-9125
+00/00/1980,00/00/1983,Spain,ESP,Southern region,Drought,Drought,,,1980-9359
+00/10/1980,00/00/1981,Papua New Guinea,PNG,"Enga, Western highlands, Southern higlands",Drought,Drought,,40000,1980-9363
+00/01/1980,00/07/1980,Philippines (the),PHL,Mindanao,Drought,Drought,,1002100,1980-9364
+11/4/81,11/4/81,Myanmar,MMR,"Taungdwingyi, central Burma",Wildfire,Forest fire,8,48588,1981-0045
+00/01/1981,00/01/1981,Hong Kong,HKG,,Wildfire,Forest fire,,,1981-0195
+00/10/1981,00/10/1981,Hong Kong,HKG,,Wildfire,"Land fire (Brush, Bush, Pastur",,,1981-0198
+9/5/81,9/5/81,China,CHN,Near Beijing,Wildfire,Forest fire,,,1981-0233
+00/00/1981,00/00/1981,Sri Lanka,LKA,,Drought,Drought,,,1981-9005
+00/00/1981,00/00/1981,Madagascar,MDG,"Toliary, Tolagnaro",Drought,Drought,,1000000,1981-9012
+00/00/1981,00/00/1985,Mozambique,MOZ,"South, Central, Maputo, Gaza, Inhambane, Manica, Sofala, Zambezi",Drought,Drought,100000,4750000,1981-9016
+00/00/1981,00/00/1983,Algeria,DZA,,Drought,Drought,,,1981-9118
+00/06/1983,00/00/1985,Nigeria,NGA,"North, central, south",Drought,Drought,,3000000,1981-9120
+00/08/1981,00/00/1981,Comoros (the),COM,Great Comoros Isl.,Drought,Drought,,,1981-9121
+00/00/1981,00/00/1981,Spain,ESP,,Drought,Drought,,,1981-9130
+00/00/1981,00/00/1982,Australia,AUS,"Queensland, New South Wales, Victoria States",Drought,Drought,,80000,1981-9188
+00/00/1981,00/00/1981,Hong Kong,HKG,,Drought,Drought,,,1981-9194
+00/07/1981,00/00/1981,Angola,AGO,"Benguela, Mocamedes, Huila, Cunene, Kuando-Kobango, Bie",Drought,Drought,,80000,1981-9309
+00/04/1982,00/00/1987,Botswana,BWA,Nationwide,Drought,Drought,,1037300,1981-9309
+00/04/1982,00/00/1984,Namibia,NAM,,Drought,Drought,,,1981-9309
+00/03/1982,00/00/1983,South Africa,ZAF,"Countrywide, Transvaal, Orange Free, Natal states",Drought,Drought,,,1981-9309
+00/00/1983,00/00/1983,Swaziland,SWZ,Nationwide,Drought,Drought,500,,1981-9309
+00/01/1982,00/00/1982,Zambia,ZMB,"south, west and central",Drought,Drought,,,1981-9309
+00/10/1982,00/00/1984,Zimbabwe,ZWE,"central, south east and west",Drought,Drought,,,1981-9309
+00/01/1982,00/01/1982,Hong Kong,HKG,"Kwun Tong, Wong Tai Sin, Tsuen Wan, Mong Kok",Wildfire,"Land fire (Brush, Bush, Pastur",,9000,1982-0268
+00/01/1982,00/01/1982,Hong Kong,HKG,,Wildfire,"Land fire (Brush, Bush, Pastur",,,1982-0269
+24/08/1982,24/08/1982,France,FRA,South-East departments,Wildfire,Forest fire,2,18,1982-0304
+00/01/1982,00/12/1982,Indonesia,IDN,"Irian Jaya, East Timor",Drought,Drought,280,,1982-9007
+00/07/1982,00/00/1982,France,FRA,"Corsica, Var",Drought,Drought,,,1982-9303
+00/07/1983,00/00/1983,Bangladesh,BGD,,Drought,Drought,,20000000,1982-9350
+00/06/1982,00/00/1983,India,IND,"districts of Bhiwani, Gurgaon, Hisar, Mahendargarh, and Rohtak, Kerala, Tami Nadu, Rajasthan",Drought,Drought,,100000000,1982-9350
+00/09/1982,00/00/1983,Sri Lanka,LKA,,Drought,Drought,,2000000,1982-9350
+16/02/1983,16/02/1983,Australia,AUS,"South Australia, Victoria",Wildfire,"Land fire (Brush, Bush, Pastur",75,11000,1983-0045
+25/07/1983,25/07/1983,Italy,ITA,"Sardinia, Calabria",Wildfire,Forest fire,7,20,1983-0099
+00/09/1983,00/09/1983,Samoa,WSM,Northwest Savaii Isl.,Wildfire,Forest fire,,1000,1983-0113
+00/08/1983,00/08/1983,France,FRA,,Wildfire,Forest fire,12,,1983-0208
+00/10/1983,00/10/1983,Hong Kong,HKG,,Wildfire,"Land fire (Brush, Bush, Pastur",,,1983-0310
+25/07/1983,25/07/1983,Germany Fed Rep,DFR,Basse-Saxe,Wildfire,Forest fire,,,1983-0350
+22/07/1983,22/07/1983,Greece,GRC,North,Wildfire,Forest fire,12,,1983-0357
+3/11/83,3/11/83,Israel,ISR,Jerusalem,Wildfire,Forest fire,,,1983-0365
+3/8/83,3/8/83,Poland,POL,,Wildfire,Forest fire,,,1983-0377
+24/09/1983,24/09/1983,Portugal,PRT,Central region,Wildfire,Forest fire,,,1983-0379
+25/07/1983,25/07/1983,Yugoslavia,YUG,"Pelijesac, Dubrovnik",Wildfire,Forest fire,,,1983-0409
+00/00/1983,00/00/1983,Philippines (the),PHL,Misamis Oriental,Drought,Drought,,1691060,1983-9016
+00/00/1983,00/00/1983,Fiji,FJI,Western division,Drought,Drought,,31000,1983-9018
+00/01/1983,00/08/1983,China,CHN,Tibet,Drought,Drought,,,1983-9019
+00/02/1983,00/11/1984,Central African Republic,CAF,all coutry,Drought,Drought,,,1983-9060
+00/00/1984,00/00/1984,Congo (the Democratic Republic of the),COD,"Haut Zaire, Kivu province",Drought,Drought,,300000,1983-9060
+00/02/1983,00/00/1983,Congo (the),COG,Northern area,Drought,Drought,,,1983-9060
+00/00/1983,00/00/1984,Djibouti,DJI,,Drought,Drought,,80000,1983-9060
+00/05/1983,00/00/1984,Ethiopia,ETH,"Wollo, Gondar, Goe, Eritrea, Tigrai, Shoa, Harerge, Sidamo",Drought,Drought,300000,7750000,1983-9060
+00/00/1984,00/00/1984,Kenya,KEN,,Drought,Drought,,600000,1983-9060
+00/06/1983,00/00/1983,Somalia,SOM,North-West area,Drought,Drought,,,1983-9060
+00/04/1983,00/00/1985,Sudan (the),SDN,"Northern Regions, Maban, Upper Nile Province (south east), Countrywide",Drought,Drought,150000,8400000,1983-9060
+00/02/1983,00/00/1984,Lesotho,LSO,,Drought,Drought,,500000,1983-9182
+00/02/1983,00/00/1983,Morocco,MAR,,Drought,Drought,,,1983-9186
+00/01/1983,00/00/1983,Zambia,ZMB,"south, west, central",Drought,Drought,,,1983-9200
+00/00/1983,00/00/1985,Sao Tome and Principe,STP,Countrywide,Drought,Drought,,93000,1983-9211
+00/10/1983,00/12/1983,Hong Kong,HKG,,Drought,Drought,,,1983-9308
+00/05/1983,00/00/1983,Bulgaria,BGR,,Drought,Drought,,,1983-9338
+00/04/1983,00/00/1983,Portugal,PRT,Beja region,Drought,Drought,,,1983-9378
+00/05/1983,00/00/1983,Romania,ROU,,Drought,Drought,,,1983-9381
+00/00/1984,00/00/1984,Benin,BEN,North,Wildfire,"Land fire (Brush, Bush, Pastur",,,1984-0004
+00/05/1984,00/05/1984,India,IND,Jammu region,Wildfire,Forest fire,,,1984-0044
+25/04/1984,25/04/1984,France,FRA,"Northwest, Southern",Wildfire,Forest fire,,,1984-0254
+12/7/84,12/7/84,France,FRA,Southern,Wildfire,Forest fire,,,1984-0256
+22/07/1984,22/07/1984,Greece,GRC,"North region, Thassos Isl.",Wildfire,Forest fire,,,1984-0265
+13/08/1984,13/08/1984,Greece,GRC,Ayios Apostolos (Varvona region),Wildfire,"Land fire (Brush, Bush, Pastur",,200,1984-0266
+10/8/84,10/8/84,Spain,ESP,"Fires In La Gomera, Canary Island",Wildfire,Forest fire,17,,1984-0278
+00/00/1984,00/00/1984,"Tanzania, United Republic of",TZA,,Drought,Drought,,1900000,1984-9012
+00/00/1984,00/00/1984,Indonesia,IDN,"Kyrim, Irian Jaya",Drought,Drought,230,2000,1984-9013
+00/02/1984,00/00/1984,Morocco,MAR,South,Drought,Drought,,,1984-9145
+00/10/1984,00/00/1984,Rwanda,RWA,,Drought,Drought,,420000,1984-9151
+00/01/1984,00/00/1984,Swaziland,SWZ,,Drought,Drought,,,1984-9159
+00/01/1985,00/01/1985,Australia,AUS,Southeastern,Wildfire,"Land fire (Brush, Bush, Pastur",5,100,1985-0004
+25/02/1985,25/02/1985,Ghana,GHA,Central,Wildfire,"Land fire (Brush, Bush, Pastur",4,1500,1985-0033
+00/08/1985,00/08/1985,France,FRA,"South, Corsica",Wildfire,Forest fire,6,130,1985-0087
+6/8/85,6/8/85,Spain,ESP,"Near Castellon De La Plana, Avila, Guadalajara, Madrid provinces",Wildfire,"Land fire (Brush, Bush, Pastur",,300,1985-0096
+13/12/1985,13/12/1985,Hong Kong,HKG,,Wildfire,"Land fire (Brush, Bush, Pastur",,,1985-0224
+16/07/1985,16/07/1985,Greece,GRC,"Hydra, Evvia",Wildfire,Forest fire,3,,1985-0256
+9/9/85,9/9/85,Portugal,PRT,Lamego region,Wildfire,Forest fire,14,,1985-0267
+12/9/85,12/9/85,Spain,ESP,"Galicia, Andalusia",Wildfire,Forest fire,,,1985-0271
+6/9/85,6/9/85,Turkey,TUR,Kusadasi,Wildfire,Forest fire,13,,1985-0278
+6/8/85,6/8/85,Yugoslavia,YUG,Korcala Isl.,Wildfire,Forest fire,,,1985-0295
+00/02/1985,00/02/1985,Australia,AUS,New South Wales,Wildfire,"Land fire (Brush, Bush, Pastur",6,,1985-0331
+00/00/1985,00/00/1986,China,CHN,Fujian province,Drought,Drought,,,1985-9211
+00/00/1985,00/00/1985,Angola,AGO,,Drought,Drought,,500000,1985-9400
+00/04/1986,00/04/1986,Mongolia,MNG,"East Gobi, Khentei Aimaks",Wildfire,"Land fire (Brush, Bush, Pastur",,,1986-0045
+15/06/1986,15/06/1986,Portugal,PRT,Coimbra region (Central Portugal),Wildfire,Forest fire,15,50,1986-0071
+24/07/1986,24/07/1986,France,FRA,"Languedoc, Roussillon, Provence, Cote d'Azur",Wildfire,Forest fire,5,2000,1986-0083
+00/01/1986,00/01/1986,Hong Kong,HKG,Shing Mun Country Park,Wildfire,"Land fire (Brush, Bush, Pastur",,3,1986-0196
+00/05/1986,00/00/1986,South Africa,ZAF,"Lebowa, Venda (Eastern Transvaal)",Drought,Drought,,850000,1986-9024
+00/00/1986,00/00/1986,Indonesia,IDN,Kurima (Irian Jaya),Drought,Drought,84,1000,1986-9128
+00/06/1986,00/09/1986,Hungary,HUN,Entire country,Drought,Drought,,,1986-9405
+00/05/1987,00/05/1987,Soviet Union,SUN,Eastern Siberia,Wildfire,Forest fire,,,1987-0090
+00/05/1987,00/05/1987,China,CHN,Mohe county (Heilongjiang province),Wildfire,Forest fire,191,56313,1987-0095
+9/8/87,9/8/87,Greece,GRC,Rhodes,Wildfire,Forest fire,,,1987-0145
+20/12/1987,20/12/1987,Hong Kong,HKG,Tai Mo Shan Country Park,Wildfire,"Land fire (Brush, Bush, Pastur",,,1987-0294
+19/03/1987,19/03/1987,New Zealand,NZL,Thames Valley,Wildfire,"Land fire (Brush, Bush, Pastur",,130,1987-0568
+00/06/1987,00/00/1987,Ethiopia,ETH,"Ogaden, Eritrea, Tigray, Wello, Shewa, Gama, Gofa, Sidamo, Gondar, Bale",Drought,Drought,367,7000000,1987-9014
+00/04/1987,00/00/1987,Somalia,SOM,"Togdheer, Sol, Sannag, Bari, Nugall, Mudug, Galguduud, Hiraan, Bakool, Shabeellaha, Gedo",Drought,Drought,600,500000,1987-9014
+00/05/1987,00/08/1987,India,IND,"Gujarat, Rajasthan, Orissa, Madhya Pradesh, Andhra Pradesh, Maharashtra",Drought,Drought,300,300000000,1987-9024
+00/00/1987,00/00/1987,Sri Lanka,LKA,"North, Northeast",Drought,Drought,,2200000,1987-9025
+00/00/1987,00/00/1987,Cambodia,KHM,,Drought,Drought,,,1987-9026
+00/00/1987,00/00/1987,Indonesia,IDN,"Java, Bali, Nusa Tenggara Timor, S. Sumtra, E. Kalimatan",Drought,Drought,,,1987-9027
+00/00/1987,00/00/1987,Lao People's Democratic Republic (the),LAO,Northern provinces,Drought,Drought,,,1987-9028
+00/00/1987,00/00/1987,Viet Nam,VNM,Northern Provinces,Drought,Drought,,,1987-9029
+00/00/1987,00/00/1987,Philippines (the),PHL,,Drought,Drought,,1002100,1987-9030
+00/12/1987,00/00/1988,Uganda,UGA,"Karamoja, Northwestern",Drought,Drought,,600000,1987-9031
+00/00/1987,00/00/1988,Malawi,MWI,South,Drought,Drought,,1429267,1987-9033
+00/09/1987,00/00/1987,Mozambique,MOZ,Inhambane province,Drought,Drought,50,8000,1987-9154
+00/10/1987,00/00/1987,Sudan (the),SDN,"Kordofan, Darfur",Drought,Drought,,3450000,1987-9174
+00/00/1988,00/00/1988,Niger (the),NER,"Niamey, Maradi, Zinder, Diffa departments",Drought,Drought,,1000000,1988-9003
+00/00/1988,00/00/1988,Tunisia,TUN,,Drought,Drought,,,1988-9006
+00/03/1988,00/00/1988,Djibouti,DJI,,Drought,Drought,,30000,1988-9008
+00/00/1988,00/00/1988,Somalia,SOM,"Awdal, Gedo regions",Drought,Drought,,53500,1988-9008
+00/00/1988,00/00/1988,Burkina Faso,BFA,North,Drought,Drought,,200000,1988-9009
+00/04/1988,00/00/1992,Madagascar,MDG,South regions,Drought,Drought,200,950000,1988-9013
+00/08/1988,00/00/1989,Sri Lanka,LKA,North and East,Drought,Drought,,806000,1988-9036
+00/06/1988,00/00/1988,China,CHN,"Hubei,Jiangsu, Henan, Anhui, Shandong, Zhejiang provinces",Drought,Drought,1400,49000000,1988-9237
+00/00/1988,00/00/1988,"Tanzania, United Republic of",TZA,Lindi region,Drought,Drought,,110000,1988-9408
+00/12/1988,00/00/1988,Lao People's Democratic Republic (the),LAO,Southern provinces,Drought,Drought,,730000,1988-9522
+00/10/1988,00/00/1988,South Africa,ZAF,Homelands,Drought,Drought,,1320000,1988-9620
+29/11/1989,29/11/1989,Hong Kong,HKG,Hong Kong,Wildfire,"Land fire (Brush, Bush, Pastur",,,1989-0296
+00/04/1989,00/00/1989,Bangladesh,BGD,Northwest,Drought,Drought,,5000000,1989-9040
+00/01/1989,00/00/1992,Angola,AGO,"Huila, Namibe, Kwanza Sul, Benguela",Drought,Drought,,1900000,1989-9145
+00/10/1989,00/00/1994,Ethiopia,ETH,"Northern Ethiopia, Eritrea, Tigray, Wollo, Gondar, Harerge",Drought,Drought,,6500000,1989-9230
+00/12/1989,00/00/1989,Rwanda,RWA,"South, West of Kigali",Drought,Drought,237,60000,1989-9241
+00/01/1989,00/00/1989,Togo,TGO,"Tone, Oti prectures",Drought,Drought,,400000,1989-9276
+00/00/1989,00/00/1991,Albania,ALB,,Drought,Drought,,3200000,1989-9335
+00/07/1989,00/08/1989,France,FRA,Corse,Drought,Drought,,,1989-9595
+3/1/90,3/1/90,Australia,AUS,"South New South Wales, North Victoria",Wildfire,"Land fire (Brush, Bush, Pastur",,,1990-0269
+00/03/1990,00/07/1990,Italy,ITA,"Peimont, Lombardie",Wildfire,Forest fire,,,1990-0344
+00/04/1990,00/04/1990,Italy,ITA,,Wildfire,Forest fire,,,1990-0391
+00/05/1990,00/05/1990,Mongolia,MNG,"Dornod (East), Selenge, Bulgan (North)",Wildfire,Forest fire,,,1990-0615
+00/09/1990,00/00/1995,Spain,ESP,"Andalucía, Extremadura, Castilla la Mancha (Southern)",Drought,Drought,,6000000,1990-9025
+00/00/1990,00/00/1990,Sudan (the),SDN,Bar El Ghazal Province,Drought,Drought,,600000,1990-9289
+00/12/1990,00/00/1990,Burkina Faso,BFA,North and Central provinces,Drought,Drought,,2600000,1990-9578
+00/00/1990,00/00/1991,Cameroon,CMR,North provinces,Drought,Drought,,186900,1990-9579
+00/03/1990,00/03/1990,Greece,GRC,,Drought,Drought,,,1990-9595
+00/00/1990,00/00/1991,Niger (the),NER,Countrywide,Drought,Drought,,1630000,1990-9597
+00/00/1992,00/00/1992,Botswana,BWA,,Drought,Drought,,100000,1990-9604
+00/06/1992,00/00/1994,Lesotho,LSO,,Drought,Drought,,331500,1990-9604
+00/02/1990,00/00/1990,Malawi,MWI,,Drought,Drought,,2800000,1990-9604
+00/03/1991,00/03/1992,Mozambique,MOZ,Center,Drought,Drought,,3300000,1990-9604
+00/00/1991,00/03/1992,Namibia,NAM,"Kavango, Ovambo regions (North)",Drought,Drought,,250000,1990-9604
+00/00/1991,00/03/1992,South Africa,ZAF,"Northern and eastern Transvaal, central and northern Natal, eastern and northern Cape Region, Homeland area",Drought,Drought,,,1990-9604
+00/11/1990,00/00/1995,Swaziland,SWZ,Southeast,Drought,Drought,,250000,1990-9604
+00/00/1991,00/00/1992,"Tanzania, United Republic of",TZA,Central and Northern regions,Drought,Drought,,800000,1990-9604
+00/00/1991,00/00/1992,Zambia,ZMB,,Drought,Drought,,1700000,1990-9604
+00/04/1991,00/00/1995,Zimbabwe,ZWE,,Drought,Drought,,5000000,1990-9604
+00/12/1990,00/07/1992,Philippines (the),PHL,"Regions VI, IX, X, XI and XII",Drought,Drought,,254282,1990-9707
+00/07/1990,00/08/1990,Yugoslavia,YUG,Central,Drought,Drought,,,1990-9717
+7/9/91,7/9/91,South Africa,ZAF,"Transkei, Transvaal, Free State, Natal",Wildfire,Forest fire,5,,1991-0047
+6/8/91,6/8/91,Spain,ESP,Valence,Wildfire,"Land fire (Brush, Bush, Pastur",,,1991-0295
+1/8/91,27/10/1991,Indonesia,IDN,"Borneo, Sumatra Isl., Kalimatan, java, Sulawesi",Wildfire,Forest fire,57,8,1991-0418
+00/00/1991,00/00/1991,Portugal,PRT,,Wildfire,Forest fire,,,1991-0723
+00/03/1991,00/00/1991,Cyprus,CYP,,Drought,Drought,,,1991-9050
+00/03/1991,00/00/1991,Thailand,THA,,Drought,Drought,,2500000,1991-9078
+00/07/1991,00/00/1993,Lao People's Democratic Republic (the),LAO,Whole country,Drought,Drought,,,1991-9195
+00/00/1991,00/00/1992,Kenya,KEN,Northeastern regions,Drought,Drought,,2700000,1991-9224
+00/02/1991,00/08/1991,China,CHN,"Jiangxi, Hunan provinces",Drought,Drought,2000,5000000,1991-9305
+00/07/1991,00/00/1991,France,FRA,"Limousin, Poitou-Charente, Aquitaine, Midi Pyrenees, Normandie",Drought,Drought,,,1991-9316
+00/03/1991,00/00/1991,Mali,MLI,,Drought,Drought,,302000,1991-9346
+00/10/1991,00/00/1992,Sudan (the),SDN,"West, Central, Eastern, Northern and South regions",Drought,Drought,,8600000,1991-9686
+00/00/1991,00/00/1991,Australia,AUS,"Western, South",Drought,Drought,,,1991-9697
+00/03/1992,00/03/1992,Nepal,NPL,Terai,Wildfire,Forest fire,56,50000,1992-0138
+1/7/92,18/08/1992,Poland,POL,"Gdansk, Szczecin, Bydgoszcz, Katowice, Liegnit",Wildfire,Forest fire,35,,1992-0218
+7/7/92,7/7/92,Russian Federation (the),RUS,,Wildfire,Forest fire,31,,1992-0281
+00/00/1992,00/00/1993,China,CHN,Hunnan provinces,Drought,Drought,,,1992-9090
+00/05/1992,00/00/1992,China,CHN,North and Central,Drought,Drought,,12000000,1992-9128
+00/05/1992,00/08/1992,Hungary,HUN,Entire country,Drought,Drought,,,1992-9195
+00/05/1992,00/07/1992,Denmark,DNK,,Drought,Drought,,,1992-9200
+00/06/1992,00/07/1992,Lithuania,LTU,,Drought,Drought,,,1992-9205
+00/04/1992,00/00/1995,Malawi,MWI,"Dedza, Dowa, Mzimba, Nkhotakota, Ntcheu, Salima districts",Drought,Drought,,7000000,1992-9231
+00/00/1992,00/00/1992,Cabo Verde,CPV,,Drought,Drought,,,1992-9248
+00/12/1992,00/12/1995,Australia,AUS,Queensland,Drought,Drought,,7000000,1992-9543
+00/01/1994,00/08/1994,New Zealand,NZL,,Drought,Drought,,,1992-9543
+00/03/1993,00/10/1993,India,IND,"Bihar, Orissa, Andhra Pradesh, Maharashtra, Gujarat, Madhya Prasdesh, Uttar Pradesh, Karnataka",Drought,Drought,,1175000,1993-9472
+00/12/1993,00/00/1993,Chad,TCD,,Drought,Drought,,300000,1993-9501
+00/12/1993,00/00/1993,Macedonia (the former Yugoslav Republic of),MKD,,Drought,Drought,,10000,1993-9509
+00/00/1993,00/00/1993,Mauritania,MRT,"E.Trarza, N. Brakna, Gorgol, N.W. Assaba, Tagnat",Drought,Drought,,446507,1993-9511
+00/00/1993,00/00/1993,Russian Federation (the),RUS,,Drought,Drought,,,1993-9521
+00/00/1993,00/00/1993,Thailand,THA,"North, Central",Drought,Drought,,,1993-9522
+00/11/1993,00/00/1993,Eritrea,ERI,,Drought,Drought,,1600000,1993-9573
+6/1/94,6/1/94,Australia,AUS,Nouvelle Galle du Sud,Wildfire,"Land fire (Brush, Bush, Pastur",4,26020,1994-0001
+6/6/94,6/6/94,Spain,ESP,Palma de Mallorca,Wildfire,Forest fire,,1500,1994-0139
+4/7/94,4/7/94,Spain,ESP,Teruel,Wildfire,Forest fire,20,15020,1994-0155
+18/08/1994,18/08/1994,Italy,ITA,Sicily,Wildfire,Forest fire,1,300,1994-0197
+20/09/1994,20/09/1994,Australia,AUS,New South Wales & Queenland,Wildfire,"Land fire (Brush, Bush, Pastur",,20141,1994-0210
+00/08/1994,00/08/1994,Algeria,DZA,,Wildfire,Forest fire,22,,1994-0306
+00/10/1994,00/10/1994,Indonesia,IDN,,Wildfire,Forest fire,,3000000,1994-0359
+00/01/1994,00/12/1994,China,CHN,"Xuwen, Leizhou, Yangjiang, Maoming, Suixi, Hanwei, Chaozhou, Meizhou, Jieyang (Guangdong province)",Drought,Drought,,82000000,1994-9096
+00/03/1994,00/00/1995,China,CHN,"Anhui, Jiangsu, Sichuan Provinces",Drought,Drought,,6690000,1994-9186
+00/06/1994,00/00/1996,Cambodia,KHM,"Prey Veng, Kompong Speu, Kompong Chhnang, Takeo provinces",Drought,Drought,,5000000,1994-9223
+00/03/1994,00/00/1995,Kenya,KEN,Northern & northeastern districts,Drought,Drought,,1200000,1994-9422
+2/7/95,2/7/95,Israel,ISR,Jerusalem area,Wildfire,Forest fire,,240,1995-0145
+22/07/1995,22/07/1995,Greece,GRC,Mount Penteli (Athens),Wildfire,Forest fire,,2014,1995-0159
+6/4/95,6/4/95,China,CHN,Hongqing,Wildfire,Forest fire,29,,1995-0321
+3/5/95,3/5/95,Malaysia,MYS,Palau Gaya (Borneo),Wildfire,Forest fire,,3000,1995-0370
+00/01/1995,00/01/1995,Central African Republic,CAF,,Wildfire,Forest fire,,85,1995-0469
+00/12/1995,00/00/1996,Burkina Faso,BFA,"Bam, Kadigo, Outbritenga, Oudalan, Sanmatenga, Seno, Soum, Yatenga provinces",Drought,Drought,,75590,1995-9026
+00/01/1995,00/08/1995,China,CHN,Nord-East provinces,Drought,Drought,,9060000,1995-9138
+00/08/1995,00/00/1995,Zambia,ZMB,"Southern, Western, Central & Eastern Lusaka Provinces",Drought,Drought,,1273204,1995-9268
+00/00/1995,00/00/1996,Namibia,NAM,,Drought,Drought,,163200,1995-9269
+00/12/1995,00/00/1995,South Africa,ZAF,Nebo District (Northern provinces),Drought,Drought,,300000,1995-9436
+8/4/96,9/5/96,Mongolia,MNG,"Huvsgul, Bulgan, Arkhangai, Khentii, Tuv, Dornod, Uvs",Wildfire,Forest fire,25,5061,1996-0074
+00/05/1996,00/05/1996,Russian Federation (the),RUS,Irkoutz (Siberia),Wildfire,Forest fire,19,600,1996-0100
+31/07/1996,31/07/1996,Turkey,TUR,Near Marmaris,Wildfire,Forest fire,,500,1996-0175
+00/12/1996,00/00/1997,Rwanda,RWA,Ginkongoro,Drought,Drought,,82000,1996-9089
+00/02/1996,00/00/1996,Djibouti,DJI,"Gouvetto, Kabah-Kabah, Assamo, Guestir, Ali-Addeh, Hol-Hol (Ali-Sabieh dist.), Yokobi, Asseyla (Dikhil dist.), Makrassoul, Dorba, Assa-Guela, Dabnou, Adgueno, Assal, Neima, Debne-Auri, Bahlo (Tadjourah dist.), Adguenou (Obock dist.), Damerjob, Artawea",Drought,Drought,,100000,1996-9119
+00/12/1996,00/00/1996,Sudan (the),SDN,Beja (Red Sea state),Drought,Drought,,160000,1996-9220
+00/01/1997,00/00/1998,Kenya,KEN,"Garissa, Isiolo, Wajir, Mandera, Turkana, Baringo, Kifili, Meru, Makueni, Marsabit/moyale, Tana river, Kitui, Mwingi, Mbere, Tharaka Nithi, Nyambene, Machakos, Taita Taveta, Muranga/Makuyu/Maragwa, Kajiado, Kilifi districts",Drought,Drought,,1600000,1996-9326
+00/00/1996,00/00/2000,"Tanzania, United Republic of",TZA,"Lake Victoria, North East, Coastal Region",Drought,Drought,,3000000,1996-9326
+00/03/1996,00/04/1996,India,IND,Rajasthan,Drought,Drought,,,1996-9328
+9/5/97,9/5/97,Russian Federation (the),RUS,Irkutsk & Chita Region,Wildfire,Forest fire,,,1997-0113
+29/07/1997,29/07/1997,Croatia,HRV,Hvar Is.,Wildfire,Forest fire,,,1997-0157
+26/07/1997,26/07/1997,France,FRA,Near Marseille,Wildfire,Forest fire,,1259,1997-0159
+14/07/1997,14/07/1997,Russian Federation (the),RUS,"Altay Territory, Siberia",Wildfire,Forest fire,14,,1997-0194
+17/08/1997,17/08/1997,Kazakhstan,KAZ,"Kokpektynsky, Ulansky, Ziryanovsky, Kurchumsky, Zaisansky & Katon-Karagaisky",Wildfire,Forest fire,,8000,1997-0206
+00/09/1997,00/09/1997,Indonesia,IDN,Sumatra & Kalimantan,Wildfire,Forest fire,240,32070,1997-0220
+21/08/1997,20/11/1997,Malaysia,MYS,,Wildfire,Forest fire,,,1997-0220
+7/10/97,7/10/97,Australia,AUS,North West,Wildfire,"Land fire (Brush, Bush, Pastur",,,1997-0246
+2/10/97,2/10/97,"Tanzania, United Republic of",TZA,Mount Kilimanjaro,Wildfire,"Land fire (Brush, Bush, Pastur",,,1997-0262
+23/09/1997,23/09/1997,Papua New Guinea,PNG,,Wildfire,"Land fire (Brush, Bush, Pastur",,8000,1997-0264
+28/11/1997,28/11/1997,Australia,AUS,"From Tare To Bega, Coonabaraban",Wildfire,"Land fire (Brush, Bush, Pastur",2,,1997-0285
+00/00/1997,00/00/1997,Chad,TCD,,Drought,Drought,,356000,1997-9043
+00/02/1997,00/00/1997,Ethiopia,ETH,"Borena, Bale (Oromiya state) South Ome zone, Somali state",Drought,Drought,,986200,1997-9091
+00/04/1997,00/00/1998,Niger (the),NER,,Drought,Drought,,8500,1997-9099
+00/03/1997,00/00/1998,Mauritania,MRT,"Brakna, Tagant, Assaba, Adrar and Inchiri regions",Drought,Drought,,21400,1997-9100
+00/04/1997,00/00/1997,France,FRA,,Drought,Drought,,,1997-9105
+00/04/1997,00/00/1997,Italy,ITA,,Drought,Drought,,,1997-9105
+00/04/1997,00/00/1997,Portugal,PRT,,Drought,Drought,,,1997-9105
+00/03/1997,00/00/1998,Angola,AGO,,Drought,Drought,,105000,1997-9239
+00/09/1997,00/11/1997,Indonesia,IDN,Irian Jaya Province,Drought,Drought,672,1065000,1997-9244
+00/09/1997,00/00/1998,Papua New Guinea,PNG,"Milne Bay, Morobe, Madang, East",Drought,Drought,60,500000,1997-9263
+00/11/1997,00/00/1997,Solomon Islands,SLB,"Choiseul, Isabel, Western, Central provinces",Drought,Drought,,,1997-9300
+00/12/1997,00/06/1998,Viet Nam,VNM,"Quang Tri, Quang Binh, Quang Ngai, Quang Nam, Ha Tinh, Nghe An, Binh Dinh, Gia Lai, Kon Tun provinces",Drought,Drought,,3000000,1997-9525
+00/05/1997,00/08/1997,China,CHN,Shandong,Drought,Drought,,,1997-9557
+4/3/98,30/05/1998,Brunei Darussalam,BRN,,Wildfire,Forest fire,,,1998-0057
+00/03/1998,00/04/1998,Indonesia,IDN,Kalimatan Province (Borneo Isl.),Wildfire,Forest fire,3,2000,1998-0057
+4/3/98,30/05/1998,Malaysia,MYS,,Wildfire,Forest fire,,,1998-0057
+16/02/1998,16/02/1998,Guinea-Bissau,GNB,Gabu region,Wildfire,"Land fire (Brush, Bush, Pastur",3,1500,1998-0083
+2/4/98,2/4/98,Philippines (the),PHL,Quezeon & Rizal,Wildfire,Forest fire,2,300,1998-0088
+00/06/1998,00/08/1998,Greece,GRC,"Central, North and South",Wildfire,"Land fire (Brush, Bush, Pastur",14,300,1998-0230
+00/07/1998,00/07/1998,Spain,ESP,Catalonia,Wildfire,Forest fire,,600,1998-0231
+20/07/1998,21/10/1998,Russian Federation (the),RUS,Sakhalin Isl.,Wildfire,Forest fire,3,100683,1998-0300
+21/04/1998,21/04/1998,South Africa,ZAF,Plettenberg Bay,Wildfire,"Land fire (Brush, Bush, Pastur",25,,1998-0442
+19/04/1998,19/04/1998,Sudan (the),SDN,,Wildfire,"Land fire (Brush, Bush, Pastur",47,,1998-0459
+00/12/1998,00/00/1999,Namibia,NAM,,Drought,Drought,,25000,1998-9028
+00/03/1998,00/00/1998,Malaysia,MYS,Sabah,Drought,Drought,,5000,1998-9062
+00/03/1998,00/00/1998,Micronesia (Federated States of),FSM,"Pohnpei, Chuuk, Yap states",Drought,Drought,,28800,1998-9087
+00/04/1998,00/00/1998,Philippines (the),PHL,All country,Drought,Drought,8,2600000,1998-9109
+00/03/1998,00/00/1998,Burkina Faso,BFA,,Drought,Drought,,20700,1998-9153
+00/07/1998,00/00/1998,Russian Federation (the),RUS,Tartarstan,Drought,Drought,,,1998-9197
+00/08/1998,00/00/1998,Solomon Islands,SLB,Basakana Island,Drought,Drought,,380,1998-9223
+00/07/1998,00/00/1998,Ethiopia,ETH,,Drought,Drought,,,1998-9237
+00/01/1998,00/00/1999,Uganda,UGA,,Drought,Drought,,126000,1998-9265
+00/01/1998,00/00/1998,Fiji,FJI,"Viti Levu, Yasawa, Vanua Levu",Drought,Drought,,263455,1998-9324
+00/02/1998,00/02/1998,Guinea,GIN,,Drought,Drought,12,,1998-9330
+00/03/1998,00/00/1998,Cabo Verde,CPV,"Praia (Santiago Isl.), Fogo Isl., San Vicente, San Nicolau and Sal.",Drought,Drought,,10000,1998-9346
+00/11/1998,00/00/1998,Zimbabwe,ZWE,Southern (Matabeleland),Drought,Drought,,55000,1998-9361
+00/04/1998,00/00/1999,Mozambique,MOZ,"Maputo, Gaza, Inhame (south)",Drought,Drought,,,1998-9620
+00/03/1998,00/00/1998,Micronesia (Federated States of),FSM,"Pohnpei, Chuuk, Yap states",Drought,Drought,,28800,1998-9087
+00/04/1998,00/00/1998,Philippines (the),PHL,All country,Drought,Drought,8,2600000,1998-9109
+00/03/1998,00/00/1998,Burkina Faso,BFA,,Drought,Drought,,20700,1998-9153
+00/07/1998,00/00/1998,Russian Federation (the),RUS,Tartarstan,Drought,Drought,,,1998-9197
+00/08/1998,00/00/1998,Solomon Islands,SLB,Basakana Island,Drought,Drought,,380,1998-9223
+00/07/1998,00/00/1998,Ethiopia,ETH,,Drought,Drought,,,1998-9237
+00/01/1998,00/00/1999,Uganda,UGA,,Drought,Drought,,126000,1998-9265
+00/01/1998,00/00/1998,Fiji,FJI,"Viti Levu, Yasawa, Vanua Levu",Drought,Drought,,263455,1998-9324
+00/02/1998,00/02/1998,Guinea,GIN,,Drought,Drought,12,,1998-9330
+00/03/1998,00/00/1998,Cabo Verde,CPV,"Praia (Santiago Isl.), Fogo Isl., San Vicente, San Nicolau and Sal.",Drought,Drought,,10000,1998-9346
+00/11/1998,00/00/1998,Zimbabwe,ZWE,Southern (Matabeleland),Drought,Drought,,55000,1998-9361
+00/04/1998,00/00/1999,Mozambique,MOZ,"Maputo, Gaza, Inhame (south)",Drought,Drought,,,1998-9620
+00/00/1998,00/00/2001,Iraq,IRQ,,Drought,Drought,,,1998-9670
+00/01/1999,00/01/1999,Australia,AUS,"Victoria, South Australia",Wildfire,"Land fire (Brush, Bush, Pastur",1,2000,1999-0001
+3/4/99,3/4/99,China,CHN,"Fenyang, Wenshui (Shanxi Province)",Wildfire,Forest fire,23,,1999-0103
+00/01/1999,00/01/1999,Bhutan,BTN,,Wildfire,Forest fire,,,1999-0117
+00/04/1999,00/04/1999,India,IND,"Garhwal & Kumaon (districts of Nainital, Almora and Pithoragarh) Level 1 = Uttar Pradesh",Wildfire,Forest fire,6,,1999-0121
+00/04/1999,00/04/1999,Russian Federation (the),RUS,"Vladivostok, Kharbarovsk, Birobijan",Wildfire,Forest fire,,,1999-0128
+00/03/1999,00/03/1999,Nepal,NPL,,Wildfire,Forest fire,32,4000,1999-0156
+12/6/99,12/6/99,Afghanistan,AFG,"Badil, Sholake, Hadwal, Dara Pech (settlements) - Kunar Province",Wildfire,Forest fire,,,1999-0195
+00/07/1999,00/07/1999,Russian Federation (the),RUS,"Central, North-Western Siberian And Far-Eastern Regions Of Russian Federation",Wildfire,Forest fire,,,1999-0274
+00/06/1999,00/06/1999,Indonesia,IDN,"Sumatra, Kalimantan",Wildfire,Forest fire,,,1999-0342
+1/8/99,1/8/99,South Africa,ZAF,Cap Oriental,Wildfire,"Land fire (Brush, Bush, Pastur",4,3005,1999-0605
+00/07/1999,00/07/1999,Italy,ITA,"Sardaigne, Calabre, Ligurie",Wildfire,Forest fire,,,1999-0640
+22/07/1999,22/07/1999,France,FRA,Alpilles,Wildfire,Forest fire,,6,1999-0642
+00/01/1999,00/00/1999,Lao People's Democratic Republic (the),LAO,,Drought,Drought,,20000,1999-9037
+00/01/1999,00/00/1999,Thailand,THA,,Drought,Drought,,6000000,1999-9037
+00/03/1999,00/00/1999,China,CHN,North Region,Drought,Drought,,19000000,1999-9079
+00/01/1999,00/00/1999,Viet Nam,VNM,Central - North regions,Drought,Drought,,1400000,1999-9084
+00/03/1999,00/00/1999,Kiribati,KIR,"South Tarawa, Ocean Island",Drought,Drought,,84000,1999-9086
+00/04/1999,00/00/2001,Iran (Islamic Republic of),IRN,"Fars, Buchehr, Yazd, Kerman, Sistan-Baluchestan, Kohkiluyeh Boyer-Ahmad, Hormuzgan, Khuzestan provinces",Drought,Drought,,37000000,1999-9122
+00/11/1999,00/00/2003,Pakistan,PAK,"Thar, Kohistan, Kachoo (Sindh province), Lasbela, Kharan, Chaghi, Loralai,Zhob, Khuzdar, Kalat, Killa Saifullah, Pshin districts (Baluchistan Province)",Drought,Drought,143,2200000,1999-9122
+00/04/1999,00/00/1999,Spain,ESP,"Andalousie, Estrémadure, Castille (centre), Levant (Murcie, Valence, Catalogne, Aragon",Drought,Drought,,,1999-9149
+00/04/1999,00/00/1999,Israel,ISR,,Drought,Drought,,,1999-9153
+00/07/1999,00/00/1999,Jordan,JOR,,Drought,Drought,,180000,1999-9153
+00/05/1999,00/00/2000,Syrian Arab Republic,SYR,,Drought,Drought,,329000,1999-9153
+00/06/1999,00/00/2001,Morocco,MAR,Tiznit,Drought,Drought,,275000,1999-9212
+00/10/1999,00/00/2001,Burundi,BDI,"Bugabira, Busoni, Kirundo, Ntega districts (Kirundo province), Gihanga district (Bubanza province), Rumonge district (Bururi province), Buganda, Rugombo districts (Cibitoke province), Gitega, Ruyigi, Karuzi, Rutana, Makamba, Muyinga, Cankuzo provinces",Drought,Drought,6,650000,1999-9388
+00/06/2001,00/00/2001,Djibouti,DJI,"Ali Sabieh, Dikhil, Djibouti, Obock, Tadjourah provinces",Drought,Drought,,100000,1999-9388
+00/10/1999,00/00/2003,Eritrea,ERI,"Anseba, Debubawi Keih Bahri, Semenawi Keih Bahri provinces",Drought,Drought,,2300000,1999-9388
+00/09/1999,00/12/2000,Ethiopia,ETH,"North Wollo, South Wollo, Oromia, Wag Himra districts (Amhara province), Southern district (Tigray province), Beneshangul Gumu, Gambela, Oromia, SNNPR, Somali provinces",Drought,Drought,,4900000,1999-9388
+00/12/1999,00/00/2002,Kenya,KEN,"Nyandarua, Nyeri districts (Central province), Kilifi, Kwale, Lamu, Taita Taveta, Tana River districts (Coast province), Isiolo, Kitui, Machakos, Makueni, Marsabit, Mbeere, Moyale, Mwingi, Tharaka districts (Eastern province), Garissa, Mandera, Wajir districts (North Eastern province), Baringo, Kajiado, Keiyo, Laikipia, Marakwet, Samburu, Trans Mara, Turkana, West Pokot districts (Rift Valley province)",Drought,Drought,85,23000000,1999-9388
+00/11/1999,00/00/2000,Rwanda,RWA,"Umutura village (Rubavu district, West/Iburengerazuba province), Kibungo village (Ngoma district, East/Iburasirazuba province), Gitamara village (Muhanga district, South/Amajyepfo province), Butare village (Huye district, South/Amajyepfo province), Gikongoro village (Nyamagabe district, South/Amajyepfo province), Kigali City/Umujyi wa Kigali province",Drought,Drought,,894545,1999-9388
+00/01/2000,00/00/2001,Somalia,SOM,"Ceel Barde, Rab Dhuure, Tayeeglow, Xudur districts (Bakool province), Garbahaarey, Baardheere districts (Gedo province), Bay, Hiraan provinces",Drought,Drought,21,1200000,1999-9388
+3/6/16,3/6/16,South Sudan,SSD,"Eastern Equatoria, Jonglei, Northern Bahr El Ghazal, Western Bahr El Ghazal provinces",Drought,Drought,,,1999-9388
+00/01/2000,00/00/2001,Sudan (the),SDN,"Northern Darfur, Northern Kordofan, Red Sea provinces",Drought,Drought,,2000000,1999-9388
+00/08/1999,00/00/2001,Uganda,UGA,"Abim, Amudat, Kaabong, Kotido, Moroto, Nakapiripirit, Napak provinces",Drought,Drought,115,700000,1999-9388
+00/01/1999,00/04/1999,Mauritius,MUS,Nationwide,Drought,Drought,,,1999-9629
+15/01/2000,19/01/2000,South Africa,ZAF,"City of Capta Town Metropolitan Municipality (Western Cape province, Cape Town region)",Wildfire,"Land fire (Brush, Bush, Pastur",,1250,2000-0017
+00/02/2000,00/02/2000,Ethiopia,ETH,"Bale, Borena districts (Oromia province) Wondo genet city (Sidama district, SNNPR province)",Wildfire,Forest fire,,5,2000-0104
+00/02/2000,00/02/2000,Indonesia,IDN,"Riau province (Sumatra Isl.), Kalimatan Barat, Kalimatan Tengah provinces (Borneo Isl.)",Wildfire,Forest fire,,,2000-0117
+5/4/00,5/4/00,Turkey,TUR,"Bursa, Canakkale, Balikesir provinces",Wildfire,Forest fire,,350,2000-0188
+6/4/00,6/4/00,Korea (the Republic of),KOR,"Kangnung, Tonghae, Samchok cities (Kang-won-do province)",Wildfire,Forest fire,2,855,2000-0194
+00/07/2000,00/07/2000,Russian Federation (the),RUS,Koryakskiy Okrug province,Wildfire,Forest fire,,,2000-0218
+00/05/2000,00/05/2000,Russian Federation (the),RUS,"Buryatiya Rep., Irkutskaya Oblast, Chitinskaya Oblast, Aginskiy Buryatskiy A. Okrug provinces",Wildfire,Forest fire,,,2000-0231
+00/07/2000,00/07/2000,Russian Federation (the),RUS,"Komi Rep., Arkhangelskaya Oblast provinces",Wildfire,Forest fire,,,2000-0295
+13/06/2000,13/06/2000,Cyprus,CYP,Larnaca province,Wildfire,Forest fire,,,2000-0329
+1/7/00,1/7/00,Bulgaria,BGR,"Haskovo, Jambol, Burgas, Stara Zagora, Plovdiv provinces",Wildfire,Forest fire,7,167,2000-0407
+00/07/2000,00/07/2000,Greece,GRC,"Samos island (Samou district, Voreio Aigaio province), Agioi Theodoroi, Kiato, Korinthias areas (Korinthias district, Peloponnisos province), Diakofto area (Achaias district, Dytiki Ellada province), Thassos island (Kavalas district, Anatoliki Makedonia Kai Thraki province), Chios island (Chiou district, Voreio Aigaio province), Mandra area (Attikis district, Attiki province), Rhode island (Dodekanisou district, Notio Aigaio province), Sterea Ellada, Thessalia provinces",Wildfire,Forest fire,2,102,2000-0455
+00/06/2000,00/06/2000,Russian Federation (the),RUS,Khabarovskiy Kray province,Wildfire,Forest fire,,,2000-0514
+00/10/2000,00/10/2000,Slovakia,SVK,"Near Hrabusice city, Spisska Nova Ves district (Kosice province)",Wildfire,Forest fire,6,,2000-0523
+00/08/2000,00/08/2000,Croatia,HRV,"Split, Omis cities (Split-dalmatija province), Slano, Metkovic cities (Dubrovnik-neretva province)",Wildfire,Forest fire,1,,2000-0528
+24/08/2000,24/08/2000,Greece,GRC,"Ipeiros province, Arkadias district (Peloponnisos province), Corfu city (Kerkyras district, Ionioi Nisoi province)",Wildfire,Forest fire,7,7,2000-0529
+00/07/2000,00/07/2000,Turkey,TUR,"Karacahisar, Boncuklu, Vakifli city (Soma district, Manisa province), Canakkale province",Wildfire,Forest fire,,,2000-0552
+19/06/2000,19/06/2000,Russian Federation (the),RUS,"Amurskaya Oblast, Khabarovskiy Kray, Primorskiy Kray, Yevreyskaya A. Oblast provinces (Amour region)",Wildfire,Forest fire,,,2000-0553
+00/00/2000,00/00/2000,Spain,ESP,"Galicia, Castilla y Leon, Cataluna/Catalunya provinces",Wildfire,Forest fire,,,2000-0580
+00/08/2000,00/08/2000,Serbia Montenegro,SCG,"Mojkovac, Pljevlja, Pluzine, Savnik, Zabljak provinces (Durmitor Massif, Piva River and Tara River in Pluzine province), Danilovgrad, Berane provinces, Bar, Budva, Cetinje, Herceg Novi, Kotor, Tivat, Ulcinj provinces (Adriatic coast) (Montenegro)",Wildfire,Forest fire,,12,2000-0633
+00/08/2000,00/08/2000,Macedonia (the former Yugoslav Republic of),MKD,"Berovo, Bitola, Brod, Debar, Delcevo, Demir Hisar, Gevgelija, Gostivar, Kavadarci, Kicevo, Kocani, Kratovo, Kriva Palanka, Krusevo, Kumanovo, Negotino, Ohrid, Prilep, Probistip, Radovic, Resen, Skopje, Stip, Struga, Strumica, Sveti Nikole, Tetovo, Valandovo, Veles, Vinica provinces",Wildfire,Forest fire,,,2000-0639
+00/10/2000,00/10/2000,Australia,AUS,"Ashfield (A), Auburn (C), Bankstown (C), Botany Bay (C), Burwood (A), Canada Bay (A), Canterbury (C), Holroyd (C), Hunters Hill (A), Hurstville (C), Kogarah (C), Ku-ring-gai (A), Lane Cove (A), Leichhardt (A), Manly (A), Marrickville (A), Mosman (A), North Sydney (A), Parramatta (C), Pittwater (A), Randwick (C), Rockdale (C), Ryde (C), Strathfield (A), Sutherland Shire (A), Sydney (C), Warringah (A), Waverley (A), Willoughby (C), Woollahra (A) districts (New South Wales province)",Wildfire,"Land fire (Brush, Bush, Pastur",,200,2000-0659
+00/03/2000,00/00/2000,Cyprus,CYP,"Famgusta, Kyrenia, Larnaca, Limassol, Nicosia, Paphos provinces",Drought,Drought,,,2000-9173
+00/05/2000,00/00/2002,Afghanistan,AFG,"Kandahar, Hilmand, Nimroz, Zabul, Uruzgan provinces (south-west), Hirat, Farah, Badghis provinces (west), Paktika, Khost, Ghazni provinces (south), Baghlan, Kunduz, Takhar, Badakhshan provinces (north-east)",Drought,Drought,37,2580000,2000-9186
+00/05/2000,00/00/2001,Tajikistan,TJK,"Kabodien, Shaartuskiy, Jilikul, Ghozimalik, Kumsangirskiy, Piynjskiy districts (Khatlon province), Gorno Badakhshan Autonomous Oblast (Badakhshoni Kuni province), Leninabad Oblast (Sogd province)",Drought,Drought,,3000000,2000-9186
+00/04/2000,00/00/2001,India,IND,"New Delhi city (Delhi province), Gujarat, Rajasthan, Madhya Prasdesh, Andhra Pradesh, Orissa, Maharashtra provinces",Drought,Drought,20,50000000,2000-9222
+00/04/2000,00/00/2000,China,CHN,"Jilin Sheng, Jiangxi Sheng, Anhui Sheng provinces",Drought,Drought,,15000000,2000-9267
+00/06/2000,00/00/2000,Madagascar,MDG,"Ambovombe-Androy, Bekily, Beloha, Tsihombe districts (Androy province), Amboasary-Atsimo ditrict (Anosy province), Ampanihy Ouest district (Atsimo Andrefana province), Ambatatondraza, Amparafaravola, Andilamena, district (Alaotra Mangoro province), Vatomandry, Marolambo, Antanambao Manamposty districts (Atsinanana province), Antsirabe I, Antsirable II, Faratsiho, Antanifotsy, Betafo districts (Vakinankaratra province)",Drought,Drought,,231290,2000-9309
+00/05/2000,00/06/2000,Moldova (the Republic of),MDA,"Balti, Cahul, Chisinau, Dubasari, Edinet, Gagauzia, Lapusna, Orhei, Soroca, Tighina, Ungheni provinces",Drought,Drought,2,,2000-9318
+00/08/2000,00/00/2000,Jordan,JOR,"Ajloon, Amman, Aqaba, Balqa, Irbid, Jarash, Karak, Ma'an, Madaba, Mafraq, Tafiela, Zarqa provinces",Drought,Drought,,150000,2000-9327
+00/06/2000,00/00/2000,Romania,ROU,"Dolj, Mehedinti, Teleorman, Olt, Constanta, Braila, Vaslui, Botosani provinces",Drought,Drought,,,2000-9328
+00/08/2000,00/08/2001,Uzbekistan,UZB,"Karakalpakstan, Khorezm provinces",Drought,Drought,,600000,2000-9494
+00/06/2000,00/00/2000,Armenia,ARM,"Ararat, Armavir, Gergharkunik, Aragatsotn, Shirak, Kotayk, Tavush, Lori provinces",Drought,Drought,,297000,2000-9495
+00/10/2000,00/00/2000,Azerbaijan,AZE,"Absheron, Aran, Daghlig Shirvan, Ganja-Gazakh, Guba-Khachmaz, Kalbajar-Lachin, Lankaran, Nakhchivan, Shaki-Zaqatala, Yukhari Garabakh provinces",Drought,Drought,,,2000-9495
+00/08/2000,00/00/2001,Georgia,GEO,"Kakheti, Kvemo Kartli, Samtskhe-Javakheti, Mtskheta-Mtianeti, Shida Kartli, Imereti provinces",Drought,Drought,,696000,2000-9495
+00/08/2000,00/00/2000,China,CHN,Nei Mongol Zizhiqu province,Drought,Drought,,5000000,2000-9531
+00/08/2000,00/00/2000,Bosnia and Herzegovina,BIH,"Federacija Bosne I Hercegovine, Republika Srpska provinces",Drought,Drought,,,2000-9537
+00/02/2000,00/00/2002,Mongolia,MNG,"Guulin town (Delger district, Govi-Altai province), Galshir district (Xentii province), Ider district (Zavxan province), Mo'st, Manxan, Bulgan, U'yench district (Xovd province), Bugat, Jargalan districts (Govi-Altai province), Bogd, Jinst, Baacagaan, Bayan-O'ndor districts (Bayanxongor province), Bayandelger, Tu'vshinshiree, Uulbayan, Asgat districts (Su'xbaatar province), Dornogovi, Dundgovi, O'mnogovi provinces",Drought,Drought,,450000,2000-9604
+00/09/2000,00/00/2000,China,CHN,Guangdong Sheng province,Drought,Drought,,,2000-9626
+00/03/2000,00/00/2001,Bulgaria,BGR,,Drought,Drought,,,2000-9788
+4/9/01,4/9/01,South Africa,ZAF,"Elhanzeni District Municipality, Mopani District Municipality, Vhelbe District Municipality",Wildfire,"Land fire (Brush, Bush, Pastur",20,,2001-0500
+00/08/2001,00/08/2001,Bulgaria,BGR,"Blagoevgrad, Haskovo, Kardzhali, Smoljan provinces",Wildfire,Forest fire,,,2001-0504
+6/9/01,6/9/01,South Africa,ZAF,Kwazulu-Natal province,Wildfire,"Land fire (Brush, Bush, Pastur",11,,2001-0508
+00/09/2001,00/09/2001,Portugal,PRT,"Guarda, Vila Real, Viseu provinces",Wildfire,Forest fire,,,2001-0558
+1/10/01,1/10/01,Russian Federation (the),RUS,Khabarovskiy Kray province,Wildfire,Forest fire,,,2001-0575
+00/10/2001,00/10/2001,Australia,AUS,New South Wales province,Wildfire,"Land fire (Brush, Bush, Pastur",,,2001-0655
+25/12/2001,16/01/2002,Australia,AUS,"Sydney (Ashfield (A), Auburn (C), Bankstown (C), Botany Bay (C), Burwood (A), Canada Bay (A), Canterbury (C), Holroyd (C), Hunters Hill (A), Hurstville (C), Kogarah (C), Ku-ring-gai (A), Lane Cove (A), Leichhardt (A), Manly (A), Marrickville (A), Mosman (A), North Sydney (A), Parramatta (C), Pittwater (A), Randwick (C), Rockdale (C), Ryde (C), Strathfield (A), Sutherland Shire (A), Sydney (C), Warringah (A), Waverley (A), Willoughby (C), Woollahra (A) districts, New South Wales province), Canberra (Unincorporated ACT district, Australian Capital Territory province)",Wildfire,"Land fire (Brush, Bush, Pastur",,4400,2001-0699
+00/05/2001,00/05/2001,Russian Federation (the),RUS,"Khabarovskiy Kray, Tyva Rep., Khakasiya Rep., Chitinskaya Oblast, Aginskiy Buryatskiy A. Okrug, Krasnoyarskiy Kray provinces",Wildfire,Forest fire,,,2001-0747
+00/04/2001,00/00/2001,Burkina Faso,BFA,Plateau Central province,Drought,Drought,,,2001-9044
+00/01/2001,00/00/2001,Chad,TCD,"Guera, Biltine, Ouaddaï, Assongha, Batha-Est, Batha-ouest provinces",Drought,Drought,,800000,2001-9044
+00/04/2001,00/00/2001,Mali,MLI,"Bamako, Gao, Kayes, Koulikoro, Mopti, Segou, Sikasso provinces, Dire, Gourma-Rharous, Niafunke districts (Tombouctou province) (South/Sahel region)",Drought,Drought,,,2001-9044
+00/04/2001,00/00/2002,Niger (the),NER,"Ibanka, Rouafi I, Rouafi II, Chinagamane villages (Filingue district, Tillaberi province), Sabara I (Dogondoutchi district, Dosso province), Sabara II (Niamey province), Ayawa (Ouallam district, Tillaberi province), Kabefo (Tillaberi district, Tillaberi province), Dinkihmi villages (not found).",Drought,Drought,,3584558,2001-9044
+00/01/2001,00/00/2001,Mozambique,MOZ,Inhambane province,Drought,Drought,,100000,2001-9048
+00/01/2001,00/00/2001,Cameroon,CMR,Nord province,Drought,Drought,,,2001-9067
+00/03/2002,00/00/2002,Mozambique,MOZ,"Maputo, Gaza, Inhambane, Sofala, Tete, Zambezia provinces",Drought,Drought,9,600000,2001-9122
+00/00/2001,00/00/2004,Swaziland,SWZ,"Lomahasha, Lugongolweni, Tikhuba districts (Lubombo province), Madlangampisi, Mhlangatane, Ndzingeni districts (Hhohho province), Dvokodvweni, Hlane, Lubuli, Mhlume, Mpolonjeni, Nkilongo, Siphofaneni, Sithobela districts (Lubombo province), Mafutseni, Mkhiweni districts (Manzini province), Lavumisa, Matsanjeni, Sigwe districts (Shiselweni province), Lobamba, Mayiwane, Ntfonjeni, Timpisini districts (Hhohho province), Kuhanyeni, Kwaluseni, Ludzeludze, Mahlanya, Manzini, Mthongwaneni, Nhlambeni districts (Manzini province), Hosea, Kubuta, Maseyisini, Mbangweni, Mtsambama, Sandleni, Shiselweni 1, Zombodze districts (Shiselweni province)",Drought,Drought,,970000,2001-9122
+00/03/2001,00/00/2003,Zimbabwe,ZWE,"Kwekwe, Gokwe South, Zvishavane, Shurugwi, Gweru, Mberengwa, Gokwe North districts (Midlands province), Mvuma city (Chirumhanzu district, Midlands province), Chipinge district (Manicaland province), Gwanda, Umzingwane, Matobo districts (Matabeleland South province), Chiredzi, Chivi, Masvingo districts (Masvingo province), Hwange, Tsholotsho districts (Matabeleland North province), Kariba district (Mashonaland West province), Guruve district (Mashonaland Central province)",Drought,Drought,,6000000,2001-9122
+00/02/2001,00/00/2001,China,CHN,Nei Mongol Zizhiqu province,Drought,Drought,,530000,2001-9149
+00/01/2001,00/00/2001,Angola,AGO,Cuanza Sul province,Drought,Drought,58,,2001-9152
+00/03/2001,00/00/2001,China,CHN,"Sichuan Sheng, Yunnan Sheng provinces",Drought,Drought,,15800000,2001-9218
+00/06/2001,00/00/2001,Korea (the Republic of),KOR,"Cheju-do, Chollabuk-do, Chollanam-do, Chungchongbuk-do, Chungchongnam-do, Inchon, Kang-won-do, Kwangju, Kyonggi-do, Kyongsangbuk-do, Kyongsangnam-do, Pusan, Seoul, Taegu, Taejon provinces",Drought,Drought,,,2001-9398
+00/04/2001,00/00/2003,Mauritania,MRT,"Assaba, Brakna, Gorgol, Tagant, Nouackchott, Inchiri, Adrar, Hodh el Gharbi, Hodh ech Chargi, Tiris-Zemmour, Dakhlet-Nouadhibou provinces",Drought,Drought,,1000000,2001-9409
+00/09/2001,00/00/2002,Sri Lanka,LKA,"Hambantota district (Southern province), Kurunegala, Puttalam districts (North Western provinces), Ratnapura district (Sabaragamuwa province), Moneragala, Badulla districts (Uva province), Ampara district (Eastern province)",Drought,Drought,,1000000,2001-9498
+00/09/2001,00/00/2001,Cambodia,KHM,"Kampong Cham, Kampong Chhnang, Kampong Speu, Kampong Thom, Kampot, Kandal, Kep, Koh Kong, Kratie, Phnom Penh, Preah Sihanouk, Prey Veng, Pursat, Svay Rieng, Takeo provinces",Drought,Drought,,300000,2001-9525
+00/01/2001,00/00/2001,Namibia,NAM,"Otjovanatje, Otjorute, Okapundja, Otjekwa, Okaurukwa locations (Ruacana district, Omusati province)",Drought,Drought,,,2001-9854
+30/01/2002,30/01/2002,Central African Republic,CAF,"Yaloké district (Ombella M'Poko province), Bria district (Haute-Kotto province)",Wildfire,Forest fire,1,750,2002-0052
+22/03/2002,22/03/2002,Japan,JPN,"Matsumoto city (Nagano province), Tookyoo province",Wildfire,Forest fire,,222,2002-0181
+24/03/2002,12/4/02,Viet Nam,VNM,"U Minh Thuong National Park (Kien Giang province), U Minh Ha (Ca Mau province)",Wildfire,Forest fire,,,2002-0197
+11/5/02,11/5/02,Russian Federation (the),RUS,"Irkutskaya Oblast, Khabarovskiy Kray provinces",Wildfire,Forest fire,,120,2002-0279
+00/06/2002,00/06/2002,Iran (Islamic Republic of),IRN,Fars province,Wildfire,"Land fire (Brush, Bush, Pastur",,,2002-0363
+00/07/2002,00/07/2002,South Africa,ZAF,"Eastern Cape, Mpumalanga provinces",Wildfire,"Land fire (Brush, Bush, Pastur",3,1500,2002-0416
+00/07/2002,00/07/2002,Russian Federation (the),RUS,"Sakha Rep., Chukotskiy Okrug provinces",Wildfire,Forest fire,,,2002-0469
+00/07/2002,00/07/2002,Russian Federation (the),RUS,"Shatura, Dmitrov, Balashikha, Noginsk, Pavlovo-Posad cities (Moskovskaya Oblast province)",Wildfire,Forest fire,,,2002-0565
+00/08/2002,00/08/2002,Indonesia,IDN,"Kalimatan Barat, Kalimatan Tengah provinces (Borneo Isl.), Riau province (Sumatra Isl.)",Wildfire,Forest fire,,200,2002-0615
+8/10/02,6/12/02,Australia,AUS,"Sydney (Ashfield (A), Auburn (C), Bankstown (C), Botany Bay (C), Burwood (A), Canada Bay (A), Canterbury (C), Holroyd (C), Hunters Hill (A), Hurstville (C), Kogarah (C), Ku-ring-gai (A), Lane Cove (A), Leichhardt (A), Manly (A), Marrickville (A), Mosman (A), North Sydney (A), Parramatta (C), Pittwater (A), Randwick (C), Rockdale (C), Ryde (C), Strathfield (A), Sutherland Shire (A), Sydney (C), Warringah (A), Waverley (A), Willoughby (C), Woollahra (A) districts, New South Wales province)",Wildfire,"Land fire (Brush, Bush, Pastur",2,244,2002-0765
+00/07/2002,00/00/2003,Namibia,NAM,"Otjozondjupa, Oshikoto, Oshana, Omusati, Ohangwena, Kunene, Kavango, Caprivi provinces (North)",Drought,Drought,,345000,2002-9022
+00/02/2002,00/00/2002,Malawi,MWI,"Balaka, Blantyre, Chikwawa, Machinga, Mangochi, Mulanje, Nsanje, Phalombe, Thyolo, Zomba districts (Southern Region Province)",Drought,Drought,500,2829435,2002-9124
+00/05/2002,00/00/2002,Viet Nam,VNM,"An Giang, Kien Giang, Long An provinces",Drought,Drought,,1300000,2002-9132
+00/02/2002,00/00/2002,Thailand,THA,"Nakhon Sawan, Udon Thani, Khon Kaen, Satun, Phrae, Loei, Kalasin, Sukhothai, Nakhon Ratchasima provinces",Drought,Drought,,5000000,2002-9158
+00/03/2002,00/03/2002,Philippines (the),PHL,"Pangasinan, La Union, Ilocos Norte, Ilocos Sur districts (Region I (Ilocos region) province)",Drought,Drought,,,2002-9164
+00/04/2002,00/00/2002,China,CHN,"Guangdong Sheng, Fujian Sheng, Guangxi Zhuangzu Zizhiqu provinces",Drought,Drought,,60000000,2002-9203
+00/05/2002,00/00/2002,Italy,ITA,"Sicilia, Basilicata, Puglia, Sardegna provinces",Drought,Drought,,,2002-9298
+00/05/2002,00/05/2002,Guinea-Bissau,GNB,"All country: Gabu, Bafata (mainly affected provinces in North-eastern), Biombo, Bolama/bijagos, Cacheu, Oio, Quinara, Sector Autonomo De Bissau, Tombali provinces",Drought,Drought,,100000,2002-9332
+00/04/2002,00/00/2003,Lesotho,LSO,"Qacha's Nek, Quthing, Mohale's Hoek provinces",Drought,Drought,,500000,2002-9333
+00/07/2002,00/00/2002,India,IND,"Uttar Pradesh, Madhya Pradesh, Rajasthan, Punjab, Haryana, Delhi, Karnataka, Kerala, Nagaland, Orissa, Chhattisgarh, Himachal Pradesh, Gujarat, Maharashtra, Andhra Pradesh, Tamil Nadu provinces",Drought,Drought,,300000000,2002-9349
+00/06/2002,00/00/2002,Cabo Verde,CPV,"Santiago, Santo Antao Provinces",Drought,Drought,,30000,2002-9398
+00/01/2002,00/07/2002,Cambodia,KHM,"Takeo, Kampot, Kampong Speu, Kampong Chhnang, Kandal, Prey Veng, Phnom Penh,Otdar Meanchey, Banteay Meanchey, Pursat, Battambang provinces",Drought,Drought,,650000,2002-9485
+00/08/2002,00/00/2002,Senegal,SEN,"NO DATA: all country was selected: Dakar, Diourbel, Fatick, Kaffrine, Kaolack, Kedougou, Kolda, Louga, Matam, Saint Louis, Sedhiou, Tambacounda, Thies, Ziguinchor provinces",Drought,Drought,,284000,2002-9487
+00/05/2002,00/00/2002,Gambia (the),GMB,"NO DATA: all country selected: Central River, Kanifing Municipal Council, Lower River, North Bank, Upper River, West Coast provinces",Drought,Drought,,,2002-9535
+00/09/2002,00/00/2002,China,CHN,Hebei Sheng province,Drought,Drought,,900000,2002-9564
+00/04/2002,00/11/2002,Australia,AUS,"Queensland, New South Wales provinces",Drought,Drought,,,2002-9611
+00/11/2002,00/00/2004,Madagascar,MDG,"Amoron I Mania, Androy, Anosy, Atsimo Andrefana, Atsimo Atsinanana, Haute Matsiatra, Ihorombe, Menabe, Vatovavy Fitovinany provinces (South regions)",Drought,Drought,,600000,2002-9707
+00/06/2002,00/00/2002,Uganda,UGA,"Kaabong, Kotido, Abim, Moroto, Nakapiripirit provinces (Karamoja region)",Drought,Drought,79,655000,2002-9852
+1/6/02,30/10/2002,China,CHN,Shandong Sheng province,Drought,Drought,,3660000,2002-9854
+8/1/03,18/02/2003,Australia,AUS,"Canberra region (Unincorporated ACT district, Australian Capital Territory province)",Wildfire,Forest fire,4,2650,2003-0030
+00/04/2003,00/07/2003,Russian Federation (the),RUS,"Chitinskaya Oblast, Aginskiy Buryatskiy A. Okrug, Buryatiya Rep. provinces",Wildfire,Forest fire,,,2003-0198
+00/04/2003,00/04/2003,China,CHN,"Mangui village (Hulunbuir district, Nei Mongol Zizhiqu province), Heilongjiang Sheng, Yunnan Sheng provinces",Wildfire,Forest fire,,300,2003-0202
+18/07/2003,23/07/2003,Croatia,HRV,"Dubrovnik-neretva, Lika-Senj provinces",Wildfire,Forest fire,,,2003-0347
+28/07/2003,30/07/2003,France,FRA,"Massif des Maures mountain (Var district, Provence-Alpes-Cote-d'Azur province)",Wildfire,Forest fire,5,3004,2003-0365
+00/01/2003,00/08/2003,Spain,ESP,"Cuenca district (Castilla-La Mancha province), Huelva district (Andalucia province), Caseres, Badajoz districts (Extremadura province)",Wildfire,Forest fire,5,200,2003-0372
+00/08/2003,00/09/2003,Portugal,PRT,"Braganca, Viseu, Viana do Castelo, Guarda, Castelo Branco, Portalegre, Santarem, Leira, Porto, Braga provinces, Amials de Cima city (in Pernes, Chamusca district, Santarem province), Vale de Serra city (Torres Novas district, Santarem province)",Wildfire,Forest fire,14,150000,2003-0376
+00/01/2003,00/01/2003,Mozambique,MOZ,"Magoe, Zumbu, Cahora Bassa, Changara, Moatize, Chiuta, Mutarara districts (Tete province)",Drought,Drought,9,119500,2003-9035
+00/01/2003,00/01/2003,China,CHN,Nei Mongol Zizhiqu province,Drought,Drought,,48000000,2003-9064
+00/07/2003,00/00/2003,China,CHN,"Hunan Sheng, Jiangxi Sheng, Zhejiang Sheng, Fujian Sheng provinces",Drought,Drought,,3000000,2003-9360
+00/09/2003,00/00/2004,Burundi,BDI,"Kirundo, Muyinga, Ngozi, Kayanza, Muramvya, Bujumbura Rural, Ruyigi, Gitega, Bubanza, Makamba provinces",Drought,Drought,,,2003-9651
+00/03/2003,00/00/2007,Rwanda,RWA,"Gatsibo, Nyagatare, Bugesera district (East/Iburasirazuba province), Kibungo city (Ngoma district, East/Iburasirazuba province), Gisagara, Huye, Nyanza, Nyamagabe, Nyaruguru, Kamonyi, Muhanga, Ruhango districts (South/Amajyepfo province)",Drought,Drought,,1000000,2003-9651
+00/08/2003,00/00/2004,"Tanzania, United Republic of",TZA,"Kaskazini Unguja, Mjini Magharibi, Kusini Unguja, Singida, Dodoma, Shinyanga, Mwanza, Tabora, Kagera, Kigoma provinces",Drought,Drought,,1900000,2003-9651
+00/08/2003,00/09/2003,Indonesia,IDN,"Belu, Timor Tengah Selatan, Timor Tengah Utara, Kupang districts (West Timor region, Nusatenggara Timur province)",Drought,Drought,,15000,2003-9760
+00/00/2003,00/00/2004,Ethiopia,ETH,"Tigray, Oromia, Amhara, Somali, Afar provinces",Drought,Drought,,12600000,2003-9772
+00/00/2003,00/00/2003,Russian Federation (the),RUS,Vladisvostok city (Primorskiy Kray province),Drought,Drought,,1000000,2003-9777
+00/05/2003,00/00/2003,Bosnia and Herzegovina,BIH,"Republika Srpska province, Posavski district (Federacija Bosne I Hercegovine province), Neretvljanski district (Federacija Bosne I Hercegovine province)",Drought,Drought,,62575,2003-9784
+00/02/2003,21/05/2003,Croatia,HRV,"Bjelovar-bilogora, Dubrovnik-Neretva, Grad Zagreb, Istra, Karlovac, Koprivnica-krizevci, Krapina-zagorje, Lika-senj, Medimurje, Osijek-baranja, Pozega-slavonija, Primorje-gorski Kota, Šibenik, Sisak-moslavina, Slavonski Brod-posav, Split-dalmatija, Varazdin, Virovitica-podravina, Vukovar-srijem, Zadar-Knin provinces",Drought,Drought,,,2003-9784
+00/07/2003,00/08/2003,Hungary,HUN,"Bacs-kiskun, Baranya, Bekes, Borsod-abauj-zemplen, Budapest, Csongrád, Fejér, Gyor-moson-sopron, Hadju-bihar, Heves, Jasz-nagykun-seolnok, Komarom-esztergom, Nógrád, Pest, Somogy, Szabolcs-szatmar-bereg, Tolna, Vas, Veszprém, Zala provinces",Drought,Drought,,,2003-9784
+10/3/04,10/3/04,Korea (the Republic of),KOR,Sokcho city (Kang-won-do province),Wildfire,Forest fire,,2155,2004-0123
+14/05/2004,16/05/2004,Russian Federation (the),RUS,"Kurgan, Omskaya Oblast, Novosibirskaya Oblast, Kemerovskaya Oblast, Tomskaya Oblast, Irkutskaya Oblast, Chitinskaya Oblast, Aginskiy Buryatskiy A. Okrug, Altay Rep., Krasnoyarskiy Kray provinces",Wildfire,Forest fire,9,1000,2004-0208
+28/07/2004,4/8/04,Spain,ESP,"Andalucia, Region de Murcia provinces",Wildfire,Forest fire,3,1100,2004-0373
+00/07/2004,00/08/2004,Portugal,PRT,"Vila Real, Santarem, Faro, Viseu, Braganca provinces",Wildfire,Forest fire,2,,2004-0383
+10/1/04,10/1/04,Guinea,GIN,"Tamagali city (Mamou district, Mamou province)",Wildfire,"Land fire (Brush, Bush, Pastur",,777,2004-0738
+00/01/2004,00/00/2004,South Africa,ZAF,"KwaZulu-Natal, Eastern Cape, Northern Cape, Mpumalanga, North-West, Free state, Limpopo provinces",Drought,Drought,,15000000,2004-9017
+00/01/2004,00/01/2004,Somalia,SOM,"Sool, Sanaag, Togdheer, Nugaal, Galgaduud, Hiraan, Mudug, Bari provinces",Drought,Drought,,200000,2004-9085
+00/07/2004,00/00/2004,Kenya,KEN,"Kitui, Mbeere, Mwingi, Marsabit districts (Eastern province), Turkana, Kajiado, Narok districts (Rift Valley province), Mandera, Wajir, Garissa, Ijara districts (North Eastern province), Tana river, Kilifi, Kwale, Taita Taveta, Malindi districts (Coast province), Nyanza, Central provinces",Drought,Drought,80,2300000,2004-9288
+00/09/2004,00/00/2005,Angola,AGO,"Cunene, Cuanza-Sul provinces",Drought,Drought,,25000,2004-9480
+00/10/2004,00/00/2004,"Tanzania, United Republic of",TZA,"Arusha, Kilimanjaro, Manyara, Tanga provinces (Northern Highlands region), Pwani, Dar-es-salaam provinces (Northern Coast region).",Drought,Drought,,254000,2004-9577
+00/09/2004,00/00/2005,Portugal,PRT,All country: all provinces selected,Drought,Drought,,,2004-9704
+4/1/05,26/01/2005,Australia,AUS,"Eyre peninsula (Ceduna (DC), Cleve (DC), Elliston (DC), Franklin Harbour (DC), Kimba (DC), Lower Eyre Peninsula (DC), Port Augusta (C), Port Lincoln (C), Streaky Bay (DC), Tumby Bay (DC), Whyalla (C), Wudinna (DC) districts, South Australia province)",Wildfire,Forest fire,12,220,2005-0014
+4/4/05,6/4/05,Korea (the Republic of),KOR,"Yangyang, Kosong cities (Kang-won-do province)",Wildfire,Forest fire,,2140,2005-0180
+20/06/2005,26/08/2005,France,FRA,,Wildfire,Forest fire,2,,2005-0367
+15/05/2005,14/07/2005,Portugal,PRT,"Porto, Castelo Branco provinces",Wildfire,Forest fire,15,136,2005-0367
+18/07/2005,18/07/2005,Spain,ESP,Guadalajara district (Castilla-La Mancha province),Wildfire,Forest fire,11,1,2005-0380
+9/8/05,9/8/05,Indonesia,IDN,"Sintang, Sanggau, Ketapang districts (Kalimatan Barat province), Kotawaringin Timur, Katingan, Seruyan, Kapuas (Kalimantan Tengah province), Kota Baru, Tapin, Hulusungai Selatan, Banjar, Tanahlaut (Kalimantan Selatan province) (Sumatra Isl.)",Wildfire,Forest fire,,,2005-0430
+9/8/05,9/8/05,Malaysia,MYS,"Port Klang city (Kelang district, Selangor province), Kuala Selangor district (Selangor province)",Wildfire,Forest fire,,,2005-0430
+00/08/2005,00/08/2005,Thailand,THA,"Satun, Phatthalung, Pattani, Yala, Narathiwat, Phuket, Songkhla provinces",Wildfire,Forest fire,,,2005-0430
+00/01/2005,00/01/2006,Burundi,BDI,"Busoni, Bugabira, Ntega, Kirundo districts (Kirundo province), Ruyigi, Cankuzo, Rutana, Muyinga provinces",Drought,Drought,120,2150000,2005-9067
+00/00/2005,00/00/2006,Mali,MLI,"Mopti, Kayes, Tombouctou, Gao provinces",Drought,Drought,,1000000,2005-9142
+00/01/2005,00/03/2005,Thailand,THA,"Ang Thong, Bangkok, Buriram, Chachoengsao, Chainat, Chaiyaphum, Chanthaburi, Chiang Mai, Chiang Rai, Chonburi, Chumphon, Kalasin, Kampaeng Phet, Kanchanaburi, Khon Kaen, Krabi, Lampang, Lamphun, Loei, Lopburi, Mae Hong Son, Maha Sarakham, Mukdahan, Nakhon Nayok, Nakhon Pathom, Nakhon Phanom, Nakhon Ratchasima, Nakhon Sawan, Nakhon Si Thammarat, Nan Narathiwat, Nong Khai, Nonthaburi, Pathum Thani, Pattani, Phangnga, Phatthalung, Phayao, Phetchabun, Phetchaburi, Phichit, Phitsanulok, Phra Nakhon Si Ayudhya, Phrae, Phuket, Prachuap Khilikhan, Ranong, Ratchaburi, Rayong, Roi Et, Sakon Nakhon, Samut Prakarn, Samut Sakhon, Samut Songkham, Saraburi, Satun, Si Saket, Singburi, Songkhla, Sukhothai, Suphanburi, Surat Thani, Surin, Tak, Trad, Trang, Uthai Thani, Uttaradit, Yala, Yasothon, Amnat Charoen, Nong Bua Lamphu, Phachinburi, Sa Kaeo, Ubon Ratchathani, Udon Thani provinces",Drought,Drought,,,2005-9153
+00/03/2005,00/03/2006,Uganda,UGA,"Rupa, Nadunget subcounties (Moroto province), Nyakwae subcounty (Abim province), Kalapata city (Dodoth district, Kaabong province) (Karamoja region)",Drought,Drought,,600000,2005-9163
+00/04/2005,00/04/2005,Cambodia,KHM,Kampong Speu province,Drought,Drought,,600000,2005-9206
+00/04/2005,00/04/2006,Djibouti,DJI,"Tadjourah district (Tadjourah province), Dikhil district (Dikhil province), Ali Sabieh district (Ali Sabieh province), Obock district (Obock province)",Drought,Drought,,150000,2005-9213
+00/03/2005,00/05/2005,Cameroon,CMR,Logone-Et-Chari disctrict (Extrème-Nord province),Drought,Drought,,,2005-9238
+00/05/2005,00/00/2006,Mozambique,MOZ,"Maputo, Gaza, Inhambane, Manica, Sofala, Zambezia, Tete provinces",Drought,Drought,,1400000,2005-9262
+00/05/2005,00/00/2005,Viet Nam,VNM,Ben Tre province,Drought,Drought,,410000,2005-9277
+00/07/2005,00/07/2006,Niger (the),NER,"Tillaberi, Tahoua, Diffa, Zinder, Maradi provinces",Drought,Drought,,3000000,2005-9362
+00/06/2005,00/11/2005,Zambia,ZMB,"Southern, Western provinces",Drought,Drought,,1200000,2005-9403
+00/10/2005,00/03/2006,Malawi,MWI,"Southern Region, Central Region provinces",Drought,Drought,,5100000,2005-9578
+00/11/2005,00/12/2006,Madagascar,MDG,Vangaindrano district (Atsimo Atsinanana province),Drought,Drought,,14000,2005-9637
+00/12/2005,00/00/2006,Kenya,KEN,"Makueni, Kitui, Marsabit, Isiolo, Mwingi, Kitui, Moyale districts (Eastern province), Malindi, Kwale, Kilifi, Taita Taveta, Tana river districts (Coast province), Mandera, Wajir, Garissa, Ijara districts (North Eastern province), Kajiado, Turkana, Samburu, Laikipia districts (Rift Valley province).",Drought,Drought,27,3500000,2005-9719
+00/00/2005,00/00/2005,Somalia,SOM,"Gedo, Bakool, Bay, Hiraan, Juba Hoose, Juba Dhexe provinces",Drought,Drought,2,,2005-9722
+00/10/2005,00/00/2005,China,CHN,Guangdong Sheng province,Drought,Drought,,174000,2005-9745
+7/7/05,00/00/2005,China,CHN,"Shanxi Sheng, Nei Mongol Zizhiqu, Ningxia Huizu Zizhiqu, Hunan Sheng, Guizhou Sheng provinces",Drought,Drought,,7600000,2005-9746
+00/11/2005,00/00/2006,Ethiopia,ETH,"Afder, Liben districts (Somali province), Gode zones (Shabelle district, Somali province), Borena district (Oromiya province)",Drought,Drought,,2600000,2005-9747
+00/01/2006,00/04/2006,Australia,AUS,"Victoria, New South Wales, Tasmania provinces",Wildfire,Forest fire,3,81,2006-0057
+4/8/06,15/08/2006,Spain,ESP,Galicia province,Wildfire,Forest fire,4,,2006-0444
+00/08/2006,00/08/2006,Indonesia,IDN,"Muarojambi, Tanjungjabung Timur districts (Jambi province), Ogan Komering Ilir, Banyuasin, Musibanyuasin districts (Sumatera Selatan province), Ketapang district (Kalimantan Barat province), Kotawaringin Timur, Kotawaringin Barat, Pulangpisau, Seruyan, Sukamara districts (Kalimantan Tengah province), Banjar, Hulusungai Selatan districts (Kalimantan Selatan province)",Wildfire,Forest fire,,200,2006-0471
+16/11/2006,16/11/2006,Australia,AUS,"Blue mountains district, New South Wales province",Wildfire,--,,,2006-0660
+00/12/2006,00/12/2006,Australia,AUS,"Tasmania, Victoria, New South Wales provinces",Wildfire,Forest fire,1,60,2006-0666
+00/05/2006,00/05/2006,Guinea-Bissau,GNB,"Quinara, Tombali provinces, Bolama/Bijagos Isl.(=province)",Drought,Drought,,32000,2006-9233
+00/08/2006,00/00/2006,Lithuania,LTU,"Alytaus, Kauno, Klaipedos, Marijampoles, Panevezio, Siauliu, Taurages, Telsiu, Utenos, Vilniaus provinces",Drought,Drought,,,2006-9411
+00/08/2006,00/09/2006,Mali,MLI,Kidal province,Drought,Drought,,25000,2006-9425
+00/10/2006,00/00/2006,Australia,AUS,NO DATA: all country has been selected,Drought,Drought,,,2006-9554
+00/07/2006,00/00/2006,Afghanistan,AFG,"Badakhshan, Badghis, Baghlan, Balkh, Bamyan, Daykundi, Faryab, Ghor, Jawzjan, Kunduz, Samangan, Sar-e-Pul, Takhar, Uruzgan provinces",Drought,Drought,,1900000,2006-9570
+00/07/2006,00/00/2006,Nepal,NPL,"Mid Western, Far Western provinces",Drought,Drought,,200000,2006-9723
+1/5/06,10/9/06,China,CHN,"Sichuan Sheng, Chongqing Shi, Guizhou Sheng, Zhejiang Sheng, Anhui Sheng, Jiangxi Sheng, Hunan Sheng, Hubei Sheng provinces",Drought,Drought,134,18000000,2006-9741
+00/00/2006,00/00/2006,"Tanzania, United Republic of",TZA,"Arusha, Manyara, Kilimanjaro provinces",Drought,Drought,,3700000,2006-9756
+00/07/2007,00/08/2007,Italy,ITA,"Abruzzi, Sardegna, Sicilia, Calabria provinces, Napoli district (Campania province),",Wildfire,Forest fire,11,,2007-0294
+1/6/07,30/07/2007,Greece,GRC,"Pylos city (Messinias district, Peloponnisos province), Andros Isl. (Kykladon district, Notio Aigaio province), Keratea city, Idra Isl. (Attikis district, Attiki province), Menindi city (Aitolias Kai Akarnanias district, Dytiki Ellada province), Skiathos Isl. (Magnisias district, Thessalia province), Kefalonia Isl. (Kefallinias district, Ionioi Nisoi province), Zante Isl. (Zakynthou district, Ionioi Nisoi province), Chios Isl. (Chiou district, Voreio Aigaio province), Kastoria city (Kastorias district, Dytiki Makedonia province), Kozani city (Kozanis district, Dytiki Makedonia province), Loannina city (Ioanninon district, Ipeiros province), Florina city (Florinis district, Dytiki Makedonia province), Pierias district (Kentriki Makedonia province), Thesprotias district (Iperiros province), Fthiotidos district (Sterea Ellada province)",Wildfire,Forest fire,3,4,2007-0301
+4/8/07,5/8/07,Croatia,HRV,"Dubrovnik, Mlini, Plat cities (Dubrovnik-neretva province), Split-damlatjia, Zadar-knin provinces (Dalmatia region)",Wildfire,Forest fire,,26,2007-0325
+00/07/2007,00/08/2007,Canary Is,SPI,"Grand Canaria Island (Las Palmas district, Canarias province), Tenerife Island (Santa Cruz de Tenerife district, Canarias province)",Wildfire,Forest fire,,405,2007-0329
+27/07/2007,30/07/2007,South Africa,ZAF,"KwaZulu-Natal, Mpumalanga, Free State, Eastern Cape, Limpopo, Gauteng provinces",Wildfire,Forest fire,26,1600,2007-0337
+27/07/2007,30/07/2007,Swaziland,SWZ,Pigg's Peak district (Hhohho province),Wildfire,Forest fire,2,1500,2007-0337
+00/07/2007,00/07/2007,Albania,ALB,"Kolonje, Vlore, Puke, Tropoje provinces",Wildfire,Forest fire,,75,2007-0365
+00/07/2007,00/07/2007,Bulgaria,BGR,"Veliko Tarnovo, Kustendil, Montana, Sofia, Smoljan, Stara Zagora provinces",Wildfire,Forest fire,1,9,2007-0366
+00/07/2007,00/07/2007,Macedonia (the former Yugoslav Republic of),MKD,"Bitola, Tetovo, Krusevo, Veles provinces",Wildfire,Forest fire,1,1000000,2007-0368
+24/08/2007,30/08/2007,Greece,GRC,"Messinias, Lakonias districts (Peloponisos province), Euboea Isl. (Evvoias district, Sterea Ellada province), Olympia city (Ileias district, Dytiki Ellada province)",Wildfire,Forest fire,65,5392,2007-0392
+25/08/2007,26/08/2007,Bulgaria,BGR,"Topolovgrad, Svilengrad districts (Haskovo province)",Wildfire,--,2,,2007-0395
+30/08/2007,30/08/2007,Croatia,HRV,Kornat Isl. (Sibenik province),Wildfire,Forest fire,12,,2007-0444
+1/10/07,4/10/07,Lebanon,LBN,"Bekaa, Mount Lebanon, North provinces",Wildfire,Forest fire,1,15,2007-0471
+00/09/2007,00/09/2007,Algeria,DZA,Tzarifet forest (Tlemcen province),Wildfire,Forest fire,8,,2007-0670
+00/07/2007,00/00/2007,Swaziland,SWZ,"Hhohho, Lubombo, Manzini, Shiselweni provinces",Drought,Drought,,410000,2007-9288
+00/08/2007,00/08/2007,Mozambique,MOZ,"Gaza, Inhambane, Manica, Sofala, Maputo provinces (Centre and south of the country)",Drought,Drought,,520000,2007-9343
+00/08/2007,00/08/2007,Philippines (the),PHL,"La Union, Pangasinan, Ilocos Sur districts (Region I (Ilocos region) province), Isabela, Nueva Vizcaya, Quirino districts (Region II (Cagayan Valley) province)",Drought,Drought,,,2007-9347
+00/07/2007,00/00/2008,Lesotho,LSO,"Maseru, Mafeteng, Leribe, Butha Buthe, Berea, Mohale's Hoek, Quthing provinces (Lowlands region)",Drought,Drought,,475000,2007-9494
+00/10/2007,00/00/2007,Malawi,MWI,"Karonga, Mzimba districts (Northern Region province), Ntchisi district (Central Region province), Mulanje district (Southern Region province)",Drought,Drought,,520000,2007-9499
+00/02/2007,00/03/2007,Timor-Leste,TLS,"Aileu, Ainaro, Baucau, Ermera, Liquica, Manatuto, Manufahi provinces",Drought,Drought,,,2007-9650
+00/01/2007,00/06/2009,Zimbabwe,ZWE,"Masvingo, Matabeleland North, Matabeleland South, Midlands, Manicaland, Mashonaland Central, Mashonaland East, Mashonaland West provinces",Drought,Drought,,2100000,2007-9675
+00/01/2007,00/01/2007,Djibouti,DJI,NO DATA: all country selected,Drought,Drought,,42750,2007-9676
+00/00/2007,00/00/2007,Moldova (the Republic of),MDA,Dubasari province (Transnitria region),Drought,Drought,,210394,2007-9677
+1/8/08,5/8/08,Turkey,TUR,"Karatas (Korkuteli district, Antalya province)",Wildfire,Forest fire,2,300,2008-0318
+1/9/08,2/9/08,Mozambique,MOZ,"Manica, Sofala, Zambezia provinces",Wildfire,--,49,3023,2008-0392
+30/08/2008,3/9/08,South Africa,ZAF,"Kwazulu-Natal, Free state",Wildfire,"Land fire (Brush, Bush, Pastur",34,25,2008-0647
+00/04/2008,00/00/2008,Thailand,THA,"Ang Thong, Chainat, Chaiyaphum, Chiang Rai, Kalasin, Kampaeng Phet, Khon Kaen, Lampang, Loei, Lopburi, Maha Sarakham, Mukdahan, Nakhon Phanom, Nakhon Ratchasima, Nakhon Sawan, Nan, Nong Bua Lamphu, Nong Khai, Phayao, Phichit, Phitsanulok, Phra Nakhon Si Ayudhya, Phrae, Sakon Nakhon, Saraburi, Singburi, Sukhothai, Suphanburi, Udon Thani, Uthai Thani, Uttaradit provinces",Drought,Drought,,10000000,2008-9154
+00/10/2008,00/10/2008,Eritrea,ERI,"Achipelagos, Semenawi Keih Bahri provinces (Northern Red Sea Region), Debubawi Keih Bahri province (Southern Red Sea Region), Anseba, Debub provinces",Drought,Drought,,1700000,2008-9200
+00/05/2008,00/10/2009,Ethiopia,ETH,"Oromia, Somali, Amhara, Afar, Tigray, SNNPR provinces",Drought,Drought,,6400000,2008-9200
+00/07/2008,00/00/2009,Kenya,KEN,"Sacho, Marigat, Mukutani, Tenges, Kolowa, Tangulbei, Nginyang cities/towns (Baringo district, Rift Valley province), Samburu district (Rift valley province), Turkana, West Pokot, Administrative Unit Not Available districts (North Rift Valley province), Central, Eastern, North Eastern, Coast provinces",Drought,Drought,4,3800000,2008-9302
+00/07/2008,00/00/2009,Djibouti,DJI,"Djibouti, Arta cities (Djibouti district, Djibouti province), Ali Sabieh district (Ali Sabieh province), Obock district (Obock province), Tadjourah district (Tadjourah province), Dikhil district (Dikhil province)",Drought,Drought,,340000,2008-9303
+00/07/2008,00/10/2009,Uganda,UGA,"Nakapiripit, Kodito, Abim provinces (Karamoja region, North-East)",Drought,Drought,,1100000,2008-9307
+00/10/2008,00/10/2008,Tajikistan,TJK,"Badakhshoni Kuni, Khatlon, Sogd, Tadzhikistan Territories provinces",Drought,Drought,,800000,2008-9456
+00/01/2008,00/04/2009,Somalia,SOM,"Matabaan city, Belet Weyne district (Hiraan province)",Drought,Drought,,3300000,2008-9468
+00/10/2008,00/10/2008,Afghanistan,AFG,"Kunduz, Balkh, Faryab, Badghis provinces",Drought,Drought,,280000,2008-9475
+00/12/2008,00/00/2009,Mozambique,MOZ,"Maputo, Gaza, Inhambane, Manica, Sofala, Tete provinces",Drought,Drought,,500000,2008-9590
+00/09/2008,00/01/2009,Burundi,BDI,"Kirundo, Ngozi, Muyinga, Cankuzo, Karuzi, Ruyigi provinces",Drought,Drought,,82500,2008-9640
+00/00/2008,00/00/2011,Madagascar,MDG,"Atsimo Andrefana, Androy, Anosy provinces",Drought,Drought,,720000,2008-9644
+00/11/2008,00/02/2009,China,CHN,"Henan Sheng, Anhui Sheng, Shanxi Sheng, Shaanxi Sheng, Shandong Sheng, Hubei Sheng, Gansu Sheng, Hebei Sheng, Jiangsu Sheng provinces",Drought,Drought,,3700000,2008-9662
+00/00/2008,00/00/2010,Syrian Arab Republic,SYR,"Damascus, Homs, Hama, Raqqah, Dayr_Az_Zor, Hassakeh provinces",Drought,Drought,,1300000,2008-9755
+2/2/09,14/02/2009,Australia,AUS,"Marysville, Kinglake, Taggerty cities (Murrindindi (S) district, Victoria province), Strathewen, St Andrews cities (Nillumbik (S) district, Victoria province), , Whittlesea city (Whittlesea district, Victoria province), Wandong city (Mitchell (S) district, Victoria province)",Wildfire,"Land fire (Brush, Bush, Pastur",180,9954,2009-0067
+12/7/09,12/7/09,Congo (the Democratic Republic of the),COD,"Tshikula, Dibaya cities (Lulua district, Kasai Occidental province), Kongolo city (Tanganyka district, Katanga province), Mukishi city (Haut-Lomani district, Katanga province)",Wildfire,"Land fire (Brush, Bush, Pastur",,125,2009-0264
+00/07/2009,00/07/2009,France,FRA,"Corse province, Marseille city (Bouches-du-Rhone district, Provence-Alpes-Cote-d'Azur province)",Wildfire,Forest fire,,,2009-0271
+00/07/2009,00/07/2009,Greece,GRC,"Zakynthou district (Ionioi Nisoi province), Peloponnisos province, Evvoias district (Sterea Ellada province)",Wildfire,Forest fire,,,2009-0271
+20/07/2009,27/07/2009,Italy,ITA,"Sardegna, Sicilia provinces",Wildfire,Forest fire,2,,2009-0271
+20/07/2009,24/07/2009,Spain,ESP,"Teruel district (Aragon province), Almeria district (Andalucia province), Horta de Sant Joan commune (Tarragona district, Cataluna/Catalunya province), Trevino area (Burgos district, Castilla y Leon province), Cuenca district (Castilla-La Mancha province)",Wildfire,Forest fire,6,,2009-0271
+21/08/2009,25/08/2009,Greece,GRC,"Marathonas area (Attikis district, Attiki province)",Wildfire,Forest fire,,1040,2009-0345
+00/06/2009,00/07/2009,China,CHN,"Chaiyang, Fuxin, Jinzhou, Huludao districts (Liaoning Sheng province)",Drought,Drought,,160000,2009-9283
+00/07/2009,00/08/2009,Bangladesh,BGD,"Barisal, Chittagong, Dhaka, Khulna, Rajshahi, Rangpur, Sylhet provinces",Drought,Drought,,,2009-9323
+00/07/2009,00/08/2009,India,IND,"Bongaigaon, Cachar, Dhuburi, Goalpara, Golaghat, Hailakandi, Jorhat, Kamrup, Karbi Anglong, Kokrajhar, Lakhimpur, Marigaon, Nagaon, Sibsagar, Barpeta, Darrang, Dhemaji, Dibrugarh, Karimganj, Nalbari, North Cachar Hills, Sonitpur, Tinsukia districts (Assam province), Bilaspur, Chamba, Hamirpur, Kangra, Kinnaur, Kullu, Lahaul and Spiti, Mandi, Shimla, Sirmaur, Solan, Una districts (Himachal Pradesh province), Chatra, Garhwa, Latehar, Palamu, Dumka, Deoghar, Giridih, Godda, Jamtara, Pakur, Sahibganj, Bokaro, Dhanbad, Purba Singhbhum, Gumla, Hazaribag, Koderma, Lohardaga, Ranchi, Simdega, Saraikela Kharsawan, Pashchim Singhbhum districts (Jharkhand province), Bishnupur, Chandel, Churachandpur, East Imphal, West Imphal, Senapati, Tamenglong, Thoubal, Ukhrul districts (Manipur province), Dimapur, Kohima, Phek, Mokokchung, Mon, Tuensang, Wokha, Zunheboto districts (Nagaland province), Ambedkar Nagar, Ballia, Bareilly, Basti, Deoria, Farrukkhabad, Fatehpur, Ghazipur, Hardoi, Hathras, Jaunpur, Kannauj, Kanpur Dehat, Mainpuri, Mau, Rae Bareli, Sultanpur, Sant Kabir Nagar, Unnao, Agra, Shahjahanpur, Faizabad, Meerut, Mahoba, Aligarh, Jyotiba Phule Nagar, Balrampur, Etah, Rampur, Ghaziabad, Gautam Buddha Nagar, Banda, Mathura, Allahabad, Auraiya, Jalaun, Varanasi, Chandauli, Moradabad, Azamgarh, Siddharth Nagar, Badaun, Sitapur, Firozabad, Saharanpur, Chitrakoot, Etawah, Bulandshahr, Kaushambi, Pilibhit, Muzaffarnagar, Kushinagar, Jhansi, Lucknow, Bijnor, Mirzapur districts (Uttar Pradesh province), Patna, Nalanda, Gaya, Buxar, Bhojpur, Rohtas, Bhabua, Siwan, Nawada, Munger, Aurangabad, Sheikhpura, Lakhisarai, Jamui, Bhagalpur, Banka, Saran, Jehanabad, Muzaffarpur, Sitamarhi, Begusarai, Madhepura, Kishanganj, Katihar, Vaishali districts (Bihar province), Bangalore Urban, Bangalore Rural, Kolar, Tumkur, Chitradurga, Davanagere, Chamrajnagar, Mysore, Mandya, Bellary, Koppal, Raichur, Gulbarga, Bidar, Belgaum, Bagalkot, Bijapur, Gadag districts (Karnataka province), Nanded, Latur, Aurangabad, Jalna, Bid, Parbhani, Osmanabad, Hingoli, Chandrapur, Yavatmal, Wardha, Thane, Raigarh, Nandurbar, Jalgaon, Amravati, Buldana, Washim, Garhchiroli, Pune, Satara, Sangli, Solapur, Kolhapur, Nashik, Dhule, Ahmednagar, Akola districts (Maharasthra province), Rewa, Satna, Sidhi, Shahdol, Anuppur, Umaria, Dindori, Jabalpur, Katni, Balaghat, Narsinghpur, Mandla, Sagar, Panna, Tikamgarh, Chhatarpur, Raisen, Vidisha, Damoh, Sehore, Gwalior, Guna, Ashoknagar, Shivpuri, Datia, Bhind, Morena, Sheopur, Shajapur, Dewas, Ratlam, East Nimar, Burhanpur, Barwani, Jhabua districts (Madhya Pradesh province), Ajmer, Alwar, Banswara, Barmer, Bhilwara, Bikaner, Bundi, Chittaurgarh, Churu, Dausa, Dungarpur, Ganganagar, Hanumangarh, Jaipur, Jaisalmer, Jalor, Jhunjhunu, Jodhpur, Nagaur, Pali, Rajsamand, Sawai Madhopur, Sikar, Sirohi, Tonk, Udaipur districts (Rajasthan province)",Drought,Drought,,,2009-9323
+00/01/2009,00/08/2010,Ethiopia,ETH,"Somali, Oromia, Afar, Tigray, Amhara, SNNP, Gambela provinces",Drought,Drought,,6200000,2009-9615
+00/00/2009,00/00/2010,South Sudan,SSD,"Unity, Northern Bahr Ghazal, Jonglei, Upper Nile, Eastern Equatoria, Warab provinces",Drought,Drought,,4300000,2009-9633
+00/12/2009,00/02/2010,Burundi,BDI,"Kirundo, Bugabira, Busoni districts (Kirundo province)",Drought,Drought,,180000,2009-9634
+00/09/2009,00/03/2010,Niger (the),NER,"Agadez, Diffa, Dosso, Maradi, Tahoua, Tillaberi, Zinder, Niamey provinces",Drought,Drought,,7900000,2009-9651
+00/12/2009,00/07/2010,Chad,TCD,"Kanem, Barl El Gazal, Lac, Batha Est, Batha Ouest, Guera, Sila, Salamat, Ouaddai, Hadjer Lamis provinces",Drought,--,,2400000,2009-9654
+00/10/2009,00/05/2010,China,CHN,"Yunnan Sheng, Guizhou Sheng, Sichuan Sheng, Guangxi Zhuangzu Zizhiqu, Chongqing Shi provinces",Drought,Drought,,60000000,2009-9655
+00/00/2009,00/00/2009,Nepal,NPL,"Far Western, Mid Western provinces",Drought,Drought,,303000,2009-9660
+00/00/2009,00/00/2009,Kyrgyzstan,KGZ,"Batken, Bishkek, Jalal-Abad, Naryn, Osh, Talas, Ysyk-Kol provinces",Drought,Drought,,2000000,2009-9661
+00/07/2010,6/8/10,Russian Federation (the),RUS,"Nizhniy city (Krasnodarskiy Kray province), Novgorodskaya Oblast, Riazan city (Ryazanskaya Oblast province), Lipetskaya Oblast, Voronezhskaya Oblast, Belgorodskaya Oblast, Ivanovskaya Oblast, Moskva, Moskovskaya Oblast provinces",Wildfire,"Land fire (Brush, Bush, Pastur",53,5996,2010-0352
+6/8/10,20/08/2010,Congo (the Democratic Republic of the),COD,"Kongolo city (Tanganyka district, Katanga province)",Wildfire,"Land fire (Brush, Bush, Pastur",8,2770,2010-0414
+2/9/10,3/9/10,Russian Federation (the),RUS,Volgogradskaya Oblast region,Wildfire,Forest fire,8,1200,2010-0466
+5/12/10,5/12/10,China,CHN,"Daofu county (Garzê Tibetan district, Sichuan Sheng province)",Wildfire,"Land fire (Brush, Bush, Pastur",22,3,2010-0623
+2/12/10,5/12/10,Israel,ISR,"Isfiya village (Carmel forest, Haifa province)",Wildfire,Forest fire,44,20022,2010-0627
+00/00/2011,00/00/2011,Burundi,BDI,"Kayanza, Ngozi provinces (North region), Cankuzo, Kirundo, Muyinga provinces (North-Eastern region), Bururi, Makamba, Rutana provinces (Southern region)",Drought,Drought,,,2010-9082
+00/11/2010,00/07/2011,Djibouti,DJI,"Ali Sabieh district (Ali Sabieh province), Dikhil, Yoboki districts (Dikhil province), Alaili Dadda, Obock districts (Obock province), Balha, Dorra districts (Tadjourah province)",Drought,Drought,,200258,2010-9082
+00/01/2011,00/01/2012,Ethiopia,ETH,"Somali, Oromia, Afar, Tigray, Amhara provinces",Drought,Drought,,4805679,2010-9082
+00/01/2011,00/01/2011,Kenya,KEN,"Marsabit, Isiolo, Moyale districts (Eastern province), Mandera, Wajir, Ijara, Garissa (North Eastern province), West Pokot, Turkana, Samburu district (Rift Valley Province), Tana River, Lamu, Kwale (Coast province)",Drought,Drought,,4300000,2010-9082
+00/02/2010,00/11/2011,Somalia,SOM,"Bakool, Shabelle Hoose, Shabelle Dhexe, Bay, Galgaduud, Gedo, Hiraan, Juba Dhexe, Juba Hoose, Mudug, Sanaag, Sool, Togdheer, Woqooyi Galbeed, Awdal, Bari, Nugaal province",Drought,Drought,20000,4000000,2010-9082
+00/03/2011,00/00/2011,Uganda,UGA,"Kaabong, Kotido, Abim, Moroto, Nakapiripirit provinces (Karamoja region)",Drought,Drought,,669000,2010-9082
+00/03/2010,00/03/2011,Thailand,THA,"Ang Thong, Chainat, Chaiyaphum, Chiang Rai, Kalasin, Kampaeng Phet, Khon Kaen, Lampang, Loei, Lopburi, Maha Sarakham, Mukdahan, Nakhon Phanom, Nakhon Ratchasima, Nakhon Sawan, Nan, Nong Bua Lamphu, Nong Khai, Phayao, Phichit, Phitsanulok, Phra Nakhon Si Ayudhya, Phrae, Sakon Nakhon, Saraburi, Singburi, Sukhothai, Suphanburi, Udon Thani, Uthai Thani, Uttaradit provinces",Drought,Drought,,6482602,2010-9132
+00/05/2010,00/00/2013,Zimbabwe,ZWE,"Manicaland, Mashonaland Central, Mashonaland East, Mashonaland West, Masvingo, Matabeleland North, Matabeleland South, Midlands provinces",Drought,Drought,,1667618,2010-9181
+00/06/2010,00/00/2010,Mali,MLI,"Kayes, Tombouctou, Kidal, Gao provinces",Drought,Drought,,600000,2010-9249
+00/03/2010,00/00/2010,Mozambique,MOZ,"Maputo, Inhambane, Gaza provinces (South)",Drought,Drought,,460000,2010-9290
+00/00/2010,00/00/2011,Mauritania,MRT,"Assaba, Brakna, Gorgol, Guidimakha, Hodh Ech Gharbi, Nouakchott, Tagant, Trarza provinces, Amourj, Bassikounou, Djigueni, Nema, Timbedra districts (Hodh Ech Chargi province) (Southern Mauritania/Sahel region)",Drought,Drought,,838000,2010-9292
+1/4/10,20/08/2010,Russian Federation (the),RUS,"Adygeya Rep., Astrakhanskaya Oblast, Bashkortostan Rep., Belgorodskaya Oblast, Bryanskaya Oblast, Chelyabinskaya Oblast, Ivanovskaya Oblast, Kalmykiya Rep., Kaluzhskaya Oblast, Krasnodarskiy Kray, Kurskaya Oblast, Lipetskaya Oblast, Moskovskaya Oblast, Moskva, Name Unknown, Orenburgskaya Oblast, Orlovskaya Oblast, Penzenskaya Oblast, Rostovskaya Oblast, Ryazanskaya Oblast, Samarskaya Oblast, Saratovskaya Oblast, Smolenskaya Oblast, Stavropolskiy Kray, Tambovskaya Oblast, Tulskaya Oblast, Tverskaya Oblast, Ulyanovskaya Oblast, Vladimirskaya Oblast, Volgogradskaya Oblast, Voronezhskaya Oblast, Yaroslavskaya Oblast provinces",Drought,Drought,,,2010-9318
+00/12/2010,00/05/2011,China,CHN,"Anhui Sheng, Gansu Sheng, Henan Sheng, Hebei Sheng, Jiangsu Sheng, Shaanxi Sheng, Shandong Sheng, Shanxi Sheng provinces",Drought,Drought,,35000000,2010-9701
+23/08/2011,24/08/2011,Australia,AUS,"Margaret river city (Augusta-Margaret River (S) district, Western Australia province)",Wildfire,"Land fire (Brush, Bush, Pastur",,120,2011-0640
+00/06/2011,00/00/2011,Thailand,THA,"Chians Rai, Nan, Phrae, Loei, Nong Khai, Ubon Ratchathani, Mukdahan, Sakon Nakhon, Si Saket, Surin, Chaiyaphum, Amnat Charoen, Kalasin, Nakhon Ratchasima, Buriram, Yasothon provinces (North), Sukhothai, Phetchabun, Phichit provinces (Central), Prachuap Khilikhan, Phetchaburi, Kanchanaburi provinces (West)",Drought,Drought,,,2011-9207
+00/01/2011,00/08/2011,Afghanistan,AFG,"Balkh, Samangan, Takhar, Sar-e-Pul, Hirat, Badghis, Faryab, Jawzjan, Baghlan, Kunduz, Badakshan, Bamyan, Daykundi, Ghor provinces",Drought,Drought,,1750000,2011-9312
+00/09/2011,00/00/2011,Tuvalu,TUV,Nukulaelae Isl. Funati Islands,Drought,Drought,,,2011-9390
+00/08/2011,00/00/2012,"Tanzania, United Republic of",TZA,"Ngorongoro district (Arusha province), Simanjiro district (Manyara province), Same, Rombo, Mwanga districts (Kilimanjaro province)",Drought,Drought,,1000000,2011-9415
+00/12/2011,00/00/2012,Burkina Faso,BFA,"Sahel, Centre-nord, Est, Centre-ouest and Centre-est provinces",Drought,Drought,,2850000,2011-9524
+00/00/2011,00/00/2012,Niger (the),NER,"Diffa, N'Guigmi districts (Diffa province), Dogondoutchi, Loga districts (Dosso province), Aguie, Guidan Roumji, Madarounfa, Mayahi districts (Maradi province), Bouza, Illela, Birni N'konni, Madaoua districts (Tahoua province), Filingue, Ouallam, Tera, Tillaberi (Tillaberi), Goure, Matamey, Tanout (Zinder)",Drought,Drought,,3000000,2011-9529
+00/12/2011,00/00/2013,Senegal,SEN,"Kaffrine, Kedougou, Tambacounda, Saint-Louis, Matam, Diourbel, Kolda, Kaolack, Fatick provinces, Louga, Linguere districts (Louga province)",Drought,Drought,,850000,2011-9560
+00/12/2011,00/10/2012,Lesotho,LSO,"Quthing, Mohale's Hoek, Mafeteng, Maseru, Berea, Leribe, Butha Buthe, Mokhotlong, Thaba-Tseka provinces",Drought,Drought,,725515,2011-9629
+00/00/2011,00/00/2012,Mali,MLI,"Kayes, Koulikoro, Mopti, Segou provinces",Drought,Drought,,3500000,2011-9661
+00/00/2011,00/00/2012,Mauritania,MRT,"Hodh El Chargi, Assaba, Brakna, Gorgol, Hodh El Gharbi, Guidimakha provinces",Drought,Drought,,723000,2011-9662
+00/00/2012,00/00/2012,Ethiopia,ETH,"Dire Dawa, Gambela, Hareri, Oromia, SNNPR, Somali, Addis Ababa provinces (Southern Ethiopia)",Drought,Drought,,1000000,2011-9663
+00/00/2011,00/00/2012,Kenya,KEN,"Wajir, Mandera districts (North Eastern province), Turkana district (Rift Valley province), Tana river district (Coast province), Moyale, Marsabit, Mwingi districts (Eastern province)",Drought,Drought,,3750000,2011-9663
+00/00/2012,00/00/2012,Somalia,SOM,"Bakool, Gedo, Juba, Hiraan provinces",Drought,Drought,,3000000,2011-9663
+00/00/2012,00/00/2012,Sudan (the),SDN,Abyei district (Southern Kordofan province),Drought,Drought,,3200000,2011-9663
+20/04/2012,20/04/2012,Russian Federation (the),RUS,Tygda city (Amurskaya Oblast province),Wildfire,"Land fire (Brush, Bush, Pastur",2,598,2012-0098
+22/07/2012,27/07/2012,Spain,ESP,Girona district (Cataluna/Catalunya province),Wildfire,--,4,6,2012-0279
+00/03/2012,00/00/2012,Angola,AGO,"Bengo, Cuanza Sul, Benguela, Huila, Namibe, Cunene, Moxico, Bie, Huambo, Zaire provinces",Drought,Drought,,1833900,2012-9065
+00/06/2012,00/02/2013,Chad,TCD,"Kanem, Lac Barl el Gazal, Batha Est, Batha Ouest, Hadjer Lamis, Ouaddai, Salamat provinces",Drought,Drought,,1600000,2012-9160
+00/04/2012,00/00/2012,Korea (the Democratic People's Republic of),PRK,"Yanggang-do, Chagang-do, Hamgyong-bukto, Hamgyong-namdo, Kangwon-do provinces",Drought,Drought,,3000000,2012-9222
+00/03/2012,00/00/2012,Gambia (the),GMB,"NO DATA: all country selected - North Bank, Lower River (mainly?), Upper River, West Coast, Kanifing Municipal Council, Central River provinces",Drought,Drought,,428000,2012-9245
+1/6/12,10/10/12,Italy,ITA,"Abruzzi, Basilicata, Calabria, Campania, Emilia-romagna, Friuli-venezia Giulia, Lazio, Liguria, Lombardia, Marche, Molise, Piemonte, Puglia, Sardegna, Sicilia, Toscana, Trentino-alto Adige, Umbria, Valle D'aosta, Veneto provinces",Drought,Drought,,,2012-9290
+00/08/2012,00/00/2013,Malawi,MWI,"Balaka, Blantyre, Chikwawa, Machinga, Mangochi, Mulanje, Mwanza, Neno, Nsanje, Phalombe, Thyolo, Zomba districts (Southern Region Province), Dedza, Ntcheu, Salima districts (Central Region Province)",Drought,Drought,,1900000,2012-9304
+1/6/12,31/08/2012,Russian Federation (the),RUS,"Adygeya Rep., Astrakhanskaya Oblast, Bashkortostan Rep., Belgorodskaya Oblast, Bryanskaya Oblast, Chelyabinskaya Oblast, Kalmykiya Rep., Krasnodarskiy Kray, Kurskaya Oblast, Lipetskaya Oblast, Name Unknown, Orenburgskaya Oblast, Orlovskaya Oblast, Penzenskaya Oblast, Rostovskaya Oblast, Samarskaya Oblast, Saratovskaya Oblast, Stavropolskiy Kray, Tambovskaya Oblast, Ulyanovskaya Oblast, Volgogradskaya Oblast, Voronezhskaya Oblast provinces",Drought,Drought,,,2012-9395
+00/01/2012,00/11/2012,Sri Lanka,LKA,"Anuradhapura, Polonnaruwa districts (North Central province), Kurunegala, Puttalam districts (North Western province), Moneragala district (Uva province), Hambantota district (Southern province), Mannar district (Northern province)",Drought,Drought,,1800000,2012-9405
+00/11/2012,00/00/2012,Moldova (the Republic of),MDA,"Falesti district (Balti province), Vulcanesti district (Cahul province), Chisinau, Criuleni, Ialoveni districts (Chisinau province), Ciadir-Lunga district (Gagauzia province), Basarabeasca district (Lapusna province), Orhei, Rezina, Telenesti districts (Orhei province), Ungheni district (Ungheni province)",Drought,Drought,,5800,2012-9478
+15/04/2012,31/07/2012,Ukraine,UKR,Amury city (Odes'ka province),Drought,Drought,,,2012-9606
+1/1/13,17/01/2013,Australia,AUS,"Dunnaley, Boomer Bay cities (Sorell (M) district, Tasmania province), Sommers Bay (Tasman district, Tasmania province), Bicheno city (Glamorgan/Spring Bay (M) district, Tasmania province), New South Wales, Victoria",Wildfire,"Land fire (Brush, Bush, Pastur",1,450,2013-0024
+2/1/13,28/01/2013,Sierra Leone,SLE,"Blama Gbani community (Bo district, Southern province), Tiama community (Moyamba district, Southern province), Bompilia community (Bonthe district, Southern province), Rogbenk community (Port Loko district, Northern), Pujehun district (Southern province)",Wildfire,--,,2257,2013-0030
+00/01/2013,00/08/2013,Portugal,PRT,"Aveiro, Viseu provinces",Wildfire,Forest fire,9,,2013-0331
+6/1/13,6/1/13,Benin,BEN,"Alloya village (Chee-Ahomadegbe, Lalo district, Couffo Province)",Wildfire,--,1,2759,2013-0376
+18/10/2013,31/10/2013,Australia,AUS,Blue Mountains (C) district (New South Wales province),Wildfire,"Land fire (Brush, Bush, Pastur",2,990,2013-0402
+00/01/2013,00/07/2013,China,CHN,"Yunnan Sheng, Sichuan Sheng, Shaanxi Sheng, Qinghai Sheng, Shanxi Sheng, Gansu Sheng provinces",Drought,Drought,,5000000,2013-9062
+00/01/2013,00/01/2014,Namibia,NAM,"Kavango, Ohangwena, Oshikoto, Kunene provinces",Drought,Drought,,331000,2013-9146
+00/05/2013,00/05/2013,Marshall Islands (the),MHL,"North of the capital Majuro, atolls/islands of Namu, Likiep and Mejit",Drought,Drought,,6384,2013-9150
+00/01/2013,00/05/2013,New Zealand,NZL,"Auckland, Bay of Plenty, East Cape, Hawke's Bay, Northland, Taranaki, Waikato, Wanganui-manawatu, Wellington provinces (North Island)",Drought,Drought,,,2013-9203
+00/12/2013,00/12/2013,Zimbabwe,ZWE,"Matabeleland North, Matabeleland South, Masvingo, Midlands provinces",Drought,Drought,,2200000,2013-9536
+13/01/2014,13/01/2014,Australia,AUS,"Kalamunda (S), Mundaring (S) districts (Perth Hills region, Western Australia province)",Wildfire,"Land fire (Brush, Bush, Pastur",2,168,2014-0004
+7/2/14,28/02/2014,Australia,AUS,"Mickleham, Craigieburn cities (Hume district, Victoria province), Whittlesea (S), Nillumbik (S) districts (Melbourne north outskirts, Victoria province), Wallan, Kilmore, Beveridge cities (Mitchell (S) district, Victoria province), Warrandyte city (Manningham (C) district, Victoria province), Wunghnu city (Moira (S) district, Victoria province), Glenaladale, Walpa cities (East Gippsland (S) district, Victoria province), Yarram city (Wellington district, Victoria province), Morwell city (Latrobe district, Victoria province), Gisborne (Macedon Ranges district, Victoria province)",Wildfire,"Land fire (Brush, Bush, Pastur",,90,2014-0062
+00/05/2014,00/00/2014,Burkina Faso,BFA,Sahel province,Drought,Drought,,4000000,2014-9196
+00/07/2014,00/00/2015,Somalia,SOM,"Mogasdischio city (Banadir district, Banadir province), Bakool, Gedo, Juba Dhexe, Hiraan, Shabelle Hoose",Drought,Drought,,350000,2014-9231
+00/06/2014,00/07/2014,China,CHN,"Shandong Sheng, Shaanxi Sheng, Henan Sheng provinces, Nanbu-Nanchong city (Nanchong district, Sichuan Sheng ptovince)",Drought,Drought,,226000,2014-9265
+00/01/2014,00/08/2014,Sri Lanka,LKA,"Mullattivu, Kilinochchi, Mannar, Vavuniya, Jaffna districts (Northern province), Moneragala district (Uva province), Ampara, Batticaloa, Trincomalee districts (Eastern province), Anuradhapura, Polonnaruwa districts (North Central province), Kurunegala, Puttalam districts (North Western province), Hambantota, Galle districts (Southern province)",Drought,Drought,,1800000,2014-9393
+00/01/2014,00/05/2015,Kenya,KEN,"Mandera, Wajir districts (North Eastern province) Turkana, Baringo, Samburu districts (Rift Valley province), Marsabit district (Eastern province)",Drought,Drought,,1600000,2014-9404
+00/08/2014,00/10/2014,China,CHN,"Liaoning Sheng, Jilin Sheng, Nei Mongol Zizhiqu provinces",Drought,Drought,,27500000,2014-9408
+00/03/2014,00/03/2014,Thailand,THA,"Ang Thong, Bangkok, Buriram, Chachoengsao, Chainat, Chaiyaphum, Chanthaburi, Chiang Mai, Chiang Rai, Chonburi, Chumphon, Kalasin, Kampaeng Phet, Kanchanaburi, Khon Kaen, Krabi, Lampang, Lamphun, Loei, Lopburi, Mae Hong Son, Maha Sarakham, Mukdahan, Nakhon Nayok, Nakhon Pathom, Nakhon Phanom, Nakhon Ratchasima, Nakhon Sawan, Nakhon Si Thammarat, Nan Narathiwat, Nong Khai, Nonthaburi, Pathum Thani, Pattani, Phangnga, Phatthalung, Phayao, Phetchabun, Phetchaburi, Phichit, Phitsanulok, Phra Nakhon Si Ayudhya, Phrae, Phuket, Prachuap Khilikhan, Ranong, Ratchaburi, Rayong, Roi Et, Sakon Nakhon, Samut Prakarn, Samut Sakhon, Samut Songkham, Saraburi, Satun, Si Saket, Singburi, Songkhla, Sukhothai, Suphanburi, Surat Thani, Surin, Tak, Trad, Trang, Uthai Thani, Uttaradit, Yala, Yasothon, Amnat Charoen, Nong Bua Lamphu, Phachinburi, Sa Kaeo, Ubon Ratchathani, Udon Thani provinces",Drought,Drought,,,2014-9428
+00/03/2014,00/03/2014,Malaysia,MYS,"Kedah, Perak, Perlis, Pulau Pinang, Selangor provinces",Drought,Drought,,2200000,2014-9429
+00/11/2014,00/02/2015,Madagascar,MDG,"Androy, Anosy provinces, Atsimo Andrefana, Menabe provinces (South-West regions)",Drought,Drought,,20000,2014-9533
+00/09/2014,00/04/2015,Senegal,SEN,"Kanel district (Matam province), Podor district (Saint Louis province), Fatick district (Fatick province), Goudomp district (Sedhiou province)",Drought,Drought,,639702,2014-9573
+3/1/15,8/1/15,Australia,AUS,"Sampson Flat city (Playford (C) district, South Australia province), Kersbrook (Adelaide Hills (DC) district, Mount Lofty Ranges, South Australia province)",Wildfire,"Land fire (Brush, Bush, Pastur",,134,2015-0010
+12/4/15,15/04/2015,Russian Federation (the),RUS,"Khakasiya Rep., Chitinskaya Oblast, Aginskiy Buryatskiy A. Okrug provinces",Wildfire,"Land fire (Brush, Bush, Pastur",30,5977,2015-0137
+24/08/2015,28/08/2015,Congo (the Democratic Republic of the),COD,"Katanga, Maniema provinces",Wildfire,"Land fire (Brush, Bush, Pastur",3,57003,2015-0385
+00/09/2015,00/12/2015,Indonesia,IDN,"Jambi, Riau, Sumatera Selatan, Kalimantan Timur, Kalimantan Tengah, Kalimantan Selatan, Kalimantan Barat provinces",Wildfire,Forest fire,19,409664,2015-0429
+25/11/2015,28/11/2015,Australia,AUS,"Pinery, Balaklava cities (Wakefield (DC) district, North Mount Lofty Ranges, South Australia province), Roseworthy city (Light (RegC) district, South Australia province)",Wildfire,"Land fire (Brush, Bush, Pastur",2,135,2015-0514
+19/12/2015,26/12/2015,Australia,AUS,"Wye River, Separation Creek cities (Colac-Otway (S) district, Victoria province)",Wildfire,Forest fire,,348,2015-0560
+00/04/2015,00/05/2015,Niger (the),NER,"NO DATA: all provinces have been selected: Maradi, Niamey, Tahoua, Tillaberi, Zinder provinces",Drought,Drought,,2588128,2015-9166
+00/06/2015,00/07/2015,Korea (the Democratic People's Republic of),PRK,"Hwanghae-namdo, Hwanghae-bukto, Hamyong-namdo, P'yongan-bukto, P'yongan-namdo, P'yongyang-si provinces",Drought,Drought,,18000000,2015-9257
+00/07/2015,00/12/2015,Botswana,BWA,All country,Drought,Drought,,,2015-9307
+00/05/2015,00/10/2015,China,CHN,"Hebei Sheng, Shanxi Sheng, Nei Mongol Zizhiqu, Liaoning Sheng, Jilin Sheng, Heilongjiang Sheng, Shandong Sheng, Yunnan Sheng, Shaanxi, Ningxia Huizu Zizhiqu provinces",Drought,Drought,,,2015-9328
+00/08/2015,00/04/2016,Philippines (the),PHL,"Isabela district (Region II (Cagayan Valley), Region XIII (Caraga), Autonomous region in Muslim Mindanao (ARMM), Region IX (Zamboanga Peninsula), Region X (Northern Mindanao), Region XI (Davao Region), Region XII (Soccsksargen) provinces (Mindanao Isl.), Region VI (Western Visayas), Region VII (Central Visayas), Region VIII (Eastern Visayas) provinces (Visayas regions)",Drought,Drought,,181687,2015-9364
+00/08/2015,00/08/2015,Sudan (the),SDN,"Southern Kordofan, Blue Nile provinces",Drought,Drought,,800000,2015-9373
+00/05/2015,00/10/2015,Papua New Guinea,PNG,"Kandep district (Enga province), Sirunki city (Lagaip district, Enga province), Mendi, Ialibu, Pangia districts (Southern Highlands province), Tambul district (Western Highlands province), Menyamya district (Morobe province), Kundiawa, Gembogl, Sinasina(-Yongomugl), Gumine, Chuave, Kerowagi, Karimui (-Nomane) districts (Chimbu province), Henganofi, Goroka (Unggai-Bena) districts (Eastern Highlands province), Rabaul, Kokopo districts (East New Britain province), Goilala district (Central province), Manus province",Drought,Drought,24,2000000,2015-9410
+00/07/2015,00/07/2015,Indonesia,IDN,"Lani Jaya (Jayawijaya district, Papua province), Puncakjaya district (Papua province)",Drought,Drought,11,,2015-9411
+00/10/2015,00/04/2016,Malawi,MWI,23-25 districts affected (almost all the country): All provinces have been selected,Drought,Drought,,2800000,2015-9444
+00/01/2015,00/04/2016,Zimbabwe,ZWE,"Manicaland, Masvingo, Matabeleland North, Matabeleland South, Mashonaland Central, Midlands provinces",Drought,Drought,,1490024,2015-9478
+00/09/2015,00/10/2015,Fiji,FJI,NO DATA: all country selected,Drought,Drought,,67000,2015-9483
+00/06/2015,00/12/2015,Samoa,WSM,"Upolu Isl., Savaii Isl.",Drought,Drought,,,2015-9483
+00/00/2015,00/12/2015,Solomon Islands,SLB,"Bellona, Rennell, Makira",Drought,Drought,,,2015-9483
+00/08/2015,00/12/2015,Tonga,TON,"Vava'u, Ha'apai, Tongatapu, Niuafo'ou, Niuatoputapu",Drought,Drought,,,2015-9483
+00/01/2015,00/04/2016,South Africa,ZAF,"KwaZulu-Natal, Free state, Limpopo, Mpumalanga, North-West provinces",Drought,Drought,,2700000,2015-9500
+00/01/2015,00/09/2015,Namibia,NAM,"Erongo, Hardap, Karas, Kunene provinces (South and Western part of the country)",Drought,Drought,,11500,2015-9505
+00/09/2015,00/01/2016,Ethiopia,ETH,"Somali, Afar provinces",Drought,Drought,,10200000,2015-9545
+00/01/2015,00/12/2015,Gambia (the),GMB,"NO DATA: all country selected: Central River, North Bank (mainly?), Kanifing Municipal Council, Lower River, Upper River, West Coast provinces",Drought,Drought,,,2015-9575
+00/08/2015,00/01/2016,Somalia,SOM,"Sanaag, Sool, Togdheer, Woqooyi Galbeed, Awdal provinces (Somaliland region), Bari, Nugaal provinces (Puntland region)",Drought,Drought,,4700000,2015-9616
+00/12/2015,00/04/2016,Viet Nam,VNM,"An Giang, Ba Ria-Vung Tau, Ben Tre, Binh Dinh, Binh Duong, Binh Phuoc, Binh Thuan, Can Tho city, Dak Lak, Dak Nong, Dong Nai, Dong Thap, Gia Lai, Hau Giang, Ho Chi Minh City, Khanh Hoa, Kon Tum, Lam Dong, Long An, Ninh Thuan, Phu Yen, Quang Nam, Quang Ngai, Soc Trang, Tay Ninh, Tien Giang, Tra Vinh, Vinh Long provinces",Drought,Drought,,1750000,2015-9617
+5/1/16,10/1/16,Australia,AUS,"Yarloop, Waroona, Hamel, Cookenup (Australie Occidentale)",Wildfire,"Land fire (Brush, Bush, Pastur",2,486,2016-0014
+00/02/2016,00/02/2016,Lesotho,LSO,"Qacha’s Nek, Mokhotlong, Thaba Tseka, Quthing, Mafeteng, Butha Bothe, Berea, Leribe, Maseru, Mohale's Hoek provinces",Drought,Drought,,180000,2016-9050
+00/01/2016,00/05/2016,India,IND,"Tamil Nadu, Rajasthan, Jharkhand, Assam, Andhra Pradesh, Himachal Pradesh, Nagaland provinces",Drought,Drought,,330000000,2016-9090
+00/04/2016,00/04/2016,Timor-Leste,TLS,"Baucau (Eastern), Lautem, Viqueque (Southern) provinces",Drought,Drought,,170000,2016-9119
+00/01/2016,00/03/2016,Mozambique,MOZ,"Magude, Manhiça districts (Maputo province), Massingir, Chibuto districts (Gaza province), Funhaloro, Panda districts (Inhambane province)",Drought,Drought,,1200000,2016-9122

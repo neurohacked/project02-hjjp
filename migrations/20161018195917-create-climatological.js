@@ -1,7 +1,7 @@
 'use strict';
 module.exports = {
   up: function(queryInterface, Sequelize) {
-    return queryInterface.createTable('Biologicals', {
+    return queryInterface.createTable('Climatologicals', {
       id: {
         allowNull: false,
         autoIncrement: true,
@@ -38,29 +38,27 @@ module.exports = {
       },
       totalDeaths: {
         allowNull: true,
-        type: Sequelize.INTEGER,
-        defaultValue: 0
+        type: Sequelize.INTEGER
       },
       totalAffected: {
         allowNull: true,
-        type: Sequelize.INTEGER,
-        defaultValue: 0
+        type: Sequelize.INTEGER
       },
       disasterID: {
         allowNull: true,
         type: Sequelize.STRING
       },
       createdAt: {
-        allowNull: true,
-        type: Sequelize.DATE,
+        allowNull: false,
+        type: Sequelize.DATE
       },
       updatedAt: {
-        allowNull: true,
-        type: Sequelize.DATE,
+        allowNull: false,
+        type: Sequelize.DATE
       }
     });
   },
   down: function(queryInterface, Sequelize) {
-    return queryInterface.dropTable('Biologicals');
+    return queryInterface.dropTable('Climatologicals');
   }
 };
