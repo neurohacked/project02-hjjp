@@ -4,11 +4,6 @@ var safezones = require('../js/safezone.js');
 // var weather = require('../js/weather.js');
 var router = express.Router();
 
-// // get map input page
-// router.get('/', function(req, res) {
-//     res.render('map');
-// });
-
 // get safezones
 router.post('/safezones', function(req, res) {
     var addressObj = safezones.getAddressObj(req.body.address, req.body.city, req.body.state);
