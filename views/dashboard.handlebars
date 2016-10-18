@@ -24,9 +24,9 @@
                 {{/unless}}
                 {{#if locations}}
                     {{#each locations}}
-                        <div class="col-md-6">
-                            {{> assessments}}
-                        </div>
+                            <div class="col-md-6">
+                                {{> location-box}}
+                            </div>
                         <!-- /.col -->
                     {{/each}}
                 {{/if}}
@@ -41,4 +41,4 @@
 </div>
 
 <!-- Add Location Modal -->
-{{> location}}
+{{> location-modal}}

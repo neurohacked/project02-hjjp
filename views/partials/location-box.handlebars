@@ -1,11 +1,11 @@
 <div class="box {{box-color this.risk}}">
     <div class="box-header with-border">
-        <h3 class="box-title"><a class="address-info" href="#" data-toggle="tooltip" data-placement="right" title="{{this.address}}{{this.city}}, {{this.state}}">{{this.city}}</a></h3>
+        <h3 class="box-title">{{this.city}}, {{this.state}}{{#if this.address}} - <span style="font-size: 14px;">{{this.address}}</span>{{/if}}</h3>
         <div class="box-tools pull-right">
             <form action="location/delete/{{this.id}}?_method=DELETE" method="POST">
                 <input type="hidden" name="id" value="{{this.id}}">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-                <button type="submit" class="btn btn-box-tool location-delete" data-id="{{this.id}}"><i class="fa fa-times"></i></button>
+                <button type="submit" class="btn btn-box-tool"><i class="fa fa-times"></i></button>
             </form>
         </div>
     </div>
