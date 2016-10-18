@@ -12,7 +12,7 @@ const methodOverride = require('method-override');
 // controllers
 const app_controller = require('./controllers/app_controller');
 const location_controller = require('./controllers/location_controller');
-const map_controller = require('./controllers/map_controller');
+const data_controller = require('./controllers/data_controller');
 const user_controller = require('./controllers/user_controller');
 
 // instantiate  app
@@ -84,7 +84,7 @@ app.use(express.static('public'));
 
 app.use('/', app_controller, user_controller);
 app.use('/location', location_controller);
-app.use('/map', map_controller);
+app.use('/data', data_controller);
 
 // catch 404 and forward to error handler
 // app.use(function(req, res, next) {

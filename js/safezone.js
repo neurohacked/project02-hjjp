@@ -66,10 +66,10 @@ module.exports = {
     },
 
     // Get safezone locations list based on current geoCoordinates and a location type specified by function caller and return callback with result to get processed
-    getSafezoneList: function(geoObj, cb) {
+    getSafezonesList: function(geoObj, cb) {
         var locationTypeList = ['embassy', 'hospital', 'police', 'airport', 'bank'];
-        var safezoneCounter = 0;
-        var safezoneResultList = [];
+        var safezonesCounter = 0;
+        var safezonesResultList = [];
 
         var sourceObj = {
             lat: geoObj.lat,
@@ -79,7 +79,7 @@ module.exports = {
             locationType: 'home',
             choiceHash: geoObj.choiceHash
         };
-        safezoneResultList.push(sourceObj);
+        safezonesResultList.push(sourceObj);
 
         locationTypeList.forEach(function(locationType) {
 
@@ -88,7 +88,7 @@ module.exports = {
                 if (!error && response.statusCode == 200) {
                     var returned = JSON.parse(body).results;
                     returned.forEach(function(child) {
-                        var safezoneObj = {
+                        var safezonesObj = {
                             lat: child.geometry.location.lat,
                             lng: child.geometry.location.lng,
                             address: child.vicinity,
@@ -96,15 +96,15 @@ module.exports = {
                             locationType: locationType,
                             choiceHash: geoObj.choiceHash
                         }
-                        safezoneResultList.push(safezoneObj);
+                        safezonesResultList.push(safezonesObj);
                     });
                 } else {
                     console.log("Error on getting safezone Locations " + error);
                     return;
                 }
-                safezoneCounter++;
-                if (safezoneCounter === locationTypeList.length) {
-                    cb(safezoneResultList);
+                safezonesCounter++;
+                if (safezonesCounter === locationTypeList.length) {
+                    cb(safezonesResultList);
                 }
             });
         })
