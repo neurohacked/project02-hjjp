@@ -69,7 +69,7 @@ hbs.registerHelper("btn-color", function(risk) {
 app.set('view engine', 'handlebars');
 
 // uncomment when favicon.ico exists
-app.use(favicon(__dirname + '/public/assets/img/favicon.ico'));
+// app.use(favicon(__dirname + '/public/assets/img/favicon.ico'));
 
 // override POST to have DELETE and PUT
 app.use(methodOverride('_method'));
