@@ -88,8 +88,6 @@ a:hover, a:focus {
 ul, ol {
     padding: 0;
 }
-
-
 /* Navigation */
 
 #menu {
@@ -152,8 +150,6 @@ ul, ol {
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #FFF;
 }
-
-
 /* Navigation - Logged In */
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
@@ -194,7 +190,17 @@ ul, ol {
 .home .container {
     padding: 280px 15px 0;
 }
+/*Modals*/
 
+.modal-dialog {
+    margin-top: 200px;
+}
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        margin: 200px auto;
+    }
+}
 /* Home Style */
 
 .home {
@@ -224,14 +230,13 @@ ul, ol {
     height: auto;
     z-index: 0;
 }
-
 /*#home {
-    background: url(../img/01.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    color: #cfcfcf;
+background: url(../img/01.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+color: #cfcfcf;
 }*/
 
 .overlay {
@@ -287,8 +292,6 @@ a.fa.fa-angle-down:hover {
 .home p.lead {
     color: #e3e3e3;
 }
-
-
 /* About Section */
 
 .about {
@@ -309,8 +312,6 @@ ul.about-list li {
 ul.about-list li span {
     margin-right: 10px;
 }
-
-
 /* Team Section */
 
 .team {
@@ -446,8 +447,6 @@ ul.team-social li {
 .owl-theme .owl-controls .owl-page.active span {
     background: #605ca8;
 }
-
-
 /* Services Section */
 
 #services {
@@ -478,10 +477,7 @@ ul.team-social li {
     background: #605ca8;
     color: #ffffff;
 }
-
-
-/* Form */
-
+/* Forms */
 .aegis-form .panel {
     padding: 20px;
     background-color: #222;
@@ -515,8 +511,57 @@ ul.team-social li {
     background: #605ca8;
     border: 1px solid #605ca8;
 }
+/* Modal */
+.aegis-modal {
+    color: #fff;
+}
+.aegis-modal .modal-header {
+    border-bottom: 1px solid #444;
+}
+.aegis-modal .modal-footer {
+    border-top: 1px solid #444;
+}
+.aegis-modal .modal-content {
+    background-color: #222;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 0;
+    border-radius: 0;
+}
+.aegis-modal .close {
+    color: #fff;
+    opacity: 1.0;
+}
 
+.aegis-modal .close:hover {
+    color: #fff;
+    opacity: .5;
+}
+.aegis-modal .form-group>label {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
 
+.aegis-modal .form-group>input {
+    border-radius: 0;
+}
+
+.aegis-btn {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 6px 10px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 0;
+}
+
+.aegis-btn:hover {
+    color: #fff;
+    background: #605ca8;
+    border: 1px solid #605ca8;
+}
 /* Footer */
 
 nav#footer {

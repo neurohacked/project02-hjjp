@@ -4,7 +4,9 @@ const router = express.Router();
 
 router.post('/create', function(req, res) {
     models.Location.create({
-            location: req.body.location,
+            address: req.body.address,
+            city: req.body.city,
+            state: req.body.state,
             risk: req.body.risk,
             user_id: req.session.user_id
         })

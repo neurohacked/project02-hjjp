@@ -234,7 +234,7 @@ $(document).ready(function(){
               fillOpacity: 0.35,
               map: map,
               center: {lat: srcLat, lng: srcLng},
-              radius: 1000 
+              radius: 1000
             });
             var cityMiddleCircle = new google.maps.Circle({
               strokeColor: '#00CED1',
@@ -244,7 +244,7 @@ $(document).ready(function(){
               fillOpacity: 0.10,
               map: map,
               center: {lat: srcLat, lng: srcLng},
-              radius: 3000 
+              radius: 3000
             });
             var cityOuterCircle = new google.maps.Circle({
               strokeColor: '#FF6347',
@@ -254,7 +254,7 @@ $(document).ready(function(){
               fillOpacity: 0.10,
               map: map,
               center: {lat: srcLat, lng: srcLng},
-              radius: 5000 
+              radius: 5000
             });
 
             // Draggable directional map icons

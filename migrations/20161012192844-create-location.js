@@ -19,7 +19,9 @@ module.exports = {
         user_id: {
           type: Sequelize.INTEGER
         },
-        location: Sequelize.STRING,
+        address: Sequelize.STRING,
+        city: Sequelize.STRING,
+        state: Sequelize.STRING,
         risk: Sequelize.INTEGER,
         created_at: Sequelize.DATE,
         updated_at: Sequelize.DATE

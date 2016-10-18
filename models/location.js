@@ -2,7 +2,9 @@
 
 module.exports = function(sequelize, DataTypes) {
     const Location = sequelize.define("Location", {
-        location: DataTypes.STRING,
+        address: DataTypes.STRING,
+        city: DataTypes.STRING,
+        state: DataTypes.STRING,
         risk: DataTypes.INTEGER
     }, {
         // don't add the timestamp attributes (updatedAt, createdAt)

@@ -12,16 +12,24 @@ router.get('/', function(req, res) {
 
 // signup
 router.get('/signup', function(req, res) {
-    res.render('signup', {
-        layout: 'auth'
-    });
+    if (req.session.user_name) {
+        res.redirect('/dashboard');
+    } else {
+        res.render('signup', {
+            layout: 'auth'
+        });
+    }
 });
 
 // login
 router.get('/login', function(req, res) {
-    res.render('login', {
-        layout: 'auth'
-    });
+    if (req.session.user_name) {
+        res.redirect('/dashboard');
+    } else {
+        res.render('login', {
+            layout: 'auth'
+        });
+    }
 });
 
 module.exports = router;
