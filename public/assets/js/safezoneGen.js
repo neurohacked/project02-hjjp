@@ -160,6 +160,7 @@ $(document).ready(function(){
             city: $(this).data('city'),
             state: $(this).data('state')
         };
+
         var currentURL = window.location.origin;
 
         $.post('/data/safezones', newLocation)
