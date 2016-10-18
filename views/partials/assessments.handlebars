@@ -1,0 +1,59 @@
+<div class="box {{box-color this.risk}}">
+    <div class="box-header with-border">
+        <h3 class="box-title"><a class="address-info" href="#" data-toggle="tooltip" data-placement="right" title="{{this.address}}{{this.city}}, {{this.state}}">{{this.city}}</a></h3>
+        <div class="box-tools pull-right">
+            <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+        </button>
+            <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+        </div>
+    </div>
+    <!-- /.box-header -->
+    <div class="box-body">
+        <div class="row">
+            <div class="col-sm-3 text-center">
+                <a href="#" class="risk-info">
+                    <div class="well info-box {{btn-color this.risk}}">
+                        <span class="info-box-text">Risk</span>
+                        <span class="info-box-number">{{this.risk}}<small>%</small></span>
+                        <a href="#">More info</a>
+                        <!-- /.info-box-content -->
+                    </div>
+                    <!-- /.info-box -->
+                </a>
+            </div>
+            <div class="col-sm-9">
+                {{> data/news}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                {{> data/news}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                {{> data/news}}
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.box-body -->
+    <div class="box-footer no-padding text-center">
+        <div class="row box-icons">
+            <div class="col-xs-4">
+                <a class="map-display" href="#" alt="Safehouses"><i class="fa fa-home fa-2x box-icon"></i><p>Safehouses</p></a>
+            </div>
+            <div class="col-xs-4">
+                <a href="#" alt="Weather"><i class="fa fa-bolt fa-2x box-icon"></i><p>Weather</p></a>
+            </div>
+            <div class="col-xs-4">
+                <a href="#" alt="Travel"><i class="fa fa-subway fa-2x box-icon"></i><p>Travel</p></a>
+            </div>
+            <div class="col-xs-4">
+                <a href="#" alt="Travel"><i class="fa fa-file-text fa-2x box-icon"></i><p>Overview</p></a>
+            </div>
+        </div>
+    </div>
+    <!-- /.footer -->
+</div>
+<!-- /.box -->
