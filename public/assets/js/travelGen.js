@@ -162,7 +162,7 @@ $(document).ready(function(){
         };
         var currentURL = window.location.origin;
 
-        $.post('http://localhost:3000/map/travel', newLocation)
+        $.post('/data/travel', newLocation)
         .done(function (data) {
 
             for (var i = 0; i < 2; i++) {

@@ -14,6 +14,14 @@ router.post('/safezones', function(req, res) {
     });
 });
 
+// get weather
+router.post('/weather', function(req, res) {
 
+});
+
+// get travel locations
+router.post('/travel', function(req, res) {
+
+});
 
 module.exports = router;
