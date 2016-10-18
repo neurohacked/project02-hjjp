@@ -162,7 +162,7 @@ $(document).ready(function(){
         };
         var currentURL = window.location.origin;
 
-        $.post('/map/search', newLocation)
+        $.post('/data/safezones', newLocation)
         .done(function (data) {
 
             for (var i = 0; i < 2; i++) {
