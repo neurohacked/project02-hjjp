@@ -1,6 +1,6 @@
 'use strict';
 module.exports = function(sequelize, DataTypes) {
-  var Biological = sequelize.define('Biological', {
+  var Hydrological = sequelize.define('Hydrological', {
     startDate: DataTypes.STRING,
     endDate: DataTypes.STRING,
     countryName: DataTypes.STRING,
@@ -28,5 +28,5 @@ module.exports = function(sequelize, DataTypes) {
       }
     }
   });
-  return Biological;
+  return Hydrological;
 };

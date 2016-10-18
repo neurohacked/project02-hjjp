@@ -1,7 +1,11 @@
 'use strict';
-var fs = require('fs'),
-parse = require('csv-parse/lib/sync');
+var fs = require('fs');
+var parse = require('csv-parse/lib/sync');
 var models = require("../models");
+
+var dataCSV = 'Metrological';
+var tableCSV = dataCSV + 's';
+var csvFile = __dirname + "/../db/" + dataCSV + ".csv";
 
 module.exports = {
   up: function (queryInterface, Sequelize) {
@@ -10,9 +14,12 @@ module.exports = {
       Return a promise to correctly handle asynchronicity.
 
       Example:
-      return queryInterface.createTable('users', { id: Sequelize.INTEGER });
+      return queryInterface.bulkInsert('Person', [{
+        name: 'John Doe',
+        isBetaMember: false
+      }], {});
     */
-    fs.readFile('./db/Biological.csv', "utf8", function(error, data) {
+    fs.readFile(csvFile, "utf8", function(error, data) {
         var records = [];
         var rows = parse(data, {columns: true, auto_parse: true});
         for (var i = 0; i < rows.length; i++){
@@ -27,6 +34,7 @@ module.exports = {
                 }
                 if ((key == 'startDate') || (key == 'endDate')) {
                     var dmydate = rows[i][key];
+                    // console.log(dmydate + "ID: " + rows[i]['disasterID']);
                     var date = dmydate.split('/');
                     if (parseInt(date[2]) < 17) {
                         date[2] = parseInt(date[2]) + 2000;
@@ -45,13 +53,15 @@ module.exports = {
                     var day = pad.substring(0, pad.length - str.length) + str
                     rows[i][key] = month.toString() + "/" + day.toString() + "/" + date[2].toString();
                 }
+                rows[i]['createdAt'] = Sequelize.literal('NOW()');
+                rows[i]['updatedAt'] = Sequelize.literal('NOW()');
             }
             records.push(rows[i]);
-            // console.log(rows[i]);
         }
-        // return models.biologicals.bulkCreate(records);
-        return queryInterface.bulkInsert('biologicals', records, {});
+        // return models.Biologicals.bulkCreate(records);
+        return queryInterface.bulkInsert(tableCSV, records, {});
     });
+
   },
 
   down: function (queryInterface, Sequelize) {
@@ -60,16 +70,16 @@ module.exports = {
       Return a promise to correctly handle asynchronicity.
 
       Example:
-      return queryInterface.dropTable('users');
+      return queryInterface.bulkDelete('Person', null, {});
     */
-    fs.readFile('../db/Biological.csv', "utf8", function(error, data) {
+    fs.readFile(csvFile, "utf8", function(error, data) {
         var records = [];
         var rows = parse(data, {columns: true, auto_parse: true});
         for (var i = 0; i < rows.length; i++){
-            records.push(rows[i].dissasterID);
+            records.push(rows[i].disasterID);
         }
         // console.log(records);
-        return models.biologicals.destroy({where:{disasterID: records}});
+        return models.Metrologicals.destroy({where:{disasterID: records}});
     });
   }
 };

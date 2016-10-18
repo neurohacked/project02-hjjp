@@ -1,0 +1,1262 @@
+startDate,endDate,countryName,ISO,location,disasterType,disasterSubtype,totalDeaths,totalAffected,disasterID
+7/4/70,7/4/70,Philippines (the),PHL,Luzon,Earthquake,Ground movement,14,200,1970-0004
+00/01/1970,00/01/1970,China,CHN,Yunnan province,Earthquake,Ground movement,10000,,1970-0010
+10/2/70,10/2/70,France,FRA,Val d'Isere,Mass movement (dry),Avalanche,42,37,1970-0016
+28/03/1970,28/03/1970,Turkey,TUR,Gediz,Earthquake,Ground movement,1086,83448,1970-0019
+31/05/1970,31/05/1970,Peru,PER,Chimbote,Earthquake,Ground movement,66794,3216240,1970-0032
+30/07/1970,30/07/1970,Iran (Islamic Republic of),IRN,Northeast Iran,Earthquake,Ground movement,176,10000,1970-0038
+25/09/1970,25/09/1970,Colombia,COL,Pereira (Bahia Solano),Earthquake,Ground movement,,3006,1970-0051
+31/10/1970,31/10/1970,Papua New Guinea,PNG,Madang,Earthquake,Ground movement,15,,1970-0060
+9/12/70,9/12/70,Ecuador,ECU,Loja province,Earthquake,Ground movement,29,88112,1970-0067
+9/12/70,9/12/70,Peru,PER,"Piura,Tumbes",Earthquake,Ground movement,29,15252,1970-0068
+00/00/1970,00/00/1970,India,IND,,Earthquake,Ground movement,26,,1970-0112
+00/11/1970,00/11/1970,Colombia,COL,,Earthquake,Ground movement,430,,1970-0126
+00/00/1971,00/00/1971,Solomon Islands,SLB,Santa Cruz,Volcanic activity,Ash fall,,6000,1971-0008
+3/2/71,3/2/71,Nicaragua,NIC,"North West, near Managua",Volcanic activity,Ash fall,,3600,1971-0013
+6/2/71,6/2/71,Italy,ITA,Toscana,Earthquake,Ground movement,22,4220,1971-0014
+9/2/71,9/2/71,United States of America (the),USA,San Fernando (Los Angeles),Earthquake,Ground movement,65,1000,1971-0016
+2/5/71,2/5/71,Turkey,TUR,Burdur,Earthquake,Ground movement,57,,1971-0030
+4/5/71,4/5/71,Canada,CAN,Jean Vianney (Quebec),Mass movement (dry),Landslide,31,1500,1971-0031
+22/05/1971,22/05/1971,Turkey,TUR,"Bingol, Erzincan",Earthquake,Ground movement,878,88665,1971-0034
+8/7/71,8/7/71,Chile,CHL,"Valparaiso, Salamnca, Coquimbo",Earthquake,Ground movement,85,2348973,1971-0042
+17/10/1971,17/10/1971,Saint Vincent and the Grenadines,VCT,,Volcanic activity,Ash fall,,2000,1971-0056
+00/03/1972,00/03/1972,Peru,PER,"Juanjui, Tarapoto",Earthquake,Ground movement,12,1575000,1972-0024
+10/4/72,10/4/72,Iran (Islamic Republic of),IRN,Qir (Southwest Iran),Earthquake,Ground movement,5057,23458,1972-0027
+23/12/1972,23/12/1972,Nicaragua,NIC,Managua,Earthquake,Ground movement,10000,720000,1972-0067
+4/2/72,4/2/72,Italy,ITA,Ancona,Earthquake,Ground movement,1,450,1972-0084
+00/00/1972,00/00/1972,India,IND,,Earthquake,Ground movement,100,,1972-0132
+23/01/1973,10/2/73,Iceland,ISL,Heimaey Is.,Volcanic activity,Ash fall,,5200,1973-0012
+31/01/1973,31/01/1973,Mexico,MEX,"Michoacan, Colima",Earthquake,Ground movement,17,,1973-0014
+17/03/1973,17/03/1973,Philippines (the),PHL,"Luzon, Tablas Is.",Earthquake,Ground movement,14,64,1973-0017
+14/04/1973,14/04/1973,Costa Rica,CRI,South Laguna Arenal,Earthquake,Ground movement,21,3745,1973-0024
+28/08/1973,28/08/1973,Mexico,MEX,Puebla,Earthquake,Ground movement,500,,1973-0035
+00/05/1974,00/05/1974,China,CHN,"Yunnan, Sichuan",Earthquake,Ground movement,20000,,1974-0025
+9/5/74,9/5/74,Japan,JPN,Izu-Hanto,Earthquake,Ground movement,30,73,1974-0026
+3/10/74,3/10/74,Peru,PER,Lima area,Earthquake,Ground movement,78,43674,1974-0050
+28/12/1974,28/12/1974,Pakistan,PAK,North Indus R. Valley,Earthquake,Ground movement,4700,50200,1974-0063
+19/01/1975,19/01/1975,India,IND,Himachal Pradesh,Earthquake,Ground movement,47,,1975-0014
+4/2/75,4/2/75,China,CHN,Anshan Liaoning province,Earthquake,Ground movement,10000,,1975-0017
+00/06/1975,00/06/1975,Costa Rica,CRI,,Volcanic activity,Ash fall,2,,1975-0032
+8/7/75,8/7/75,Ecuador,ECU,El Sangay,Volcanic activity,Ash fall,,,1975-0041
+21/07/1975,21/07/1975,Solomon Islands,SLB,Torkina,Earthquake,Tsunami,200,,1975-0043
+6/9/75,6/9/75,Turkey,TUR,Lice,Earthquake,Ground movement,2385,53372,1975-0053
+00/12/1975,00/12/1975,Ecuador,ECU,Cotapaxi,Volcanic activity,Ash fall,,,1975-0147
+13/01/1976,13/01/1976,Iceland,ISL,Kopasker,Earthquake,Ground movement,1,6,1976-0020
+14/01/1976,14/01/1976,New Zealand,NZL,"Kermandec Is., Raoul",Earthquake,Ground movement,,,1976-0021
+4/2/76,4/2/76,Guatemala,GTM,Guatemala city,Earthquake,Ground movement,23000,4993000,1976-0024
+19/02/1976,19/02/1976,Cuba,CUB,Camaron area,Earthquake,Ground movement,1,8,1976-0026
+19/03/1976,19/03/1976,Afghanistan,AFG,Hindu Kush,Earthquake,Ground movement,50,90000,1976-0028
+25/03/1976,25/03/1976,Turkey,TUR,,Earthquake,Ground movement,2,6,1976-0029
+9/4/76,9/4/76,Ecuador,ECU,Esmeraldas,Earthquake,Ground movement,10,,1976-0033
+6/5/76,6/5/76,Italy,ITA,Friuli region,Earthquake,Ground movement,922,218222,1976-0037
+17/05/1976,17/05/1976,Soviet Union,SUN,Gazli (Uzbekistan),Earthquake,Ground movement,,,1976-0039
+26/06/1976,26/06/1976,Indonesia,IDN,Wanena Region (Irian Jaya),Earthquake,Ground movement,420,15000,1976-0043
+14/07/1976,14/07/1976,Indonesia,IDN,Bali,Earthquake,Ground movement,573,454755,1976-0047
+27/07/1976,27/07/1976,China,CHN,"Tangshan, Pek.,Tientsin",Earthquake,Ground movement,242000,164000,1976-0050
+16/08/1976,16/08/1976,Philippines (the),PHL,"Gulf of Moro, Sulu",Earthquake,Ground movement,6000,181348,1976-0054
+16/08/1976,16/08/1976,China,CHN,"Szechwan, Chengtu",Earthquake,Ground movement,,,1976-0055
+19/08/1976,19/08/1976,Turkey,TUR,Denizli,Earthquake,Ground movement,4,28,1976-0056
+30/08/1976,30/08/1976,Guadeloupe,GLP,,Volcanic activity,Ash fall,,75003,1976-0058
+3/9/76,3/9/76,Philippines (the),PHL,40 miles South Manilla,Volcanic activity,Ash fall,,11510,1976-0061
+4/10/76,4/10/76,Ecuador,ECU,Cotopaxi Pinchincha province,Earthquake,Ground movement,10,20000,1976-0068
+21/10/1976,21/10/1976,Costa Rica,CRI,,Volcanic activity,Ash fall,,70000,1976-0070
+29/10/1976,29/10/1976,Indonesia,IDN,West Irian,Earthquake,Ground movement,133,7000,1976-0071
+6/11/76,6/11/76,Iran (Islamic Republic of),IRN,South Khorasan province,Earthquake,Ground movement,16,,1976-0072
+24/11/1976,24/11/1976,Turkey,TUR,Muradiye,Earthquake,Ground movement,3840,216000,1976-0075
+00/12/1976,00/12/1976,Ecuador,ECU,Cotopaxi,Volcanic activity,Ash fall,1,25000,1976-0077
+00/00/1976,00/00/1976,Indonesia,IDN,,Volcanic activity,Ash fall,40,,1976-0171
+9/9/76,9/9/76,Italy,ITA,Friuli,Earthquake,Ground movement,12,32000,1976-0195
+00/01/1977,00/01/1977,Ethiopia,ETH,,Volcanic activity,Ash fall,64,,1977-0030
+10/1/77,10/1/77,Congo (the Democratic Republic of the),COD,Near Goma,Volcanic activity,Ash fall,147,60000,1977-0037
+4/3/77,4/3/77,Bulgaria,BGR,"Svishtov, Ruse",Earthquake,Ground movement,20,165,1977-0048
+4/3/77,4/3/77,Romania,ROU,Bucharest,Earthquake,Ground movement,1641,386300,1977-0048
+19/03/1977,19/03/1977,Philippines (the),PHL,Cagayan (N.E. Luzon),Earthquake,Ground movement,1,60030,1977-0050
+21/03/1977,21/03/1977,Iran (Islamic Republic of),IRN,Bandar Abbas area,Earthquake,Ground movement,167,20682,1977-0051
+26/03/1977,26/03/1977,Turkey,TUR,"Lice-Palu, Elazig Province",Earthquake,Ground movement,30,,1977-0052
+5/4/77,5/4/77,Comoros (the),COM,Grande Comore,Volcanic activity,Ash fall,1,25000,1977-0056
+7/4/77,7/4/77,Iran (Islamic Republic of),IRN,Shahr Kord,Earthquake,Ground movement,352,400200,1977-0057
+8/4/77,8/4/77,Réunion,REU,Sainte Rose,Volcanic activity,Ash fall,,1000,1977-0058
+21/04/1977,21/04/1977,Solomon Islands,SLB,"Guadalcanal, Honiara",Earthquake,Ground movement,34,1001,1977-0059
+26/05/1977,26/05/1977,Iran (Islamic Republic of),IRN,"Makhmur, Ilchi",Earthquake,Ground movement,3,9,1977-0071
+23/06/1977,23/06/1977,Tonga,TON,Tongatapu,Earthquake,Ground movement,1,5505,1977-0078
+7/8/77,7/8/77,Japan,JPN,Sapporo,Volcanic activity,Ash fall,3,10000,1977-0103
+19/08/1977,19/08/1977,Indonesia,IDN,"Sumbaya, Lombok, Sumba (Nusa Tengarra Is.)",Earthquake,Ground movement,185,3975,1977-0106
+23/11/1977,23/11/1977,Argentina,ARG,"Cardoba, Buenos Aires, Caucete, Bragado San Juan province",Earthquake,Ground movement,70,40100,1977-0137
+10/12/77,10/12/77,Iran (Islamic Republic of),IRN,Hormozgan,Earthquake,Ground movement,3,15,1977-0140
+20/12/1977,20/12/1977,Iran (Islamic Republic of),IRN,"Sarasiyab, Gish, Bab-Tangal villages (Kerman province)",Earthquake,Ground movement,589,500,1977-0142
+27/08/1977,27/08/1977,Indonesia,IDN,East Timor,Earthquake,Ground movement,2,25,1977-0251
+14/01/1978,14/01/1978,Japan,JPN,"Oshima, Yokohama",Earthquake,Ground movement,25,217,1978-0027
+16/04/1978,16/04/1978,Italy,ITA,,Earthquake,Ground movement,5,900,1978-0057
+00/05/1978,00/05/1978,Philippines (the),PHL,Albay province,Volcanic activity,Ash fall,,25000,1978-0066
+12/6/78,12/6/78,Japan,JPN,Sendai (Near Esat coast of Honshu),Earthquake,Ground movement,28,2500,1978-0080
+20/06/1978,20/06/1978,Greece,GRC,Thessaloniki area,Earthquake,Ground movement,50,600100,1978-0081
+00/08/1978,00/08/1978,Philippines (the),PHL,Central,Volcanic activity,Ash fall,,1000,1978-0101
+3/9/78,3/9/78,Germany Fed Rep,DFR,Swabian Alb,Earthquake,Ground movement,,235,1978-0113
+16/09/1978,16/09/1978,Iran (Islamic Republic of),IRN,Tabas (Khorasan province),Earthquake,Ground movement,25000,40000,1978-0115
+29/11/1978,29/11/1978,Mexico,MEX,"Mexico city, Oaxaca",Earthquake,Ground movement,9,3850,1978-0135
+14/12/1978,14/12/1978,Iran (Islamic Republic of),IRN,"Izeh, Masjed-e-Soleyman",Earthquake,Ground movement,45,52,1978-0141
+15/02/1978,15/02/1978,Turkey,TUR,"Pulumur, Erzincan",Earthquake,Ground movement,,2645,1978-0263
+16/01/1979,16/01/1979,Iran (Islamic Republic of),IRN,Meshed (Khorasan province),Earthquake,Ground movement,199,5200,1979-0018
+16/02/1979,16/02/1979,Peru,PER,Arequipa,Earthquake,Ground movement,13,1100,1979-0025
+20/02/1979,20/02/1979,Indonesia,IDN,Dieng plain (Central Java),Volcanic activity,Ash fall,175,28000,1979-0027
+14/03/1979,14/03/1979,Mexico,MEX,"Guerrero, Acapulco, Gudalajara, Monterrey, Puebla (Mexico city, south area)",Earthquake,Ground movement,5,7535,1979-0032
+13/04/1979,13/04/1979,Saint Vincent and the Grenadines,VCT,Northern,Volcanic activity,Ash fall,2,20000,1979-0035
+15/04/1979,15/04/1979,Albania,ALB,Northern,Earthquake,Ground movement,35,350,1979-0039
+15/04/1979,15/04/1979,Yugoslavia,YUG,Montenegro,Earthquake,Ground movement,121,310100,1979-0039
+24/05/1979,24/05/1979,Yugoslavia,YUG,Kotor-Ulcinj area (South Adriatic coast),Earthquake,Ground movement,,80,1979-0052
+30/05/1979,30/05/1979,Indonesia,IDN,Lombok Island (Sumabxa Isl. region),Earthquake,Ground movement,34,36048,1979-0054
+9/7/79,9/7/79,China,CHN,Lyang area (Jiangsu province),Earthquake,Ground movement,41,2000,1979-0063
+18/07/1979,18/07/1979,Indonesia,IDN,Lomblen Island,Earthquake,Tsunami,539,23,1979-0066
+27/08/1979,27/08/1979,China,CHN,Wu-Yuan area (Inner Mongolia),Earthquake,Ground movement,,2104,1979-0082
+12/9/79,12/9/79,Indonesia,IDN,"Yapen, Jobi (Irian Jaja)",Earthquake,Ground movement,2,5005,1979-0086
+12/9/79,12/9/79,Italy,ITA,Sicily,Volcanic activity,Ash fall,9,24,1979-0087
+9/10/79,9/10/79,Guatemala,GTM,"Santa Rosa, Jutiapia provinces",Earthquake,Ground movement,,2040,1979-0094
+2/11/79,2/11/79,Indonesia,IDN,West Java,Earthquake,Ground movement,26,43200,1979-0102
+14/11/1979,14/11/1979,Iran (Islamic Republic of),IRN,Khorasan province,Earthquake,Ground movement,350,15055,1979-0103
+23/11/1979,23/11/1979,Colombia,COL,Manizales-Armenia area,Earthquake,Ground movement,60,600,1979-0106
+27/11/1979,27/11/1979,Iran (Islamic Republic of),IRN,Khorasan province,Earthquake,Ground movement,16,23,1979-0107
+12/12/79,12/12/79,Colombia,COL,"Pasto, Buenaventura, Narino, Cauca provinces, Tumaco Isl., Gorgona Isl.",Earthquake,Ground movement,579,11042,1979-0113
+15/12/1979,15/12/1979,Indonesia,IDN,Bengkulu area (South Sumatra),Earthquake,Ground movement,5,1500,1979-0114
+18/12/1979,18/12/1979,Indonesia,IDN,"Bali, Lombok",Earthquake,Ground movement,32,619,1979-0115
+19/09/1979,19/09/1979,Italy,ITA,Val Nerina (Umbria),Earthquake,Ground movement,5,5000,1979-0216
+00/06/1979,00/06/1979,Australia,AUS,Cadoux region,Earthquake,Ground movement,,,1979-0219
+00/08/1979,00/08/1979,Korea (the Democratic People's Republic of),PRK,,Earthquake,Ground movement,,,1979-0220
+00/07/1979,00/07/1979,India,IND,Baramula-Sopur area,Earthquake,Ground movement,,,1979-0224
+16/10/1979,16/10/1979,France,FRA,Cote d'Azur,Earthquake,Tsunami,11,2,1979-0259
+00/05/1979,00/05/1979,Indonesia,IDN,Merapi (Ouest Sumatra),Volcanic activity,Ash fall,82,,1979-0269
+00/06/1979,00/06/1979,Japan,JPN,,Earthquake,Ground movement,27,,1979-0274
+1/1/80,1/1/80,Azores Islands,AZO,"Terceira, San Miguel, Santa Maria Pico, Sao Jorge Islands",Earthquake,Ground movement,69,21900,1980-0001
+17/05/1980,17/05/1980,Yugoslavia,YUG,"Mt Kopaonik, Aleksandrovac, Brus, Kursumlija, Raska areas",Earthquake,Ground movement,,5100,1980-0046
+18/05/1980,18/05/1980,United States of America (the),USA,Washington state,Volcanic activity,Ash fall,90,2500,1980-0047
+9/6/80,9/6/80,Mexico,MEX,Northwest,Earthquake,Ground movement,2,60,1980-0051
+29/07/1980,29/07/1980,Nepal,NPL,"Mahakali, Seti, Karnalin Bheri, Rapti zones",Earthquake,Ground movement,100,240600,1980-0071
+18/08/1980,18/08/1980,Ecuador,ECU,Guayaquil,Earthquake,Ground movement,8,40,1980-0081
+24/08/1980,24/08/1980,India,IND,Jammu,Earthquake,Ground movement,13,40,1980-0084
+5/9/80,5/9/80,Indonesia,IDN,Ternate (Moluccas),Earthquake,Ground movement,,20000,1980-0088
+25/09/1980,25/09/1980,Japan,JPN,"Tokyo, Kanto region",Earthquake,Ground movement,2,73,1980-0092
+10/10/80,10/10/80,Algeria,DZA,El Asnam,Earthquake,Ground movement,2633,930317,1980-0096
+24/10/1980,24/10/1980,Mexico,MEX,Oaxaca state,Earthquake,Ground movement,65,6300,1980-0097
+9/11/80,9/11/80,Peru,PER,Ayacucho,Earthquake,Ground movement,7,3000,1980-0100
+23/11/1980,23/11/1980,Italy,ITA,"Avellino, Potenza, Caserta, Naples",Earthquake,Ground movement,4689,407700,1980-0103
+19/12/1980,19/12/1980,Iran (Islamic Republic of),IRN,Qom-Saveh area,Earthquake,Ground movement,20,,1980-0108
+22/12/1980,22/12/1980,Iran (Islamic Republic of),IRN,"Qom, Fafresh",Earthquake,Ground movement,4,100,1980-0109
+7/12/80,7/12/80,Algeria,DZA,El Asnam area,Earthquake,Ground movement,2,90,1980-0111
+27/07/1980,27/07/1980,United States of America (the),USA,Kentucky,Earthquake,Ground movement,,2,1980-0124
+9/8/80,9/8/80,Honduras,HND,North (Honduras) and Izabal province (Guatemala),Earthquake,Ground movement,2,,1980-0129
+26/11/1980,26/11/1980,Venezuela (Bolivarian Republic of),VEN,"San Cristobal aera (Venezuela) , Cucta area (Colombia)",Earthquake,Ground movement,,186,1980-0184
+12/7/80,12/7/80,Greece,GRC,Volos (Magnisia province),Earthquake,Ground movement,1,17,1980-0239
+20/11/1980,20/11/1980,India,IND,"Sikkim, Gangtok Region",Earthquake,Ground movement,,8,1980-0255
+16/04/1980,16/04/1980,Indonesia,IDN,Tasikmalaja (Java),Earthquake,Ground movement,,,1980-0258
+30/11/1980,30/11/1980,Iran (Islamic Republic of),IRN,Kishan,Earthquake,Ground movement,26,,1980-0264
+29/06/1980,29/06/1980,Japan,JPN,South coast of Honshu (Oshima Isl.),Earthquake,Ground movement,,7,1980-0266
+11/11/80,11/11/80,Philippines (the),PHL,Santa Fe (Vizcaya Province),Mass movement (dry),Rockfall,50,,1980-0314
+4/9/80,4/9/80,Indonesia,IDN,Ternate Isl.,Volcanic activity,Ash fall,,52235,1980-0317
+00/00/1980,00/00/1980,Soviet Union,SUN,,Earthquake,Ground movement,87,,1980-0319
+22/01/1981,22/01/1981,Indonesia,IDN,Solo Valley (Irian Jaya),Earthquake,Ground movement,306,2682,1981-0025
+24/01/1981,24/01/1981,China,CHN,Sichuan province,Earthquake,Ground movement,150,25850,1981-0026
+24/02/1981,24/02/1981,Greece,GRC,Athens-Corinth area,Earthquake,Ground movement,22,80400,1981-0033
+11/6/81,11/6/81,Iran (Islamic Republic of),IRN,"Golbaf region, Kerman province",Earthquake,Ground movement,2000,3000,1981-0056
+22/06/1981,22/06/1981,Peru,PER,"Ayacucho, Huancavelica",Earthquake,Ground movement,10,12256,1981-0057
+28/07/1981,28/07/1981,Iran (Islamic Republic of),IRN,"Kerman, Golbaf, Shahdab",Earthquake,Ground movement,1200,31000,1981-0067
+13/08/1981,13/08/1981,Yugoslavia,YUG,Banja Luka (Bosnia Hercegovina),Earthquake,Ground movement,,44,1981-0073
+12/9/81,12/9/81,Pakistan,PAK,"Karakoram, Darel, Tangir, Khanbari valleys",Earthquake,Ground movement,250,2000,1981-0081
+18/10/1981,18/10/1981,Colombia,COL,Colombia/Venezuela border,Earthquake,Ground movement,10,,1981-0091
+25/10/1981,25/10/1981,Mexico,MEX,"Mexico city, Michoacan",Earthquake,Ground movement,3,28,1981-0093
+10/3/81,10/3/81,Greece,GRC,Greece-Albania border region,Earthquake,Ground movement,2,450,1981-0122
+7/6/81,7/6/81,Italy,ITA,Mazara del Vallo area (Sicily),Earthquake,Ground movement,,306,1981-0123
+12/12/81,12/12/81,Pakistan,PAK,Koshkak,Earthquake,Ground movement,6,237,1981-0127
+18/04/1981,18/04/1981,Peru,PER,Ayacucho area,Earthquake,Ground movement,8,15,1981-0211
+14/02/1981,14/02/1981,Italy,ITA,South,Earthquake,Ground movement,12,,1981-0224
+2/3/81,2/3/81,Indonesia,IDN,East of Java,Volcanic activity,Ash fall,192,5000,1981-0272
+00/00/1981,00/00/1981,India,IND,,Earthquake,Ground movement,212,,1981-0288
+00/00/1981,00/00/1981,Venezuela (Bolivarian Republic of),VEN,,Earthquake,Ground movement,15,,1981-0297
+24/02/1982,24/02/1982,Indonesia,IDN,Sukabumi (Java),Earthquake,Ground movement,,15000,1982-0031
+21/03/1982,21/03/1982,Italy,ITA,"Avellino, Potenza",Earthquake,Ground movement,,1000,1982-0035
+21/03/1982,21/03/1982,Japan,JPN,Hokkaido,Earthquake,Ground movement,,1100,1982-0036
+28/03/1982,28/03/1982,Mexico,MEX,,Volcanic activity,Ash fall,100,40500,1982-0039
+5/4/82,5/4/82,Indonesia,IDN,Java,Volcanic activity,Ash fall,30,300000,1982-0047
+15/06/1982,15/06/1982,China,CHN,Garze (Sichuan province),Earthquake,Ground movement,10,5,1982-0068
+19/06/1982,19/06/1982,El Salvador,SLV,,Earthquake,Ground movement,20,32500,1982-0081
+26/08/1982,26/08/1982,Indonesia,IDN,Sulawesi,Volcanic activity,Ash fall,,30000,1982-0094
+17/10/1982,17/10/1982,Italy,ITA,Perugia area (Umbria),Earthquake,Ground movement,,5000,1982-0106
+16/12/1982,16/12/1982,Afghanistan,AFG,Baghlan province (Hindu Kush region),Earthquake,Ground movement,500,38000,1982-0127
+25/12/1982,25/12/1982,Indonesia,IDN,Larantuka (Flores Isl.),Earthquake,Ground movement,13,8817,1982-0128
+13/12/1982,13/12/1982,Yemen Arab Rep,YMN,Dhamar province,Earthquake,Ground movement,1507,401500,1982-0131
+6/10/82,6/10/82,Liberia,LBR,Near Mano river,Mass movement (dry),Landslide,46,200,1982-0136
+27/04/1982,27/04/1982,Honduras,HND,Comayagua area,Earthquake,Ground movement,,500,1982-0141
+00/11/1982,00/11/1982,South Africa,ZAF,Vaal Reefs goldmine,Earthquake,Ground movement,17,,1982-0154
+16/11/1982,16/11/1982,Albania,ALB,Lushnje,Earthquake,Ground movement,1,5005,1982-0161
+7/6/82,7/6/82,Mexico,MEX,"Near coast of Guerrero, Michoacan",Earthquake,Ground movement,9,17,1982-0291
+28/03/1982,28/03/1982,Peru,PER,"Lima, Lunahuana, Huancayo",Earthquake,Ground movement,3,,1982-0293
+15/03/1982,15/03/1982,France,FRA,French Alps,Mass movement (dry),Avalanche,13,,1982-0302
+4/6/82,4/6/82,Poland,POL,Bytom,Earthquake,Ground movement,,1050,1982-0307
+11/1/82,11/1/82,Philippines (the),PHL,Catanduanes (Luzon Isl.),Earthquake,Ground movement,,,1982-0325
+26/03/1982,26/03/1982,Bolivia (Plurinational State of),BOL,Tarisa,Earthquake,Ground movement,20,,1982-0396
+00/00/1982,00/00/1982,Guatemala,GTM,,Earthquake,Ground movement,20,,1982-0398
+7/3/83,7/3/83,China,CHN,"Mt.Sale (Dongxiang arera, N.W.Gansu)",Mass movement (dry),Landslide,277,,1983-0051
+26/03/1983,26/03/1983,Iran (Islamic Republic of),IRN,Damavand-Amol area,Earthquake,Ground movement,30,7066,1983-0058
+31/03/1983,31/03/1983,Colombia,COL,Popayan city (Cauca department),Earthquake,Ground movement,250,36200,1983-0059
+2/4/83,2/4/83,Costa Rica,CRI,S.E. San José,Earthquake,Ground movement,10,475,1983-0065
+2/4/83,2/4/83,Soviet Union,SUN,Kum-Dag (Turkmenistan),Earthquake,Ground movement,,14000,1983-0066
+3/4/83,3/4/83,Indonesia,IDN,Banda Aceh (North Sumatra),Earthquake,Ground movement,,100,1983-0067
+14/04/1983,14/04/1983,Peru,PER,Chimbote,Earthquake,Ground movement,10,,1983-0070
+26/05/1983,26/05/1983,Japan,JPN,"Nihon- Kai-Chubu, Western Honshu, Akita, Aomori, Hokkaido",Earthquake,Tsunami,102,77,1983-0081
+28/06/1983,28/06/1983,Indonesia,IDN,Halmahera Island,Volcanic activity,Ash fall,,2500,1983-0088
+3/7/83,3/7/83,Costa Rica,CRI,San Jose province,Earthquake,Ground movement,2,5060,1983-0092
+6/7/83,6/7/83,Guatemala,GTM,Near Quezaltenango,Volcanic activity,Ash fall,,3500,1983-0093
+14/07/1983,14/07/1983,Indonesia,IDN,Unauna Isl. (central Sulawesi),Volcanic activity,Ash fall,,7101,1983-0095
+28/07/1983,28/07/1983,Colombia,COL,Gachala,Mass movement (dry),Rockfall,160,,1983-0100
+18/08/1983,18/08/1983,Philippines (the),PHL,Ilocos Norte,Earthquake,Ground movement,19,1901,1983-0109
+19/09/1983,19/09/1983,Italy,ITA,Pozzuoli (Naples),Earthquake,Ground movement,,21030,1983-0112
+9/9/83,9/9/83,Indonesia,IDN,,Volcanic activity,Ash fall,,6334,1983-0119
+00/10/1983,00/10/1983,Chile,CHL,North regions,Earthquake,Ground movement,4,1524,1983-0127
+3/10/83,3/10/83,Japan,JPN,Miyake-Jima Island,Volcanic activity,Ash fall,,5600,1983-0130
+15/10/1983,15/10/1983,Papua New Guinea,PNG,,Volcanic activity,Ash fall,,25000,1983-0132
+30/10/1983,30/10/1983,Turkey,TUR,"Khorasan, Pasinler, Narman (Erzurum province) Kars provinces",Earthquake,Ground movement,1346,834137,1983-0136
+6/11/83,6/11/83,China,CHN,Heze area (Shandong province),Earthquake,Ground movement,34,18700,1983-0144
+8/11/83,8/11/83,Belgium,BEL,Seraing (Liège),Earthquake,Ground movement,2,1030,1983-0146
+22/12/1983,22/12/1983,Guinea,GIN,Gaoual-Koumbia area,Earthquake,Ground movement,275,21436,1983-0161
+22/12/1983,22/12/1983,Papua New Guinea,PNG,Northwest,Earthquake,Ground movement,10,,1983-0162
+31/12/1983,31/12/1983,Pakistan,PAK,"Pakistan/Afghanistan border, Hindu Kusk region",Earthquake,Ground movement,24,543,1983-0165
+16/12/1983,16/12/1983,Afghanistan,AFG,"Hindu Kush region, North-East provinces",Earthquake,Ground movement,12,34503,1983-0166
+23/03/1983,23/03/1983,Greece,GRC,Vonitsa area,Earthquake,Ground movement,,487,1983-0171
+2/5/83,2/5/83,United States of America (the),USA,Coalinga area (Central California),Earthquake,Ground movement,,1545,1983-0174
+16/11/1983,16/11/1983,United States of America (the),USA,Kapapala area (Hawai),Earthquake,Ground movement,,6,1983-0197
+27/02/1983,27/02/1983,France,FRA,"Mont Blanc, Pyrenees",Mass movement (dry),Avalanche,9,15,1983-0342
+29/05/1983,29/05/1983,Iceland,ISL,South-East region,Volcanic activity,Ash fall,,,1983-0361
+25/02/1983,25/02/1983,Yugoslavia,YUG,"Skopje, Dolno, Kolicani",Earthquake,Ground movement,12,,1983-0408
+22/07/1983,22/07/1983,Iran (Islamic Republic of),IRN,Zanjan (Western Region),Earthquake,Ground movement,3,416,1983-0432
+8/8/83,8/8/83,Japan,JPN,Near South coast Honshu,Earthquake,Ground movement,1,28,1983-0437
+00/12/1983,00/12/1983,Lebanon,LBN,Bekaa valley,Mass movement (dry),Landslide,20,,1983-0455
+28/10/1983,28/10/1983,United States of America (the),USA,Borah Peak (Eastern Idaho),Earthquake,Ground movement,2,2,1983-0514
+10/1/84,10/1/84,Indonesia,IDN,Mamuju (Central Sulawesi),Earthquake,Ground movement,2,89,1984-0015
+19/03/1984,19/03/1984,Soviet Union,SUN,"Gazli, Boukhara (Uzbekistan)",Earthquake,Ground movement,,20100,1984-0028
+29/04/1984,29/04/1984,Italy,ITA,"Assisi, Gubbio, Perugia area (Umbria Province)",Earthquake,Ground movement,,4200,1984-0038
+25/05/1984,25/05/1984,Indonesia,IDN,North Surawasi province,Volcanic activity,Ash fall,,6000,1984-0042
+7/5/84,7/5/84,Italy,ITA,Abruzzo area,Earthquake,Ground movement,3,5083,1984-0047
+15/08/1984,15/08/1984,Cameroon,CMR,Lake Monoun,Volcanic activity,Ash fall,37,,1984-0069
+27/08/1984,27/08/1984,Indonesia,IDN,Pahae Jae sub-district (North Sumatra),Earthquake,Ground movement,,1858,1984-0072
+5/9/84,5/9/84,Indonesia,IDN,Siau Isl (North Sulawesi),Volcanic activity,Ash fall,,17000,1984-0081
+10/9/84,10/9/84,Philippines (the),PHL,"Daraga, Legaspi, Guinobatan, Camalig, Ligao, Tabaco, Sto. Domingo, Malipilot municipalities (Albay province)",Volcanic activity,Ash fall,,70000,1984-0083
+14/09/1984,14/09/1984,Japan,JPN,"Honshu, Nagano prefecture (Honshu)",Earthquake,Ground movement,20,,1984-0084
+18/09/1984,18/09/1984,Turkey,TUR,Olur-Senkaya area,Earthquake,Ground movement,3,375038,1984-0086
+31/12/1984,31/12/1984,India,IND,Cachar district (Assam),Earthquake,Ground movement,20,10900,1984-0124
+5/9/84,5/9/84,Iceland,ISL,,Volcanic activity,Ash fall,,,1984-0269
+20/10/1984,20/10/1984,Italy,ITA,"Mt. Etna, Catania (Sicily)",Earthquake,Ground movement,1,302,1984-0274
+2/2/84,2/2/84,Afghanistan,AFG,Jalalabad Area,Earthquake,Ground movement,1,35,1984-0309
+15/06/1984,15/06/1984,Indonesia,IDN,"Dukuh, Srumbung, Sawangan districts (Central Java)",Volcanic activity,Ash fall,,5000,1984-0328
+6/8/84,6/8/84,Japan,JPN,Kyushu (Shikoku Island),Earthquake,Ground movement,,9,1984-0335
+17/02/1984,17/02/1984,Pakistan,PAK,Chiltral-Landi Kotal (Hindu Kush),Earthquake,Ground movement,4,12,1984-0339
+6/7/84,6/7/84,Guatemala,GTM,Coastal provinces,Volcanic activity,Ash fall,,3000,1984-0372
+18/10/1984,18/10/1984,Turkey,TUR,Erzurum-Senkaya area,Earthquake,Ground movement,3,375035,1984-0413
+26/01/1985,26/01/1985,Argentina,ARG,Mendoza province,Earthquake,Ground movement,6,45238,1985-0024
+3/2/85,3/2/85,Iran (Islamic Republic of),IRN,Fath-Abad (Firuzabad-Johrom region),Earthquake,Ground movement,1,7080,1985-0027
+3/3/85,3/3/85,Chile,CHL,"Valparaiso, Santiago, Talca, Copiapo, La Serena, Rancegua, Cauquenes, Concepcion",Earthquake,Ground movement,180,1482275,1985-0041
+18/04/1985,18/04/1985,China,CHN,Yunnan province,Earthquake,Ground movement,22,300,1985-0055
+16/06/1985,16/06/1985,Peru,PER,La Hoyada region,Mass movement (dry),Landslide,,,1985-0071
+29/07/1985,29/07/1985,Pakistan,PAK,Chitral (Hindu Kush area),Earthquake,Ground movement,5,12038,1985-0078
+30/07/1985,30/07/1985,Indonesia,IDN,Ntb Prov.,Volcanic activity,Ash fall,,1078,1985-0083
+23/08/1985,23/08/1985,China,CHN,Wuqia-Shufu area,Earthquake,Ground movement,67,16100,1985-0101
+19/09/1985,19/09/1985,Mexico,MEX,"Mexico city, Michoacan, Jalisco",Earthquake,Ground movement,9500,2130204,1985-0109
+15/09/1985,15/09/1985,Indonesia,IDN,Paniai District (Eastern Irian Jaya),Earthquake,Ground movement,10,7,1985-0110
+11/10/85,11/10/85,Guatemala,GTM,"Tierra Blanca, Catoxac canton, San Lucas canton, San Antonio Chiquito (San Miguel Uspantan)",Earthquake,Ground movement,,5000,1985-0120
+13/10/1985,13/10/1985,Soviet Union,SUN,Tadzhikistan,Earthquake,Ground movement,29,8080,1985-0122
+21/10/1985,21/10/1985,Philippines (the),PHL,South Mindanao,Mass movement (dry),Landslide,300,,1985-0125
+13/11/1985,13/11/1985,Colombia,COL,"Armero, Chinchina, Casablanca, Herveo, Libano, Murillo, Villahermosa",Volcanic activity,Ash fall,21800,12700,1985-0132
+18/03/1985,18/03/1985,Philippines (the),PHL,Mindanao,Earthquake,Ground movement,2,175,1985-0171
+29/03/1985,29/03/1985,China,CHN,Neijiang area (Sichuan province),Earthquake,Ground movement,1,120,1985-0182
+21/08/1985,21/08/1985,Peru,PER,Chimbote area,Earthquake,Ground movement,,400,1985-0191
+28/09/1985,28/09/1985,Yugoslavia,YUG,Demir Kapija-Negotino area,Earthquake,Ground movement,,1516,1985-0193
+7/11/85,7/11/85,Turkey,TUR,Erzurum area,Earthquake,Ground movement,,579,1985-0194
+11/5/85,11/5/85,Papua New Guinea,PNG,Bialla region (West New Britain),Earthquake,Ground movement,,,1985-0227
+31/08/1985,31/08/1985,Greece,GRC,Preveza region,Earthquake,Ground movement,,186,1985-0258
+12/8/85,12/8/85,Turkey,TUR,"Gumushane,Erzincan",Earthquake,Ground movement,,165,1985-0276
+4/10/85,4/10/85,Japan,JPN,Near East coast of Honshu,Earthquake,Ground movement,,20,1985-0319
+3/6/85,3/6/85,American Samoa,ASM,,Earthquake,Ground movement,,,1985-0326
+00/07/1985,00/07/1985,Vanuatu,VUT,,Earthquake,Ground movement,,,1985-0328
+27/10/1985,27/10/1985,Algeria,DZA,Constantine-Skikda area,Earthquake,Ground movement,30,,1985-0386
+5/4/86,5/4/86,Peru,PER,"Chimbote, Pucallpa (Cuzco)",Earthquake,Ground movement,15,8080,1986-0051
+5/5/86,5/5/86,Turkey,TUR,"Malatya, Adiyaman provinces",Earthquake,Ground movement,15,20100,1986-0058
+2/6/86,2/6/86,Venezuela (Bolivarian Republic of),VEN,Eastern Venezuela,Earthquake,Ground movement,2,850,1986-0074
+24/06/1986,24/06/1986,Papua New Guinea,PNG,East Sepik province,Earthquake,Ground movement,,1000,1986-0076
+24/08/1986,25/08/1986,Cameroon,CMR,Lake Nyos (Wum region),Volcanic activity,Ash fall,1746,10437,1986-0100
+31/08/1986,31/08/1986,Soviet Union,SUN,Moldavia,Earthquake,Ground movement,1,225558,1986-0106
+13/09/1986,13/09/1986,Greece,GRC,Kalamata (Southwestern Peloppinos),Earthquake,Ground movement,20,45300,1986-0113
+10/10/86,10/10/86,El Salvador,SLV,San Salvador,Earthquake,Ground movement,1100,770000,1986-0123
+15/11/1986,15/11/1986,Taiwan (Province of China),TWN,Taipai,Earthquake,Ground movement,13,46,1986-0133
+21/11/1986,21/11/1986,Japan,JPN,Oshima Island,Volcanic activity,Ash fall,,13000,1986-0135
+7/12/86,7/12/86,Bulgaria,BGR,Strazhitsa (Tyrnovo region),Earthquake,Ground movement,3,3060,1986-0140
+30/11/1986,30/11/1986,Brazil,BRA,"Joao Camara, Pobo Branco",Earthquake,Ground movement,1,23000,1986-0141
+11/1/86,11/1/86,Peru,PER,Huarmey area,Earthquake,Ground movement,1,100,1986-0150
+3/2/86,3/2/86,Guatemala,GTM,Ixchiguan (San Marcos province),Earthquake,Ground movement,,2500,1986-0170
+13/05/1986,13/05/1986,Soviet Union,SUN,Akhalkalaki area,Earthquake,Ground movement,2,4500,1986-0171
+20/06/1986,20/06/1986,China,CHN,"Ombu area, Tibet",Earthquake,Ground movement,,290,1986-0173
+12/7/86,12/7/86,Iran (Islamic Republic of),IRN,Mamasani area,Earthquake,Ground movement,1,1504,1986-0174
+13/07/1986,13/07/1986,United States of America (the),USA,Newport Beach-San Diego area,Earthquake,Ground movement,,179,1986-0177
+18/07/1986,18/07/1986,Venezuela (Bolivarian Republic of),VEN,Churuguara area,Earthquake,Ground movement,1,150,1986-0182
+11/10/86,11/10/86,Turkey,TUR,Aydin area,Earthquake,Ground movement,,1003,1986-0183
+16/10/1986,16/10/1986,Pakistan,PAK,Khuzdar area,Earthquake,Ground movement,,750,1986-0186
+20/12/1986,20/12/1986,Iran (Islamic Republic of),IRN,Mamasani area,Earthquake,Ground movement,,400,1986-0189
+26/04/1986,26/04/1986,India,IND,Dharmsala,Earthquake,Ground movement,6,30,1986-0372
+21/01/1987,25/01/1987,Guatemala,GTM,,Volcanic activity,Ash fall,,3035,1987-0051
+9/2/87,9/2/87,Papua New Guinea,PNG,"Umboi Isl., Finschafen area of Huon peninsula",Earthquake,Ground movement,1,4000,1987-0058
+11/1/87,11/1/87,Iran (Islamic Republic of),IRN,Doshman Ziari area,Earthquake,Ground movement,,1500,1987-0067
+2/3/87,2/3/87,New Zealand,NZL,Edgecumbe (Bay of Plenty),Earthquake,Ground movement,1,7025,1987-0068
+5/3/87,5/3/87,Ecuador,ECU,"Carchi, Imbabura, Pastaza, Napo provinces",Earthquake,Ground movement,5000,150000,1987-0070
+16/03/1987,16/03/1987,Soviet Union,SUN,Argazan (Tadjikistan),Mass movement (dry),Landslide,52,506,1987-0074
+26/04/1987,26/04/1987,Indonesia,IDN,Tarutung (North Sumatra),Earthquake,Ground movement,2,15001,1987-0086
+4/5/87,4/5/87,Indonesia,IDN,Padang Panjang (West Sumatra),Mass movement (dry),Landslide,131,701,1987-0094
+30/05/1987,30/05/1987,Iran (Islamic Republic of),IRN,Southwest Teheran,Earthquake,Ground movement,2,50,1987-0101
+24/01/1987,24/01/1987,China,CHN,Wushi area,Earthquake,Ground movement,,2085,1987-0102
+27/06/1987,27/06/1987,South Africa,ZAF,,Earthquake,Ground movement,9,310,1987-0116
+8/8/87,8/8/87,Chile,CHL,"Arica, Iquique several small Andean towns",Earthquake,Ground movement,5,5112,1987-0144
+2/8/87,2/8/87,China,CHN,Ganzhou-Xunwu area,Earthquake,Ground movement,,185084,1987-0149
+9/9/87,9/9/87,China,CHN,South Jiangxi,Earthquake,Ground movement,,7000,1987-0158
+22/09/1987,22/09/1987,Ecuador,ECU,Ambato (Tungurahua province),Earthquake,Ground movement,2,6,1987-0162
+1/10/87,1/10/87,United States of America (the),USA,Los Angeles-Whittier (California),Earthquake,Ground movement,8,2200,1987-0179
+24/11/1987,24/11/1987,Iran (Islamic Republic of),IRN,Birjand,Earthquake,Ground movement,,2425,1987-0196
+26/11/1987,26/11/1987,Indonesia,IDN,South Pantar Isl.(Timor),Earthquake,Ground movement,125,17100,1987-0213
+17/12/1987,17/12/1987,Japan,JPN,Chiba prefecture (Near Tokyo),Earthquake,Ground movement,2,22652,1987-0229
+28/12/1987,28/12/1987,Indonesia,IDN,Flores Isl.,Volcanic activity,Ash fall,,13000,1987-0234
+24/11/1987,24/11/1987,Mexico,MEX,Mexicali,Earthquake,Ground movement,2,3050,1987-0254
+24/11/1987,24/11/1987,United States of America (the),USA,Imperial county,Earthquake,Ground movement,,94,1987-0254
+26/01/1987,26/01/1987,Algeria,DZA,"Wilaya de Chle, Wilaya de Tissemsilt, Daira de Bordj Bou Naama, Larbaa",Earthquake,Ground movement,1,3152,1987-0306
+30/03/1988,30/03/1988,Iran (Islamic Republic of),IRN,Deh Dasht area,Earthquake,Ground movement,,3524,1988-0021
+4/1/88,4/1/88,China,CHN,Ningxia province,Earthquake,Ground movement,,50060,1988-0035
+5/1/88,5/1/88,South Africa,ZAF,,Earthquake,Ground movement,8,28,1988-0036
+11/8/88,11/8/88,Iran (Islamic Republic of),IRN,Mamasani area,Earthquake,Ground movement,1,10000,1988-0041
+31/10/1988,31/10/1988,Algeria,DZA,Blida area,Earthquake,Ground movement,,257,1988-0042
+3/11/88,3/11/88,Guatemala,GTM,South,Earthquake,Ground movement,5,500,1988-0043
+6/2/88,6/2/88,Bangladesh,BGD,Syhlet,Earthquake,Ground movement,2,100,1988-0079
+27/02/1988,27/02/1988,Morocco,MAR,Near Fes,Mass movement (dry),Rockfall,31,,1988-0094
+25/03/1988,25/03/1988,Colombia,COL,,Volcanic activity,Ash fall,,1900,1988-0136
+26/03/1988,26/03/1988,Pakistan,PAK,"Arandu Gul - Jammu, Kashmir regions",Mass movement (dry),Avalanche,50,,1988-0138
+30/03/1988,30/03/1988,Iran (Islamic Republic of),IRN,Deh Dasht,Earthquake,Ground movement,,3030,1988-0144
+9/5/88,9/5/88,Indonesia,IDN,Moluccas,Volcanic activity,Ash fall,7,10000,1988-0205
+17/07/1988,17/07/1988,Indonesia,IDN,Makian Isl.,Volcanic activity,Ash fall,,1570,1988-0314
+6/8/88,6/8/88,India,IND,Hindukush region,Earthquake,Ground movement,2,12,1988-0362
+8/8/88,8/8/88,Uganda,UGA,"West Nile, Arura",Earthquake,Ground movement,,2000,1988-0369
+21/08/1988,21/08/1988,India,IND,"Dharbhanga, Madhubani, Saharsa, Munger, Khagana, Bihar SharieBihar State",Earthquake,Ground movement,382,20003766,1988-0382
+20/08/1988,20/08/1988,Nepal,NPL,"Daharam, Dhankuta, Terathum, Panchthar, Ilam, Morang, Bhaktapur",Earthquake,Ground movement,709,301016,1988-0383
+6/9/88,6/9/88,Papua New Guinea,PNG,Kaiapit district (Morobe province),Mass movement (dry),Landslide,76,1000,1988-0415
+15/10/1988,15/10/1988,Guatemala,GTM,Chamaltenango area,Earthquake,Ground movement,,1550,1988-0463
+16/10/1988,16/10/1988,Greece,GRC,Near Killini,Earthquake,Ground movement,,25,1988-0467
+6/11/88,6/11/88,China,CHN,"Lancang, Menglian counties (Yunnan province)",Earthquake,Ground movement,939,1270364,1988-0502
+00/12/1988,00/12/1988,Chile,CHL,Lonquimay,Volcanic activity,Ash fall,,2000,1988-0524
+7/12/88,7/12/88,Soviet Union,SUN,"Armenia, Leninakan, Kirovakan, Spitak",Earthquake,Ground movement,25000,1642000,1988-0528
+10/8/88,10/8/88,Solomon Islands,SLB,Southwestern coast San Cristobal,Earthquake,Ground movement,1,500,1988-0675
+16/12/1988,16/12/1988,Japan,JPN,Tokachidake,Volcanic activity,Ash fall,,,1988-0695
+9/1/88,9/1/88,Albania,ALB,Tirana,Earthquake,Ground movement,,690,1988-0702
+23/01/1989,23/01/1989,Soviet Union,SUN,"Sharora, Okulibolo, Okulipoyen villages (Tadzhikistan)",Earthquake,Ground movement,274,12051,1989-0027
+00/03/1989,00/03/1989,Soviet Union,SUN,Checheno-Ingush,Mass movement (dry),Landslide,,8000,1989-0035
+8/3/89,8/3/89,Indonesia,IDN,Molucca passage,Earthquake,Ground movement,,5500,1989-0045
+4/5/89,4/5/89,Venezuela (Bolivarian Republic of),VEN,Tucacas area,Earthquake,Ground movement,,2000,1989-0067
+12/6/89,12/6/89,Bangladesh,BGD,Banaripara area,Earthquake,Ground movement,1,100,1989-0071
+25/04/1989,25/04/1989,Mexico,MEX,Near coast of Guerrero,Earthquake,Ground movement,3,350,1989-0073
+15/04/1989,15/04/1989,China,CHN,"Batang county Litang, Baiju, Derong, Xiangcheng, Daocheng counties (Sichuan province)",Earthquake,Ground movement,8,40107,1989-0081
+27/05/1989,27/05/1989,Iran (Islamic Republic of),IRN,"Fars,Yasuj, Kohkiluyeh-Boyer Ahmad provinces",Earthquake,Ground movement,100,217,1989-0090
+1/8/89,1/8/89,Indonesia,IDN,"Irian Jaya, Jayawijaya districts",Earthquake,Ground movement,120,17196,1989-0092
+18/10/1989,18/10/1989,United States of America (the),USA,"San Francisco, Oakland, San Mateo, Santa Clara, San Jose, Santa Cruz, Berkeley, Holister, Silicon Valley (California)",Earthquake,Ground movement,62,3757,1989-0133
+18/10/1989,18/10/1989,China,CHN,Between Datong (Shanxi) and Yangyuan (Hebei),Earthquake,Ground movement,29,105140,1989-0136
+29/10/1989,29/10/1989,Algeria,DZA,"Chenoua, Blida, Tipasa, Boumerdes, Wilaya, El-Nador",Earthquake,Ground movement,22,12184,1989-0139
+28/12/1989,28/12/1989,Australia,AUS,Newcastle,Earthquake,Ground movement,12,2115,1989-0142
+23/04/1989,23/04/1989,Indonesia,IDN,Noongan,Volcanic activity,Ash fall,,3000,1989-0152
+7/5/89,7/5/89,China,CHN,Gengma (Yunnan province),Earthquake,Ground movement,1,26591,1989-0155
+9/3/89,9/3/89,Malawi,MWI,Salima district,Earthquake,Ground movement,9,50100,1989-0167
+26/06/1989,26/06/1989,United States of America (the),USA,Hawaii,Earthquake,Ground movement,5,315,1989-0186
+14/07/1989,14/07/1989,Indonesia,IDN,Alor (Timor),Earthquake,Ground movement,,197,1989-0218
+20/11/1989,20/11/1989,China,CHN,"Jiangbei county (Chong Qing, Sichuan Province)",Earthquake,Ground movement,4,52800,1989-0225
+22/09/1989,22/09/1989,China,CHN,Sichuan province,Earthquake,Ground movement,,21404,1989-0287
+1/10/89,1/10/89,Iran (Islamic Republic of),IRN,Deh Borzog-e Sisakht area,Earthquake,Ground movement,,1500,1989-0290
+5/8/89,5/8/89,India,IND,North India,Mass movement (dry),Landslide,45,,1989-0368
+00/00/1989,00/00/1989,Honduras,HND,,Mass movement (dry),Avalanche,10,,1989-0575
+8/2/90,8/2/90,Philippines (the),PHL,"Bohol, Cebu, Cagayan De Oro, Camiguin, Cotabato, Mindanao",Earthquake,Ground movement,1,34504,1990-0009
+10/2/90,12/2/90,Indonesia,IDN,East Java,Volcanic activity,Ash fall,33,10265,1990-0012
+18/04/1990,18/04/1990,Indonesia,IDN,Minahassa Peninsula (Sulawesi Isl.),Earthquake,Ground movement,5,7036,1990-0017
+30/05/1990,30/05/1990,Bulgaria,BGR,North,Earthquake,Ground movement,1,,1990-0020
+30/05/1990,30/05/1990,Romania,ROU,Bucharest-Braila-Brasov Area,Earthquake,Ground movement,9,700,1990-0020
+30/05/1990,30/05/1990,Soviet Union,SUN,Moldavia,Earthquake,Ground movement,4,,1990-0020
+14/06/1990,14/06/1990,Philippines (the),PHL,Cualasi area (Near Panay Isl.),Earthquake,Ground movement,4,15,1990-0028
+29/05/1990,29/05/1990,Peru,PER,Moyoyamba (San Martin) Amazon,Earthquake,Ground movement,200,100800,1990-0029
+4/6/90,4/6/90,Peru,PER,Moyoyamba,Volcanic activity,Ash fall,,4000,1990-0030
+14/06/1990,14/06/1990,Soviet Union,SUN,Kazakh-Xinjiang Border,Earthquake,Ground movement,1,20000,1990-0031
+20/05/1990,20/05/1990,Sudan (the),SDN,"Juba, Mayo Area",Earthquake,Ground movement,,8000,1990-0033
+20/05/1990,24/05/1990,Uganda,UGA,Moyo area,Earthquake,Ground movement,,,1990-0033
+21/06/1990,21/06/1990,Iran (Islamic Republic of),IRN,"Rasht, Astara, Zanjan, Ghazvin, Tabriz, Ardebil, Khalkhal, Miane, Meshinsharhr, Langroud, Somesara, Rudbar, Talesh, Tarom-e-Olya, Manjil, Loushan (Gilan, Zanjan provinces)",Earthquake,Ground movement,40000,710000,1990-0034
+29/06/1990,29/06/1990,China,CHN,Yunnan province,Mass movement (dry),Landslide,69,10,1990-0036
+16/07/1990,16/07/1990,Philippines (the),PHL,"Cabanatuan, Baguio, Dagupon (Luzon Isl.)",Earthquake,Ground movement,2412,1597553,1990-0040
+20/10/1990,20/10/1990,China,CHN,"Tian Zhu, Jing Tai, Gu Lang counties (Gansu Province)",Earthquake,Ground movement,1,30016,1990-0093
+26/04/1990,26/04/1990,China,CHN,Qinghai Province,Earthquake,Ground movement,126,34319,1990-0099
+6/5/90,6/5/90,Italy,ITA,Potenza area,Earthquake,Ground movement,2,16,1990-0105
+6/11/90,6/11/90,Iran (Islamic Republic of),IRN,"Darab, Hadjiabad (Fars province)",Earthquake,Ground movement,21,22400,1990-0118
+22/10/1990,22/10/1990,Pakistan,PAK,Hindu Kush region,Earthquake,Ground movement,11,250,1990-0165
+21/12/1990,21/12/1990,Greece,GRC,Goumenisa (50km north Thessaloniki),Earthquake,Ground movement,1,60,1990-0169
+22/12/1990,22/12/1990,Costa Rica,CRI,"Alajuela, Heredia, San Jose provinces",Earthquake,Ground movement,1,14299,1990-0170
+19/02/1990,19/02/1990,Vanuatu,VUT,,Earthquake,Ground movement,,,1990-0186
+28/02/1990,28/02/1990,United States of America (the),USA,Southern California,Earthquake,Ground movement,,30,1990-0187
+3/3/90,3/3/90,Fiji,FJI,South of Fiji Islands,Earthquake,Ground movement,,,1990-0188
+4/3/90,4/3/90,Pakistan,PAK,Kalat Area,Earthquake,Ground movement,11,40,1990-0189
+5/3/90,5/3/90,Vanuatu,VUT,Port Vila,Earthquake,Ground movement,,,1990-0190
+25/03/1990,25/03/1990,Costa Rica,CRI,"Puntarenas, San Jose areas",Earthquake,Ground movement,,310,1990-0191
+2/4/90,2/4/90,United Kingdom of Great Britain and Northern Irela,GBR,Wrexham-Welshpool-Shrewsbury area,Earthquake,Ground movement,,,1990-0193
+3/4/90,3/4/90,Nicaragua,NIC,"Rivas, Managua",Earthquake,Ground movement,,,1990-0194
+24/05/1990,24/05/1990,Kenya,KEN,Kapenguria,Earthquake,Ground movement,,,1990-0202
+24/05/1990,24/05/1990,Uganda,UGA,Juba region,Earthquake,Ground movement,,,1990-0203
+30/05/1990,30/05/1990,Yugoslavia,YUG,,Earthquake,Ground movement,8,120,1990-0213
+7/6/90,7/6/90,Papua New Guinea,PNG,North East coast,Earthquake,Ground movement,,,1990-0214
+16/06/1990,16/06/1990,Greece,GRC,Kanalaki,Earthquake,Ground movement,,1,1990-0217
+17/06/1990,17/06/1990,Pakistan,PAK,South Baluchistan Province,Earthquake,Ground movement,,6,1990-0219
+23/06/1990,23/06/1990,Fiji,FJI,,Earthquake,Ground movement,,,1990-0221
+13/07/1990,13/07/1990,Soviet Union,SUN,Pik Lenina (Hindu Kush),Mass movement (dry),Avalanche,43,,1990-0225
+27/07/1990,27/07/1990,Vanuatu,VUT,Espiritu Santo,Earthquake,Ground movement,,2,1990-0227
+3/8/90,3/8/90,Soviet Union,SUN,Kazakh-Xinjiang border region (Akkol area),Earthquake,Ground movement,,1508,1990-0228
+11/8/90,11/8/90,Ecuador,ECU,"Quito, Pomasqui",Earthquake,Ground movement,4,6510,1990-0230
+13/12/1990,13/12/1990,Italy,ITA,Carlentini (Sicily),Earthquake,Ground movement,19,2700,1990-0250
+6/10/90,6/10/90,China,CHN,Wenzhou (Zhejiang province),Mass movement (dry),Landslide,4,5105,1990-0284
+15/11/1990,15/11/1990,Indonesia,IDN,"Bangkejeren, Kutacane, Medan area (North Sumatra)",Earthquake,Ground movement,1,2172,1990-0593
+1/12/90,1/12/90,Soviet Union,SUN,Uzgen area (Kirgizia),Earthquake,Ground movement,,3000,1990-0601
+6/7/90,6/7/90,Indonesia,IDN,"Kuningan, Majalenga, Sumedang area (Java)",Earthquake,Ground movement,,103,1990-0702
+30/03/1990,30/03/1990,United States of America (the),USA,Alamo (central California),Earthquake,Ground movement,,120,1990-0703
+18/10/1990,18/10/1990,South Africa,ZAF,Carletonville,Earthquake,Ground movement,10,6,1990-0704
+5/1/91,5/1/91,Myanmar,MMR,Thabeikkyin area,Earthquake,Ground movement,,160,1991-0001
+31/01/1991,31/01/1991,Afghanistan,AFG,"Konar, Nangarhar, Badakhstan provinces",Earthquake,Ground movement,130,7000,1991-0033
+31/01/1991,31/01/1991,Pakistan,PAK,"Malakand, Chitral, Peshawar area",Earthquake,Ground movement,300,204794,1991-0033
+31/01/1991,31/01/1991,Soviet Union,SUN,Khorog area,Earthquake,Ground movement,3,,1991-0033
+25/02/1991,25/02/1991,China,CHN,Keping County (Xinjiang Region),Earthquake,Ground movement,,42808,1991-0043
+6/1/91,6/1/91,Guatemala,GTM,Quetzaltenango province,Mass movement (dry),Rockfall,23,,1991-0046
+8/3/91,8/3/91,Soviet Union,SUN,Kamchatka Peninsula (Siberia),Earthquake,Ground movement,,,1991-0055
+4/4/91,4/4/91,Peru,PER,"Nueva Cajamarea (Near Mayobamba, Rioja, Union)",Earthquake,Ground movement,53,45750,1991-0066
+5/4/91,5/4/91,Philippines (the),PHL,Zambales province,Volcanic activity,Ash fall,,2000,1991-0079
+3/4/91,3/4/91,Ethiopia,ETH,Hararghe Province,Mass movement (dry),Landslide,13,,1991-0085
+00/04/1991,00/04/1991,Philippines (the),PHL,Balangas province,Volcanic activity,Ash fall,,3800,1991-0087
+26/03/1991,26/03/1991,China,CHN,"Yanggao, Hunyuan, Guangling, Tianzhen, Datong Counties (Shanxi province, Yangyuan, Yuxian Counties (Hebei province)",Earthquake,Ground movement,1,240542,1991-0088
+22/04/1991,22/04/1991,Costa Rica,CRI,"Bribri, Matina, Bataan, Sixaola, 28 Millas, Estrella Valley (Limon province)",Earthquake,Ground movement,47,10419,1991-0114
+22/04/1991,22/04/1991,Panama,PAN,"Bocas Del Toro, Chiriqui",Earthquake,Ground movement,30,18060,1991-0114
+29/04/1991,29/04/1991,Soviet Union,SUN,"Kutaisi, Dahava, Kraisi, Oni, Ambrolauri, Sachkhere, Chiatura (Georgia)",Earthquake,Ground movement,270,251500,1991-0117
+15/06/1991,15/06/1991,Georgia,GEO,Dzhava-Tskhinvazli area,Earthquake,Ground movement,8,3740,1991-0122
+20/06/1991,20/06/1991,Indonesia,IDN,Gorontalo area (Minahassa Peninsula),Earthquake,Ground movement,,1000,1991-0124
+9/6/91,22/06/1991,Philippines (the),PHL,"Zambales, Pampanga, Olongapo, Tarlac (Luzon Isl.)",Volcanic activity,Ash fall,640,1036065,1991-0132
+4/5/91,4/5/91,Soviet Union,SUN,"Near Angren (Uzbekistan), Khigiristan",Mass movement (dry),Landslide,50,,1991-0155
+4/7/91,4/7/91,Indonesia,IDN,"Kalabahi (Alors district, Timor)",Earthquake,Ground movement,28,16191,1991-0165
+24/07/1991,24/07/1991,Peru,PER,Maca Arequipa region,Earthquake,Ground movement,11,1535,1991-0173
+28/06/1991,28/06/1991,United States of America (the),USA,Pasadena area (California),Earthquake,Ground movement,2,100,1991-0192
+3/7/91,3/7/91,Comoros (the),COM,Grande Comore,Volcanic activity,Ash fall,,200,1991-0200
+13/08/1991,13/08/1991,Chile,CHL,,Volcanic activity,Ash fall,,63200,1991-0212
+3/6/91,8/6/91,Japan,JPN,Kyushu Island,Volcanic activity,Ash fall,43,10020,1991-0228
+18/09/1991,18/09/1991,Guatemala,GTM,"Escuintla, Chimaltenango, Solola, Sacatepeguez",Earthquake,Ground movement,14,23890,1991-0230
+27/07/1991,27/07/1991,Iraq,IRQ,Arbil Region,Earthquake,Ground movement,20,500,1991-0232
+4/11/91,4/11/91,Iran (Islamic Republic of),IRN,Behbahan area,Earthquake,Ground movement,,1501,1991-0284
+8/8/91,8/8/91,Costa Rica,CRI,San Vicente Pacaya (Escuintlia department),Volcanic activity,Ash fall,,,1991-0292
+9/8/91,9/8/91,Costa Rica,CRI,San José,Earthquake,Ground movement,,150,1991-0293
+20/10/1991,20/10/1991,India,IND,"Harsil (near Gangotri, Uttarkashi's Bhagirathi valley, Uttar Pradesh)",Earthquake,Ground movement,1500,54383,1991-0368
+19/11/1991,19/11/1991,Colombia,COL,"Buenaventura, Cali (Choco Department)",Earthquake,Ground movement,2,867,1991-0390
+2/12/91,2/12/91,Romania,ROU,Vouteg (Timis province),Earthquake,Ground movement,,4005,1991-0399
+24/10/1991,24/10/1991,Indonesia,IDN,"Minahasa (Tomohon district, North Sulawesi)",Volcanic activity,Ash fall,,7679,1991-0417
+18/04/1991,18/04/1991,Afghanistan,AFG,Keshim (Badakhshan province),Earthquake,Ground movement,24,,1991-0498
+18/04/1991,18/04/1991,Soviet Union,SUN,Kabodyen district,Earthquake,Ground movement,1,5000,1991-0498
+22/11/1991,22/11/1991,Yemen,YEM,"Jabal Bahr, Bani Zahir villages (Al-Udayn district, Hazm Al-Udein district, Ebb province)",Earthquake,Ground movement,10,40039,1991-0682
+15/12/1991,15/12/1991,Italy,ITA,Zafferana,Volcanic activity,Ash fall,,7000,1991-0759
+13/08/1991,13/08/1991,Argentina,ARG,Santa Cruz,Volcanic activity,Ash fall,,63200,1991-0765
+4/5/91,4/5/91,Costa Rica,CRI,Limon area,Earthquake,Ground movement,,,1991-0773
+4/5/91,4/5/91,Panama,PAN,"Changuinola, Almirante, Bocas del Toro area",Earthquake,Ground movement,,2036,1991-0773
+18/07/1991,18/07/1991,Romania,ROU,Orosova area,Earthquake,Ground movement,,1845,1991-0774
+1/1/92,7/2/92,Turkey,TUR,"Sirnak, Siirt, Elazig, Batman, Bingol, Diyarbakir, Hakkari, Tunceli provinces",Mass movement (dry),Avalanche,261,1069,1992-0010
+19/01/1992,19/01/1992,Algeria,DZA,Ain-Defla,Earthquake,Ground movement,,2250,1992-0012
+13/03/1992,13/03/1992,Turkey,TUR,Erzican province,Earthquake,Ground movement,653,348850,1992-0022
+9/4/92,16/04/1992,Nicaragua,NIC,"Esteli, Madriz, Somotillo, Jinotega",Volcanic activity,Ash fall,1,300075,1992-0025
+14/02/1992,14/02/1992,Philippines (the),PHL,Lake Taal (55 km South Manilla),Volcanic activity,Ash fall,,1578,1992-0030
+28/08/1992,28/08/1992,Pakistan,PAK,Quetta,Earthquake,Ground movement,4,,1992-0058
+11/9/92,11/9/92,Congo (the Democratic Republic of the),COD,Near Kabolo (Shaba province),Earthquake,Ground movement,9,311,1992-0064
+25/05/1992,25/05/1992,Cuba,CUB,"Granma,Santiago de Cuba, Holguin, Las Tunas provinces",Earthquake,Ground movement,,5869,1992-0067
+1/9/92,1/9/92,Nicaragua,NIC,"San Martin, San Juan Del Sur, Huehuete, Casares, La Boquita, Poneloya, Corinto, Masachapa, Pochomil",Earthquake,Ground movement,179,6179,1992-0079
+19/08/1992,19/08/1992,Kyrgyzstan,KGZ,"Dshalal-Abad, Naryn, Talas regions (Near Kyrgyzstan/Chinese Border)",Earthquake,Ground movement,54,86806,1992-0081
+22/05/1992,22/05/1992,Kyrgyzstan,KGZ,"Burgandi-Nookat (Osh, Djalalabad districts)",Earthquake,Ground movement,4,50000,1992-0082
+13/04/1992,13/04/1992,Belgium,BEL,,Earthquake,Ground movement,,,1992-0093
+13/04/1992,13/04/1992,Germany,DEU,"Heinsberg, Bonn, Koln (Western)",Earthquake,Ground movement,1,1525,1992-0093
+13/04/1992,13/04/1992,Netherlands (the),NLD,Roermond,Earthquake,Ground movement,,20,1992-0093
+8/1/92,8/1/92,Guatemala,GTM,,Volcanic activity,Ash fall,,5000,1992-0094
+17/04/1992,17/04/1992,Japan,JPN,Shimabara (Kyushu Isl.),Volcanic activity,Ash fall,,40000,1992-0103
+18/03/1992,18/03/1992,Tajikistan,TJK,,Mass movement (dry),Avalanche,12,,1992-0117
+25/04/1992,25/04/1992,United States of America (the),USA,"Ferndale, Fortuna and Petrolia areas (North California)",Earthquake,Ground movement,,94,1992-0120
+14/10/1992,14/10/1992,Papua New Guinea,PNG,Manam Isl.,Volcanic activity,Ash fall,,,1992-0146
+12/10/92,12/10/92,Egypt,EGY,Near Fayoum (Cairo),Earthquake,Ground movement,552,92649,1992-0149
+17/10/1992,17/10/1992,Colombia,COL,"(1) Murindo, Vigia del Fuerte, Gedeza, Bellaluz, Bebaremeno, Bellavista (Antioquia and Choco Province), (2) Murindo Apartado Medellin area, (3) San Pedro de Uraba",Earthquake,Ground movement,11,1635,1992-0151
+12/12/92,12/12/92,Indonesia,IDN,"Sikka, East Flores, Ende, Ngada (Flores Isl.)",Earthquake,Ground movement,2500,92103,1992-0163
+4/3/92,4/3/92,Iran (Islamic Republic of),IRN,Lordegan-Aradal area,Earthquake,Ground movement,5,4050,1992-0180
+20/05/1992,20/05/1992,Afghanistan,AFG,,Earthquake,Ground movement,14,,1992-0202
+20/05/1992,20/05/1992,Pakistan,PAK,"Peshawar, Kohat districts",Earthquake,Ground movement,36,2100,1992-0202
+28/06/1992,28/06/1992,United States of America (the),USA,Landers California,Earthquake,Ground movement,1,300,1992-0215
+15/05/1992,15/05/1992,Uzbekistan,UZB,Andizhan oblast,Earthquake,Ground movement,9,50000,1992-0236
+4/2/92,4/2/92,Indonesia,IDN,"Brebes area (Java, Sulawesi)",Earthquake,Ground movement,,7501,1992-0247
+2/2/92,2/2/92,Japan,JPN,Kanto area (Tokyo),Earthquake,Ground movement,,32,1992-0252
+31/07/1992,31/07/1992,China,CHN,Lhasa prefecture (Tibet),Earthquake,Ground movement,,16000,1992-0256
+12/8/92,12/8/92,China,CHN,Jijiagou (Shanxi province),Mass movement (dry),Landslide,49,,1992-0300
+26/11/1992,26/11/1992,Russian Federation (the),RUS,Dagestan,Mass movement (dry),Avalanche,,1750,1992-0475
+24/10/1992,24/10/1992,Georgia,GEO,Barisakho area,Earthquake,Ground movement,1,10,1992-0481
+00/01/1992,00/01/1992,Uzbekistan,UZB,,Mass movement (dry),Landslide,1,400,1992-0497
+22/04/1992,22/04/1992,United States of America (the),USA,South California,Earthquake,Ground movement,,32,1992-0554
+6/2/93,19/03/1993,Philippines (the),PHL,"Ligao, Camalig, Guinobatan, Daraga, Legaspi (Albay province)",Volcanic activity,Ash fall,79,165009,1993-0008
+22/06/1993,22/06/1993,Iran (Islamic Republic of),IRN,Gachsaran-Dogonbadan,Earthquake,Ground movement,24,4049,1993-0035
+12/7/93,12/7/93,Japan,JPN,Okushiri Island (Hokkaido),Earthquake,Tsunami,239,7355,1993-0044
+9/8/93,9/8/93,Guam,GUM,Tumon Bay area,Earthquake,Ground movement,,71,1993-0049
+1/8/93,1/8/93,Sudan (the),SDN,Khartoum,Earthquake,Ground movement,3,15,1993-0056
+29/09/1993,29/09/1993,India,IND,"Killari, Haegoan, Sostour, Holi (Latur and Osmanabad districts, Maharastra state)",Earthquake,Ground movement,9748,30000,1993-0074
+13/10/1993,13/10/1993,Papua New Guinea,PNG,Goroka,Earthquake,Ground movement,53,20200,1993-0076
+24/10/1993,24/10/1993,Mexico,MEX,Guerrero state,Earthquake,Ground movement,,,1993-0086
+15/01/1993,15/01/1993,Japan,JPN,Near Kushiro (Hokkaido),Earthquake,Ground movement,2,10522,1993-0097
+14/01/1993,14/01/1993,Colombia,COL,Narino Province,Volcanic activity,Ash fall,10,6,1993-0106
+27/01/1993,27/01/1993,China,CHN,Yunnan province,Earthquake,Ground movement,,142146,1993-0108
+21/01/1993,21/01/1993,Indonesia,IDN,Maluku Province,Volcanic activity,Ash fall,1,3012,1993-0109
+25/01/1993,25/01/1993,Indonesia,IDN,Sangir Talaud Island,Volcanic activity,Ash fall,2,452,1993-0110
+13/03/1993,13/03/1993,Wallis and Futuna,WLF,Futuna Isl.,Earthquake,Ground movement,5,20,1993-0134
+27/03/1993,27/03/1993,Greece,GRC,Pyrgos-Amalias area,Earthquake,Ground movement,1,1516,1993-0136
+18/04/1993,18/04/1993,Peru,PER,Lima region,Earthquake,Ground movement,6,145,1993-0144
+23/06/1993,23/06/1993,Japan,JPN,Nagasaki,Volcanic activity,Ash fall,1,4930,1993-0175
+10/7/93,10/7/93,Costa Rica,CRI,"Cartago, Turrialba",Earthquake,Ground movement,3,240,1993-0184
+11/12/93,11/12/93,Malaysia,MYS,Kuala Lumpur,Mass movement (dry),Landslide,72,,1993-0227
+18/12/1993,18/12/1993,Colombia,COL,Antioquia Province,Mass movement (dry),Landslide,75,2411,1993-0233
+14/12/1993,14/12/1993,Egypt,EGY,Mokattam (Cairo),Mass movement (dry),Subsidence,34,300,1993-0345
+00/03/1993,00/03/1993,Afghanistan,AFG,Salang district (Parwan province),Mass movement (dry),Avalanche,100,,1993-0419
+21/09/1993,21/09/1993,United States of America (the),USA,Klamath Falls (Oregon),Earthquake,Ground movement,2,3000,1993-0480
+22/07/1993,22/07/1993,Colombia,COL,"Arauca, Puerto Rondon, Puerto Colombia",Earthquake,Ground movement,2,3071,1993-0490
+19/04/1993,19/04/1993,Chile,CHL,,Volcanic activity,Ash fall,6,350,1993-0502
+00/00/1993,00/00/1993,Russian Federation (the),RUS,,Mass movement (dry),Avalanche,60,,1993-0526
+27/01/1993,27/01/1993,Iran (Islamic Republic of),IRN,Nehbandan area,Earthquake,Ground movement,,1003,1993-0578
+14/07/1993,14/07/1993,Greece,GRC,Patras,Earthquake,Ground movement,,605,1993-0579
+20/10/1993,20/10/1993,Nepal,NPL,Northwestern,Earthquake,Ground movement,,285,1993-0580
+12/11/93,12/11/93,India,IND,Latur area,Earthquake,Ground movement,,525,1993-0581
+30/11/1993,30/11/1993,China,CHN,Shufu area,Earthquake,Ground movement,,504,1993-0582
+17/01/1994,17/01/1994,United States of America (the),USA,"Los Angeles, Ventura, Orange, San Bernardino Counties (California)",Earthquake,Ground movement,60,27000,1994-0002
+21/01/1994,21/01/1994,Indonesia,IDN,(1) Irian Jaya region(2) Halmahera,Earthquake,Ground movement,7,200040,1994-0006
+16/02/1994,16/02/1994,Indonesia,IDN,"Liwa, Lampung Province (South Sumatra), Balikbukit, Belalau, Sumberjaya",Earthquake,Ground movement,207,49399,1994-0007
+3/2/94,3/2/94,Indonesia,IDN,Eastern Java,Volcanic activity,Ash fall,7,2000,1994-0025
+23/02/1994,23/02/1994,Iran (Islamic Republic of),IRN,Sefid Abeh (Sistan Region),Earthquake,Ground movement,9,1500,1994-0040
+1/3/94,1/3/94,Iran (Islamic Republic of),IRN,"Firuzabad, Meymand (Fars Province)",Earthquake,Ground movement,3,15041,1994-0041
+6/2/94,6/2/94,Uganda,UGA,"Port Portal, Kabarole, Bund Ibugyo, Kases districts",Earthquake,Ground movement,7,50000,1994-0051
+1/5/94,1/5/94,Afghanistan,AFG,"Termez, Depth Shallow, Balkh and Jowzan Provinces, Mazar-I-Sharif District",Earthquake,Ground movement,160,100330,1994-0057
+9/6/94,9/6/94,Bolivia (Plurinational State of),BOL,"Arequipa, Cuzco provinces",Earthquake,Ground movement,5,,1994-0058
+6/6/94,6/6/94,Colombia,COL,"Toez, Irlanda, Belalcazar, Mosoco, Monte Cruz, La Cruz, San Jose Cabuya (Cauca Department and Huila Department)",Earthquake,Ground movement,271,37416,1994-0059
+2/6/94,2/6/94,Indonesia,IDN,"Purwoharjo, Sarongan, Tegaldlimo, Banyuwangi (South Java)",Earthquake,Ground movement,239,8720,1994-0062
+20/06/1994,20/06/1994,Iran (Islamic Republic of),IRN,Shiraz (Fars province),Earthquake,Ground movement,2,100,1994-0070
+13/08/1994,13/08/1994,Vanuatu,VUT,Malakula Isl.,Earthquake,Ground movement,,,1994-0076
+22/07/1994,22/07/1994,Mexico,MEX,Jalisco State,Volcanic activity,Ash fall,,700,1994-0169
+18/08/1994,18/08/1994,Algeria,DZA,Mascara province,Earthquake,Ground movement,171,12789,1994-0196
+19/09/1994,19/09/1994,Papua New Guinea,PNG,Eastern New Britain,Volcanic activity,Ash fall,5,152002,1994-0212
+15/09/1994,15/09/1994,China,CHN,"Fujian, Guandong provinces (China) Peng-hu (Taiwan)",Earthquake,Ground movement,1,500,1994-0307
+28/12/1994,28/12/1994,Japan,JPN,Hachinohe (North-East Honshu),Earthquake,Ground movement,2,285,1994-0316
+4/10/94,4/10/94,Russian Federation (the),RUS,"Iturup, Kunashir, Shikotan, Kuril Isl.",Earthquake,Ground movement,11,2342,1994-0342
+4/10/94,4/10/94,Japan,JPN,East coast of Hokaido Isl.,Earthquake,Ground movement,5,1500,1994-0343
+9/10/94,9/10/94,Indonesia,IDN,North Maluku (Obi Isl.),Earthquake,Ground movement,1,2437,1994-0513
+3/11/94,3/11/94,Indonesia,IDN,Lombok (West Nusa Tenggara province),Volcanic activity,Ash fall,31,,1994-0514
+22/11/1994,00/12/1994,Indonesia,IDN,Java Isl.,Volcanic activity,Ash fall,58,2722,1994-0515
+15/11/1994,15/11/1994,Philippines (the),PHL,"Mindoro, Luzon",Earthquake,Ground movement,81,270866,1994-0518
+21/12/1994,21/12/1994,Mexico,MEX,Puebla State,Volcanic activity,Ash fall,,75000,1994-0595
+26/12/1994,26/12/1994,United States of America (the),USA,Eureka,Earthquake,Ground movement,,225,1994-0599
+31/12/1994,31/12/1994,China,CHN,"Guangxi, Gungdong provinces",Earthquake,Ground movement,,5860,1994-0600
+6/8/94,6/8/94,Australia,AUS,"Cessnock, Hunter Valley",Earthquake,Ground movement,,5025,1994-0642
+20/11/1994,20/11/1994,Indonesia,IDN,"Maluki, Irian Jaya, North Sumatra, Denpasar",Earthquake,Ground movement,,67,1994-0652
+3/1/94,3/1/94,China,CHN,Gonghe area (Qinghai),Earthquake,Ground movement,,285,1994-0767
+13/05/1994,13/05/1994,Philippines (the),PHL,Oro area (Mindanao),Earthquake,Ground movement,,218,1994-0768
+19/01/1995,19/01/1995,Colombia,COL,"Boyaca Province, Casanare Department",Earthquake,Ground movement,7,2845,1995-0015
+17/01/1995,17/01/1995,Japan,JPN,"Kobe, Osaka, Hyigo, Kyoto prefecture",Earthquake,Ground movement,5297,541636,1995-0016
+8/2/95,8/2/95,Colombia,COL,Pereira,Earthquake,Ground movement,40,15097,1995-0030
+23/02/1995,23/02/1995,Cyprus,CYP,"Paphos, Nicosia areas",Earthquake,Ground movement,2,1865,1995-0034
+26/03/1995,26/03/1995,Ecuador,ECU,Quevedo,Earthquake,Ground movement,1,85,1995-0047
+3/4/95,00/05/1995,Cabo Verde,CPV,Fogo Island,Volcanic activity,Ash fall,,6306,1995-0052
+4/3/95,4/3/95,Colombia,COL,Pasto area,Earthquake,Ground movement,8,259,1995-0054
+21/04/1995,21/04/1995,Philippines (the),PHL,near Dolores (Samar Isl.),Earthquake,Ground movement,,,1995-0055
+14/05/1995,14/05/1995,Indonesia,IDN,"Dili, Maliana, Mauraba (East Timor)",Earthquake,Ground movement,15,176,1995-0084
+13/05/1995,13/05/1995,Greece,GRC,"Kozani, Thessaloniki, Grevena-Kozani, Patras",Earthquake,Ground movement,26,15060,1995-0085
+19/05/1995,19/05/1995,Indonesia,IDN,"Parigi, Palu, Poso (Sulawesi)",Earthquake,Ground movement,,1538,1995-0089
+27/05/1995,27/05/1995,Russian Federation (the),RUS,Neftegorsk (Sakhalin Island),Earthquake,Ground movement,1989,750,1995-0097
+12/7/95,12/7/95,China,CHN,Lancang-Menglian-Ximeng area (Yunnan province),Earthquake,Ground movement,11,1000136,1995-0148
+12/7/95,12/7/95,Myanmar,MMR,Shan state,Earthquake,Ground movement,,,1995-0148
+12/7/95,12/7/95,Thailand,THA,ChiangRai,Earthquake,Ground movement,,,1995-0148
+18/07/1995,00/12/1995,Montserrat,MSR,Plymouth and surrounding,Volcanic activity,Ash fall,,5000,1995-0151
+30/07/1995,30/07/1995,Chile,CHL,"Antofagasta, Arica, Iquique, Tocopilla, Calama, Chuquicamasta, Antofagasta, Taltal, Diego de Almagro, Chanaral, Caldera, Copiapo, Vallenar, La serena",Earthquake,Ground movement,3,1833,1995-0171
+14/09/1995,14/09/1995,Mexico,MEX,"Costa Chica (Guerrerro state), Oaxaca, Ometepec, Igualapa, Cuajinicuilapa",Earthquake,Ground movement,6,4670,1995-0203
+2/10/95,2/10/95,Ecuador,ECU,"Pastaza, Tena, Archidona, Santiago (Cutuca mountains, Morona Santiago Province)",Earthquake,Ground movement,2,805,1995-0226
+1/10/95,1/10/95,Turkey,TUR,"Dinar, Evciler",Earthquake,Ground movement,94,160240,1995-0233
+24/09/1995,24/09/1995,New Zealand,NZL,North of the Island,Volcanic activity,Ash fall,,70,1995-0237
+7/10/95,7/10/95,Indonesia,IDN,"Airhangat, Danaukerinci, Gunungkerinci, Gunungraya, Sitinjau Laut, Sungaipenuh (Jambi province)",Earthquake,Ground movement,84,90218,1995-0252
+9/10/95,9/10/95,Mexico,MEX,"Jalisco, Colima, Guerrero, Michoacan",Earthquake,Ground movement,58,44465,1995-0253
+24/10/1995,24/10/1995,China,CHN,Yunnan province,Earthquake,Ground movement,46,20297,1995-0261
+21/11/1995,21/11/1995,Nicaragua,NIC,Leon,Volcanic activity,Ash fall,,12000,1995-0283
+22/11/1995,22/11/1995,Egypt,EGY,Cairo,Earthquake,Ground movement,10,69,1995-0293
+15/06/1995,15/06/1995,Greece,GRC,Aiyion,Earthquake,Ground movement,26,13900,1995-0437
+1/4/95,1/4/95,Japan,JPN,Niigata (Eastern Honshu),Earthquake,Ground movement,,1551,1995-0449
+20/10/1995,20/10/1995,Mexico,MEX,"Chiapas, Tuxtla Gutierrez, Nuevo Mexico, Tenochititlan, La Garza, Alvaro Obregon, Villaflores",Earthquake,Ground movement,,18000,1995-0454
+21/07/1995,21/07/1995,China,CHN,Ganzu,Earthquake,Ground movement,14,5060,1995-0457
+29/07/1995,30/07/1995,Philippines (the),PHL,,Volcanic activity,Ash fall,,2500,1995-0472
+1/1/96,1/1/96,Indonesia,IDN,North of Palu (Sulawesi Isl),Earthquake,Ground movement,9,13000,1996-0002
+31/01/1996,31/01/1996,Afghanistan,AFG,"Pakhalsoz, Dar-E-Zand, Qala-E-Khwaja (Maimana, Faryab Province)",Earthquake,Ground movement,,3250,1996-0020
+3/2/96,3/2/96,China,CHN,"Lishui, Ninglang, Haping counties (Lijian prefecture), Zhongdian (Diqing prefecture), Heqing, Jianchuan (Dali precture), Lanping (Nujiang prefecture) - Yunnan Province",Earthquake,Ground movement,309,5077795,1996-0021
+21/02/1996,21/02/1996,Peru,PER,Pacific Coast,Earthquake,Tsunami,7,752,1996-0042
+17/02/1996,17/02/1996,Indonesia,IDN,Biak (Iran Jaya),Earthquake,Ground movement,166,25638,1996-0061
+28/03/1996,28/03/1996,Ecuador,ECU,"Pujili, San Juan, Atocha, Santa Barbara, Rumiquinche, Cuturibi Alto, Cutuburi Bajo, San Antonio, Cachi Ato, Cachi Bajo, Nazareth, La Merced, Pucara, Alpamalag, La Victoria, Tiobamba, California, Lacubamba, Laguamatsa, Isinche, (Cotopaxi",Earthquake,Ground movement,27,30705,1996-0062
+3/5/96,3/5/96,China,CHN,Guyang county (Inner Mongolia),Earthquake,Ground movement,18,200300,1996-0081
+19/03/1996,19/03/1996,China,CHN,North Western Xinjiang,Earthquake,Ground movement,26,33128,1996-0136
+29/07/1996,29/07/1996,Montserrat,MSR,,Volcanic activity,Ash fall,,4000,1996-0174
+6/8/96,6/8/96,Greece,GRC,Konitsa,Earthquake,Ground movement,,1500,1996-0179
+25/09/1996,25/09/1996,China,CHN,Lijiang (Yunnan Prov.),Earthquake,Ground movement,,137,1996-0205
+5/9/96,5/9/96,Croatia,HRV,"Ston, Slano area",Earthquake,Ground movement,,2000,1996-0212
+1/10/96,7/11/96,Iceland,ISL,North,Volcanic activity,Ash fall,,,1996-0237
+6/10/96,6/10/96,Papua New Guinea,PNG,Rabaul Town,Volcanic activity,Ash fall,,300,1996-0238
+12/11/96,12/11/96,Peru,PER,"Ica, Palpa, Nazca, Caraveli, Lucanas, Huancavelica provinces",Earthquake,Ground movement,14,75970,1996-0261
+11/11/96,11/11/96,Guatemala,GTM,Near Guatemala City,Volcanic activity,Ash fall,,743,1996-0262
+4/12/96,4/12/96,Papua New Guinea,PNG,Manam Isl.,Volcanic activity,Ash fall,4,1529,1996-0300
+14/08/1996,14/08/1996,Turkey,TUR,Corum-Amasya,Earthquake,Ground movement,,26006,1996-0461
+21/01/1997,21/01/1997,China,CHN,Southern Xinjiang,Earthquake,Ground movement,12,155040,1997-0011
+17/01/1997,17/01/1997,Indonesia,IDN,"Boyolali, Klaten, Magelang - Level 1 = Jawa Tengah and Yogyakarta",Volcanic activity,Ash fall,1,3000,1997-0012
+4/2/97,4/2/97,Iran (Islamic Republic of),IRN,"Bojnurd, Shirvan area (Khorasan)",Earthquake,Ground movement,100,84500,1997-0017
+9/1/97,9/1/97,Kyrgyzstan,KGZ,Ak-Tala district (Naryn region),Earthquake,Ground movement,,1230,1997-0028
+28/02/1997,28/02/1997,Pakistan,PAK,"Harnai (Sibi district, Baluchistan Province)",Earthquake,Ground movement,50,10100,1997-0030
+22/02/1997,22/02/1997,Trinidad and Tobago,TTO,Piparo,Volcanic activity,Ash fall,,200,1997-0031
+28/02/1997,28/02/1997,Iran (Islamic Republic of),IRN,Ardabil region,Earthquake,Ground movement,1100,38600,1997-0035
+22/04/1997,22/04/1997,Trinidad and Tobago,TTO,Near Trinidad,Earthquake,Ground movement,,17,1997-0045
+25/06/1997,25/06/1997,Montserrat,MSR,Plymouth,Volcanic activity,Ash fall,32,4000,1997-0050
+12/1/97,12/1/97,Mexico,MEX,Arteaga area (Michoacan),Earthquake,Ground movement,1,5000,1997-0071
+10/5/97,10/5/97,Afghanistan,AFG,Herat area,Earthquake,Ground movement,5,,1997-0095
+10/5/97,10/5/97,Iran (Islamic Republic of),IRN,"Birjand, Qayer (Khorasan)",Earthquake,Ground movement,1568,74600,1997-0095
+22/05/1997,22/05/1997,India,IND,Jabalpur (Madhya Pradesh),Earthquake,Ground movement,43,156500,1997-0115
+22/05/1997,22/05/1997,Mexico,MEX,"Arteaga, Patzcuaro, Michoacan",Earthquake,Ground movement,,12000,1997-0116
+9/7/97,9/7/97,Venezuela (Bolivarian Republic of),VEN,"Cariaco, Casanai, Cumana",Earthquake,Ground movement,80,4183,1997-0147
+26/09/1997,3/10/97,Italy,ITA,"Umbria, Marche regions",Earthquake,Ground movement,14,38100,1997-0228
+28/09/1997,28/09/1997,Indonesia,IDN,Parepare (city) Level 1 = Sulawesi Selatan,Earthquake,Ground movement,20,3105,1997-0240
+14/10/1997,14/10/1997,Chile,CHL,"Elqui, Limari, Choapa (Coquimbo Region - Region IV)",Earthquake,Ground movement,8,53098,1997-0247
+22/11/1997,22/11/1997,Bangladesh,BGD,Chittagong,Earthquake,Ground movement,23,200,1997-0281
+6/4/97,6/4/97,China,CHN,"Kashi, Atushi (Jiashi county), Yuepuhu, Bachu, Shule, Yingjisha counties (Xinhiang autonomus region)",Earthquake,Ground movement,9,500089,1997-0326
+1/7/97,1/7/97,Mexico,MEX,Popocatepelt,Volcanic activity,Ash fall,20,,1997-0339
+18/07/1997,18/07/1997,Armenia,ARM,"Noyemberyan city (Noemberjan district, Tavush province)",Earthquake,Ground movement,,15000,1997-0368
+1/3/97,1/3/97,China,CHN,Jiashi county (Xinjiang),Earthquake,Ground movement,2,20006,1997-0531
+11/4/97,11/4/97,China,CHN,Jiashi county (Xinjiang),Earthquake,Ground movement,9,100089,1997-0532
+25/06/1997,25/06/1997,Iran (Islamic Republic of),IRN,Birjand-Qayen area,Earthquake,Ground movement,,25500,1997-0533
+21/07/1997,21/07/1997,South Africa,ZAF,Near Stilfontein,Earthquake,Ground movement,15,46,1997-0534
+21/04/1997,21/04/1997,Vanuatu,VUT,Santa Cruz Isl.,Earthquake,Tsunami,100,,1997-0539
+4/2/98,4/2/98,Afghanistan,AFG,Rustaq (Takhar province),Earthquake,Ground movement,2323,32818,1998-0026
+14/03/1998,14/03/1998,Iran (Islamic Republic of),IRN,Golbaft (Kerman),Earthquake,Ground movement,5,1500,1998-0043
+10/1/98,10/1/98,China,CHN,Hebei province,Earthquake,Ground movement,49,598000,1998-0076
+3/4/98,3/4/98,Italy,ITA,Gualdo Tadino-Nocera Umbra area (Central),Earthquake,Ground movement,,905,1998-0078
+10/4/98,10/4/98,Iran (Islamic Republic of),IRN,"Birjand, Gonobad area",Earthquake,Ground movement,12,2935,1998-0084
+12/4/98,12/4/98,Austria,AUT,Arnoldstein,Earthquake,Ground movement,,,1998-0110
+12/4/98,12/4/98,Slovenia,SVN,"Bovec, Trenta, Kobarid, Tolmin, Bojinj, Jesenice",Earthquake,Ground movement,,700,1998-0110
+5/5/98,5/5/98,Costa Rica,CRI,,Volcanic activity,Ash fall,,450,1998-0122
+30/05/1998,30/05/1998,Afghanistan,AFG,Shari-I-Buzurg (Faizabad ),Earthquake,Ground movement,4700,116935,1998-0152
+22/05/1998,22/05/1998,Bolivia (Plurinational State of),BOL,"Aiquile, Tortora",Earthquake,Ground movement,95,18050,1998-0169
+20/05/1998,20/05/1998,Guatemala,GTM,Near Guatemala City,Volcanic activity,Ash fall,,600,1998-0170
+28/06/1998,28/06/1998,Turkey,TUR,"Adana, Ceyhan, Hatay",Earthquake,Ground movement,145,1589600,1998-0201
+8/7/98,8/7/98,Azores Islands,AZO,Faial and Pico Isl.,Earthquake,Ground movement,10,1100,1998-0206
+4/7/98,4/7/98,Turkey,TUR,"Geyhan, Adana area",Earthquake,Ground movement,,1016,1998-0207
+9/7/98,9/7/98,Azerbaijan,AZE,"Lenkoran, Lerik, Astara, Massali, Yardimili districts",Earthquake,Ground movement,1,700010,1998-0215
+11/7/98,11/7/98,Indonesia,IDN,Jawa Tengah and Yogyakarta,Volcanic activity,Ash fall,,6000,1998-0218
+17/07/1998,17/07/1998,Papua New Guinea,PNG,Sandaun Province,Earthquake,Tsunami,2182,9867,1998-0220
+4/8/98,4/8/98,Ecuador,ECU,"Canoa, Bahia de Caraquez, San Vicente, Bricenio, Jama, Chone, Santa Ana, Portoviejo, Montecristi, Manta, Charapoto, San Clemente, San Jacinto (Manabi province)",Earthquake,Ground movement,3,2040,1998-0353
+19/11/1998,19/11/1998,China,CHN,"Huaping, Lijiang, Ninglang, Yongcheng counties (Shichuan province)",Earthquake,Ground movement,3,337443,1998-0384
+13/11/1998,13/11/1998,Iran (Islamic Republic of),IRN,Tabriz (Fars Province),Earthquake,Ground movement,5,4355,1998-0385
+22/11/1998,22/11/1998,Mexico,MEX,,Volcanic activity,Ash fall,,758,1998-0389
+29/11/1998,29/11/1998,Indonesia,IDN,"Halmahera Tengah (Sula Isl., Maluku)",Earthquake,Ground movement,33,6448,1998-0403
+1/12/98,1/12/98,China,CHN,Yunnan,Earthquake,Ground movement,,107084,1998-0454
+20/02/1998,20/02/1998,Afghanistan,AFG,Rostaq area,Earthquake,Ground movement,,,1998-0579
+20/02/1998,20/02/1998,Pakistan,PAK,"Yar Husain, Rawalpindi, Peshawar",Earthquake,Ground movement,1,611,1998-0579
+19/03/1998,19/03/1998,China,CHN,"Artux, Kashy ( Xinjiang)",Earthquake,Ground movement,,2000,1998-0580
+28/05/1998,28/05/1998,China,CHN,Xinjiang,Earthquake,Ground movement,,25028,1998-0581
+27/08/1998,27/08/1998,China,CHN,Jiashi county (Xinjiang),Earthquake,Ground movement,3,111862,1998-0582
+28/09/1998,28/09/1998,Indonesia,IDN,Malang area (Jawa),Earthquake,Ground movement,1,500,1998-0583
+30/09/1998,30/09/1998,Albania,ALB,Kukes,Earthquake,Ground movement,,2100,1998-0584
+5/10/98,5/10/98,Iran (Islamic Republic of),IRN,Darreh Shahr area,Earthquake,Ground movement,,500,1998-0585
+25/03/1998,25/03/1998,Nicaragua,NIC,Ticuante area,Earthquake,Ground movement,,238,1998-0586
+26/10/1998,26/10/1998,China,CHN,Sichuan,Earthquake,Ground movement,,3528,1998-0587
+14/12/1998,14/12/1998,Turkey,TUR,Kayseri,Earthquake,Ground movement,2,690,1998-0588
+25/01/1999,25/01/1999,Colombia,COL,"Armenia (Quindio), Risaralda, Valle del Cauca, Tolima Departments",Earthquake,Ground movement,1186,1205933,1999-0016
+2/2/99,2/2/99,Russian Federation (the),RUS,"Makhachkala (Dagestan, Causacus)",Earthquake,Ground movement,,6240,1999-0047
+11/2/99,11/2/99,Afghanistan,AFG,"Maidam Shar, Nirkh, Sayedabad, Baraki Barak, Pul-e-Alam, Mohammad Agha - Lowgar",Earthquake,Ground movement,70,91960,1999-0054
+00/02/1999,00/02/1999,Mexico,MEX,Jalisco,Volcanic activity,Ash fall,,650,1999-0055
+4/3/99,4/3/99,Iran (Islamic Republic of),IRN,"Bandar-E-Abbas, Level 1 = Hormozgan",Earthquake,Ground movement,1,2690,1999-0065
+28/03/1999,28/03/1999,India,IND,"Chamoli, Rudraprayag, Bageshwar (new district), Tehri Garhwal, Pauri Garhwal district",Earthquake,Ground movement,100,477894,1999-0099
+4/4/99,4/4/99,Cameroon,CMR,"Idenau, Bakingili, Batoke",Volcanic activity,Ash fall,,3010,1999-0100
+6/5/99,6/5/99,Iran (Islamic Republic of),IRN,"Chiraz Town, Fars Province",Earthquake,Ground movement,20,4100,1999-0150
+4/6/99,4/6/99,Azerbaijan,AZE,"Agdash, Geokchai, Udzhar",Earthquake,Ground movement,1,9170,1999-0196
+15/06/1999,15/06/1999,Mexico,MEX,"West Puebla, Oaxaca State",Earthquake,Ground movement,15,16200,1999-0208
+22/07/1999,22/07/1999,Bangladesh,BGD,Maheshkhali Isl. Level 1 = Chittagong Div,Earthquake,Ground movement,6,15200,1999-0228
+17/08/1999,17/08/1999,Turkey,TUR,"Izmit, Kocaeli, Yalova, Golcuk, Zonguldak, Sakarya, Tekirdag, Istanbul, Bursa, Eskisehir, Bolu",Earthquake,Ground movement,17127,1358953,1999-0268
+7/9/99,7/9/99,Greece,GRC,"Athens Suburbs: Menidi, Ano Liosia, Thracomacedones, Philadelfia, Zefiri, Metamorphosi, Petroupoli, N. Ionia, Moschato, Fili, Kamatero, Ilion, Elefsina, N. Halkidona, Peristeri, Ag Anargiri, Haidari and Galatsi",Earthquake,Ground movement,143,115139,1999-0302
+13/09/1999,13/09/1999,Turkey,TUR,"Kocaeli, Bursa, Istanbul, Sakarya, Yalova Provinces",Earthquake,Ground movement,6,422,1999-0314
+21/09/1999,21/09/1999,Taiwan (Province of China),TWN,"Nantou, Taichung County",Earthquake,Ground movement,2264,108664,1999-0321
+30/09/1999,30/09/1999,Mexico,MEX,"North Puerto Angel, Coastal State Oaxaca",Earthquake,Ground movement,31,115215,1999-0360
+5/10/99,5/10/99,Turkey,TUR,Marmaris,Earthquake,Ground movement,,103,1999-0376
+11/3/99,11/3/99,China,CHN,"Zangbei County, Level 1 = Hebei",Earthquake,Ground movement,,16003,1999-0383
+3/4/99,3/4/99,Peru,PER,Arequipa Area,Earthquake,Ground movement,1,1550,1999-0384
+21/06/1999,21/06/1999,Mexico,MEX,Guerrero,Earthquake,Ground movement,,6500,1999-0385
+31/08/1999,31/08/1999,Turkey,TUR,Izmit,Earthquake,Ground movement,1,166,1999-0386
+22/10/1999,22/10/1999,Taiwan (Province of China),TWN,Chiayi City (municipality) - Jiayi Province,Earthquake,Ground movement,1,254,1999-0405
+31/10/1999,31/10/1999,Peru,PER,"Quispillacta, Chuschi area (Ayacucho Department)",Earthquake,Ground movement,,6580,1999-0434
+11/11/99,11/11/99,Turkey,TUR,Sakarya Province,Earthquake,Ground movement,3,200,1999-0445
+12/11/99,12/11/99,Turkey,TUR,"Duzce, Bolu, Kaynasli",Earthquake,Ground movement,845,224948,1999-0449
+1/11/99,1/11/99,China,CHN,Shanxi Province (Datong Area),Earthquake,Ground movement,,3020004,1999-0455
+27/11/1999,27/11/1999,Vanuatu,VUT,"Pentecost, Ambrym, Paama, Epi Islands",Earthquake,Ground movement,12,14100,1999-0524
+20/11/1999,20/11/1999,Nicaragua,NIC,"La Bosla, La Mora, Las Rojas, Las Banderas, Santa Ursula, La Suiza, San Rafael, El Porvenir y Socorro, Valle, Los Morenos, San Benito, Villanueva",Volcanic activity,Ash fall,,3500,1999-0537
+29/11/1999,29/11/1999,China,CHN,"Between Xiuyan and Haicheng (Sanjianfang, Liaoning province)",Earthquake,Ground movement,,800,1999-0553
+22/12/1999,22/12/1999,Algeria,DZA,Aïn Témuchent,Earthquake,Ground movement,22,15175,1999-0561
+21/12/1999,21/12/1999,Indonesia,IDN,"Karyasari, Pandelang District (Southwest Jakarta, Java Island)",Earthquake,Ground movement,5,16920,1999-0568
+00/09/1999,00/09/1999,Ecuador,ECU,"Ambato (Tungurahua Province), Riobamba (Chimborazo Province)",Volcanic activity,Ash fall,,24200,1999-0584
+5/8/99,5/8/99,Nicaragua,NIC,Leon Department,Volcanic activity,Ash fall,,2195,1999-0585
+26/11/1999,26/11/1999,Iran (Islamic Republic of),IRN,"Ali-Abad, Level 1 = Mazandaran",Earthquake,Ground movement,,250,1999-0587
+21/02/1999,21/02/1999,Russian Federation (the),RUS,Kizilyurt area (Dagestan),Earthquake,Ground movement,1,5020,1999-0601
+2/2/99,2/2/99,Spain,ESP,"Mula, Puebla de Mula",Earthquake,Ground movement,,20,1999-0638
+11/7/99,11/7/99,Guatemala,GTM,San Pedro Sula,Earthquake,Ground movement,2,280,1999-0639
+12/12/99,12/12/99,Philippines (the),PHL,Luzon (Manila Region),Earthquake,Ground movement,6,190,1999-0644
+16/01/2000,16/01/2000,Guatemala,GTM,"El Caracol, El Patrocinio, El Rodeo, San Francisco de Sales cities (San Vicente Pacaya district, Escuintla province)",Volcanic activity,Ash fall,,800,2000-0008
+2/1/00,2/1/00,Bangladesh,BGD,"Maheshkhali area (Cox's Bazar district, Chittagong province)",Earthquake,Ground movement,,1000,2000-0023
+15/01/2000,15/01/2000,China,CHN,"Yongren Xian, Yao'an Xian, Nanhua Xian, Dayao Xian areas (Chuxiong Yi district, Yunnan Sheng province), Xiangyun Xian area (Dali Bai district, Yunnan Sheng province)",Earthquake,Ground movement,7,1855007,2000-0033
+26/01/2000,26/01/2000,China,CHN,"Mile Xian area (Honghe Hani and Yi district, Yunnan Sheng province), Qiubei Xian area (Wenshan Zhuang and Miao district, Yunnan Sheng province)",Earthquake,Ground movement,1,10302,2000-0036
+12/1/00,12/1/00,China,CHN,"Xiuyan Manzu Zizhixian area (Anshan district, Liaoning Sheng province)",Earthquake,Ground movement,,62030,2000-0041
+3/2/00,3/2/00,Iran (Islamic Republic of),IRN,"Kashmar, Bardeskan districts (Khorasan)",Earthquake,Ground movement,1,2015,2000-0051
+19/01/2000,19/01/2000,Afghanistan,AFG,"Hindu Kush mountain chain (Badakhshan province), Peshawar village (nuristan province)",Earthquake,Ground movement,,,2000-0063
+14/02/2000,14/02/2000,Iran (Islamic Republic of),IRN,"Mohammadieh, Sarhozak, Hajiabad areas (Kashmar district, Khorasan province)",Earthquake,Ground movement,,1000,2000-0065
+21/06/2000,21/06/2000,Iceland,ISL,"Grimsnes, Selfoss, Eyrarbakki, Stokkseyri city (Arnes provinces)",Earthquake,Ground movement,,108,2000-0076
+8/11/00,8/11/00,Colombia,COL,Jurado island and Jurado districts (Choco province),Earthquake,Ground movement,2,430,2000-0081
+24/02/2000,9/3/00,Philippines (the),PHL,"Legazpi City area (Albay district, Region V (Bicol region) province)",Volcanic activity,Ash fall,,68426,2000-0089
+9/8/00,9/8/00,Mexico,MEX,Lazaro Cardenas district (Michoacan province),Earthquake,Ground movement,,1,2000-0111
+31/03/2000,13/04/2000,Japan,JPN,"Abutatyoo, Datesi, Soobetutyoo districts (Hokkaidoo province)",Volcanic activity,Ash fall,,12400,2000-0176
+4/5/00,4/5/00,Indonesia,IDN,"Totikum, Tinangkung, Liang villages (Banggai Kepulauan district, Sulawesi Tengah province), Banggai district (Sulawesi Tengah province)",Earthquake,Ground movement,45,52770,2000-0230
+8/5/00,8/5/00,Turkey,TUR,Poturge district (Malatya province),Earthquake,Ground movement,1,1000,2000-0272
+6/6/00,6/6/00,Turkey,TUR,"Cerkes, Orta districts (Cankiri province), Cubuk district (Ankara province)",Earthquake,Ground movement,2,23080,2000-0291
+4/6/00,4/6/00,Indonesia,IDN,"Enggano island (Bengkulu Utara district, Bengkulu province)",Earthquake,Ground movement,103,204714,2000-0293
+6/6/00,6/6/00,China,CHN,"Lanzhou Shi area (Lanzhou district, Gansu Sheng province)",Earthquake,Ground movement,,100,2000-0298
+26/05/2000,26/05/2000,Greece,GRC,"Michalitsi, Mitikas (Artis District, Ipeiros province), Flampoura, Kanali, Pantokratos villages (Prevezis district, Ipeiros province)",Earthquake,Ground movement,,600,2000-0303
+17/06/2000,17/06/2000,Iceland,ISL,Hella city (Rangarvalla province),Earthquake,Ground movement,,91,2000-0335
+6/7/00,6/7/00,Nicaragua,NIC,"Laguna de Apoyo nature reserve (Masaya district, Masaya province)",Earthquake,Ground movement,7,7477,2000-0387
+1/7/00,1/7/00,Japan,JPN,"Koodusimamura, Niizimamura districts (Tookyoo province)",Earthquake,Ground movement,1,100,2000-0428
+12/7/00,12/7/00,Indonesia,IDN,"Ciranggon village (Karawang district, Jawa Barat province)",Earthquake,Ground movement,,4124,2000-0449
+5/8/00,5/8/00,Russian Federation (the),RUS,Ougklegorsk region (Sakhalinskaya Oblast Province),Earthquake,Ground movement,,19108,2000-0480
+10/8/00,10/8/00,Japan,JPN,Miyakemura district (Tookyoo province),Volcanic activity,Ash fall,,4000,2000-0515
+21/08/2000,21/08/2000,China,CHN,"Wuding Xian area (Chuxiong Yi district, Yunnan Sheng province)",Earthquake,Ground movement,1,177611,2000-0527
+3/9/00,3/9/00,United States of America (the),USA,"Near Yountville city (Napa district, California province)",Earthquake,Ground movement,,25174,2000-0598
+2/10/00,2/10/00,"Tanzania, United Republic of",TZA,"Isale, Kipili, Kirando, Namanyere, Wampelembe, Kate areas (Nkasi district, Rukwa province)",Earthquake,Ground movement,1,791,2000-0653
+6/10/00,6/10/00,Japan,JPN,"Aimityoo, Kisimototyoo, Mizokutityoo, Saihakutyoo, Daisentyoo, Nawatyoo, Nakayamatyoo, Hieduson districts (Tottori province), Simane, Okayama provinces",Earthquake,Ground movement,,7132,2000-0656
+31/10/2000,31/10/2000,Tajikistan,TJK,"Khasanov village (Parharskiy district, Khatlon province)",Earthquake,Ground movement,,6000,2000-0743
+16/11/2000,16/11/2000,Papua New Guinea,PNG,"Duke of York island (Kokopo district, East New Britain province), New Ireland, Northern Solomons provinces",Earthquake,Ground movement,2,5000,2000-0749
+25/10/2000,25/10/2000,Indonesia,IDN,"Pandeglang, Lebak, Serang districts (Banten province)",Earthquake,Ground movement,,5500,2000-0761
+7/6/00,7/6/00,Indonesia,IDN,Lahat district (Sumatera Selatan province),Earthquake,Ground movement,1,3000,2000-0762
+8/11/00,8/11/00,Philippines (the),PHL,"Apayao, Kalinga districts (Cordillera Administrative region (CAR) province)",Mass movement (dry),Landslide,11,,2000-0763
+25/11/2000,25/11/2000,Azerbaijan,AZE,"Absheron, Baku, Sumgayit districts (Absheron province)",Earthquake,Ground movement,31,3294,2000-0769
+18/12/2000,19/12/2000,Mexico,MEX,"Mexico, Puebla, Morelos provinces",Volcanic activity,Ash fall,,41000,2000-0804
+6/12/00,6/12/00,Turkmenistan,TKM,Balkan province,Earthquake,Ground movement,11,,2000-0810
+5/1/01,5/1/01,"Tanzania, United Republic of",TZA,Rungwe district (Mbeya province),Earthquake,Ground movement,,700,2001-0005
+13/01/2001,13/01/2001,El Salvador,SLV,"Berlin, Alegria, Tecapan, Santiago de Maria districts (Usulutan province), Santa Tecla, Comasagua districts (La Libertad province) , San Miguel, Santa Ana, Sonsonate, Cuscatlan, San Vicente, La Union, Ahuachapan, Cabanas, Morazan, Chalatenango, La Paz, La Libertad, San Salvador, Usulutan provinces",Earthquake,Ground movement,844,1334529,2001-0013
+13/01/2001,13/01/2001,Guatemala,GTM,Jutapia province,Earthquake,Ground movement,6,152,2001-0023
+26/01/2001,26/01/2001,India,IND,"Ahmadabad, Amreli, Anand, Banas Kantha, Bharuch, Bhavnagar, Dahdod, Gandhinagar, Jamnagar, Junagadh, Kachchh, Kheda, Mahesana, Navsari, Patan, Porbandar, Rajkot, Sabar Kantha, Surat, Surendranagar, Vadodara districts (Gurajat province)",Earthquake,Ground movement,20005,6321812,2001-0033
+26/01/2001,26/01/2001,Pakistan,PAK,"Badin District, Tharparkar District, Mirpur Khas District districts (Sindh province)",Earthquake,Ground movement,12,914292,2001-0033
+13/02/2001,13/02/2001,El Salvador,SLV,"La Paz, Cuscatlan, San Vicente, San Salvador, Morazan, La Libertad provinces , San Juan Tepezontes district (La Paz province), Cojutepeque district (Cuscatlan province)",Earthquake,Ground movement,315,256021,2001-0042
+23/02/2001,23/02/2001,China,CHN,"Yajiang Xian, Kangding Xian areas (Garze Tibetan district, Sichuan Sheng province)",Earthquake,Ground movement,3,300109,2001-0064
+25/02/2001,25/02/2001,Afghanistan,AFG,Fayzabad district (Badakhshan province),Earthquake,Ground movement,,,2001-0086
+28/02/2001,28/02/2001,United States of America (the),USA,"Seattle city (King district), Tacoma city (Pierce district), Olympia city (Thurston district) (Washington province)",Earthquake,Ground movement,1,400,2001-0099
+24/03/2001,24/03/2001,Japan,JPN,"Hirosima, Ehime provinces",Earthquake,Ground movement,2,11261,2001-0123
+12/4/01,12/4/01,China,CHN,"Shidian area (Baoshan district, Yunnan Sheng province)",Earthquake,Ground movement,2,150190,2001-0151
+23/05/2001,23/05/2001,China,CHN,"Ninglang Yi Zizhixian area (Lijiang district, Yunnan Sheng province), Yanyuan Xian area (Liangshan Yi district, Sichuan Sheng province)",Earthquake,Ground movement,2,10605,2001-0214
+1/6/01,1/6/01,Afghanistan,AFG,"Panjsher, Parwan, Kapisa provinces",Earthquake,Ground movement,4,270,2001-0233
+8/6/01,8/6/01,Vanuatu,VUT,Paama island (Malampa province),Volcanic activity,Ash fall,,4500,2001-0254
+23/06/2001,23/06/2001,Peru,PER,"Arequipa, Moquegua, Tacna, Ayacucho provinces",Earthquake,Ground movement,145,349978,2001-0294
+24/05/2001,24/05/2001,Philippines (the),PHL,"Daraga, Bacacay, Sto Domingo, Daraga, Camalig, Ligao, Legazpi City, Tabaco, Malilipot, Guinobatan areas (Albay district, Region V (Bicol region) province)",Volcanic activity,Ash fall,,25576,2001-0297
+5/6/01,5/6/01,Papua New Guinea,PNG,Mumeng district (Morobe province),Earthquake,Ground movement,,201,2001-0345
+25/06/2001,25/06/2001,Turkey,TUR,Osmaniye province,Earthquake,Ground movement,,480,2001-0358
+18/07/2001,18/07/2001,Italy,ITA,"Nicolosi municipality (Catania Province, Sicilia Region)",Volcanic activity,Ash fall,,,2001-0378
+14/07/2001,14/07/2001,China,CHN,"Donghua village (Yongsheng Xian area, Lijiang district, Yunnan Sheng province)",Earthquake,Ground movement,,25000,2001-0389
+14/08/2001,14/08/2001,Ecuador,ECU,"Quero, Cevallos, Mocha, San Pedro de Pelileo, Tisaleo districts (Tungurahua province), Penipe, Guano districts (Chimborazo province)",Volcanic activity,Ash fall,,22770,2001-0456
+25/07/2001,25/07/2001,Philippines (the),PHL,"Legazpi City area (Albay district, Region V (Bicol region) province)",Volcanic activity,Ash fall,,57645,2001-0461
+28/06/2001,28/06/2001,Indonesia,IDN,Jawa Barat province,Earthquake,Ground movement,,12512,2001-0546
+27/10/2001,27/10/2001,China,CHN,"Yongsheng area (Lijiang district, Yunnan Sheng province)",Earthquake,Ground movement,1,17220,2001-0598
+14/02/2001,14/02/2001,Indonesia,IDN,Bengkulu province,Earthquake,Ground movement,,,2001-0669
+5/2/01,5/2/01,Congo (the Democratic Republic of the),COD,"Nord-Kivu, Sud-Kivu provinces",Volcanic activity,Ash fall,,,2001-0732
+10/7/01,10/7/01,Turkey,TUR,Erzurum province,Earthquake,Ground movement,,131,2001-0748
+26/07/2001,26/07/2001,Greece,GRC,"Skyros Island (Evvoias district, Sterea Ellada province)",Earthquake,Ground movement,,300,2001-0749
+8/10/01,8/10/01,Iran (Islamic Republic of),IRN,Birjand district (Khorasan province),Earthquake,Ground movement,,1000,2001-0750
+4/12/01,4/12/01,Peru,PER,"Pucuncho city (Cayarani municipality, Condesuyos district, Arequipa province) , Chuquibamba municipality (Condesuyos district, Arequipa province)",Earthquake,Ground movement,2,155,2001-0751
+9/8/01,9/8/01,Peru,PER,Antambaba district (Apurcmac province),Earthquake,Ground movement,4,3965,2001-0754
+3/1/02,3/1/02,Vanuatu,VUT,Port Vila city (Shefa province),Earthquake,Ground movement,,500,2002-0002
+9/1/02,9/1/02,Tajikistan,TJK,"Taghi Akbar, Talkhan Chashma, Passimokhroukho areas (Rogunsky district, Tadzhikistan Territories province)",Earthquake,Ground movement,3,1050,2002-0015
+17/01/2002,21/01/2002,Congo (the Democratic Republic of the),COD,Goma district (Nord-Kivu province),Volcanic activity,Ash fall,200,110400,2002-0033
+17/01/2002,17/01/2002,Rwanda,RWA,"Gisenyi city (Rubavu district, West/Iburengerazuba province)",Earthquake,Ground movement,45,1643,2002-0042
+3/2/02,3/2/02,Turkey,TUR,Bolvadin district (Afyon province),Earthquake,Ground movement,42,252327,2002-0065
+10/1/02,10/1/02,Papua New Guinea,PNG,Aitape district (West Sepik province),Earthquake,Ground movement,1,1000,2002-0070
+6/2/02,6/2/02,Mexico,MEX,"La Yerbabuena village (Cuauhtemoc district, Colima province)",Volcanic activity,Ash fall,,300,2002-0072
+13/02/2002,13/02/2002,Guatemala,GTM,"Del Fuego volcano (Chimaltenango, Sacatepéquez, Escuintla provinces)",Volcanic activity,Ash fall,,,2002-0087
+17/02/2002,17/02/2002,Iran (Islamic Republic of),IRN,Dashty district (Bushehr province),Earthquake,Ground movement,1,780,2002-0107
+3/3/02,3/3/02,Afghanistan,AFG,"Hindu Kush montain (Wakhan district, Badakhshan province), Souchi Bala Payan, Yawan villages (Yawan district, Badakhshan province), Souch village (Jorm district, Badakhshan province), Jurm, Malang Ab villages (Baharak district, Badakhshan province), Rostaq district (Takhar province), Kabul district (Kabul province), Khuram Wa Sarbagh, Aybak districts (Samagan province)",Earthquake,Ground movement,150,3513,2002-0122
+3/3/02,3/3/02,Pakistan,PAK,Bajaur Agency district (Federally Administered Tribal Areas province),Earthquake,Ground movement,3,,2002-0122
+3/3/02,3/3/02,Tajikistan,TJK,Badakhshoni Kuni province,Earthquake,Ground movement,,500,2002-0122
+6/3/02,6/3/02,Philippines (the),PHL,"General Santos city (South Cotabato district, Region XII (Soccsksargen) province), Kiamba area (Saranggani district, Region XII (Soccsksargen) province)",Earthquake,Ground movement,15,73451,2002-0129
+31/03/2002,31/03/2002,Taiwan (Province of China),TWN,"Hualien area (Name Unknown district, Taiwan Sheng province)",Earthquake,Ground movement,4,500,2002-0172
+25/03/2002,25/03/2002,Afghanistan,AFG,Nahrin district (Baghlan province),Earthquake,Ground movement,1000,91228,2002-0175
+12/4/02,12/4/02,Afghanistan,AFG,"Dawabi, Khojakeder villages (Nahrin district, Baghlan province)",Earthquake,Ground movement,50,6150,2002-0208
+24/04/2002,24/04/2002,Serbia Montenegro,SCG,Gnjilane town (Kosovsko-pomoravski Province),Earthquake,Ground movement,1,100,2002-0234
+24/04/2002,24/04/2002,Iran (Islamic Republic of),IRN,"Behabad village (Sonqor district, Kermanshah province) Dinvar village (Sahneh district, Kermanshah province)",Earthquake,Ground movement,2,20056,2002-0246
+25/04/2002,25/04/2002,Georgia,GEO,Tbilissi district (Tbilisi province),Earthquake,Ground movement,6,19156,2002-0247
+28/05/2002,28/05/2002,Argentina,ARG,"Aminga, Anillaco, Agua Blanca, Chuquis towns (Castro Barros district, La Rioja Provinve)",Earthquake,Ground movement,,727,2002-0368
+22/06/2002,22/06/2002,Iran (Islamic Republic of),IRN,"Ab Garm, Buin Zahra, Avaj villages (Bueinzahra district, Ghazvin province), Shirin Su area (Kabudarahang district, Hamedan province), Razan district (Hamedan province), Abhar, Khodabandeh districts (Zanjan province)",Earthquake,Ground movement,227,111300,2002-0378
+16/07/2002,16/07/2002,Ecuador,ECU,"Santiago De Mendez municipality (Santiago district, Morona Santiago province)",Mass movement (dry),Landslide,60,,2002-0437
+2/7/02,2/7/02,Papua New Guinea,PNG,Kimbe district (West New Britain province),Volcanic activity,Ash fall,,13000,2002-0492
+15/08/2002,15/08/2002,Indonesia,IDN,Poso district (Sulawesi Tengah province),Earthquake,Ground movement,,2548,2002-0512
+24/08/2002,24/08/2002,Egypt,EGY,Cairo province,Earthquake,Ground movement,,250,2002-0545
+9/9/02,9/9/02,Papua New Guinea,PNG,Wewak district (East Sepik province),Earthquake,Ground movement,4,4470,2002-0577
+14/09/2002,14/09/2002,India,IND,Andaman Islands district (Andaman and Nicobar province),Earthquake,Ground movement,2,200,2002-0584
+10/10/02,10/10/02,Indonesia,IDN,"Manokwari, Ransiki, Oransbari, Prafi, Anggi, Warmare villages (Manokwari district, Papua Barat province), Bintuni village (Telukbintuni district, Papua Barat province), Windesi, Wasior villages (Telukwondama district, Papua Barat province)",Earthquake,Ground movement,8,9082,2002-0643
+18/05/2002,18/05/2002,"Tanzania, United Republic of",TZA,Bunda district (Mara province),Earthquake,Ground movement,2,2000,2002-0654
+8/8/02,8/8/02,China,CHN,"Rulong village (Xinlong Xian area, Garze Tibetan district, Sichuan Sheng province)",Earthquake,Ground movement,,378,2002-0655
+29/10/2002,29/10/2002,Italy,ITA,"Zafferana Etnea, Giarre, Santa Venerina towns (Catania Province, Sicilia Region)",Earthquake,Ground movement,,1009,2002-0680
+31/10/2002,31/10/2002,Italy,ITA,"San Guliano di Puglia town (Campobasso province, Molise region)",Earthquake,Ground movement,30,8533,2002-0690
+2/11/02,2/11/02,Pakistan,PAK,Administrative unit not available district (Jammu and Kashmir province),Earthquake,Ground movement,17,15065,2002-0692
+3/11/02,4/11/02,Ecuador,ECU,"Pedro Mancayo, Cayambe, Quito, Ruminahui, Mejia districts (Pichincha province), Gonzalo Pizarro district (Sucumbios province), El Chaco, Quijos districts (Napo province)",Volcanic activity,Ash fall,,128150,2002-0693
+11/11/02,11/11/02,Indonesia,IDN,"Garut, Bandung (Jawa Barat province)",Volcanic activity,Ash fall,,5000,2002-0701
+21/11/2002,21/11/2002,Pakistan,PAK,Administrative unit not available district (Jammu and Kashmir province),Earthquake,Ground movement,19,140782,2002-0721
+2/12/02,2/12/02,Greece,GRC,"Vartholomio city (Ileias district, Dytiki Ellada province)",Earthquake,Ground movement,,167,2002-0757
+28/11/2002,28/11/2002,Vanuatu,VUT,Merelava island (Torba province),Earthquake,Ground movement,,503,2002-0770
+24/12/2002,24/12/2002,Iran (Islamic Republic of),IRN,Kermanshah province,Earthquake,Ground movement,,15015,2002-0804
+20/09/2002,20/09/2002,Indonesia,IDN,"Ransiki village (Manokwari district, Papua Barat province)",Earthquake,Ground movement,,155,2002-0820
+25/09/2002,25/09/2002,Iran (Islamic Republic of),IRN,Masjed-e soleiman district (Khuzestan province),Earthquake,Ground movement,,5,2002-0821
+2/11/02,2/11/02,Indonesia,IDN,Simeulue district (Nangroe Aceh Darussalam province),Earthquake,Ground movement,3,60,2002-0822
+14/12/2002,14/12/2002,China,CHN,"Yumen Shi (Jiuquan district, Gansu Sheng province)",Earthquake,Ground movement,2,65500,2002-0835
+2/10/02,2/10/02,Ecuador,ECU,Banos de Angua Santa district (Tungurahua province),Volcanic activity,Ash fall,,21500,2002-0846
+6/9/02,6/9/02,Italy,ITA,Palermo Province (Sicilia Region),Earthquake,Ground movement,2,,2002-0882
+21/01/2003,21/01/2003,Mexico,MEX,"Colima, Armeria, Coquimatlan, Ixtlahuacan, Cuahutemoc, Villa de Alvarez, Manzanillo, Minatitlan, Tecoman districts (Colima province), Zapotitlan de Vadillo, Toliman, Tonila, Pihuamo districts (Jalisco province)",Earthquake,Ground movement,29,178603,2003-0039
+27/01/2003,27/01/2003,Turkey,TUR,Pulumur district (Tunceli province),Earthquake,Ground movement,1,2,2003-0050
+12/1/03,12/1/03,Iran (Islamic Republic of),IRN,"Nourabad area (Shiraz district, Fars province), Kazerun district (Fars province)",Earthquake,Ground movement,,10080,2003-0068
+23/01/2003,23/01/2003,Indonesia,IDN,Dompu district (Nusatenggara Barat province),Earthquake,Ground movement,,2502,2003-0069
+24/02/2003,24/02/2003,China,CHN,"Payzawat village (Jiashi Xian area, Kashgar district, Xinjiang Uygur Zizhiqu province), Bachu Xian, Yuepuhu Xian, Yingjisha Xian, Maigaiti Xian, Shule Xian, Shufu Xian, Kashi Shi areas (Kashgar district, Xinjiang Uygur Zizhiqu province)",Earthquake,Ground movement,268,517000,2003-0105
+17/04/2003,17/04/2003,China,CHN,"Huaitoutalazhen village (Delingha Shi area, Haixi Mongol and Tibetan district, Qinghai Sheng province)",Earthquake,Ground movement,,3300,2003-0183
+11/4/03,11/4/03,Italy,ITA,Alessandria Province (Piemonte Region),Earthquake,Ground movement,,232,2003-0184
+1/5/03,1/5/03,Turkey,TUR,"Bingol, Celtiksuyu, Sancak, Gokdere, Gozeler villages (Merkez district, Bingol province)",Earthquake,Ground movement,177,290520,2003-0197
+4/5/03,4/5/03,China,CHN,"Bachu Xian, Jiashi Xian areas (Kashgar district, Xinjiang Uygur Zizhiqu province)",Earthquake,Ground movement,1,8003,2003-0209
+10/5/03,10/5/03,Northern Mariana Islands (the),MNP,Anatahan island (Administrative unit not available province),Volcanic activity,Ash fall,,,2003-0224
+10/4/03,10/4/03,Afghanistan,AFG,"Yaka Bagh area (Namakab district, Takhar province)",Earthquake,Ground movement,1,1001,2003-0236
+21/05/2003,21/05/2003,Algeria,DZA,"Thenia, Zemmouri, Boumerdes, Dellys, Khemis El Khechna, Bordj Menaiel, Isser districts (Boumerdes province), Reghaia, Rouiba, Bab El Oued, Alger, Casbah, Hamma Anassers districts (Alger province)",Earthquake,Ground movement,2266,210261,2003-0245
+26/05/2003,26/05/2003,Japan,JPN,"Iwate, Miyagi, Yamagata, Akita, Aomori provinces",Earthquake,Ground movement,,2303,2003-0249
+27/05/2003,27/05/2003,Indonesia,IDN,"Morotai island (Halmahera Utara district, Malaku Utara province)",Earthquake,Ground movement,1,247,2003-0254
+27/05/2003,27/05/2003,Algeria,DZA,Zemmouri district (Boumerdes province),Earthquake,Ground movement,9,200,2003-0255
+23/05/2003,23/05/2003,Kazakhstan,KAZ,Zhambyl district (Jambylslkaya province),Earthquake,Ground movement,3,36626,2003-0259
+3/7/03,3/7/03,Iran (Islamic Republic of),IRN,Torbat-e jam district (Khorasan province),Earthquake,Ground movement,,1091,2003-0322
+5/6/03,5/7/03,Ecuador,ECU,"Guano, Penipe districts (Chimborazo province), Cevallos, Mocha, Quero, San Pedro de Pelileo, Tisaleo districts (Tungurahua province)",Volcanic activity,Ash fall,,25000,2003-0326
+21/07/2003,21/07/2003,China,CHN,"Dayao Xian area (Chuxiong Yi district, Yunnan Sheng province)",Earthquake,Ground movement,16,1295584,2003-0348
+26/07/2003,26/07/2003,Japan,JPN,"Sendaisi_Aobaku, Sendaisi_Daisiroku, Sendaisi_Izumiku, Sendaisi_Miyaginoku, Sendaisi_Wakabayasiku, Isinomakisi, Hurukawasi, Kasimadaimati, Nangootyoon, Narusetyoo, Yamototyoo, Yoneyamatyoo districts (Miyagi province)",Earthquake,Ground movement,,18191,2003-0354
+14/08/2003,14/08/2003,Greece,GRC,"Lefkados district, Ionioi Nisoi province",Earthquake,Ground movement,,50,2003-0400
+16/08/2003,16/08/2003,China,CHN,"Lindong village (Balin-Zuo Qi area, Chifeng district, Nei Mongol Zizhiqu province), Tianshanzhen village (Aluke'erqin Qi area, Chifeng district, Nei Mongol Zizhiqu province)",Earthquake,Ground movement,4,455500,2003-0402
+13/08/2003,13/08/2003,Panama,PAN,"Colon district (Colon province), Panama district (Panama province)",Earthquake,Ground movement,,340,2003-0411
+11/8/03,11/8/03,Indonesia,IDN,"Wasile area (Halmahera Tengah district, Maluku Utara province)",Earthquake,Ground movement,,500,2003-0414
+10/7/03,10/7/03,Iran (Islamic Republic of),IRN,"Shahr e Pir, Deberan, Deh No, Darreh Shur, Darya, Zarrin-Dasht, Hajjiabad villages (Darab district, Fars province), Jahrom district (Fars province)",Earthquake,Ground movement,1,17525,2003-0438
+27/07/2003,27/07/2003,Bangladesh,BGD,"Chittagong, Cox's Bazar, Rangamati districts (Chittagong province)",Earthquake,Ground movement,2,2525,2003-0452
+26/09/2003,26/09/2003,Japan,JPN,Hokkaidoo province,Earthquake,Ground movement,2,773,2003-0476
+22/09/2003,22/09/2003,Dominican Republic (the),DOM,"Puerto Plata district (Puerto Plata province), San Francisco de Macoris district (Duarte province), Santiago district (Santiago province), Nagua district (Maria Trinidad Sanches province)",Earthquake,Ground movement,3,2015,2003-0477
+27/09/2003,27/09/2003,Russian Federation (the),RUS,"Kosh-Agachsky, Ust'-Ulagan, Ongudai, Shebalino towns (Altay Republic Province)",Earthquake,Ground movement,3,1805,2003-0497
+16/10/2003,16/10/2003,China,CHN,"Dayao Xian area (Chuxiong Yi district, Yunnan Sheng province)",Earthquake,Ground movement,3,60056,2003-0509
+25/10/2003,25/10/2003,China,CHN,"Minle Xian, Shandan Xian, Sunan Yugu Zizhixian areas (Zhangye district, Gansu Sheng province)",Earthquake,Ground movement,9,275043,2003-0519
+13/11/2003,13/11/2003,China,CHN,"Min Xian area (Dingxi district, Gansu Sheng province), Lintan Xian, Zhuoni Xian areas (Gannan Tibetan district, Gansu Sheng province),",Earthquake,Ground movement,1,23369,2003-0546
+15/11/2003,15/11/2003,China,CHN,"Ludian Xian area (Zhaotong district, Yunnan Sheng province)",Earthquake,Ground movement,4,493065,2003-0547
+1/12/03,1/12/03,China,CHN,"Zhaosu Xian area (Ili Kazakh district, Xinjiang Uygur Zizhiqu province)",Earthquake,Ground movement,11,6018,2003-0582
+26/11/2003,26/11/2003,China,CHN,"Ludian Xian area (Zhaotong district, Yunnan Sheng province)",Earthquake,Ground movement,,10004,2003-0596
+22/12/2003,22/12/2003,United States of America (the),USA,"Paso Robles, Templeton, Atascadero, Cambria, Morro Bay, Oceano villages (San Luis Obispo district, California province)",Earthquake,Ground movement,2,160,2003-0623
+25/12/2003,25/12/2003,Costa Rica,CRI,"Corredores, Golfito districts (Puntarenas province)",Earthquake,Ground movement,2,135,2003-0628
+25/12/2003,25/12/2003,Panama,PAN,"Puerto Armuelles municipality (Baru district, Chiriqui province)",Earthquake,Ground movement,2,1075,2003-0628
+26/12/2003,26/12/2003,Iran (Islamic Republic of),IRN,Bam district (Kerman province),Earthquake,Ground movement,26796,267628,2003-0630
+26/07/2003,26/07/2003,Turkey,TUR,Buldan district (Denizli province),Earthquake,Ground movement,,240,2003-0648
+11/12/03,11/12/03,Iran (Islamic Republic of),IRN,Masjed-e soleiman district (Khuzestan province),Earthquake,Ground movement,,725,2003-0649
+10/4/03,10/4/03,Turkey,TUR,"Seferihisar, Konak districts (Izmir province)",Earthquake,Ground movement,,170,2003-0783
+1/1/04,1/1/04,Indonesia,IDN,"Kota Mataram, Lombok Barat districts (Nusatenggara Barat), Klungkung, Karangasem districts (Bali province)",Earthquake,Ground movement,1,30040,2004-0001
+10/1/04,10/1/04,Algeria,DZA,"Alger, Boumerdes provinces",Earthquake,Ground movement,,300,2004-0011
+29/01/2004,29/01/2004,Indonesia,IDN,Sikka district (Nusatenggara Timur province),Volcanic activity,Ash fall,,4615,2004-0033
+6/2/04,7/2/04,Indonesia,IDN,Nabire district (Papua province),Earthquake,Ground movement,37,14072,2004-0040
+14/02/2004,14/02/2004,Pakistan,PAK,"Bisham Tehsil area (Shangla District district, North-West Frontier province), Batagram District, Mansehra District, Kohistan District districts (North-West Frontier province)",Earthquake,Ground movement,24,13148,2004-0054
+24/02/2004,26/02/2004,Morocco,MAR,"Tamassint village (Imrabten area, Bni Ouriagh sub-district, Al Hoceima district, Taza - Al Hoceima - Taounate province), Ajdir village (Ait Youssef Ouali area, Bni Ouriagh sub-district, Al Hoceima district, Taza - Al Hoceima - Taounate province), Ait Kamra, Bni Abdallah areas (Bni Ouriagh sub-district, Al Hoceima district, Taza - Al Hoceima - Taounate province), Imzouren sub-district (Al Hoceima district, Taza - Al Hoceima - Taounate province)",Earthquake,Ground movement,628,13465,2004-0073
+16/02/2004,16/02/2004,Indonesia,IDN,Kota Padangpanjang district (Sumatera Barat province),Earthquake,Ground movement,5,507,2004-0088
+24/03/2004,24/03/2004,China,CHN,"Xiwuzhumuqin Qi area (Xilin Gol district, Nei Mongol Zizhiqu province)",Earthquake,Ground movement,,190100,2004-0126
+25/03/2004,25/03/2004,Turkey,TUR,"Askale, Buyukgecit, Kucukgecit, Karabiyik, Kandilli villages (Askale district, Erzurum province)",Earthquake,Ground movement,9,4030,2004-0127
+28/03/2004,28/03/2004,Turkey,TUR,"Askale, Ilica, Cat districts (Erzurum province)",Earthquake,Ground movement,,32530,2004-0132
+1/4/04,1/4/04,Tajikistan,TJK,"Karabuin village (Penjikenskiy district,Sogd province)",Earthquake,Ground movement,,180,2004-0147
+28/05/2004,28/05/2004,Iran (Islamic Republic of),IRN,"Nour, Baladeh cities (Nur district, Mazandaran province), Alamout area (Qasr-e shirin district, Ghazvin province), Taleghan area (Savojbolagh district, Tehran province), Chalus, Noshahr districts (Mazandaran province)",Earthquake,Ground movement,35,498,2004-0234
+31/05/2004,31/05/2004,Russian Federation (the),RUS,Tatarsky Bay (Sakhalin Isl.) (Sakhalinskaya Oblast Province),Earthquake,Ground movement,,138,2004-0250
+1/6/04,7/6/04,Indonesia,IDN,"Tahuna, Kendahe, Tabukan Utara sub-districts (Kepulauan-sangihe districts, Sulawesi Utara province)",Volcanic activity,Ash fall,,16828,2004-0251
+8/6/04,8/6/04,Indonesia,IDN,"Pasuruan, Probolinggo districts (Jawa Timur province)",Volcanic activity,Ash fall,2,20005,2004-0269
+2/7/04,2/7/04,Turkey,TUR,Dogubeyazit district (Agri province),Earthquake,Ground movement,18,356,2004-0308
+10/8/04,10/8/04,China,CHN,"Ludian Xian area (Zhaotong district, Yunnan Sheng province)",Earthquake,Ground movement,4,120600,2004-0406
+18/08/2004,18/08/2004,Colombia,COL,Sotara district (Cauca province),Earthquake,Ground movement,1,502,2004-0426
+18/07/2004,18/07/2004,Afghanistan,AFG,Paktya province,Earthquake,Ground movement,2,1040,2004-0436
+4/9/04,4/9/04,Indonesia,IDN,Sikka district (Nusatenggara Timur province),Volcanic activity,Ash fall,,2100,2004-0463
+19/10/2004,19/10/2004,China,CHN,Baoshan district (Yunnan Sheng province),Earthquake,Ground movement,,100012,2004-0522
+23/10/2004,25/10/2004,Japan,JPN,"Odiyasi, Nagaokasi, Tookamatisi districts (Niigata province)",Earthquake,Ground movement,40,62183,2004-0532
+12/11/04,12/11/04,Indonesia,IDN,Alor district (Nusatenggara Timur province),Earthquake,Ground movement,33,83381,2004-0562
+7/9/04,7/9/04,China,CHN,Gansu Sheng province,Earthquake,Ground movement,,22019,2004-0571
+15/11/2004,15/11/2004,Colombia,COL,"Litoral de San Juan, Litoral de San Juan (is.), Bajo Baudo (is.), Bajo Baudo (pizzaro) districts (Choco province), Cali, Buenaventua, Buenaventura (is.), El Cerrito, Restrepo, Zarzal, Bugalagrande, Calima (darien), Vijes districts (Valle del Cauca province)",Earthquake,Ground movement,,8036,2004-0575
+21/11/2004,21/11/2004,Dominica,DMA,"St. Andrew, St. John, St. Joseph, St. Peter provinces",Earthquake,Ground movement,,100,2004-0582
+21/11/2004,21/11/2004,Guadeloupe,GLP,"Basse-Terre, Terre-de-Bas, Saintes Isl.",Earthquake,Ground movement,1,153,2004-0582
+20/11/2004,20/11/2004,Costa Rica,CRI,"San Jose, Puntarenas provinces",Earthquake,Ground movement,8,280,2004-0599
+26/11/2004,26/11/2004,Indonesia,IDN,Nabire district (Papua province),Earthquake,Ground movement,32,12833,2004-0607
+00/10/2004,00/11/2004,Papua New Guinea,PNG,Bogia district (Madang province),Volcanic activity,Ash fall,,9600,2004-0610
+3/12/04,3/12/04,China,CHN,"Zuojiaying village (Liupanshui Shi area, Liupanshui district, Guizhou Sheng province)",Mass movement (dry),Landslide,44,353,2004-0619
+1/12/04,1/12/04,Algeria,DZA,Boumerdes district (Boumerdes province),Earthquake,Ground movement,,15,2004-0620
+26/12/2004,26/12/2004,Bangladesh,BGD,"Barisal, Chittagong, Khulna provinces",Earthquake,Tsunami,2,,2004-0659
+26/12/2004,26/12/2004,India,IND,"Kancheepuram, Villupuram, Nagapattinam, Thoothukudi, Tirunelveli Kattabo, Kanniyakumari, Chennai, Thiruvallur, Cuddalore, Pudukkottai, Ramanathapuram, Sivaganga, Thanjavur districts (Tamil Nadu province), Vishakhapatnam, East Godavari, West Godavari, Krishna, Guntur, Prakasam, Nellore districts (Andhra Pradesh province), Kollam, Alappuzha, Ernakulam districts (Kerala province), Puducherry, Karaikal district (Puducherry province), Andaman and Nicobar province",Earthquake,Tsunami,16389,654512,2004-0659
+26/12/2004,26/12/2004,Indonesia,IDN,"Nangroe Aceh Darussalam, Sumatera Utara provinces",Earthquake,Tsunami,165708,532898,2004-0659
+26/12/2004,26/12/2004,Kenya,KEN,Mombassa district (Coast province),Earthquake,Tsunami,1,,2004-0659
+26/12/2004,26/12/2004,Malaysia,MYS,"Barat Daya, Timur Laut district (Pulau Pinang province)",Earthquake,Tsunami,80,5063,2004-0659
+26/12/2004,26/12/2004,Maldives,MDV,"Alifu Alifu, Alifu Dhaalu, Baa, Faafu, Gaafu Alifu, Gaafu Dhaalu, Haa Alifu, Haa Dhaalu, Kaafu, Laamu, Lhaviyani, Male', Meemu, Noonu, Raa, Seenu, Shaviyani, Thaa, Vaavu provinces",Earthquake,Tsunami,102,27214,2004-0659
+26/12/2004,26/12/2004,Myanmar,MMR,"Kawthoung, Pyapon, Pathein districts (Ayeyawaddy province), Kawthoung district (Taninthayi province), Sittwe district (Rakhine province)",Earthquake,Tsunami,71,15700,2004-0659
+26/12/2004,26/12/2004,Seychelles,SYC,"Anse Aux Pins, Anse Boileau, Anse Etoile, Anse Royale, Au Cap, Baie Lazare, Beau Vallon, Bel Air, Belombre, Cascade, English River, Glacis, Grande Anse Mahe, La Digue, Les Mamelles, Mont Buxton, Mont Fleuri, Plaisance, Pointe Larue, Port Glaud, Praslin, Roche Caiman, St Louis, Takamaka provinces",Earthquake,Tsunami,3,4830,2004-0659
+26/12/2004,26/12/2004,Somalia,SOM,"Hafun village (Iskushuban district, Bari province), Garacad village (Jariiban district, Mudug province), Eyl district (Nugaal province), Marka, Baraawe districts (Shabelle Hoose province)",Earthquake,Tsunami,298,105083,2004-0659
+26/12/2004,26/12/2004,Sri Lanka,LKA,"Jaffna, Kilinochchi, Mullativu, Trincomalee, Batticaloa, Ampara, Hambantota, Matara, Galle, Kalutara, Colombo, Gampaha, Puttalam, Vavuniya districts",Earthquake,Tsunami,35399,1019306,2004-0659
+26/12/2004,26/12/2004,"Tanzania, United Republic of",TZA,Dar-es-salaam,Earthquake,Tsunami,10,,2004-0659
+26/12/2004,26/12/2004,Thailand,THA,"Krabi, Phangnga, Phuket, Ranong, Satun, Trang provinces",Earthquake,Tsunami,8345,67007,2004-0659
+5/12/04,5/12/04,Germany,DEU,"Waldkirch, Emmendingen towns (Freiburg district, Baden-Wuerttemberg Province)",Earthquake,Ground movement,,150,2004-0669
+12/7/04,12/7/04,Slovenia,SVN,"Kobarid, Bovec districts (Goriska Province)",Earthquake,Ground movement,1,605,2004-0670
+24/02/2004,24/02/2004,Burundi,BDI,"Ruyaga village (Rugombo district, Cibitoke province)",Earthquake,Ground movement,3,120,2004-0671
+4/5/04,4/5/04,China,CHN,"Delingha area (Haixi Mongol and Tibetan district, Qinghai Sheng province)",Earthquake,Ground movement,,4199,2004-0680
+10/1/05,10/1/05,Iran (Islamic Republic of),IRN,"Agh Ghala area (Gorgan district, Golestan province)",Earthquake,Ground movement,,110,2005-0016
+24/01/2005,24/01/2005,Indonesia,IDN,Kota Palu district (Sulawesi Tengah province),Earthquake,Ground movement,1,684,2005-0031
+24/01/2005,24/01/2005,Turkey,TUR,"Batman city (Merkez district, Batman province), Siirt city (Merkez district, Siirt province), Adana, Van, Hakkari provinces",Earthquake,Ground movement,2,422,2005-0070
+22/02/2005,22/02/2005,Iran (Islamic Republic of),IRN,"Rooein Abad, Akbar, Asghar, Dehaafkan, Behabad, Sardkooyeh, Fathabad, Motaharabad, Eslam Abad, Arjomandieh, Baharestan villages (Zarand district, Kerman province)",Earthquake,Ground movement,612,94766,2005-0092
+14/03/2005,14/03/2005,Turkey,TUR,Karliova district (Bingol province),Earthquake,Ground movement,,2268,2005-0126
+20/03/2005,20/03/2005,Japan,JPN,Hukuoka province,Earthquake,Ground movement,1,3535,2005-0129
+9/3/05,9/3/05,South Africa,ZAF,"Klerksdorp, Stilfontein villages (Dr Kenneth Kaunda District Municipality district, North West province)",Earthquake,Ground movement,2,58,2005-0132
+28/03/2005,28/03/2005,Indonesia,IDN,"Simeulue, Aceh Singkil districts (Nangroe Aceh Darussalam province) Nias, Nias Selatan districts (Sumatera Utara province)",Earthquake,Ground movement,915,105313,2005-0160
+12/4/05,12/4/05,Indonesia,IDN,Solok district (Sumatera Barat province),Volcanic activity,Ash fall,,26000,2005-0202
+16/04/2005,16/04/2005,Comoros (the),COM,"Dimani, Pidjani villages (Ngazidja province)",Volcanic activity,Ash fall,,39000,2005-0205
+20/04/2005,20/04/2005,Japan,JPN,"Hukuoka, Saga provinces",Earthquake,Ground movement,,895,2005-0211
+5/5/05,5/5/05,El Salvador,SLV,"Apaneca district (Ahuachapan province), Juayua district (Sonsonate province)",Earthquake,Ground movement,1,751,2005-0240
+2/6/05,10/6/05,Papua New Guinea,PNG,"Aitavala, Masele, Kilenge, Ongaea, Potne, Sumel, Vem, Galegale, Tauale, Laut, Aimaga, Aipate, Gie villages (Gloucester district, West New Britain province)",Volcanic activity,Ash fall,,15000,2005-0308
+13/06/2005,13/06/2005,Chile,CHL,"Iquique, Alto Hospicio towns (Iquique district, Tarapaca province), Pozo Almonte, Pica, Camina, Huara, Colchane towns (Tamarugal district, Tarapaca province)",Earthquake,Ground movement,11,27645,2005-0321
+13/06/2005,13/06/2005,Peru,PER,"Arequipa district (Arequipa province), Ilo, General Sanchez Cerro, Mariscal Nieto districts (Moquega province), Candarave, Jorge Basadre, Tacna, Tarata districts (Tacna province) , Punta de Bombon (Islay district, Arequipa province)",Earthquake,Ground movement,,,2005-0321
+5/6/05,5/6/05,Papua New Guinea,PNG,Lae district (Morobe province),Earthquake,Ground movement,1,200,2005-0328
+6/6/05,6/6/05,Turkey,TUR,Karliova district (Bingol province),Earthquake,Ground movement,,354,2005-0329
+25/09/2005,25/09/2005,Peru,PER,"Moyobamba, Lamas districts (San Martin province)",Earthquake,Ground movement,5,2505,2005-0558
+1/10/05,1/10/05,El Salvador,SLV,"Juayua, Nahuizalco districts (Sonsonate province), Santa Ana district (Santa Ana province), San Francisco Menendez, Ahuachapan districts (Ahuachapan province)",Volcanic activity,Ash fall,2,2000,2005-0570
+8/10/05,8/10/05,Afghanistan,AFG,Jalalabad district (Nangarhar province),Earthquake,Ground movement,1,,2005-0575
+8/10/05,8/10/05,India,IND,Administrative unit not available districts (Jammu and Kashmir province),Earthquake,Ground movement,1309,156622,2005-0575
+8/10/05,8/10/05,Pakistan,PAK,"Bisham Tehsil, Chakisar Tehsil areas (Shangla District district, North-West Frontier province), Palas Sub-Division area (Kohistan District district, North-West Frontier province), Abbottabad District, Mansehra District, Batagram District districts (North-West Frontier province), Gujranwala District, Gujrat District, Rawalpindi District districts (Punjab province), Islamabad District district (Islamabad province),",Earthquake,Ground movement,73338,5128309,2005-0575
+26/11/2005,26/11/2005,China,CHN,Jiujiang district (Jiangxi Sheng province),Earthquake,Ground movement,16,615500,2005-0651
+27/11/2005,27/11/2005,Iran (Islamic Republic of),IRN,"Ghurzin, Kosheh, Viranagh, Tourian, Tonban, Ramkan, Gharbdan, Karavan, Khaledin, Giahdan villages (Geshm district, Hormozgan province)",Earthquake,Ground movement,13,100,2005-0654
+24/11/2005,10/12/05,Comoros (the),COM,Ngazidja province,Volcanic activity,Ash fall,1,245000,2005-0657
+27/11/2005,27/11/2005,Vanuatu,VUT,Ambae island (Penama province),Volcanic activity,Ash fall,,5000,2005-0664
+6/12/05,6/12/05,Congo (the Democratic Republic of the),COD,"Kalemie city (Tanganyka district, Katanga province)",Earthquake,Ground movement,6,1505,2005-0671
+5/12/05,5/12/05,"Tanzania, United Republic of",TZA,Kigoma province,Earthquake,Ground movement,2,5000,2005-0671
+13/12/2005,13/12/2005,Afghanistan,AFG,"Alishang district (Laghman province), Jalalabad district (Nangarhar province), Badakhsan province",Earthquake,Ground movement,5,501,2005-0686
+24/11/2005,24/11/2005,Colombia,COL,"Consacra, Pasto, Sandona, Tangua, Yacuanquer districts (Nariño province)",Volcanic activity,Ash fall,,,2005-0731
+13/03/2005,13/03/2005,Iran (Islamic Republic of),IRN,Saravan district (Sistan-o baluchestan province),Earthquake,Ground movement,,21912,2005-0738
+5/8/05,5/8/05,China,CHN,"Huize area (Qujing district, Yunnan Sheng province)",Earthquake,Ground movement,,18509,2005-0740
+00/09/2005,00/10/2005,Ethiopia,ETH,Zone 4 district (Afar province),Volcanic activity,Ash fall,,9000,2005-0818
+12/1/06,12/1/06,China,CHN,"Mojiang area (Pu'er district, Yunnan Sheng province)",Earthquake,Ground movement,,68761,2006-0061
+23/02/2006,23/02/2006,Mozambique,MOZ,"Machaze, Mossurize, Cidade de Chimoio districts (Manica province), Cidade da Beira district (Sofala province)",Earthquake,Ground movement,4,1476,2006-0100
+28/02/2006,28/02/2006,Iran (Islamic Republic of),IRN,"Faryab village (Kahnug district, Kerman province), Baft, Jiroft districts (Kerman province)",Earthquake,Ground movement,,7006,2006-0123
+20/02/2006,20/02/2006,Bulgaria,BGR,"Murgovo village (Kardzhali district, Kardzhali province)",Earthquake,Ground movement,,527,2006-0148
+20/03/2006,20/03/2006,Algeria,DZA,"Laalam village (Tamridjet district, Bejaia province)",Earthquake,Ground movement,4,319,2006-0149
+30/03/2006,31/03/2006,Iran (Islamic Republic of),IRN,"Aleshtar village (Selseleh district, Lorestan province), Silakhor village (Dorud district, Lorestan province), Borugerd, Khorramabad districts (Lorestan province)",Earthquake,Ground movement,63,161418,2006-0153
+28/03/2006,12/7/06,Colombia,COL,"Pasto, La Florida districts (Nariño province)",Volcanic activity,Ash fall,,8500,2006-0154
+18/04/2006,15/05/2006,Indonesia,IDN,"Boyolali, Magelang, Kota Magelang, Kota Klaten, Klaten districts (Jawa Tengah province), Sleman district (Daerah Istimewa Yogyakarta province)",Volcanic activity,Ash fall,,11000,2006-0196
+27/03/2006,23/04/2006,Peru,PER,"Ubinas, Matalaque, Chojata, Lloque, Yunga, Ichuna, Coalaque, La Capilla, Omate, Puquina, Quinistaquillas municipalities (General Sanchez Cerro districts, Moquegua province), San Juan de Taracuni municipality (Arequipa district ,Arequipa province)",Volcanic activity,Ash fall,,3000,2006-0213
+21/04/2006,21/04/2006,Russian Federation (the),RUS,"Apuka, Khailino and Vyvenka villages, Korf-Tilichiki area (Koryakskiy Okrug province)",Earthquake,Ground movement,,12040,2006-0214
+14/03/2006,14/03/2006,Indonesia,IDN,"Pela, Batu Junku, Waimarot, Wailawa, Waimoly villages (Bata Bual sub-district,Buru district, Maluku Utara province)",Earthquake,Ground movement,3,1202,2006-0231
+7/5/06,7/5/06,Iran (Islamic Republic of),IRN,Zarand district (Kerman province),Earthquake,Ground movement,,70,2006-0239
+27/05/2006,27/05/2006,Indonesia,IDN,"Kulonprogo, Sleman, Kota Yogyakarta, Gunungkidul, Bantul districts (Daerah Istimewa Yogyakarta province), Purworejo, Kota Klaten, Magelang, Klaten, Boyolali districts (Jawa Tengah province)",Earthquake,Ground movement,5778,3177923,2006-0279
+9/5/06,9/5/06,Vanuatu,VUT,"Paama, Ambrym villages (Malampa province)",Volcanic activity,Ash fall,,,2006-0281
+28/05/2006,28/05/2006,Comoros (the),COM,Ngazidja province,Volcanic activity,Ash fall,,,2006-0282
+10/5/06,23/05/2006,Ecuador,ECU,"Cusua village , Tungurahua, Chimborazo provinces",Volcanic activity,Ash fall,,250,2006-0283
+18/06/2006,18/06/2006,China,CHN,"Shiji village (Kangding area, Garze Tibetan district, Sichuan Sheng province)",Mass movement (dry),Landslide,11,5,2006-0304
+17/07/2006,17/07/2006,Indonesia,IDN,"Tasikmalaya, Kota Tasikmalaya, Ciamis, Sukabumi, kota Sukabumi, Garut districts (Jawa Barat province), Cilacap, Kebumen, Banyumas districts (Jawa Tengah province), Gunungkidul, Bantul district (Daerah Istimewa Yogyakarta province)",Earthquake,Tsunami,802,35543,2006-0372
+14/07/2006,17/08/2006,Ecuador,ECU,"Pelileo, Patate, Banos, Cevallos, Tisaleo, Mocha, Quero districts (Tungurahua province), Guano, Penipe districts (Chimborazo province) , Bolivar, Pastaza, Los Rios, Guayas, Manabi provinces",Volcanic activity,Ash fall,5,300013,2006-0373
+12/7/06,12/7/06,Colombia,COL,"La Florida, Ancuya, Sandona, Consaca districts (Nariño province)",Volcanic activity,Ash fall,,8500,2006-0380
+22/07/2006,22/07/2006,China,CHN,"Yanjin area (Zhaotong district, Yunnan Sheng province)",Earthquake,Ground movement,22,265106,2006-0397
+29/07/2006,29/07/2006,Afghanistan,AFG,Emamsaheb district (Kunduz province),Earthquake,Ground movement,1,935,2006-0405
+29/07/2006,29/07/2006,Tajikistan,TJK,"Kumsangir village (Kolhosobadskiy districts, Khatlon province), Panj Jamoat village (Piynjskiy districts, Khatlon province)",Earthquake,Ground movement,3,15427,2006-0405
+13/08/2006,13/08/2006,Philippines (the),PHL,"Sto Domingo, Daraga, Camalig, Ligao, Legazpi City, Tabaco, Malilipot, Guinobatan areas (Albay district, Region V (Bicol region) province)",Volcanic activity,Ash fall,,43849,2006-0450
+20/06/2006,20/06/2006,China,CHN,"Xinsi village (Tongwei Xian area, Dingxi district, Gansu Sheng province), Linjian village (Lintan Xian area, Gannan Tibetan district, Gansu Sheng province), Liping village (Hui Xian area, Longnan district, Gansu Sheng province)",Earthquake,Ground movement,,130,2006-0464
+25/08/2006,25/08/2006,China,CHN,"Doushazhen village (Yanjin Xian area, Zhaotong district, Yunnan Sheng province)",Earthquake,Ground movement,1,45551,2006-0475
+7/10/06,7/10/06,Papua New Guinea,PNG,"Kokopo, Rabaul districts (East New Britain province)",Volcanic activity,Ash fall,,1221,2006-0540
+27/10/2006,28/10/2006,China,CHN,Hubei Sheng province,Earthquake,Ground movement,,20000,2006-0586
+3/11/06,3/11/06,China,CHN,Chifeng district (Nei Mongol Zizhiqu province),Earthquake,Ground movement,,12000,2006-0620
+18/12/2006,18/12/2006,Indonesia,IDN,"Muara Sipongi area (Mandailingnatal district, Sumatera Utara province)",Earthquake,Ground movement,8,1200,2006-0678
+26/12/2006,26/12/2006,Taiwan (Province of China),TWN,"Pingtung city (Name Unknown district, Taiwan Sheng province)",Earthquake,Ground movement,2,42,2006-0688
+26/12/2006,26/12/2006,Kyrgyzstan,KGZ,"Isakeevo, Kochkorka, Semiz-Bel areas (Kochkor district, Naryn province)",Earthquake,Ground movement,,12050,2006-0694
+17/12/2006,17/12/2006,El Salvador,SLV,"San Lorenzo, Atiquizaya, Ahuachapan, Turin, El Refugio districts (Ahuachapan province)",Earthquake,Ground movement,,16470,2006-0699
+15/10/2006,15/10/2006,United States of America (the),USA,Hawai province,Earthquake,Ground movement,,3529,2006-0704
+1/12/06,1/12/06,Indonesia,IDN,Bima district (Nusatenggara Barat province),Earthquake,Ground movement,1,114,2006-0705
+13/07/2006,13/07/2006,Papua New Guinea,PNG,"Kaiamu, Malasi, Sulu, Silali villages (Bialla district, West New Britain province)",Volcanic activity,Ash fall,,2078,2006-0715
+26/12/2006,00/00/2006,Montserrat,MSR,"Belham valley (Central, Salem provinces)",Volcanic activity,Ash fall,,200,2006-0729
+6/3/07,6/3/07,Indonesia,IDN,"Tanahdatar, Solok, Kota Solok, Padangpariaman, Kota Padangpanjang, Kota Payakumbuh, Kota Bukitinggi, Agam, Limapuluhkoto, Kota Pariaman districts (Sumatera Barat province)",Earthquake,Ground movement,67,137660,2007-0087
+25/03/2007,25/03/2007,Japan,JPN,"Nanao, Wajima districts (Isikawa province), Niigata, Toyama provinces",Earthquake,Ground movement,1,41027,2007-0101
+2/4/07,2/4/07,Solomon Islands,SLB,Administrative unit not available,Earthquake,Tsunami,52,2384,2007-0127
+18/04/2007,18/04/2007,Colombia,COL,"Tierradentro town (Inza district, Cauca province), Paez Belalcázar, Avirama, Cohetando, Toez, Vitonco, Yosayo, Mosoco, San Jose, Lame, Suin, Chinas, Buco towns (Paez district, Cauca province), Caloto district (Cauca province) La Plata, Paicol, Iquira, Teruel, Tesalia and Nataga districts (Huila province)",Volcanic activity,Ash fall,,3000,2007-0150
+21/04/2007,21/04/2007,Chile,CHL,"Puerto Aisen, Puerto Chacabuco towns (Aisen district, Aisen del General Carlos Ibañez del Campo province), Balmacada town (Coyhaique district, Aisen province), Cochrane town (Capitan Prat district, Aisen province)",Earthquake,Ground movement,10,,2007-0158
+3/6/07,3/6/07,China,CHN,Pu'er district (Yunnan Sheng province),Earthquake,Ground movement,3,329,2007-0217
+16/07/2007,16/07/2007,Japan,JPN,"Aikawamati, Akadomarimura, Hatanomati, Izumozakimati, Kanaimati, Kariwamura, Kasiwazakisi, Manomati, Nagaokasi, Niigatasi, Odiyasi, Ogimati, Sanzyoosi, Sawatamati, Yosidamati, Zyooetusi districts (Niigata province), Nagano, Toyama provinces",Earthquake,Ground movement,9,14000,2007-0258
+9/7/07,9/7/07,Indonesia,IDN,"South Ibu sub-district (Halmahera Barat district, Maluku Utara province)",Volcanic activity,Ash fall,,9758,2007-0259
+22/07/2007,23/07/2007,Tajikistan,TJK,"Oshoba, Oilmo areas (Ashtskiy district, Sogd province)",Earthquake,Ground movement,11,7003,2007-0287
+2/8/07,2/8/07,Russian Federation (the),RUS,"Yuzhno-Sakhalinsk, Nevelsk towns (Sakhalinskaya Oblast Province)",Earthquake,Ground movement,2,7512,2007-0334
+15/08/2007,15/08/2007,Peru,PER,"Pisco, Ica, Chincha districts (Ica province), Canete, Lima districts (Lima province) , Paracas city (Pisco district, Ica province), San Vicente de Canete city (Canete district, Lima province)",Earthquake,Ground movement,593,658331,2007-0362
+12/8/07,12/8/07,Ethiopia,ETH,"Dayulu (Zone 1 district, Afar province), Gomoyta (Zone 4 district, Afar province)",Volcanic activity,Ash fall,5,2000,2007-0363
+10/9/07,10/9/07,Colombia,COL,"El Charco, El Charco (is.), Mosquera, La Tola districts (Narino department)",Earthquake,Ground movement,,175,2007-0433
+12/9/07,12/9/07,Indonesia,IDN,"Bengkulu, Jambi, Riau, Sumatera Barat provinces",Earthquake,Ground movement,25,459567,2007-0440
+15/09/2007,15/09/2007,Honduras,HND,"El Progreso district (Yoro province), Santa Barbara, Las Vegas districts (Santa Barbara province)",Earthquake,Ground movement,,1883,2007-0461
+30/09/2007,30/09/2007,Yemen,YEM,"Jabal Al-Tayr island (Alluheyah district, Al Hudaydah province)",Volcanic activity,Ash fall,6,15,2007-0473
+9/9/07,9/9/07,Indonesia,IDN,Situbondo district (Java Timur province),Earthquake,Ground movement,,469,2007-0485
+16/10/2007,18/10/2007,Indonesia,IDN,"Kediri, Blitar districts (Jawa Timur province)",Volcanic activity,Ash fall,,22154,2007-0511
+26/11/2007,26/11/2007,Indonesia,IDN,Sumbawa district (Nusatengarra Barat province),Earthquake,Ground movement,3,21800,2007-0565
+29/11/2007,29/11/2007,Barbados,BRB,Bridgetown (St. Michael Province),Earthquake,Ground movement,,1,2007-0572
+29/11/2007,29/11/2007,Martinique,MTQ,Fort-De-France province,Earthquake,Ground movement,1,100,2007-0572
+29/11/2007,29/11/2007,Saint Lucia,LCA,"Cap Estate, Gros Islet areas (Region Number 1 province), Castries and Soufriere area (Region Number 6 province), Choc village (Region Number 8 province)",Earthquake,Ground movement,,,2007-0572
+15/11/2007,15/11/2007,Chile,CHL,"Tocopilla, Maria Elena, Quillagua town (Topicalla Province, Antofagasta Region), Mejillones (Antofagasta Province, Antofagasta Region)",Earthquake,Ground movement,2,25155,2007-0587
+9/12/07,9/12/07,Brazil,BRA,"Itacarambi, Januaria, Manga, Varzelandia districts (Minas Gerais province)",Earthquake,Ground movement,1,286,2007-0653
+15/04/2007,15/04/2007,Japan,JPN,"Mie, Nara, Siga provinces",Earthquake,Ground movement,,201,2007-0654
+31/07/2007,31/07/2007,Philippines (the),PHL,"Irosin area (Sorsogon district, Region V (Bicol region) province)",Volcanic activity,Ash fall,,14036,2007-0669
+28/04/2007,28/04/2007,United Kingdom of Great Britain and Northern Irela,GBR,"Folkestone town (Kent district, England province)",Earthquake,Ground movement,,4501,2007-0692
+13/01/2008,13/01/2008,Kyrgyzstan,KGZ,"Kara-suu, Alay, Nookat districts (Osh province)",Earthquake,Ground movement,,3000,2008-0001
+17/01/2008,17/01/2008,Colombia,COL,"Genoy town (Pasto distrit, Nariño Province), Sandona, Yacuanquer, Consaca districts (Nariño Province)",Volcanic activity,Ash fall,,150,2008-0027
+3/2/08,3/2/08,Congo (the Democratic Republic of the),COD,Bukavu district (Sud-Kivu province),Earthquake,Ground movement,11,17355,2008-0040
+3/2/08,3/2/08,Rwanda,RWA,"Cyangugu, Nyamasheke villages (Rusizi district, West/Iburengerazuba province)",Earthquake,Ground movement,36,643,2008-0040
+20/02/2008,20/02/2008,Indonesia,IDN,Simeulue district (Nangroe Aceh Darussalam province),Earthquake,Ground movement,3,25,2008-0071
+20/02/2008,20/02/2008,United States of America (the),USA,"Wells city (Elko district, Nevada province)",Earthquake,Ground movement,,2103,2008-0099
+15/04/2008,15/04/2008,Indonesia,IDN,Sikka district (Nusatenggara Timur province),Volcanic activity,Ash fall,,600,2008-0162
+14/04/2008,14/04/2008,Colombia,COL,"Miranda, Toribio, Paez, Inza districts (Cauca province), Iquira, Santa Maria, Palermo, Teruel, La Plata, Paicol, Tesalia, Nataga districts (Huila province), Rioblanco, Planadas districts (Tolima province)",Volcanic activity,Ash fall,,14201,2008-0164
+1/5/08,1/5/08,Iran (Islamic Republic of),IRN,Borugerd district (Lorestan province),Earthquake,Ground movement,,170,2008-0178
+7/5/08,7/5/08,Argentina,ARG,"Bariloche district (Rio Negro Province), Chubut province",Volcanic activity,Ash fall,,,2008-0182
+2/5/08,6/5/08,Chile,CHL,"Chaiten, Futaleufu towns (Palena district, Los Lagos province)",Volcanic activity,Ash fall,,8000,2008-0182
+12/5/08,12/5/08,China,CHN,"Wenchuan Xian, Aba Xian areas (Ngawa Tibetan and Qiang district, Sichuan Sheng province), Chengdu Shi area (Chengdu district, Sichuan Sheng province), Deyang Shi, Mianzhu areas (Deyang district, Sichuan Sheng province), Beichuan Xian, Mianyang Shi areas (Mianyang district, Sichuan Sheng province), Gansu Sheng, Chongqing Shi, Guizhou Sheng, Hubei Sheng, Hunan Sheng, Henan Sheng, Shaanxi Sheng, Shanxi Sheng, Yunnan Sheng provinces",Earthquake,Ground movement,87476,45976596,2008-0192
+8/6/08,8/6/08,Greece,GRC,"Achaïe (Achaias district, Dytiki Ellada province), Elide (Ileias district, Dytiki Ellada province), Leucade Isl. (Lefkados district, Ionioi Nisoi province)",Earthquake,Ground movement,2,3708,2008-0226
+14/06/2008,14/06/2008,Japan,JPN,"Mizusawasi, Moriokasi districts (Iwate province), Tukidatetyoo, Hurukawasi, Sendaisi_Aobaku, Sendaisi_Daisiroku, Sendaisi_Izumiku, Sendaisi_Miyaginoku, Sendaisi_Wakabayasiku districts (Miyagi province), Akita province",Earthquake,Ground movement,23,448,2008-0242
+23/07/2008,24/07/2008,Japan,JPN,Hatinohesi district (Aomori province),Earthquake,Ground movement,1,470,2008-0275
+5/8/08,5/8/08,China,CHN,"Qingchuan area (Guangyuan district, Sichuan Sheng province)",Earthquake,--,4,13529,2008-0325
+21/08/2008,21/08/2008,China,CHN,"Yingjiang area (Dehong Dai and Jingpo district, Yunnan Sheng province)",Earthquake,Ground movement,6,160,2008-0355
+30/08/2008,30/08/2008,China,CHN,"Huili area (Liangshan Yi district, Sichuan Sheng province), Miyi area (Panzhihua district, Sichuan Sheng province), Kunming, Chuxiong Yi, Zhaotong, Lijiang, Dali Bai districts (Yunnan Sheng province)",Earthquake,Ground movement,40,1000589,2008-0374
+6/9/08,6/9/08,Egypt,EGY,Minshat Nasir district (Cairo province),Mass movement (dry),Rockfall,98,697,2008-0394
+10/9/08,10/9/08,Iran (Islamic Republic of),IRN,"Tonban village (Geshm district, Hormozgan province), Roudan village (Rudan district, Hormozgan province)",Earthquake,Ground movement,6,20545,2008-0401
+9/9/08,9/9/08,Indonesia,IDN,"Jarai village (Lahat district, Sumatra Selatan province)",Earthquake,Ground movement,2,625,2008-0403
+5/10/08,5/10/08,Kyrgyzstan,KGZ,"Nura village (Alay district, Osh province), Chong-Alay district (Osh province)",Earthquake,--,74,1197,2008-0454
+6/10/08,6/10/08,China,CHN,"Ningzhongxiang village (Dangxiong Xian area, Lhasa district, Xizang Zizhiqu province)",Earthquake,Ground movement,30,754,2008-0455
+11/10/08,11/10/08,Russian Federation (the),RUS,Chechnya Rep. Province,Earthquake,Ground movement,13,5235,2008-0476
+29/10/2008,29/10/2008,Pakistan,PAK,"Khanozai village (Pishin District district, Balochistan province), Kawas village (Ziarat District district, Balochistan province), Harnai area (Sibi District district, Balochistan province)",Earthquake,Ground movement,166,75320,2008-0500
+17/11/2008,17/11/2008,Indonesia,IDN,Buol district (Sulawesi Tengah province) Gorontalo province,Earthquake,Ground movement,6,10077,2008-0536
+16/11/2008,16/11/2008,Colombia,COL,Medellin district (Antioquia province),Mass movement (dry),Landslide,12,,2008-0538
+20/11/2008,20/11/2008,Colombia,COL,"Paez Belalcázar, Toez, Avirama, Togoima, Cohetango, Talaga, Wila, Los Guadalupes, El Jardin, Bello Horizonte, Las Americas, Avenida Santaander, El Centro, San Fernando, La Primavera, Panamericano, Villa del Norte, El Salado, Hoez, Ricaurte, Pickwe Tha Fim (Paez district, Cauca Province), Inza district (Cauca Province),Tesalia, Nataga, Paicol, La Plata (Huila department)",Volcanic activity,Ash fall,16,8007,2008-0546
+26/12/2008,26/12/2008,China,CHN,Yunnan Sheng province,Earthquake,Ground movement,,95019,2008-0588
+6/1/08,6/1/08,Papua New Guinea,PNG,"Kainantu gold mine site (Kainantu district, Eastern Highlands province)",Mass movement (dry),--,10,,2008-0625
+24/05/2008,24/05/2008,Colombia,COL,"Quetame district (Cundinamarca province), Meta province",Earthquake,Ground movement,11,1754,2008-0649
+25/05/2008,25/05/2008,China,CHN,Sichuan Sheng province,Earthquake,Ground movement,8,351000,2008-0650
+00/12/2008,00/04/2009,Vanuatu,VUT,Ambrym island (Malampa province),Volcanic activity,Ash fall,,9000,2008-0659
+4/1/09,4/1/09,Indonesia,IDN,"Manokwari , Sorong districts (Papua Barat province)",Earthquake,Ground movement,5,4250,2009-0001
+8/1/09,8/1/09,Costa Rica,CRI,"Alajuela, Alfaro Ruiz, Grecia, Poas, Valverde Vega districts (Alajuela province), Barva, Heredia, Santa Barbara, Sarapiqui districts (Heredia province)",Earthquake,Ground movement,31,128618,2009-0002
+4/1/09,4/1/09,Guatemala,GTM,"Aquil Grande, Aquil Pequeno, Independencia, Zacaton (San Cristobal Verapaz district, Alta Verapraz province)",Mass movement (dry),Landslide,36,3028,2009-0003
+25/01/2009,25/01/2009,China,CHN,"Chabucha'er Xibo Zizhixian, Zhaosu areas (Ili Kazakh district, Xinjiang Uygur Zizhiqu province)",Earthquake,Ground movement,,4549,2009-0059
+11/2/09,11/2/09,Indonesia,IDN,Kepulauan-talaud district (Sulawesi Utara province),Earthquake,Ground movement,,3049,2009-0112
+6/4/09,6/4/09,Italy,ITA,"Aquila, Villa Sant'Angelo, Onna, Poggio Picenze, Tormintarte, Totani, Poggio di Roio, Massa d'Albe, Tempera, Paganica, Fossa towns (L'Aquila Province, Abruzzo region), Borgo di Castelnuovo town (Pesaro Province, Marche Region)",Earthquake,Ground movement,295,56000,2009-0136
+17/04/2009,17/04/2009,Afghanistan,AFG,"Sherzad, Hesarak, Khogyani districts (Nangarhar province)",Earthquake,Ground movement,22,3309,2009-0156
+28/05/2009,28/05/2009,Honduras,HND,"La Ceiba, Tela districts (Atlantida province), La Lima, Omoa, Puerto Cortes, San Pedro Sula districts (Cortes province), Jesus De Otoro, Guanaja, Roatan, Jose Santos Guardiola districts (Islas De Bahia province), Ceguaca, Chinda, Gualala, Ilama, Las Vegas, Petoa, San Jose De Colimas, Santa Barbara, Trinidad districts (Santa Barbara province), El Progreso, Olanchito districts (Yoro province)",Earthquake,Ground movement,7,50136,2009-0205
+9/7/09,9/7/09,China,CHN,"Guantun village (Yao'an Xian area, Chuxiong Yi district, Yunnan Sheng province), Dali Bai district (Yunnan Sheng province)",Earthquake,Ground movement,1,65336,2009-0249
+10/8/09,10/8/09,Japan,JPN,"Sizuokasi, Yaidusi, Sagaratyoo, Huziedasi, Simadasi, Kakegawasi, Haibaratyoo districts (Sizuola province), Tookyoo province",Earthquake,Tsunami,1,25319,2009-0320
+2/9/09,2/9/09,Indonesia,IDN,"Cianjur, Bandung, Kota Bandung, Garut, Tasikmalaya, Kota Tasilmalaya, Sukabumi, Kota Bogor, Bogor, Ciamis, Sumedang, Kuningan, Kota Banjar, Purwakarta, Kota Cimahi, Kota Sukabumi districts (Jawa Barat province), Cilacap district (Jawa Tengah province), Dki Jakarta province",Earthquake,Ground movement,128,339792,2009-0354
+7/9/09,7/9/09,Albania,ALB,Peshkopi district,Earthquake,Ground movement,,150,2009-0366
+8/9/09,8/9/09,Georgia,GEO,"Nigavzebi, Utsera , Gari, Nakieti villages (Oni district, Racha-Lechkhumi and Kvemo (lower) Svaneti province), Satchekhere district (Imereti province)",Earthquake,Ground movement,,7306,2009-0388
+18/09/2009,19/09/2009,Philippines (the),PHL,"Norala, Sto. Nino areas (South Cotabato district, Region XII (Soccsksargen) province)",Earthquake,Ground movement,,392,2009-0404
+21/09/2009,21/09/2009,Bhutan,BTN,"Monggar, Trashigang provinces",Earthquake,Ground movement,11,12,2009-0406
+29/09/2009,29/09/2009,American Samoa,ASM,"Pago Pago, Tula villages (",Earthquake,Tsunami,34,2500,2009-0420
+29/09/2009,29/09/2009,Samoa,WSM,Administrative unit not available province,Earthquake,Tsunami,148,5584,2009-0420
+29/09/2009,29/09/2009,Tonga,TON,Niuatoputapu island (Administrative unit not available province),Earthquake,Tsunami,9,507,2009-0420
+30/09/2009,30/09/2009,Indonesia,IDN,"Agam, Kepulauan Mentawai, Kota Bukitinggi, Kota Padang, Kota Padangpanjang, Kota Pariaman, Kota Pasaman, Kota Pasaman Barat, Kota Payakumbuh, Kota Sawahlunto, Kota Solok, Limapuluhkoto, Padangpariaman, Solok, Solok Selatan, Pesisir Selatan, Sawahlunto/sijunjung, Tanahdatar districts (Sumatera Barat province), Keranci, Merangin districts (Jambi province)",Earthquake,Ground movement,1195,2501798,2009-0421
+9/11/09,9/11/09,Indonesia,IDN,"Raba village (Kota Bima district, Nusatenggara Barat province)",Earthquake,Ground movement,2,1475,2009-0479
+4/11/09,4/11/09,Iran (Islamic Republic of),IRN,Bandar-e abbas district (Hormozgan province),Earthquake,Ground movement,,269,2009-0493
+6/12/09,6/12/09,Malawi,MWI,Karonga district (Northern Region province),Earthquake,Ground movement,1,15015,2009-0547
+26/11/2009,26/11/2009,Vanuatu,VUT,Gaua island (Torba province),Volcanic activity,Ash fall,,400,2009-0553
+20/12/2009,20/12/2009,Malawi,MWI,Karonga district (Northern Region province),Earthquake,Ground movement,3,5721,2009-0573
+14/12/2009,20/12/2009,Philippines (the),PHL,"Camalig, Daraga, Legaspi city, Tabaco, Malilipot, Santo Domingo, Ligao, Guinobatan areas (Albay district, Region V (Bicol region) province)",Volcanic activity,Ash fall,,47137,2009-0574
+2/1/10,2/1/10,Tajikistan,TJK,"Uskrogh, Rogh, Payshanbeobod, Gishkhun, Dashtirogh, Rokharv, Punichuguni Jamak villages (Vanchskiy district, Badakhshoni province)",Earthquake,Ground movement,,7840,2010-0002
+4/1/10,4/1/10,Solomon Islands,SLB,Administrative unit not available,Earthquake,Ground movement,,1126,2010-0003
+12/1/10,12/1/10,Haiti,HTI,"Port-au-prince, Kenscoff municipalities (Port-au-Prince district), Croix-des-Bouquets municipality (Croix-des-Bouquets district), Leogane, Petit-Goave, Grand-Goave municipalities (Leogane) (Ouest province), Jacmel municipality (Jacmel district, Sud Est province), Les Cayes municipality (Cayes district, Sud province), Jeremie municipality (Jeremie district, Grande Anse province), Gonaives municipality (Gonaives district, Artibonite province)",Earthquake,Ground movement,222570,3700000,2010-0017
+16/01/2010,17/01/2010,Iran (Islamic Republic of),IRN,Andimeshk district (Khuzestan province),Earthquake,Ground movement,,750,2010-0018
+10/1/10,10/1/10,United States of America (the),USA,"Ferndale, Eureka cities (Humboldt district, California province)",Earthquake,Ground movement,,630,2010-0027
+31/01/2010,31/01/2010,China,CHN,"Moxizhen village (Suining district, Sichuan Sheng province)",Earthquake,Ground movement,1,10515,2010-0064
+25/02/2010,25/02/2010,China,CHN,Kunming district (Yunnan Sheng province),Earthquake,Ground movement,,50011,2010-0087
+27/02/2010,27/02/2010,Chile,CHL,"Biobio province, Libertador Gral. Bernardo O'higgins, Valparaiso, Araucania, Metropolitana Santiago, Maule Provinces",Earthquake,Ground movement,562,2671556,2010-0091
+8/3/10,8/3/10,Turkey,TUR,"Basyurt village (Karakocan district, Elazig province), Demirci, Kovancilar, Okcular villages (Kovancilar district, Elazig province)",Earthquake,Ground movement,51,3600,2010-0093
+4/4/10,4/4/10,Mexico,MEX,Mexicali district (Baja California province),Earthquake,Ground movement,2,25232,2010-0158
+14/04/2010,14/04/2010,China,CHN,"Yushu Xian area (Name Unknown district, Qinghai Sheng province)",Earthquake,Ground movement,2968,112000,2010-0169
+00/03/2010,00/04/2010,Iceland,ISL," Fljotshlid, Eyjafjöll, and Landeyjar villages (Rangarvalla province)",Volcanic activity,Ash fall,,,2010-0170
+27/05/2010,27/05/2010,Guatemala,GTM,"Escuintla, Guatemala, Sacatepéquez provinces",Volcanic activity,Ash fall,,1800,2010-0220
+16/06/2010,16/06/2010,Indonesia,IDN,Yapen district (Papua province),Earthquake,Ground movement,17,4600,2010-0238
+28/05/2010,28/05/2010,Ecuador,ECU,"Tungurahua, Chimborazo, Bolivar, Pastaza, Los Rios, Guayas provinces",Volcanic activity,Ash fall,,2500,2010-0274
+30/07/2010,30/07/2010,Iran (Islamic Republic of),IRN,Torbat-e heydarieh district (Khorasan province),Earthquake,Ground movement,,274,2010-0361
+20/07/2010,20/07/2010,Iran (Islamic Republic of),IRN,Lamerd district (Fars province),Earthquake,Ground movement,1,32,2010-0363
+29/08/2010,7/9/10,Indonesia,IDN,"Suka Meriah, Guru Kinayan, Gamber, Kuta Gugung, Siragong-Grang, Bekerah, Simacem, Sukanalu, Naman, Kebayaken, Kuta Rayat, Kuta Mbelin villages (Karo district, Sumatera Utara province)",Volcanic activity,Ash fall,1,15060,2010-0446
+4/9/10,4/9/10,New Zealand,NZL,Christchurch city (Canterbury province),Earthquake,Ground movement,,300002,2010-0463
+24/10/2010,24/10/2010,Indonesia,IDN,"Klaten, Kota Klaten, Magelang, Kota Magelang, Boyolali districts (Jawa Tengah province), Sleman district (Daerah Istimewa Yogyakarta province)",Volcanic activity,Ash fall,322,137140,2010-0562
+24/10/2010,24/10/2010,Indonesia,IDN,Kepulauan Mentawai district (Sumatera Barat province),Earthquake,Tsunami,530,11864,2010-0563
+3/11/10,3/11/10,Serbia,SRB,Kraljevo town (Raski Province),Earthquake,Ground movement,2,27030,2010-0574
+6/11/10,6/11/10,Iran (Islamic Republic of),IRN,"Dorud village (Dorud district, Lorestan province), Razan village (Khorramabad district, Lorestan province)",Earthquake,Ground movement,,104,2010-0591
+9/11/10,9/11/10,Philippines (the),PHL,"Casiguran, Juban, Irosin, Magallanes areas (Sorsogon district, Region V (Bicol region) province)",Volcanic activity,Ash fall,,14161,2010-0606
+20/12/2010,20/12/2010,Iran (Islamic Republic of),IRN,"Fahraj village (Bam district, Kerman province)",Earthquake,Ground movement,7,25,2010-0645
+17/01/2010,17/01/2010,China,CHN,Guizhou Sheng province,Earthquake,Ground movement,8,9,2010-0667
+4/3/10,4/3/10,Taiwan (Province of China),TWN,Taiwan Sheng province,Earthquake,Ground movement,,96,2010-0668
+18/04/2010,18/04/2010,Afghanistan,AFG,Samangan province,Earthquake,Ground movement,11,1070,2010-0669
+27/08/2010,27/08/2010,Iran (Islamic Republic of),IRN,"Damghan village (Damghan district, Semnan province), Torud village (Shahrud district, Semnan province)",Earthquake,Ground movement,3,3600,2010-0672
+29/08/2010,29/08/2010,China,CHN,"Ningnan area (Liangshan Yi district, Sichuan Sheng province), Qiaojia area (Zhaotong district, Yunnan Sheng province)",Earthquake,Ground movement,,5014,2010-0673
+1/2/11,1/2/11,China,CHN,"Pingyuanzhen village (Yingjiang area, Dehong Dai and Jingpo district, Yunnan Sheng province)",Earthquake,Ground movement,,64501,2011-0030
+22/02/2011,22/02/2011,New Zealand,NZL,Christchurch city (Canterbury province),Earthquake,Ground movement,181,301500,2011-0068
+10/3/11,10/3/11,China,CHN,"Pingyuanzhen village (Yingjiang area, Dehong Dai and Jingpo district, Yunnan Sheng province)",Earthquake,Ground movement,25,5440,2011-0079
+11/3/11,11/3/11,Indonesia,IDN,"Holtekamp beach (Muara Tami area, Kota Jayapura district, Papua province)",Earthquake,Tsunami,1,95,2011-0082
+11/3/11,11/3/11,Japan,JPN,"Hokkaidoo, Akita, Aomori, Yamagata, Miyagi, Iwate, Hukusima, Tookyoo, Ibaraki, Totigi, Gunma, Saitama, Tiba, Kanagawa, Nagano provinces",Earthquake,Tsunami,19846,368820,2011-0082
+24/03/2011,24/03/2011,China,CHN,Yunnan Sheng province,Earthquake,Ground movement,,9508,2011-0090
+24/03/2011,24/03/2011,Myanmar,MMR,"Tarlay area (Tachileik district, Shan (E) province)",Earthquake,Ground movement,74,21277,2011-0090
+24/03/2011,24/03/2011,Thailand,THA,"Chiang Rai, Chiang Mai, Lampang, Lamphun, Mae Hong Son, Phayao, Phrae, Nan provinces",Earthquake,Ground movement,1,16,2011-0090
+21/02/2011,21/02/2011,Philippines (the),PHL,"Irosin, Juban, Bulan areas (Sorsogon district, Region V (Bicol region) province)",Volcanic activity,Ash fall,,32616,2011-0101
+18/01/2011,18/01/2011,Pakistan,PAK,"Garhi Khairo village (Jacobabad district, Sindh province), Quetta, Chagai districts (Balochistan province)",Earthquake,Ground movement,2,1000,2011-0104
+8/4/11,8/4/11,Japan,JPN,"Ishinomakisi, Onagawatyoo districts (Miyagi province), Yamagata province",Earthquake,Ground movement,2,132,2011-0130
+11/5/11,11/5/11,Spain,ESP,"Lorca municipality (Murcia district, Region de Murcia)",Earthquake,Ground movement,10,15300,2011-0159
+19/05/2011,19/05/2011,Turkey,TUR,Simav district (Kutahya province),Earthquake,Ground movement,3,10121,2011-0170
+4/6/11,17/06/2011,Argentina,ARG,"San Martin de Los Andes town (Lacar district, Neuquen province), Bariloche district (Rio Negro province), Chubut province",Volcanic activity,Ash fall,,3000,2011-0209
+4/6/11,17/06/2011,Chile,CHL,"Futrono, Lago Ranco, Rio Bueno towns (Ranco district, Los Rios province)",Volcanic activity,Ash fall,,3500,2011-0209
+19/07/2011,19/07/2011,Kyrgyzstan,KGZ,Batken district (Batken province),Earthquake,Ground movement,,,2011-0243
+19/07/2011,19/07/2011,Tajikistan,TJK,"Khujand, Chkalovsk areas (Hojenskiy district, Sogd province), Garmskiy district (Tadzhikistan Territories province)",Earthquake,Ground movement,,,2011-0243
+19/07/2011,19/07/2011,Uzbekistan,UZB,Fergana province,Earthquake,Ground movement,13,86,2011-0243
+18/09/2011,18/09/2011,Bhutan,BTN,"Paro, Thimphu provinces",Earthquake,Ground movement,1,20016,2011-0351
+18/09/2011,18/09/2011,China,CHN,"Shigatse, Shannan districts (Xizang Zizhiqu province)",Earthquake,Ground movement,7,5136,2011-0351
+18/09/2011,18/09/2011,India,IND,"Sikkim, West Bengal, Bihar, Assam, Meghalaya provinces",Earthquake,Ground movement,112,575200,2011-0351
+18/09/2011,18/09/2011,Nepal,NPL,"Lamjung, Syangja areas (Gandaki district, Western province), Dolakha, Ramechhap areas (Janakpur district, Central province), Khotang, Solukhumbu areas (Sagarmatha district, Eastern province), Mechi, Koshi districts (Eastern province), Bagmati district (Central province)",Earthquake,Ground movement,7,167949,2011-0351
+19/09/2011,19/09/2011,Guatemala,GTM,"Cuilapa district (Santa Rosa province) , Guatemala city (Guatemala district, Guatemala province)",Earthquake,Ground movement,3,400,2011-0373
+8/6/11,8/6/11,China,CHN,"Dabancheng area (Urumqi district, Xinjiang Uygur Zizhiqu province))",Earthquake,Ground movement,,258,2011-0387
+13/06/2011,13/06/2011,New Zealand,NZL,"Canterbury, Nelson-marlborough, Otago, Southland, Westland provinces",Earthquake,Ground movement,1,345,2011-0388
+5/9/11,5/9/11,Indonesia,IDN,"Subulussalam city (Aceh Singkil district, Nangroe Aceh Darussalam province)",Earthquake,Ground movement,10,,2011-0389
+23/10/2011,23/10/2011,Turkey,TUR,"Van, Bitlis, Hakkari provinces",Earthquake,Ground movement,604,32938,2011-0397
+1/11/11,1/11/11,China,CHN,"Yining, Gongliu areas (Ili Kazakh district, Xinjiang Uygur Zizhiqu province)",Earthquake,Ground movement,,143000,2011-0411
+28/10/2011,28/10/2011,Peru,PER,"Ica municipality (Ica district, Ica province), San Vicente de Canete municipality (Cañete district, Lima province)",Earthquake,Ground movement,1,2681,2011-0443
+7/11/11,7/11/11,Philippines (the),PHL,"Valencia area (Bukidnon district, Region X (Northern Mindanao) province)",Earthquake,Ground movement,,28,2011-0445
+9/11/11,9/11/11,Turkey,TUR,Van province,Earthquake,Ground movement,40,105,2011-0467
+11/7/11,17/07/2011,Indonesia,IDN,"Kota Manado, Kota Tomohon, Minahasa Selatan, Minahasa Utara, Minahasa districts (Sulawesi Utara province)",Volcanic activity,Ash fall,,6000,2011-0506
+10/12/11,10/12/11,Mexico,MEX,Guerrero province,Earthquake,Ground movement,2,152,2011-0512
+17/03/2011,18/04/2011,Philippines (the),PHL,"Talisay, San Nicolas, Balete areas (Batangas district, Region IV-A (Calabarzon) province)",Volcanic activity,Ash fall,,1315,2011-0564
+4/12/11,27/12/2011,Indonesia,IDN,Kota Ternate district (Maluku Utara province),Volcanic activity,Ash fall,3,2373,2011-0568
+11/8/11,11/8/11,China,CHN,"Jiashi Xian, Kashi Shi areas (Kashgar district, Xinjiang Uygur Zizhiqu province)",Earthquake,Ground movement,,1616,2011-0601
+30/01/2012,30/01/2012,Peru,PER,"Ica, Chincha, Pisco districts (Ica province), Canete district (Lima province)",Earthquake,Ground movement,,4435,2012-0020
+6/2/12,6/2/12,Philippines (the),PHL,"Tayasan area (Negros Oriental district, Region VII (Central Visayas) province)",Earthquake,Ground movement,113,320277,2012-0031
+23/02/2012,23/02/2012,India,IND,Adminitrative unit not available districts (Jammu and Kashmir province),Mass movement (dry),Avalanche,16,,2012-0049
+11/4/12,11/4/12,Indonesia,IDN,Simeulue district (Nangroe Aceh Darussalam province),Earthquake,Ground movement,7,107,2012-0097
+20/03/2012,20/03/2012,Mexico,MEX,"Guerrero, Oaxaca, Mexico provinces",Earthquake,Ground movement,2,49011,2012-0124
+24/03/2012,24/03/2012,Chile,CHL,"Parral town (Linares district, Maule province), Santiago district (Metropolitana province), Biobio district (Biobio province)",Earthquake,Ground movement,1,24297,2012-0126
+20/05/2012,20/05/2012,Italy,ITA,"Finale Emilia, Mirandola towns (Modena Province, Emilia-romagna Region), Sant'Agostino area (Ferrara province, Emilia-romagna Region)",Earthquake,Ground movement,7,11050,2012-0142
+13/05/2012,13/05/2012,Tajikistan,TJK,"Darbanskiy, Garmskiy, Tavildara districts (Tadzhikistan Territories province)",Earthquake,Ground movement,2,2531,2012-0151
+22/05/2012,22/05/2012,Bulgaria,BGR,"Pernik town (Pernik Province), Sofia town (Sofia-city Province)",Earthquake,Ground movement,,210,2012-0152
+29/05/2012,29/05/2012,Italy,ITA,Modena Province (Emilia-romagna Region),Earthquake,Ground movement,17,14350,2012-0162
+11/6/12,11/6/12,Afghanistan,AFG,"Burka, Mullah Jan villages (Burka district, Baghlan province) Nahrin, Guzargah-e-Nur, Khost Wa Fereng, Khwajahejran districts (Baghlan province)",Earthquake,Ground movement,73,237,2012-0164
+24/06/2012,24/06/2012,China,CHN,"Ninglang Yi Zizhixian area (Liangshan Yi district, Sichuan Sheng province), Yanyuan Xian area (Lijiang district, Yunnan Sheng province)",Earthquake,Ground movement,4,34234,2012-0190
+7/5/12,7/5/12,Azerbaijan,AZE,"Balaken, Gakh, Zagatala districts (Shaki-Zaqatala province)",Earthquake,Ground movement,,15550,2012-0191
+11/8/12,11/8/12,Iran (Islamic Republic of),IRN,"Varzeghan village (Ahar district, East Azarbayejan province), Heris, Tabriz districts (East Azarbayejan province)",Earthquake,Ground movement,306,61546,2012-0275
+4/9/12,4/9/12,Philippines (the),PHL,"Valencia, Maramag areas (Bukidnon district, Region X (Northern Mindanao) province)",Earthquake,Ground movement,,4001,2012-0321
+29/06/2012,29/06/2012,China,CHN,Xinjiang Uygur Zizhiqu province,Earthquake,Ground movement,,155052,2012-0338
+5/9/12,5/9/12,Costa Rica,CRI,"Abangares, Carillo, Hojancgan, Liberia, Nicoya, Nandayure, Santacruz districts (Guanacaste province), Alajuela, Alafaro Ruiz, Atenas, Grecia, Naranjo, Poas, San Carlos, San Ramon, Valverde Vega, Upala districts (Alajuela province), Acosta, Puriscal, San Jose districts (San Jose province), Limon districts (Limon province), Barva, Sarapiqui districts (Heredia province), Aguirre, Garabito, Puntaneras districts (Puntarenas province)",Earthquake,Ground movement,2,762,2012-0343
+7/9/12,7/9/12,China,CHN,"Yiliang area (Zhaotong district, Yunnan Sheng province), Weining area (Bijie district, Guizhou Sheng province)",Earthquake,Ground movement,81,744821,2012-0350
+13/09/2012,13/09/2012,Guatemala,GTM,"Sacatepéquez, Escuintla and Chimaltenango provinces",Volcanic activity,Ash fall,,10000,2012-0356
+4/9/12,4/9/12,Indonesia,IDN,"Buttuada village (Bonehau sub-district, Mamuju district, Sulawesi Barat province)",Earthquake,Ground movement,,205,2012-0376
+9/9/12,9/9/12,Indonesia,IDN,"Cibunian, Purwabakti villages (Pamijahan sub-district, Bogor district, Jawa Barat province)",Earthquake,Ground movement,,131,2012-0377
+20/07/2012,20/07/2012,China,CHN,Yangzhou district (Jiangsu Sheng province),Earthquake,Ground movement,1,2610,2012-0397
+18/08/2012,18/08/2012,Indonesia,IDN,"Lindu village (Sigi area, Donggala district, Sulawesi Tengah province)",Earthquake,Ground movement,6,7883,2012-0398
+7/11/12,7/11/12,Guatemala,GTM,"San Marcos, Quetzaltenango, Solola, Retalhuleu, Quiché, Totonicapan, Huehuetenango, Suchitepequez, Chimaltenango, Sacatepequez, Guatemala provinces",Earthquake,Ground movement,44,1321742,2012-0407
+11/11/12,11/11/12,Myanmar,MMR,"Chaung-U area (Monywa district, Sagaing province), Kyaukmyaung village (Shwebo district, Sagaing province), Myaung area (Sagaing district, Sagaing province), Mogok, Singu, Thabeikkyin areas (Pyin-Oo-Lwin district, Mandalay province), Kyaukse district (Mandalay province)",Earthquake,Ground movement,38,1486,2012-0417
+31/08/2012,31/08/2012,Philippines (the),PHL,"Guian town (Eastern Samar district, Region VIII (Eastern Visayas) province)",Earthquake,Ground movement,1,28879,2012-0431
+5/12/12,5/12/12,Iran (Islamic Republic of),IRN,"Zohan, Ghayen villages (Gaenat district, Khorasan province), Zirkooh, Hoserobat (Birjand district, Khorasan province)",Earthquake,Ground movement,6,5523,2012-0502
+7/12/12,7/12/12,China,CHN,Xinjiang Uygur Zizhiqu province,Earthquake,Ground movement,,5500,2012-0536
+18/05/2012,18/05/2012,Azerbaijan,AZE,"Zagatala, Gakh districts (Shaki-Zaqatala province)",Earthquake,Ground movement,,6949,2012-0545
+19/01/2012,19/01/2012,Iran (Islamic Republic of),IRN,Nishabur district (Khorasan province),Earthquake,Ground movement,,238,2012-0597
+9/3/12,9/3/12,China,CHN,Xinjiang Uygur Zizhiqu province,Earthquake,Ground movement,,36641,2012-0604
+11/1/13,11/1/13,China,CHN,"Zhaojiagou village (Zhaotong district, Yunnan Sheng province)",Mass movement (dry),Landslide,46,2,2013-0018
+22/01/2013,22/01/2013,Indonesia,IDN,Nangroe Aceh Darussalam province,Earthquake,Ground movement,1,515,2013-0020
+6/2/13,6/2/13,Solomon Islands,SLB,Santa Cruz islands (Temotu (Adminitrative unit not available) province),Earthquake,Tsunami,10,3329,2013-0029
+9/2/13,9/2/13,Colombia,COL,"Narino, Cauca, Risaralda, Quindio,Valle Del Cauca provinces",Earthquake,Ground movement,,3957,2013-0058
+3/3/13,3/3/13,China,CHN,"Eryuan Xian, Yangbi Yi Zizhixian, Yunlong Xian areas (Dali Bali district, Yunnan Sheng province)",Earthquake,Ground movement,,427740,2013-0081
+9/4/13,9/4/13,Iran (Islamic Republic of),IRN,"Shonbeh ,Kaki villages (Dashty district, Bushehr province), Baghan,Tasouj villages (Shiraz district, Fars province)",Earthquake,Ground movement,37,4350,2013-0098
+16/04/2013,16/04/2013,Iran (Islamic Republic of),IRN,"Khash, Saravan districts (Sistan-o baluchestan province)",Earthquake,Ground movement,,27,2013-0099
+16/04/2013,16/04/2013,Pakistan,PAK,"Mashkhel area (Chagai district, Balochistan province), Washuk area (Kharan district, Balochistan province), Karachi Central District, Karachi East District, Karachi South District, Karachi West District districts (Sindh province)",Earthquake,Ground movement,41,15175,2013-0099
+20/04/2013,20/04/2013,China,CHN,"Lushan area (Ya'an district, Sichuan Sheng province)",Earthquake,Ground movement,198,2198785,2013-0116
+14/04/2013,23/04/2013,Hungary,HUN,Heves province,Earthquake,Ground movement,,1800,2013-0121
+13/04/2013,13/04/2013,Japan,JPN,Hyogo province,Earthquake,Ground movement,,8438,2013-0127
+1/5/13,1/5/13,India,IND,Administrive unit not available district (Jammu and Kashmir province),Earthquake,Ground movement,3,59350,2013-0140
+24/04/2013,24/04/2013,Afghanistan,AFG,"Kama, Dehbala, Lalpur, Surkhrod, Kuzkunar, Sherzad, Khogyani, Chaparhar, Dara-e-Nur, Goshta, Durbaba, Muhmand Dara, Behsud, Jalalabad, Batikot, Hesarak, Shinwar, Achin districts (Nangarhar province), Nurgal, Khaskunar, Sarkani, Chawkay (Kunar province)",Earthquake,Ground movement,18,3531,2013-0151
+1/6/13,1/6/13,Taiwan (Province of China),TWN,Taiwan Sheng province,Earthquake,Ground movement,4,1519,2013-0206
+2/7/13,2/7/13,Indonesia,IDN,"Aceh Tengah, Bener Meriah districts (Nangroe Aceh Darussalam province)",Earthquake,Ground movement,48,55935,2013-0235
+22/07/2013,22/07/2013,China,CHN,"Gannan Tibetan, Longnan, Dingxi, Tianshui, Baiyin, Lanzhou districts (Gansu Sheng province)",Earthquake,Ground movement,95,123887,2013-0242
+21/07/2013,21/07/2013,New Zealand,NZL,"Wellington's Central Business Center, Paraparaumu, Wainuiomata, Porirua, Hutt Valley areas (Wellington province)",Earthquake,Ground movement,,13840,2013-0268
+31/08/2013,31/08/2013,China,CHN,"Benzilan village (Deqin Xian area, Deqen Tibetan district, Yunnan Sheng province)",Earthquake,Ground movement,3,538050,2013-0314
+12/9/13,23/05/2014,Peru,PER,"Arequipa district (Arequipa province), General Sanchez Cerro district (Moquagua province)",Volcanic activity,Ash fall,,1040,2013-0355
+24/09/2013,24/09/2013,Pakistan,PAK,"Awaran District, Chagai District, Gwadar District, Kech District, Khuzdar District, Panjgur District districts (Balochistan province)",Earthquake,Ground movement,399,185749,2013-0381
+15/10/2013,15/10/2013,Philippines (the),PHL,"Catigbian village (Bohol district, Region VII (Central Visayas) province), Cebu, Siquijor, Negros Oriental districts (Region VII (Central Visayas) province), Negros Occidental, Iloilo, Guimaras districts (Region VI (Western Visayas) province)",Earthquake,Ground movement,230,3222224,2013-0395
+6/9/13,6/9/13,Guatemala,GTM,"Ciudad Tecun Uman city (Ayutla district, San Marcos province)",Earthquake,Ground movement,1,572,2013-0405
+25/09/2013,25/09/2013,Peru,PER,"Arequipa, Ayacucho, Ica provinces",Earthquake,Ground movement,,7084,2013-0409
+22/10/2013,22/10/2013,Indonesia,IDN,Nangroe Aceh Darussalam province,Earthquake,Ground movement,1,2738,2013-0436
+22/11/2013,23/11/2013,China,CHN,"Changling area (Songyuan district, Jilin Sheng province)",Earthquake,Ground movement,,58300,2013-0470
+28/09/2013,28/09/2013,Pakistan,PAK,Awaran District district (Balochistan province),Earthquake,Ground movement,22,50,2013-0484
+28/11/2013,28/11/2013,Iran (Islamic Republic of),IRN,"Borazjan city (Dashtestan district, Bushehr province)",Earthquake,Ground movement,8,1620,2013-0516
+00/09/2013,00/12/2013,Indonesia,IDN,Karo district (Sumatera Utara province),Volcanic activity,Ash fall,,29727,2013-0542
+29/12/2013,29/12/2013,El Salvador,SLV,"Chinameca, San Joge, El Transito, San Rafael de Oriente districts (San Miguel province)",Volcanic activity,Ash fall,,63079,2013-0543
+16/12/2013,16/12/2013,China,CHN,"Badong area (Enshi Tujia and Miao district, Hubei Sheng province), Zigui, Xingshan areas (Yichang district, Hubei Sheng province)",Earthquake,Ground movement,,90500,2013-0555
+27/03/2013,27/03/2013,Taiwan (Province of China),TWN,"Puli city (Name Unknown district, Taiwan Sheng province)",Earthquake,Ground movement,1,97,2013-0561
+1/12/13,1/12/13,China,CHN,"Keping Xian area (Aksu district, Xinjiang Uygur Zizhiqu province)",Earthquake,Ground movement,,2000,2013-0581
+1/2/14,1/2/14,Indonesia,IDN,Karo district (Sumatera Utara province),Volcanic activity,Ash fall,32,32002,2014-0044
+26/01/2014,3/2/14,Greece,GRC,"Lixouri, Kounopetra, Fiskardo villages (Kefalonia Isl., Kefallinias district, Ionioi Nisoi province)",Earthquake,Ground movement,,2023,2014-0049
+2/1/14,2/1/14,Iran (Islamic Republic of),IRN,"Bastak city (Bandar-elengeh district, Hormozgan province)",Earthquake,Ground movement,1,330,2014-0054
+14/02/2014,14/02/2014,Indonesia,IDN,"Bantul, Kota Yogyakarta, Kulonprogo, Sleman districts (Daerah Istimewa Yogyakarta province), Boyolali, Kebumen, Kota Magelang, Kota Surakarta, Magelang, Purworejo, Temanggung, Wonogiri districts (Jawa Tengah province), Blitar, Kediri, Kota Blitar, Kota Kediri, Kota Malang, Kota Surabaya, Malang, Pacitan, Ponorogo districts (Jawa Timur province), Kota Mataram district (Nusatenggara Barat province)",Volcanic activity,Ash fall,7,83158,2014-0064
+12/2/14,12/2/14,China,CHN,"Yutian Xian area (Khotan district, Xinjiang Uygur Zizhiqu province)",Earthquake,Ground movement,,450000,2014-0086
+1/4/14,1/4/14,Chile,CHL,"Arica y Painacota province, Alto Hospicio commune (Iquique district, Tarapaca province)",Earthquake,Ground movement,6,513387,2014-0094
+10/4/14,10/4/14,Nicaragua,NIC,Managua province,Earthquake,Ground movement,2,12281,2014-0111
+18/04/2014,18/04/2014,Mexico,MEX,"Guerrero, Morelos, Distrito Federal, Michoacan provinces",Earthquake,Ground movement,,381,2014-0127
+4/4/14,4/4/14,China,CHN,"Xiluoduzhen village (Zhaotong district, Yunnan Sheng province)",Earthquake,Ground movement,,75021,2014-0129
+5/5/14,5/5/14,Thailand,THA,"Chiang Rai, Chiang Mai, Lampang, Lamphun, Mae Hong Son, Phayao, Phrae, Nan provinces",Earthquake,Ground movement,1,17523,2014-0159
+24/05/2014,24/05/2014,China,CHN,"Yingjiang area (Dehong Dai and Jingpo district, Yunnan Sheng province)",Earthquake,Ground movement,,225015,2014-0173
+24/05/2014,24/05/2014,Greece,GRC,"Limnos Island (Lesvou district, Voreio Aigaio province), Samothrace Island (Evrou district, Anatoliki Makedonnia Kai Thraki province)",Earthquake,Ground movement,3,75002,2014-0174
+24/05/2014,24/05/2014,Turkey,TUR,"Tekirdag, Canakkale provinces",Earthquake,Ground movement,,324,2014-0174
+30/05/2014,30/05/2014,China,CHN,"Yingjiang area (Dehong Dai and Jingpo district, Yunnan Sheng province)",Earthquake,Ground movement,,184723,2014-0177
+7/7/14,7/7/14,Guatemala,GTM,"Huehuetenango, Quetzaltenango, Retalhuleu, San Marcos, Solola, Suchitepequez, Totonicapan provinces",Earthquake,Ground movement,1,94783,2014-0234
+7/7/14,7/7/14,Mexico,MEX,Chiapas province,Earthquake,Ground movement,3,27000,2014-0234
+12/3/14,12/3/14,Comoros (the),COM,Anjouan province,Earthquake,Ground movement,,10000,2014-0258
+3/8/14,3/8/14,China,CHN,"Longtoushanzhen, Zhaotong cities (Ludian area, Zhaotong district, Yunnan Sheng province), Qiaojia area (Zhaotong district, Yunnan Sheng province), Huize area (Qujing district, Yunnan Sheng province), Guizhou Sheng, Sichuan Sheng provinces",Earthquake,Ground movement,731,1120513,2014-0281
+18/08/2014,18/08/2014,Iran (Islamic Republic of),IRN,"Moormoori village (Abdanan district, Ilam province), Tape Hamane Oliya, Tape Hamane Sofla villages (Dehloran district, Ilam province)",Earthquake,Ground movement,,12250,2014-0287
+13/08/2014,13/08/2014,Ecuador,ECU,Quito district (Pichincha province),Earthquake,Ground movement,3,18,2014-0288
+1/8/14,1/8/14,Algeria,DZA,"Alger, Boumerdes provinces",Earthquake,Ground movement,6,420,2014-0298
+5/8/14,5/8/14,South Africa,ZAF,"Orkney city (Dr Kenneth Kaunda District Municipality district, North West province)",Earthquake,Ground movement,1,2002,2014-0311
+24/08/2014,24/08/2014,United States of America (the),USA,"San Francisco Bay (San Francisco district) , Napa Valley (Napa district) , Sonoma, Solano district (California province) , Vallejo, Mare Island cities (Solano district, California province)",Earthquake,Ground movement,1,3250,2014-0318
+16/09/2014,3/12/14,Philippines (the),PHL,"Tabaco, Ligao, Legazpi city, Malilipot, Daraga, Camalig, Guinobatan, Sto. Domingo areas (Albay district, Region V (Bicol region) province)",Volcanic activity,--,,60545,2014-0331
+27/09/2014,27/09/2014,Peru,PER,"Misca (Paruro district, Cusco province)",Earthquake,Ground movement,8,604,2014-0334
+27/09/2014,30/09/2014,Japan,JPN,"Kaidamura, Mitakemura, Ootakimura districts (Nagano province), Asahimura, Osakatyoo, Takanemura districts (Gifu province)",Volcanic activity,--,63,69,2014-0336
+9/8/14,9/8/14,Papua New Guinea,PNG,"Arawa, Buin, Sohano districts, Northern Solomons province",Volcanic activity,Ash fall,,1380,2014-0410
+7/10/14,7/10/14,China,CHN,"Yongping Xian area (Dali Bai district, Yunnan Sheng province)",Earthquake,Ground movement,1,255324,2014-0449
+22/11/2014,22/11/2014,China,CHN,Sichuan Sheng province,Earthquake,Ground movement,5,125055,2014-0464
+22/11/2014,22/11/2014,Japan,JPN,"Hakuba village (Hakubamura district, Nagano province)",Earthquake,Ground movement,,2611,2014-0465
+23/11/2014,31/01/2015,Cabo Verde,CPV,"Bangaeira, Djeu Lorna, Portela, Cha das Caldeiras villages (Sao Filipe district, Fogo province)",Volcanic activity,Lava flow,,2500,2014-0478
+6/12/14,6/12/14,China,CHN,"Weiyuan Xian area (Dingxi district, Gansu Sheng province)",Earthquake,Ground movement,,2022,2014-0544
+22/02/2015,22/02/2015,China,CHN,"Shawan area (Tacheng district, Xinjiang Uygur Zizhiqu province)",Earthquake,Ground movement,,8640,2015-0078
+10/3/15,10/3/15,Colombia,COL,"Santafe de Bogota D.c. district (Cundinamarca province), Cali district (Valle del Cauca province), Bucaramanga, Betulia districts (Santander Province)",Earthquake,Ground movement,,511,2015-0086
+12/3/15,12/3/15,Costa Rica,CRI,Turrialba district (Cartago province),Volcanic activity,Ash fall,,18450,2015-0104
+1/3/15,1/3/15,China,CHN,"Zhenkang Xian, Cangyuan Wa Zizhixian, Gengma Dai-Wa Zizhixian areas (Lincang district, Yunnan Sheng province)",Earthquake,Ground movement,,2032,2015-0125
+24/04/2015,24/04/2015,Argentina,ARG,"San Carlos de Bariloche town (Bariloche district, Rio Negro province)",Volcanic activity,Ash fall,,,2015-0142
+24/04/2015,30/04/2015,Chile,CHL,"Ensenada town (Llanquihue district, Los Lagos province)",Volcanic activity,Ash fall,,4000,2015-0142
+00/03/2015,00/03/2015,Chile,CHL,"Vallarica, Pucon, Cararrehue municipalities, Temuco town (Cautin district, Araucania province), Conaripe municipality (Valdivia district, Los Rios province)",Volcanic activity,Ash fall,,3600,2015-0143
+25/04/2015,25/04/2015,China,CHN,Shigatse district (Xizang Zizhiqu province),Earthquake,Ground movement,20,200055,2015-0144
+25/04/2015,25/04/2015,India,IND,"Bihar, Uttar Pradesh, West Bengal, Sikkim provinces",Earthquake,Ground movement,69,,2015-0144
+25/04/2015,25/04/2015,Nepal,NPL,"Gorkha area (Gandaki district, Western province), Dolakha, Ramechhap areas (Janakpur district, Central province), Bagmati district (Central province)",Earthquake,Ground movement,8831,5639722,2015-0144
+12/5/15,12/5/15,China,CHN,Shigatse district (Xizang Zizhiqu province),Earthquake,Ground movement,1,,2015-0175
+12/5/15,12/5/15,India,IND,Bihar province,Earthquake,Ground movement,20,,2015-0175
+12/5/15,12/5/15,Nepal,NPL,"Kathmandu, Sindhupalchok areas (Bagmati district, Central province), Dolakha area (Janakpur district, Central province)",Earthquake,Ground movement,138,543,2015-0175
+5/6/15,5/6/15,Malaysia,MYS,Ranau district (Sabah province),Earthquake,Ground movement,24,10,2015-0216
+3/7/15,3/7/15,China,CHN,"Xilkiqi village (Pishan area, Khotan district, Xinjiang Uygur Zizhiqu province)",Earthquake,Ground movement,4,3048,2015-0271
+14/08/2015,22/08/2015,Ecuador,ECU,"Cotopaxi, Napo, Pichincha provinces",Volcanic activity,Lava flow,,800000,2015-0361
+24/09/2015,24/09/2015,Indonesia,IDN,Sorong district (Papua Barat province),Earthquake,Ground movement,,12247,2015-0415
+16/09/2015,16/09/2015,Chile,CHL,"Illapel city (Choapa district, Coquimbo province),",Earthquake,Tsunami,19,681499,2015-0435
+13/10/2015,13/10/2015,Pakistan,PAK,"Gulistane Jauhar area (Karachi East District district, Sindh province)",Mass movement (dry),Rockfall,13,,2015-0454
+26/10/2015,26/10/2015,Afghanistan,AFG,"Badakhshan, Baghlan, Ghazni, Kapisa, Khost, Kunar, Nangarhar, Paktya, Panjsher, Parwan, Takhar, Kunduz, Nuristan, Laghman, Kabul provinces",Earthquake,Ground movement,115,92725,2015-0476
+26/10/2015,26/10/2015,India,IND,"Administrative unit not available districts (Jammu and Kashmir province), Delhi, Punjab provinces",Earthquake,Ground movement,,10,2015-0476
+25/10/2015,25/10/2015,Pakistan,PAK,"Islamabad District district (Islamabad province), Chakwal District, Gujranwala District, Jhang District, Jhelum District, Kasur District, Mianwali District, Multan District, Muzaffargarh District, Narowal District, Rawalpindi District, Sahiwal District, Sargodha District, Sheikhupura District districts (Punjab province), Azad area (Jammu and Kashmir province), North-West Frontier province",Earthquake,Ground movement,280,502590,2015-0476
+17/11/2015,17/11/2015,Kyrgyzstan,KGZ,"Chong-Alay, Alay, Kara-Suu, Kara-Kulja, Aravan districts (Osh province)",Earthquake,Ground movement,,16780,2015-0512
+7/12/15,7/12/15,Tajikistan,TJK,"Murgabskiy, Rushanskiy, Shugnanskiy, Vanchskiy, Kalay-Humbskiy districts (Badakhshoni Kuni province)",Earthquake,Ground movement,2,7976,2015-0528
+17/11/2015,00/03/2016,Ecuador,ECU,"Cotaló, Chacauco, Pillate, Chontapamba, Chonglontus, Cúsua, Juive, Bilbao, Pelileo, Quero, Mocha, Cevallos , Ambato, Tungurahua, Chimborazo provinces",Volcanic activity,--,,130042,2015-0550
+25/12/2015,25/12/2015,Afghanistan,AFG,"Ashkasham town (Eshkmesh district, Badakhshan province)",Earthquake,Ground movement,,507,2015-0571
+25/12/2015,25/12/2015,Pakistan,PAK,Khyber Agency district (Federally Administrered Tribal Areas province),Earthquake,Ground movement,3,85,2015-0571
+4/11/15,4/11/15,Timor-Leste,TLS,Dili province,Earthquake,Ground movement,,2003,2015-0608
+4/1/16,4/1/16,Bangladesh,BGD,"Dhaka and Jamalpur, Rajshahi, Lalmonirhat and Panchagarh districts",Earthquake,Ground movement,5,70,2016-0002
+4/1/16,4/1/16,India,IND,"Guwahati city (Kamrup district, Assam province), Imphal East, Imphal West, Senapati, Thoubal, Bishnupur, Tamenglong districts (Manipur province)",Earthquake,Ground movement,8,10808,2016-0002
+6/2/16,6/2/16,Taiwan (Province of China),TWN,Tainan city (near Kaohsiung city),Earthquake,Ground movement,149,525,2016-0043
+10/4/16,10/4/16,Pakistan,PAK,"North-West Frontier, Gilgit-Baltistan provinces",Earthquake,Ground movement,5,242,2016-0100
+14/04/2016,14/04/2016,Japan,JPN,Kumamoto province,Earthquake,Ground movement,9,800,2016-0107
+16/04/2016,16/04/2016,Ecuador,ECU,"Guayaquil district (Guayas province), Muisne district (Esmeraldas province), Portoviejo district (Manabi province), Santo Domingo de los Tsachilas, Los Ríos, Santa Elena provinces",Earthquake,Ground movement,480,89605,2016-0117
+16/04/2016,16/04/2016,Japan,JPN,Kumamoto province,Earthquake,Ground movement,32,200,2016-0121
+18/05/2016,18/05/2016,Ecuador,ECU,"Esmeraldas, Manabi provinces",Earthquake,Ground movement,1,85,2016-0151
