@@ -154,7 +154,7 @@ $(document).ready(function(){
     var dstLng;
 
 
-    $('.col-xs-4').on('click', '.map-display', function () {
+    $('.col-xs-4').on('click', '.travel-display', function () {
         var newLocation = {
             address: $(this).data('address'),
             city: $(this).data('city'),
@@ -162,7 +162,7 @@ $(document).ready(function(){
         };
         var currentURL = window.location.origin;
 
-        $.post('/map/search', newLocation)
+        $.post('http://localhost:3000/map/travel', newLocation)
         .done(function (data) {
 
             for (var i = 0; i < 2; i++) {
@@ -178,30 +178,41 @@ $(document).ready(function(){
               }
             }
 
-            $('#modalCollection').empty();
-            var modalHtml = '<div id=mapModal class="modal fade" role="dialog">'+
+            $('#travelCollection').empty();
+            var modalHtml = '<div id=travelModal class="modal fade" role="dialog">'+
                 '<div class="modal-dialog">'+
                     '<!-- Modal content-->'+
                     '<div class="modal-content mapContent">'+
                         '<div class="modal-header">'+
                             '<button type="button" class="close" data-dismiss="modal">&times;</button>'+
-                            '<h4 class="modal-title">Safezone Locations</h4>'+
+                            '<h4 class="modal-title">Travel Locations</h4>'+
+                              '<li class="travelBooking">'+
+                                '<a target="_blank" href="https://www.google.com/flights/?f=0#search;f=LAX;d=2016-11-03;r=2016-11-07;mc=m" alt="Flight Check">'+
+                                  '<i class="fa fa-home fa-2x box-icon"></i>'+
+                                  '<p>Check Flight Path</p>'+
+                                '</a>'+
+                                '<a target="_blank" href="https://www.expedia.com/" alt="Travel Booking">'+
+                                  '<i class="fa fa-home fa-2x box-icon"></i>'+
+                                  '<p>Book Hotel and Flight</p>'+
+                                '</a>'+
+                              '</li>'+
                         '</div>'+
-                        '<div id=mapOutput class="modal-body mapOutput">'+
+                        '<div id=travelOutput class="modal-body mapOutput">'+
                         '</div>'+
-                        '<div id=rightPanel class="rightPanel">'+
+                        '<div id=rightPanelTravel class="rightPanelTravel">'+
                             '<p>Total Distance: <span id="total"></span></p>'+
                         '</div>'+
                         '<div class="modal-footer">'+
+                            '<a href="https://www.google.com/flights/?f=0">Check Travel Bookings</a>'+
                         '</div>'+
                     '</div>'+
                 '</div>'+
             '</div>';
-            $('#modalCollection').append(modalHtml);
+            $('#travelCollection').append(modalHtml);
 
             // Create a map object, and include the MapTypeId to add
             // to the map type control.
-            var map = new google.maps.Map(document.getElementById('mapOutput'), {
+            var map = new google.maps.Map(document.getElementById('travelOutput'), {
               zoom: 11,
               center: {lat: srcLat, lng: srcLng},
               mapTypeControlOptions: {
@@ -253,7 +264,7 @@ $(document).ready(function(){
             var directionsDisplay = new google.maps.DirectionsRenderer({
               draggable: true,
               map: map,
-              panel: document.getElementById('rightPanel')
+              panel: document.getElementById('rightPanelTravel')
             });
 
             directionsDisplay.addListener('directions_changed', function() {
@@ -298,8 +309,8 @@ $(document).ready(function(){
                 });
 
             }
-            $('#mapModal').modal('show');
-            $('#mapModal').on('shown.bs.modal', function() {
+            $('#travelModal').modal('show');
+            $('#travelModal').on('shown.bs.modal', function() {
               var currentCenter = map.getCenter();  // Get current center before resizing
               google.maps.event.trigger(map, "resize");
               map.setCenter(currentCenter); // Re-set previous center
