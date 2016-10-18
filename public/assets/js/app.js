@@ -17,7 +17,7 @@ $.Aegis = {};
 /* --------------------
  * - Aegis Options -
  * --------------------
- * Modify these options to suit your implementation
+ * Modify these options to suit implementation
  */
 $.Aegis.options = {
     //Add slimscroll to navbar menus
