@@ -192,15 +192,15 @@ ul, ol {
 }
 /*Modals*/
 
-.modal-dialog {
+/*.modal-dialog {
     margin-top: 200px;
-}
+}*/
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
     .modal-dialog {
         margin: 200px auto;
     }
-}
+}*/
 /* Home Style */
 
 .home {
@@ -513,6 +513,7 @@ ul.team-social li {
 }
 /* Modal */
 .aegis-modal {
+    margin-top: 200px;
     color: #fff;
 }
 .aegis-modal .modal-header {
