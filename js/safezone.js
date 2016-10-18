@@ -56,7 +56,7 @@ module.exports = {
                     address: returned.formatted_address,
                     choiceHash: addressObj.choiceHash
                 };
-
+                console.log('Geo Lat:' + geoObj.lat, 'Geo Long:' + geoObj.lng);
                 cb(geoObj);
             } else {
                 console.log("Error on getting GeoCoordinates " + error);
