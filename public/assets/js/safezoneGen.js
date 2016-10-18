@@ -153,17 +153,14 @@ $(document).ready(function(){
     var dstLat;
     var dstLng;
 
-    $('#getSafezoneBtn').on('click', function () {
+
+    $('.col-xs-4').on('click', '.map-display', function () {
         var newLocation = {
-            address: $('#addressInput').val().trim(),
-            city: $('#cityInput').val().trim(),
-            state: $('#stateInput').val().trim()
+            address: $(this).data('address'),
+            city: $(this).data('city'),
+            state: $(this).data('state')
         };
         var currentURL = window.location.origin;
-
-        $('#addressInput').val('');
-        $('#cityInput').val('');
-        $('#stateInput').val('');
 
         $.post('http://localhost:3000/map/search', newLocation)
         .done(function (data) {
@@ -172,17 +169,17 @@ $(document).ready(function(){
               if (i === 0) {
                 srcLat = data[i].lat;
                 srcLng = data[i].lng;
-              } else {
+              } else if (i === 1) {
                 dstLat = data[i].lat;
                 dstLng = data[i].lng;
+              } else {
+                dstLat = srcLat;
+                dstLng = srcLng;
               }
             }
 
-            var mapId = 'mapModal' + modalCount.toString();
-            var mapOutput = 'mapOutput' + modalCount.toString();
-            var mapModal = '#mapModal' + modalCount.toString();
-            var rightPanel = 'right-panel' + modalCount.toString();
-            var modalHtml = '<div id="' + mapId + '" class="modal fade" role="dialog">'+
+            $('#modalCollection').empty();
+            var modalHtml = '<div id=mapModal class="modal fade" role="dialog">'+
                 '<div class="modal-dialog">'+
                     '<!-- Modal content-->'+
                     '<div class="modal-content mapContent">'+
@@ -190,9 +187,9 @@ $(document).ready(function(){
                             '<button type="button" class="close" data-dismiss="modal">&times;</button>'+
                             '<h4 class="modal-title">Safezone Locations</h4>'+
                         '</div>'+
-                        '<div id="' + mapOutput + '" class="modal-body mapOutput">'+
+                        '<div id=mapOutput class="modal-body mapOutput">'+
                         '</div>'+
-                        '<div id="' + rightPanel + '" class="rightPanel">'+
+                        '<div id=rightPanel class="rightPanel">'+
                             '<p>Total Distance: <span id="total"></span></p>'+
                         '</div>'+
                         '<div class="modal-footer">'+
@@ -202,15 +199,9 @@ $(document).ready(function(){
             '</div>';
             $('#modalCollection').append(modalHtml);
 
-            var linkHtml = '<div>'+
-                '<button class="mapButton btn btn-success" data-name="' + mapModal + '">' +
-                mapId + '</button>'+
-              '</div>';
-            $('#mapLink').append(linkHtml);
-
             // Create a map object, and include the MapTypeId to add
             // to the map type control.
-            var map = new google.maps.Map(document.getElementById(mapOutput), {
+            var map = new google.maps.Map(document.getElementById('mapOutput'), {
               zoom: 11,
               center: {lat: srcLat, lng: srcLng},
               mapTypeControlOptions: {
@@ -262,7 +253,7 @@ $(document).ready(function(){
             var directionsDisplay = new google.maps.DirectionsRenderer({
               draggable: true,
               map: map,
-              panel: document.getElementById(rightPanel)
+              panel: document.getElementById('rightPanel')
             });
 
             directionsDisplay.addListener('directions_changed', function() {
@@ -274,7 +265,6 @@ $(document).ready(function(){
 
             // Information Window
             for (var i = 0; i < data.length; i++) {
-                console.log(data[i]);
                 var address = data[i].address;
                 var lat = data[i].lat;
                 var lng = data[i].lng;
@@ -308,21 +298,16 @@ $(document).ready(function(){
                 });
 
             }
-            $(mapModal).on('shown.bs.modal', function() {
+            $('#mapModal').modal('show');
+            $('#mapModal').on('shown.bs.modal', function() {
               var currentCenter = map.getCenter();  // Get current center before resizing
               google.maps.event.trigger(map, "resize");
               map.setCenter(currentCenter); // Re-set previous center
               map.setZoom(13);
             });
-          modalCount++;
         });
 
         return false;
-    });
-
-    $('#mapLink').on('click', '.mapButton', function() {
-      var modalName = $(this).data('name');
-      $(modalName).modal('show');
     });
 
 });
