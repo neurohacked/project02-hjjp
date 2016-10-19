@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', function(req, res) {
-    if (req.session.user_name) {
+    if (req.session.user_id) {
         res.redirect('/dashboard');
     } else {
         res.render('home');
@@ -12,7 +12,7 @@ router.get('/', function(req, res) {
 
 // signup
 router.get('/signup', function(req, res) {
-    if (req.session.user_name) {
+    if (req.session.user_id) {
         res.redirect('/dashboard');
     } else {
         res.render('signup', {
@@ -23,7 +23,7 @@ router.get('/signup', function(req, res) {
 
 // login
 router.get('/login', function(req, res) {
-    if (req.session.user_name) {
+    if (req.session.user_id) {
         res.redirect('/dashboard');
     } else {
         res.render('login', {

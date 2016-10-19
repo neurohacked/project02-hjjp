@@ -11,9 +11,9 @@ function getRandomIntInclusive(min, max) {
 }
 
 router.get('/risk', function(req, res) {
-    console.log("Inside /risk");
-    res.send(getRandomIntInclusive(0,100));
+    var randomNumber = getRandomIntInclusive(0,100);
+    console.log(randomNumber);
+    res.send('Random Number: ' + randomNumber);
 });
-
 
 module.exports = router;
