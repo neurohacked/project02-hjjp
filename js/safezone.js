@@ -5,20 +5,15 @@ module.exports = {
     // Get address in form of street, city, and state and return address object to be used in other API methods
     getAddressObj: function(address, city, state) {
         if (address) {
-            var addressList = address.split(' ');
+            var addressText = address.replace(/,/g , "");
+            var addressList = addressText.split(' ');
         } else {
             var addressList = '';
         }
         if (addressList === '' && city === '' && state === '') {
             return;
         } else {
-            if (addressList) {
-                var addressHash = addressList.join("") + city.split(" ").join("") + state.split(" ").join("");
-            } else {
-                var addressHash = city.split(" ").join("") + state.split(" ").join("");
-            }
             var addressObj = {
-                choiceHash: addressHash,
                 addressList: addressList,
                 city: city,
                 state: state
@@ -54,7 +49,6 @@ module.exports = {
                     lat: returned.geometry.location.lat,
                     lng: returned.geometry.location.lng,
                     address: returned.formatted_address,
-                    choiceHash: addressObj.choiceHash,
                     city: returned.address_components[1].shortname,
                     state: returned.address_components[3].shortname
                 };
@@ -78,7 +72,6 @@ module.exports = {
             address: geoObj.address,
             name: 'Target Location',
             locationType: 'home',
-            choiceHash: geoObj.choiceHash
         };
         safezonesResultList.push(sourceObj);
 
@@ -95,7 +88,6 @@ module.exports = {
                             address: child.vicinity,
                             name: child.name,
                             locationType: locationType,
-                            choiceHash: geoObj.choiceHash
                         }
                         safezonesResultList.push(safezonesObj);
                     });

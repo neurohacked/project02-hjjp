@@ -155,8 +155,7 @@ $(document).ready(function(){
 
     $('.col-xs-4').on('click', '.map-display', function () {
         var newLocation = {
-            lat: $(this).data('lat'),
-            lng: $(this).data('lng')
+            address: $(this).data('address'),
         };
 
         var currentURL = window.location.origin;
