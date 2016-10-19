@@ -1,15 +1,29 @@
-    var apiKey = '63ff12333f5125605590036f6f111772';
-    var lat = '17.3817219'
-    var lng = '121.5417694'
-    var queryURL = "https://api.darksky.net/forecast/" + apiKey + "/" + lat + "," + lng;
+const request = require('request');
 
-    $.ajax({
-        url: queryURL,
-        method: 'GET',
-        dataType: 'jsonp'
-    }).done(function(response) {
-        console.log(response); // full response obj
-        console.log(response.currently.temperature); // current temp
-        console.log(response.daily.data[0].summary); // current description
-        
-    });
+module.exports = {
+    getWeatherObj: function(lat, lng, cb) {
+
+        var queryURL = "https://api.darksky.net/forecast/63ff12333f5125605590036f6f111772/" + lat + "," + lng;
+
+        request(queryURL, function(error, response, body) {
+            if (!error && response.statusCode == 200) {
+                var returned = JSON.parse(body);
+                var weatherObj = {
+                    summary: returned.daily.summary,
+                    today: returned.daily.data[0],
+                    tomorrow: returned.daily.data[1],
+                    day3: returned.daily.data[2],
+                    day4: returned.daily.data[3],
+                    day5: returned.daily.data[4],
+                    day6: returned.daily.data[5],
+                    day7: returned.daily.data[6],
+                };
+                console.log(weatherObj);
+                cb(weatherObj);
+            } else {
+                console.log("Error getting weather info:" + error);
+                return;
+            }
+        });
+    }
+}
