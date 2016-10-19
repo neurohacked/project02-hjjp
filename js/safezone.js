@@ -49,8 +49,6 @@ module.exports = {
                     lat: returned.geometry.location.lat,
                     lng: returned.geometry.location.lng,
                     address: returned.formatted_address,
-                    city: returned.address_components[1].shortname,
-                    state: returned.address_components[3].shortname
                 };
                 cb(geoObj);
             } else {

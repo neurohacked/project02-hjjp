@@ -14,7 +14,6 @@ module.exports = {
             address: geoObj.address,
             name: 'Target Location',
             locationType: 'home',
-            choiceHash: geoObj.choiceHash
         };
         travelResultList.push(sourceObj);
 
@@ -31,7 +30,6 @@ module.exports = {
                             address: child.vicinity,
                             name: child.name,
                             locationType: locationType,
-                            choiceHash: geoObj.choiceHash
                         }
                         travelResultList.push(travelObj);
                     });
