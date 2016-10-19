@@ -1,6 +1,6 @@
 var models = require('../models');
 var express = require('express');
-var safezones = require('../js/safezone.js');
+var safezones = require('../js/safezone');
 // var weather = require('../js/weather.js');
 var router = express.Router();
 
@@ -14,14 +14,14 @@ router.post('/safezones', function(req, res) {
     });
 });
 
-// // get weather
-// router.post('/weather', function(req, res) {
-//
-// });
-//
-// // get travel locations
-// router.post('/travel', function(req, res) {
-//
-// });
+// get weather
+router.post('/weather', function(req, res) {
+
+});
+
+// get travel locations
+router.post('/travel', function(req, res) {
+
+});
 
 module.exports = router;

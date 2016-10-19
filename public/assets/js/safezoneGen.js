@@ -180,7 +180,7 @@ $(document).ready(function(){
             }
 
             $('#modalCollection').empty();
-            var modalHtml = '<div id=mapModal class="modal fade" role="dialog">'+
+            var modalHtml = '<div id=mapModal class="mapModal modal fade" role="dialog">'+
                 '<div class="modal-dialog">'+
                     '<!-- Modal content-->'+
                     '<div class="modal-content mapContent">'+
