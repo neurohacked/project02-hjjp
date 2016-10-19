@@ -7,8 +7,8 @@ router.post('/create', function(req, res) {
     // console.log(req.body.address);
     // console.log(req.body.city);
     // console.log(req.body.state);
-    var formattedAddressObj = address.getFormattedAddress(req.body.address, req.body.city, req.body.state);
-    console.log(formattedAddressObj);
+    // var formattedAddressObj = address.getFormattedAddress(req.body.address, req.body.city, req.body.state);
+    // console.log(formattedAddressObj);
     models.Location.create({
             address: req.body.address,
             city: req.body.city,
