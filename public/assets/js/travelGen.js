@@ -153,7 +153,7 @@ $(document).ready(function(){
     var dstLng;
 
 
-    $('.col-xs-4').on('click', '.travel-display', function () {
+    $('.col-xs-3').on('click', '.travel-display', function () {
         var newLocation = {
             address: $(this).data('address')
         };
@@ -176,31 +176,33 @@ $(document).ready(function(){
             }
 
             $('#travelCollection').empty();
-            var modalHtml = '<div id=travelModal class="modal fade" role="dialog">'+
-                '<div class="modal-dialog">'+
+            var modalHtml = '<div id="travelModal" class="modal fade travelModal" tabindex="-1" role="dialog" aria-labelledby="travelModal">'+
+                '<div class="modal-dialog" role="document">'+
                     '<!-- Modal content-->'+
                     '<div class="modal-content mapContent">'+
-                        '<div class="modal-header">'+
+                        '<div class="box-header with-border">'+
                             '<button type="button" class="close" data-dismiss="modal">&times;</button>'+
-                            '<h4 class="modal-title">Travel Locations</h4>'+
-                              '<li class="travelBooking">'+
-                                '<a target="_blank" href="https://www.google.com/flights/?f=0#search;f=LAX;d=2016-11-03;r=2016-11-07;mc=m" alt="Flight Check">'+
-                                  '<i class="fa fa-home fa-2x box-icon"></i>'+
-                                  '<p>Check Flight Path</p>'+
-                                '</a>'+
-                                '<a target="_blank" href="https://www.expedia.com/" alt="Travel Booking">'+
-                                  '<i class="fa fa-home fa-2x box-icon"></i>'+
-                                  '<p>Book Hotel and Flight</p>'+
-                                '</a>'+
-                              '</li>'+
+                            '<h4 class="box-title">Travel Locations</h4>'+
                         '</div>'+
-                        '<div id=travelOutput class="modal-body mapOutput">'+
+                        '<div class="box-body">'+
+                            '<div id="travelOutput" class="mapOutput">'+
+                            '</div>'+
+                            '<div id=rightPanelTravel class="rightPanelTravel">'+
+                                '<p>Total Distance: <span id="total"></span></p>'+
+                            '</div>'+
                         '</div>'+
-                        '<div id=rightPanelTravel class="rightPanelTravel">'+
-                            '<p>Total Distance: <span id="total"></span></p>'+
-                        '</div>'+
-                        '<div class="modal-footer">'+
-                            '<a href="https://www.google.com/flights/?f=0">Check Travel Bookings</a>'+
+                        '<div class="box-footer no-padding text-center">'+
+                            '<div class="row box-icons">'+
+                                '<div class="col-xs-4">'+
+                                    '<a target="_blank" href="https://www.google.com/flights/?f=0#search;f=LAX;d=2016-11-03;r=2016-11-07;mc=m" alt="Flight Check"><i class="fa fa-plane fa-2x box-icon"></i><p>Check Flight Path</p></a>'+
+                                '</div>'+
+                                '<div class="col-xs-4">'+
+                                    '<a target="_blank" href="https://www.expedia.com/" alt="Travel Booking"><i class="fa fa-book fa-2x box-icon"></i><p>Book Hotel and Flight</p></a>'+
+                                '</div>'+
+                                '<div class="col-xs-4">'+
+                                    '<a href="https://www.google.com/flights/?f=0"><i class="fa fa-suitcase fa-2x box-icon"></i><p>Check Travel Bookings</p></a>'+
+                                '</div>'+
+                            '</div>'+
                         '</div>'+
                     '</div>'+
                 '</div>'+
