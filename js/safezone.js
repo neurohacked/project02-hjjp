@@ -1,4 +1,4 @@
-var request = require('request');
+const request = require('request');
 
 module.exports = {
 
@@ -48,9 +48,7 @@ module.exports = {
                 var geoObj = {
                     lat: returned.geometry.location.lat,
                     lng: returned.geometry.location.lng,
-                    address: returned.formatted_address,
-                    city: returned.address_components[1].shortname,
-                    state: returned.address_components[3].shortname
+                    address: returned.formatted_address
                 };
                 cb(geoObj);
             } else {

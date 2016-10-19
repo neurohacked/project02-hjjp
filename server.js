@@ -7,6 +7,7 @@ const bodyParser = require('body-parser');
 const session = require('express-session');
 const hbs = require('handlebars');
 const exphbs = require('express-handlebars');
+const hbsHelpers = require('./js/hbsHelpers')
 const methodOverride = require('method-override');
 
 // controllers
@@ -44,28 +45,6 @@ app.engine('handlebars', exphbs({
     defaultLayout: 'main',
     dashboardLayout: 'dashboard'
 }));
-hbs.registerHelper("box-color", function(risk) {
-    if (risk >= 80) {
-        return "box-danger";
-    } else if (risk >= 60) {
-        return "box-warning";
-    } else if (risk >= 40) {
-        return "box-default";
-    } else {
-        return "box-success";
-    }
-});
-hbs.registerHelper("btn-color", function(risk) {
-    if (risk >= 80) {
-        return "bg-red";
-    } else if (risk >= 60) {
-        return "bg-orange";
-    } else if (risk >= 40) {
-        return "bg-gray";
-    } else {
-        return "bg-green";
-    }
-});
 
 app.set('view engine', 'handlebars');
 
@@ -106,5 +85,3 @@ app.use('/data', data_controller);
 
 // module gets exported as app.
 module.exports = app;
-
-// Where's the listen? Open up bin/www, and read the comments.
