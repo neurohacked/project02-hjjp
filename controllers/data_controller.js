@@ -1,6 +1,7 @@
 var models = require('../models');
 var express = require('express');
 var safezones = require('../js/safezone');
+var travel = require('../js/travel');
 // var weather = require('../js/weather.js');
 var router = express.Router();
 
@@ -19,9 +20,14 @@ router.post('/weather', function(req, res) {
 
 });
 
-// get travel locations
+// get travel destination map locations
 router.post('/travel', function(req, res) {
-
+    var addressObj = safezones.getAddressObj(req.body.address, req.body.city, req.body.state);
+    safezones.getGeoObj(addressObj, function(geoObj) {
+        travel.getTravelList(geoObj, function(travelResultList) {
+            res.send(travelResultList);
+        });
+    });
 });
 
 module.exports = router;
