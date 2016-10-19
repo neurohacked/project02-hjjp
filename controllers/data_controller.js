@@ -33,13 +33,10 @@ router.post('/travel', function(req, res) {
 
 // get newsfeeds
 router.post('/news', function(req, res) {
-    var addressObj = safezones.getAddressObj(req.body.address);
-    safezones.getGeoObj(addressObj, function(geoObj) {
-        news.getNewsList(geoObj.address, function(newsResultList) {
-            console.log(newsResultList);
+    console.log(req.body.address);
+        news.getNewsList(req.body.address, function(newsResultList) {
+            res.send(newsResultList);
         })
-    })
 });
-
 
 module.exports = router;
