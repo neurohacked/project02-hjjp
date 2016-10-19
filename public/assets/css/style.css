@@ -52,6 +52,7 @@ a {
 }
 
 a:hover, a:focus {
+    outline: none;
     text-decoration: none;
     color: #555299;
 }
@@ -362,7 +363,7 @@ ul.about-list li span {
 }
 
 .section-title.center hr {
-    border-top: 4px solid rgba(133, 104, 186, 0.34);
+    border-top: 4px solid rgba(96, 92, 168, 0.5);
     width: 40px;
     text-align: center;
     margin-top: 10px;
@@ -384,7 +385,7 @@ ul.about-list li span {
 img.img-circle.team-img {
     width: 120px;
     height: 120px;
-    border: 4px solid transparent;
+    border: 4px solid #eee;
     transition: all 0.5s;
 }
 

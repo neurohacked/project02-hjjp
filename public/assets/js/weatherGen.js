@@ -6,7 +6,7 @@ $(document).ready(function(){
     var dstLng;
 
 
-    $('.col-xs-4').on('click', '.weather-display', function () {
+    $('.col-xs-3').on('click', '.weather-display', function () {
         var newLocation = {
             lat: $(this).data('lat'),
             lng: $(this).data('lng')
@@ -16,9 +16,8 @@ $(document).ready(function(){
         console.log(currentURL);
         $.post('/data/weather', newLocation)
             .done(function (data) {
-
                 $('#weatherCollection').empty();
-                var modalHtml = '<div id=weatherModal class="modal fade" role="dialog">'+
+                var modalHtml = '<div id="weatherModal" class="modal fade" role="dialog">'+
                     '<div class="modal-dialog">'+
                         '<!-- Modal content-->'+
                         '<div class="modal-content mapContent">'+
@@ -35,13 +34,7 @@ $(document).ready(function(){
                 '</div>';
                 $('#weatherCollection').append(modalHtml);
 
-                $('#mapModal').modal('show');
-                $('#mapModal').on('shown.bs.modal', function() {
-                  var currentCenter = map.getCenter();  // Get current center before resizing
-                  google.maps.event.trigger(map, "resize");
-                  map.setCenter(currentCenter); // Re-set previous center
-                  map.setZoom(13);
-                });
+                $('#weatherModal').modal('show');
             });
 
         return false;
