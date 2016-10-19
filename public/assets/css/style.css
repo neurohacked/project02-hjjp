@@ -558,7 +558,7 @@ ul.team-social li {
     border-radius: 0;
 }
 
-.aegis-btn:hover {
+.aegis-btn:hover, .aegis-btn:focus {
     color: #fff;
     background: #605ca8;
     border: 1px solid #605ca8;
