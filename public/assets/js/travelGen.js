@@ -187,7 +187,7 @@ $(document).ready(function(){
                             '<h4 class="box-title">Travel Locations</h4>'+
                         '</div>'+
                         '<div class="box-body">'+
-                            '<div id="travelOutput" class="mapOutput">'+
+                            '<div id="travelOutput" class="travelOutput">'+
                             '</div>'+
                             '<div id=rightPanelTravel class="rightPanelTravel">'+
                                 '<p>Total Distance: <span id="total"></span></p>'+

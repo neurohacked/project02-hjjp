@@ -4400,3 +4400,18 @@ table.text-center, table.text-center td, table.text-center th {
         white-space: normal !important;
     }
 }
+
+/*
+ * Forecast
+ * -----------
+ */
+.forecast .col-xs-2 {
+    width: 20%;
+}
+.weatherOutput h3 {
+    margin-top: 0;
+}
+.weatherOutput p.with-border {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
