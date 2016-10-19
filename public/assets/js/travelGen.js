@@ -155,7 +155,9 @@ $(document).ready(function(){
 
     $('.col-xs-3').on('click', '.travel-display', function () {
         var newLocation = {
-            address: $(this).data('address')
+            address: $(this).data('address'),
+            lat: $(this).data('lat'),
+            lng: $(this).data('lng')
         };
         var currentURL = window.location.origin;
 

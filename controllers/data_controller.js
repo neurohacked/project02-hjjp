@@ -8,21 +8,25 @@ const router = express.Router();
 
 // get safezones
 router.post('/safezones', function(req, res) {
-    var addressObj = safezones.getAddressObj(req.body.address);
-    safezones.getGeoObj(addressObj, function(geoObj) {
-        safezones.getSafezonesList(geoObj, function(safezonesResultList) {
-            res.send(safezonesResultList);
-        });
+    var locationObj = {
+        address: req.body.address,
+        lat: parseFloat(req.body.lat),
+        lng: parseFloat(req.body.lng)
+    }
+    safezones.getSafezonesList(locationObj, function(safezonesResultList) {
+        res.send(safezonesResultList);
     });
 });
 
 // get travel destination map locations
 router.post('/travel', function(req, res) {
-    var addressObj = safezones.getAddressObj(req.body.address);
-    safezones.getGeoObj(addressObj, function(geoObj) {
-        travel.getTravelList(geoObj, function(travelResultList) {
-            res.send(travelResultList);
-        });
+    var locationObj = {
+        address: req.body.address,
+        lat: parseFloat(req.body.lat),
+        lng: parseFloat(req.body.lng)
+    }
+    travel.getTravelList(locationObj, function(travelResultList) {
+        res.send(travelResultList);
     });
 });
 
