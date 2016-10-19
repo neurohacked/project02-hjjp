@@ -83,10 +83,9 @@ app.use(bodyParser.urlencoded({
 
 app.use(express.static('public'));
 
-app.use('/', app_controller, user_controller);
+app.use('/', app_controller, user_controller, risk_controller);
 app.use('/location', location_controller);
 app.use('/data', data_controller);
-app.use('/risk', risk_controller);
 
 // catch 404 and forward to error handler
 // app.use(function(req, res, next) {

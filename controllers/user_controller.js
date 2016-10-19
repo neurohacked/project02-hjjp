@@ -12,7 +12,7 @@ router.get('/dashboard', function(req, res) {
             include: [models.User]
         })
         .then(function(locations) {
-            if (req.session.user_name) {
+            if (req.session.user_id) {
                 res.render('dashboard', {
                     layout: 'dash',
                     user_id: req.session.user_id,
