@@ -54,9 +54,10 @@ module.exports = {
                     lat: returned.geometry.location.lat,
                     lng: returned.geometry.location.lng,
                     address: returned.formatted_address,
-                    choiceHash: addressObj.choiceHash
+                    choiceHash: addressObj.choiceHash,
+                    city: returned.address_components[1].shortname,
+                    state: returned.address_components[3].shortname
                 };
-                console.log('Geo Lat:' + geoObj.lat, 'Geo Long:' + geoObj.lng);
                 cb(geoObj);
             } else {
                 console.log("Error on getting GeoCoordinates " + error);

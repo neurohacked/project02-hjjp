@@ -1,9 +1,9 @@
-var models = require('../models');
-var express = require('express');
-var safezones = require('../js/safezone');
-var travel = require('../js/travel');
-// var weather = require('../js/weather.js');
-var router = express.Router();
+const models = require('../models');
+const express = require('express');
+const safezones = require('../js/safezone');
+const travel = require('../js/travel');
+// const weather = require('../js/weather.js');
+const router = express.Router();
 
 // get safezones
 router.post('/safezones', function(req, res) {
@@ -16,9 +16,9 @@ router.post('/safezones', function(req, res) {
 });
 
 // get weather
-router.post('/weather', function(req, res) {
-
-});
+// router.post('/weather', function(req, res) {
+//
+// });
 
 // get travel destination map locations
 router.post('/travel', function(req, res) {
