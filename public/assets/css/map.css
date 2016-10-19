@@ -32,26 +32,18 @@
 .mapOutput,.travelOutput {
   height: 600px;
   float: left;
-  width: 525px;
+  width: 600px;
   overflow-y: auto;
 }
 .rightPanel,.rightPanelTravel {
   float: right;
-  width: 250px;
+  width: 275px;
   height: 600px;
   padding-right: 20px;
 }
-.mapModal .modal-dialog {
-    width: 800px;
+.mapModal .modal-dialog, .travelModal .modal-dialog {
+    width: 900px;
 }
 .mapContent {
-  width: 800px;
-}
-
-.travelBooking {
-  display: inline-block;
-}
-
-.travelBooking a {
-  width: auto;
+  width: 900px;
 }

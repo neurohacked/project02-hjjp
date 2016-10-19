@@ -952,8 +952,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-size: 12px;
 }
 
-.box-icons .col-xs-4 {
+.box-icons .col-xs-3 {
     width: 25%;
+}
+.box-icons .col-xs-4 {
+    width: 33%;
 }
 .box-icons a {
     color: #5a5a5a;

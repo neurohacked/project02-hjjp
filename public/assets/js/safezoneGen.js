@@ -153,7 +153,7 @@ $(document).ready(function(){
     var dstLng;
 
 
-    $('.col-xs-4').on('click', '.map-display', function () {
+    $('.col-xs-3').on('click', '.map-display', function () {
         var newLocation = {
             address: $(this).data('address'),
         };
@@ -177,20 +177,22 @@ $(document).ready(function(){
             }
 
             $('#modalCollection').empty();
-            var modalHtml = '<div id=mapModal class="mapModal modal fade" role="dialog">'+
-                '<div class="modal-dialog">'+
+            var modalHtml = '<div id="mapModal" class="modal fade mapModal" tabindex="-1" role="dialog" aria-labelledby="mapModal">'+
+                '<div class="modal-dialog" role="document">'+
                     '<!-- Modal content-->'+
                     '<div class="modal-content mapContent">'+
-                        '<div class="modal-header">'+
+                        '<div class="box-header with-border">'+
                             '<button type="button" class="close" data-dismiss="modal">&times;</button>'+
-                            '<h4 class="modal-title">Safezone Locations</h4>'+
+                            '<h4 class="box-title">Safezone Locations</h4>'+
                         '</div>'+
-                        '<div id=mapOutput class="modal-body mapOutput">'+
-                        '</div>'+
-                        '<div id=rightPanel class="rightPanel">'+
+                        '<div class="box-body">'+
+                            '<div id=mapOutput class="mapOutput">'+
+                            '</div>'+
+                            '<div id=rightPanel class="rightPanel">'+
                             '<p>Total Distance: <span id="total"></span></p>'+
+                            '</div>'+
                         '</div>'+
-                        '<div class="modal-footer">'+
+                        '<div class="box-footer no-padding text-center">'+
                         '</div>'+
                     '</div>'+
                 '</div>'+
