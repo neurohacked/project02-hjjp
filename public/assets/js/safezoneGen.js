@@ -147,7 +147,6 @@ function computeTotalDistance(result) {
 
 $(document).ready(function(){
 
-    var modalCount = 0;
     var srcLat;
     var srcLng;
     var dstLat;

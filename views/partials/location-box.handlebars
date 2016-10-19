@@ -1,6 +1,6 @@
 <div class="box {{box-color this.risk}}">
     <div class="box-header with-border">
-        <h3 class="box-title">{{this.city}}, {{this.state}}{{#if this.address}} - <span style="font-size: 14px;">{{this.address}}</span>{{/if}}</h3>
+        <h3 class="box-title">{{this.address}}</h3>
         <div class="box-tools pull-right">
             <form action="location/delete/{{this.id}}?_method=DELETE" method="POST">
                 <input type="hidden" name="id" value="{{this.id}}">
@@ -43,16 +43,16 @@
     <div class="box-footer no-padding text-center">
         <div class="row box-icons">
             <div class="col-xs-4">
-                <a class="map-display" href="#" alt="Safehouses" data-address="{{this.address}}" data-city="{{this.city}}" data-state="{{this.state}}"><i class="fa fa-home fa-2x box-icon"></i><p>Safehouses</p></a>
+                <a class="map-display" href="#" alt="Safehouses" data-address="{{this.address}}"><i class="fa fa-home fa-2x box-icon"></i><p>Safehouses</p></a>
             </div>
             <div class="col-xs-4">
-                <a class="weather-display" href="#" alt="Weather" data-city="{{this.city}}" data-state="{{this.state}}"><i class="fa fa-bolt fa-2x box-icon"></i><p>Weather</p></a>
+                <a class="weather-display" href="#" alt="Weather" data-lat="{{this.lat}}" data-lng="{{this.lng}}"><i class="fa fa-bolt fa-2x box-icon"></i><p>Weather</p></a>
             </div>
             <div class="col-xs-4">
-                <a class="travel-display" href="#" alt="Travel" data-address="{{this.address}}" data-city="{{this.city}}" data-state="{{this.state}}"><i class="fa fa-subway fa-2x box-icon"></i><p>Travel</p></a>
+                <a class="travel-display" href="#" alt="Travel" data-address="{{this.address}}"><i class="fa fa-subway fa-2x box-icon"></i><p>Travel</p></a>
             </div>
             <div class="col-xs-4">
-                <a class="overview-display" href="#" alt="Travel"><i class="fa fa-file-text fa-2x box-icon"></i><p>Overview</p></a>
+                <a class="overview-display" href="#" alt="Travel" data-address="{{this.address}}"><i class="fa fa-file-text fa-2x box-icon"></i><p>Overview</p></a>
             </div>
         </div>
     </div>

@@ -20,8 +20,8 @@ module.exports = {
           type: Sequelize.INTEGER
         },
         address: Sequelize.STRING,
-        city: Sequelize.STRING,
-        state: Sequelize.STRING,
+        lat: Sequelize.STRING,
+        lng: Sequelize.STRING,
         risk: Sequelize.INTEGER,
         created_at: Sequelize.DATE,
         updated_at: Sequelize.DATE

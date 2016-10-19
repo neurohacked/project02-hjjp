@@ -147,7 +147,6 @@ function computeTotalDistance(result) {
 
 $(document).ready(function(){
 
-    var modalCount = 0;
     var srcLat;
     var srcLng;
     var dstLat;
@@ -296,7 +295,7 @@ $(document).ready(function(){
                   position: {lat: lat, lng: lng},
                   map: map,
                   title: name,
-                  icon: '/assets/img/' + locationType + '.png',
+                  icon: '/assets/img/map/' + locationType + '.png',
                   animation: google.maps.Animation.DROP
                 });
 
