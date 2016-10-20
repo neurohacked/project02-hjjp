@@ -38,22 +38,24 @@ module.exports = {
       },
       totalDeaths: {
         allowNull: true,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        defaultValue: 0
       },
       totalAffected: {
         allowNull: true,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        defaultValue: 0
       },
       disasterID: {
         allowNull: true,
         type: Sequelize.STRING
       },
       createdAt: {
-        allowNull: false,
+        allowNull: true,
         type: Sequelize.DATE
       },
       updatedAt: {
-        allowNull: false,
+        allowNull: true,
         type: Sequelize.DATE
       }
     });
