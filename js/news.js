@@ -20,13 +20,14 @@ module.exports = {
             if (!error && response.statusCode == 200) {
                 var returned = JSON.parse(body).posts;
                 returned.forEach(function(child) {
+                    var minText = (child.text).substring(0, 200) + " ...";
                     var newsObj = {
                         url: child.url,
                         image: child.thread.main_image,
                         date: child.published,
                         site: child.thread.site,
                         title: child.title,
-                        text: child.text,
+                        text: minText,
                         language: child.language,
                         country: child.thread.country,
                         site_type: child.thread.site_type
