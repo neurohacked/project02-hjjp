@@ -1,6 +1,7 @@
 const bcrypt = require('bcryptjs');
 const models = require('../models');
 const express = require('express');
+const exphbs = require('express-handlebars');
 const router = express.Router();
 
 // user dashboard
@@ -19,7 +20,33 @@ router.get('/dashboard', function(req, res) {
                     username: req.session.user_name,
                     email: req.session.user_email,
                     logged_in: req.session.logged_in,
-                    locations: locations
+                    locations: locations,
+                    helpers: {
+                        // box color based on risk
+                        boxColor: function(risk) {
+                            if (risk >= 80) {
+                                return "box-danger";
+                            } else if (risk >= 60) {
+                                return "box-warning";
+                            } else if (risk >= 40) {
+                                return "box-default";
+                            } else {
+                                return "box-success";
+                            }
+                        },
+                        // btn color based on risk
+                        btnColor: function(risk) {
+                            if (risk >= 80) {
+                                return "bg-red";
+                            } else if (risk >= 60) {
+                                return "bg-orange";
+                            } else if (risk >= 40) {
+                                return "bg-gray";
+                            } else {
+                                return "bg-green";
+                            }
+                        }
+                    }
                 });
             } else {
                 res.redirect('/');
