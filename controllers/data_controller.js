@@ -42,7 +42,11 @@ router.post('/news', function(req, res) {
     console.log(req.body.address);
     news.getNewsList(req.body.address, function(newsResultList) {
         res.send(newsResultList);
-    })
+        // var data = {
+        //     news: newsResultList
+        // }
+        // res.render('news', data);
+    });
 });
 
 module.exports = router;
