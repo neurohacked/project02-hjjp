@@ -1,5 +1,5 @@
 startDate,endDate,countryName,ISO,location,disasterType,disasterSubtype,totalDeaths,totalAffected,disasterID
-1/1/70,1/1/70,Niger (the),NER,,Epidemic,Bacterial disease,319,2677,1970-0003
+1/1/70,1/1/70,Niger,NER,,Epidemic,Bacterial disease,319,2677,1970-0003
 1/1/70,1/1/70,Cyprus,CYP,,Epidemic,Bacterial disease,,,1970-0006
 1/1/70,1/1/70,Ethiopia,ETH,,Epidemic,Bacterial disease,500,4000,1970-0007
 20/10/1970,20/10/1970,C�te d�Ivoire,CIV,,Epidemic,Bacterial disease,120,1500,1970-0057
