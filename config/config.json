@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "",
+    "password": "mysql@ucla!",
     "database": "aegis_db",
     "host": "localhost",
     "dialect": "mysql"
