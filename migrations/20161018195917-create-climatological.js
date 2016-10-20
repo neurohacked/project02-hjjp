@@ -57,7 +57,7 @@ module.exports = {
       updatedAt: {
         allowNull: true,
         type: Sequelize.DATE
-      }
+      },
     });
   },
   down: function(queryInterface, Sequelize) {
