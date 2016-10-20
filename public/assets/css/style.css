@@ -57,6 +57,10 @@ a:hover, a:focus {
     color: #555299;
 }
 
+.btn:focus, .btn:active {
+    outline: none;
+}
+
 .section-title hr {
     border-color: #605ca8;
     border-width: 4px;
@@ -115,6 +119,15 @@ ul, ol {
     letter-spacing: 1px;
 }
 
+#menu.navbar-default .navbar-nav>li>a.nb-btn:hover {
+    background: #605ca8;
+    border: 1px solid #605ca8;
+}
+
+#menu.navbar-default .navbar-right>li>a:hover {
+    color: #605ca8;
+}
+
 #menu.navbar-default .navbar-nav>li>a.nb-btn {
     display: inline-block;
     text-transform: uppercase;
@@ -122,11 +135,6 @@ ul, ol {
     padding: 6px 10px;
     border: 1px solid #ffffff;
     border-radius: 0;
-}
-
-#menu.navbar-default .navbar-nav>li>a.nb-btn:hover {
-    background: #605ca8;
-    border: 1px solid #605ca8;
 }
 
 .on {

@@ -1,16 +1,8 @@
 $(document).ready(function() {
-    // $('.location-delete').on('click', function() {
-    //     id = $(this).attr('data-id');
-    //     $.ajax({
-    //         url: 'location/delete/' + id,
-    //         type: "DELETE",
-    //         success: function() {
-    //             window.location.reload();
-    //         }
-    //     });
-    // });
-    //     var loaded = "Loaded"
-    //     console.log(loaded);
+    $('.btn-box-tool').on('click', function() {
+        $(this).blur();
+    })
+
 
     // $(function() {
     //
