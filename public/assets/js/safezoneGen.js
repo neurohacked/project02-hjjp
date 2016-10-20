@@ -169,6 +169,9 @@ $(document).ready(function(){
               if (i === 0) {
                 srcLat = data[i].lat;
                 srcLng = data[i].lng;
+              } else if (data.length === 1) {
+                dstLat = srcLat;
+                dstLng = srcLng;
               } else if (i === 1) {
                 dstLat = data[i].lat;
                 dstLng = data[i].lng;
