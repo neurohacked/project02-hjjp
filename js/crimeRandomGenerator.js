@@ -1,9 +1,19 @@
-var safezone = require('./safezone.js');
-var locationTypeList = ['embassy', 'hospital', 'police', 'airport', 'bank'];
+safezoneCount = require('safezoneCount.js');
 
-var addressObj = safezone.getAddressObj('pasadena', 'ca');
-safezone.getGeoObj(addressObj, function(geoObj) {
-    safezone.getSafezoneList(geoObj, function(safezoneResultList) {
-        console.log(safezoneResultList);
-    });
-});
+module.exports = {
+    getRiskScore: function() {
+        return Math.floor((Math.random() * 100) + 1);
+    },
+    getCrimeIndex: function() {
+        return Math.floor((Math.random() * 20) + 1);
+    },
+    getWeatherIndex: function() {
+        return Math.floor((Math.random() * 20) + 1);
+    },
+    getSafehouseIndex: function() {
+        return Math.floor((Math.random() * 30) + 1);
+    },
+    getTerrorIndex: function() {
+        return Math.floor((Math.random() * 30) + 1);
+    }
+}
