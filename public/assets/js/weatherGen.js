@@ -27,7 +27,7 @@ $(document).ready(function(){
                 $('.weather-collection').append(modalHtml);
                 // formate unix date
                 var convertedDate = function(epoch) {
-                    return moment.unix(epoch * 1000).format('dddd');
+                    return moment.unix(epoch).format('dddd, MMM Do');
                 }
                 // if there are weather alerts, asign them
                 if (data.alerts) {
