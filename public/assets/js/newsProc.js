@@ -9,7 +9,7 @@ $(document).ready(function(){
         .done(function (data) {
           console.log(data);
         });
-
+        
         return false;
     });
 

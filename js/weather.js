@@ -8,8 +8,12 @@ module.exports = {
         request(queryURL, function(error, response, body) {
             if (!error && response.statusCode == 200) {
                 var returned = JSON.parse(body);
+                if (returned.alerts) {
+                    var alerts = returned.alerts;
+                }
                 var weatherObj = {
                     summary: returned.daily.summary,
+                    alerts : alerts,
                     today: returned.daily.data[0],
                     tomorrow: returned.daily.data[1],
                     day3: returned.daily.data[2],
@@ -18,7 +22,7 @@ module.exports = {
                     day6: returned.daily.data[5],
                     day7: returned.daily.data[6],
                 };
-                console.log(weatherObj);
+                console.log(weatherObj.alerts);
                 cb(weatherObj);
             } else {
                 console.log("Error getting weather info:" + error);
