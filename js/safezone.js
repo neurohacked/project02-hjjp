@@ -45,12 +45,23 @@ module.exports = {
         request(queryURL, function(error, response, body) {
             if (!error && response.statusCode == 200) {
                 var returned = JSON.parse(body).results[0];
-                var geoObj = {
-                    lat: returned.geometry.location.lat,
-                    lng: returned.geometry.location.lng,
-                    address: returned.formatted_address
-                };
-                cb(geoObj);
+                var lat1 = returned.geometry.location.lat;
+                var lng1 = returned.geometry.location.lng;
+                var queryURL1 = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=' + lat1 + ',' + lng1 + '&key=AIzaSyAyysdormtiR7lDE-jHt3Hvf6YLo2NK4Ds'
+                request(queryURL1, function(error, response, body) {
+                    if (!error && response.statusCode == 200) {
+                        var returned1 = JSON.parse(body).results[0];
+                        var geoObj = {
+                            lat: returned1.geometry.location.lat,
+                            lng: returned1.geometry.location.lng,
+                            address: returned1.formatted_address
+                        };
+                        cb(geoObj);
+                    } else {
+                        console.log("Error on getting Reverse GeoCoordinates " + error);
+                        return;
+                    }
+                });
             } else {
                 console.log("Error on getting GeoCoordinates " + error);
                 return;
