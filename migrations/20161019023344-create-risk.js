@@ -9,29 +9,53 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       startDate: {
-        type: Sequelize.DATE
+        allowNull: true,
+        type: Sequelize.STRING
       },
       endDate: {
-        type: Sequelize.DATE
-      },
-      city: {
+        allowNull: true,
         type: Sequelize.STRING
       },
-      state: {
+      countryName: {
+        allowNull: true,
         type: Sequelize.STRING
       },
-      country: {
+      ISO: {
+        allowNull: true,
         type: Sequelize.STRING
       },
-      factor: {
-        type: Sequelize.INTEGER
+      location: {
+        allowNull: true,
+        type: Sequelize.TEXT
+      },
+      disasterType: {
+        allowNull: true,
+        type: Sequelize.TEXT
+      },
+      disasterSubtype: {
+        allowNull: true,
+        type: Sequelize.TEXT
+      },
+      totalDeaths: {
+        allowNull: true,
+        type: Sequelize.INTEGER,
+        defaultValue: 0
+      },
+      totalAffected: {
+        allowNull: true,
+        type: Sequelize.INTEGER,
+        defaultValue: 0
+      },
+      disasterID: {
+        allowNull: true,
+        type: Sequelize.STRING
       },
       createdAt: {
-        allowNull: false,
+        allowNull: true,
         type: Sequelize.DATE
       },
       updatedAt: {
-        allowNull: false,
+        allowNull: true,
         type: Sequelize.DATE
       }
     });

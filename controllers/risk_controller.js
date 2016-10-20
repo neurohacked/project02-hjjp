@@ -11,13 +11,13 @@ function getRandomIntInclusive(min, max) {
 }
 
 router.get('/risk', function(req, res) {
-    var randomNumber = getRandomIntInclusive(0,100);
 
-    models.Geophysical.findAll({where: {countryName: 'Italy'}})
+    models.Biological.findAll({where: {countryName: 'Italy'}})
     .then(function(searchResults){
         console.log(searchResults);
     });
 
+    var randomNumber = getRandomIntInclusive(0,100);
     res.send('Random Number: ' + randomNumber);
 });
 
