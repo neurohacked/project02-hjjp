@@ -6,6 +6,11 @@ const news = require('../js/news');
 const weather = require('../js/weather');
 const router = express.Router();
 
+// get overview
+// router.post('/overview', function(req, res) {
+//
+// });
+
 // get safezones
 router.post('/safezones', function(req, res) {
     var locationObj = {
@@ -18,6 +23,13 @@ router.post('/safezones', function(req, res) {
     });
 });
 
+// get weather
+router.post('/weather', function(req, res) {
+    weather.getWeatherObj(req.body.lat, req.body.lng, function(weatherObj) {
+        res.send(weatherObj);
+    })
+});
+
 // get travel destination map locations
 router.post('/travel', function(req, res) {
     var locationObj = {
@@ -28,13 +40,6 @@ router.post('/travel', function(req, res) {
     travel.getTravelList(locationObj, function(travelResultList) {
         res.send(travelResultList);
     });
-});
-
-// get weather
-router.post('/weather', function(req, res) {
-    weather.getWeatherObj(req.body.lat, req.body.lng, function(weatherObj) {
-        res.send(weatherObj);
-    })
 });
 
 // get newsfeeds

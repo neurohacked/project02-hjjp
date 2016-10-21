@@ -25,7 +25,8 @@ $(document).ready(function(){
                     '</div>'+
                 '</div>';
                 $('.weather-collection').append(modalHtml);
-                // formate unix date
+
+                // format unix date
                 var convertedDate = function(epoch) {
                     return moment.unix(epoch).format('dddd, MMM Do');
                 }
@@ -56,7 +57,7 @@ $(document).ready(function(){
                                     '<p><i style="color: DeepSkyBlue;" class="fa fa-arrow-down"></i> ' + today.temperatureMin + '°F | ' + today.temperatureMax + '°F <i style="color: DarkOrange;" class="fa fa-arrow-up"></i></p>'+
                                     '<p>'+ today.summary + '</p>'+
                                     '<p>Precipitation: '+ today.precipProbability + '%</p>'+
-                                    '<p>Humidity: '+ today.humidity + '</p>'+
+                                    '<p>Humidity: '+ today.humidity + '%</p>'+
                                     '<p>Ozone: '+ today.ozone + '</p>'+
                                 '</div>'+
                                 '<div class="col-xs-2 text-center">'+
@@ -65,7 +66,7 @@ $(document).ready(function(){
                                     '<p><i style="color: DeepSkyBlue;" class="fa fa-arrow-down"></i> ' + tomorrow.temperatureMin + '°F | ' + tomorrow.temperatureMax + '°F <i style="color: DarkOrange;" class="fa fa-arrow-up"></i></p>'+
                                     '<p>'+ tomorrow.summary + '</p>'+
                                     '<p>Precipitation: '+ tomorrow.precipProbability + '%</p>'+
-                                    '<p>Humidity: '+ tomorrow.humidity + '</p>'+
+                                    '<p>Humidity: '+ tomorrow.humidity + '%</p>'+
                                     '<p>Ozone: '+ tomorrow.ozone + '</p>'+
                                 '</div>'+
                                 '<div class="col-xs-2 text-center">'+
@@ -74,7 +75,7 @@ $(document).ready(function(){
                                     '<p><i style="color: DeepSkyBlue;" class="fa fa-arrow-down"></i> ' + day3.temperatureMin + '°F | ' + day3.temperatureMax + '°F <i style="color: DarkOrange;" class="fa fa-arrow-up"></i></p>'+
                                     '<p>'+ day3.summary + '</p>'+
                                     '<p>Precipitation: '+ day3.precipProbability + '%</p>'+
-                                    '<p>Humidity: '+ day3.humidity + '</p>'+
+                                    '<p>Humidity: '+ day3.humidity + '%</p>'+
                                     '<p>Ozone: '+ day3.ozone + '</p>'+
                                 '</div>'+
                                 '<div class="col-xs-2 text-center">'+
@@ -83,7 +84,7 @@ $(document).ready(function(){
                                     '<p><i style="color: DeepSkyBlue;" class="fa fa-arrow-down"></i> ' + day4.temperatureMin + '°F | ' + day4.temperatureMax + '°F <i style="color: DarkOrange;" class="fa fa-arrow-up"></i></p>'+
                                     '<p>'+ day4.summary + '</p>'+
                                     '<p>Precipitation: '+ day4.precipProbability + '%</p>'+
-                                    '<p>Humidity: '+ day4.humidity + '</p>'+
+                                    '<p>Humidity: '+ day4.humidity + '%</p>'+
                                     '<p>Ozone: '+ day4.ozone + '</p>'+
                                 '</div>'+
                                 '<div class="col-xs-2 text-center">'+
@@ -92,7 +93,7 @@ $(document).ready(function(){
                                     '<p><i style="color: DeepSkyBlue;" class="fa fa-arrow-down"></i> ' + day5.temperatureMin + '°F | ' + day5.temperatureMax + '°F <i style="color: DarkOrange;" class="fa fa-arrow-up"></i></p>'+
                                     '<p>'+ day5.summary + '</p>'+
                                     '<p>Precipitation: '+ day5.precipProbability + '%</p>'+
-                                    '<p>Humidity: '+ day5.humidity + '</p>'+
+                                    '<p>Humidity: '+ day5.humidity + '%</p>'+
                                     '<p>Ozone: '+ day5.ozone + '</p>'+
                                 '</div>'+
                             '</div>'+
