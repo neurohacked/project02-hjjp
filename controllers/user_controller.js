@@ -15,6 +15,30 @@ router.get('/dashboard', function(req, res) {
         .then(function(locations) {
             if (req.session.user_id) {
 
+                /*
+            Get location data and use it to populate
+            the search queries for risk analysis.
+
+            Once the data is retrieved, use a promise to
+            contain that data. Then, get
+            the data that was retrieved and run calculations
+            on them using helpers.
+
+            Once the calculations are done, you should have
+            a single score that is generated. This score will
+            be stored in the location database.
+
+            Pass the locations to the render method.
+
+            For the overview, make a request to dashboard/overview
+            so that overview is a route of its own but is still
+            in users controller. Overview can just pull the data
+            from locations, since the score is already created.
+            If a more detailed overview is required, we can just
+            run the calculations again, split them apart, and send
+            them in parts.
+            */
+
                 //random number
                 function getRandomIntInclusive(min, max) {
                   min = Math.ceil(min);
