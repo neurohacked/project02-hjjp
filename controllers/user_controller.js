@@ -2,6 +2,7 @@ const bcrypt = require('bcryptjs');
 const models = require('../models');
 const express = require('express');
 const exphbs = require('express-handlebars');
+const request = require("request-promise");
 const router = express.Router();
 
 // user dashboard
@@ -11,8 +12,16 @@ router.get('/dashboard', function(req, res) {
                 user_id: req.session.user_id
             },
             include: [models.User]
-        })
-        .then(function(locations) {
+        }).then(function(riskLocations) {
+            var options = {
+              method: 'GET',
+              url: 'http://localhost:3000/risk',
+              qs: {locs: JSON.stringify(riskLocations)}
+            };
+            request(options, function(error, response, body){
+                return body;
+        }).then(function(locations) {
+            locations = JSON.parse(locations);
             if (req.session.user_id) {
 
                 /*
@@ -86,6 +95,7 @@ router.get('/dashboard', function(req, res) {
                 res.redirect('/');
             }
         });
+    });
 });
 
 // logout

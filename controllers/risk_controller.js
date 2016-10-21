@@ -12,8 +12,13 @@ function getRandomIntInclusive(min, max) {
 }
 
 router.get('/risk', function(req, res) {
-
-    var countryName = "Italy";
+    var foo = JSON.parse(req.query.locs);
+    // console.log(foo[0]['address']);
+    var location = null;
+    if (!location) {
+        location = "Italy";
+    }
+    var countryName = location;
     var cityName = "Rome";
 
     Q.allSettled([
@@ -23,8 +28,13 @@ router.get('/risk', function(req, res) {
         models.Hydrological.findAll({where: {countryName: countryName}}),
         models.Metrological.findAll({where: {countryName: countryName}})
     ]).then(function (searchResults) {
-        console.log(searchResults);
-        res.send(searchResults);
+        // console.log(searchResults);
+        // res.send(searchResults);
+        var randomNumber = getRandomIntInclusive(0,100);
+        foo.forEach(function(elem) {
+          elem.risk = getRandomIntInclusive(0,100);
+        });
+        res.send(foo);
     });
 
 
@@ -33,8 +43,6 @@ router.get('/risk', function(req, res) {
         // console.log(searchResults);
     // });
 
-    var randomNumber = getRandomIntInclusive(0,100);
-    // res.send('Random Number: ' + randomNumber);
 });
 
 module.exports = router;
