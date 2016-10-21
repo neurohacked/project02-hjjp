@@ -197,7 +197,14 @@ ul, ol {
 }
 
 .home .container {
-    padding: 280px 15px 0;
+        position: relative;
+        padding: 15% 0 0;
+}
+@media (max-width: 992px) {
+    .home .container {
+            position: relative;
+            padding: 30% 0 0;
+    }
 }
 /*Modals*/
 
@@ -522,7 +529,7 @@ ul.team-social li {
 }
 /* Modal */
 .aegis-modal {
-    margin-top: 200px;
+    margin-top: 100px;
     color: #fff;
 }
 .aegis-modal .modal-header {
