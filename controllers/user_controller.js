@@ -8,11 +8,7 @@ const router = express.Router();
 // user dashboard
 router.get('/dashboard', function(req, res) {
     if (req.session.user_id) {
-        if (process.env === "localhost") {
-            var uri = "http://localhost:3000/risk";
-        } else {
-            var uri = "/risk";
-        }
+        var uri = req.protocol + '://' + req.get('host') + '/risk';
         models.Location.findAll({
             where: {
                 user_id: req.session.user_id
