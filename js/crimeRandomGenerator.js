@@ -15,45 +15,5 @@ module.exports = {
     },
     getTerrorIndex: function() {
         return Math.floor((Math.random() * 30) + 1);
-   },
-   calcFormula: function(table) {
-        table.forEach(function(row) {
-            var yearPattern = /^\d\d\d\d/g;
-            var year = table.disasterID.match(yearPattern);
-            var totalDeaths = table.totalDeaths;
-            var totalAffected = table.totalAffected;
-            var disasterType = table.disasterType;
-            var disasterScore;
-            if (disasterType === 'Animal Accident') {
-                disasterScore = 4;
-            }
-            if (disasterType === 'Epidemic') {
-                disasterScore = 6;
-            }
-            if (disasterType === 'Animal Accident') {
-                disasterScore = 4;
-            }
-            if (disasterType === 'Animal Accident') {
-                disasterScore = 4;
-            }
-            if (disasterType === 'Animal Accident') {
-                disasterScore = 4;
-            }
-            if (disasterType === 'Animal Accident') {
-                disasterScore = 4;
-            }
-            if (disasterType === 'Animal Accident') {
-                disasterScore = 4;
-            }
-            if (disasterType === 'Animal Accident') {
-                disasterScore = 4;
-            }
-            if (disasterType === 'Animal Accident') {
-                disasterScore = 4;
-            }
-            if (disasterType === 'Animal Accident') {
-                disasterScore = 4;
-            }
-        });
    }
 }
