@@ -1059,7 +1059,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .info-box {
     border-radius: 0;
-    margin-bottom: 15px;
+    margin: 15px 0;
+    height: 100px;
 }
 
 .info-box small {
@@ -1108,8 +1109,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .progress-description, .info-box-text {
     display: block;
     font-size: 14px;
-    white-space: nowrap;
-    overflow: hidden;
+    /*max-height: 65px;*/
+    /*white-space: nowrap;*/
+    overflow: scroll;;
     text-overflow: ellipsis;
 }
 
