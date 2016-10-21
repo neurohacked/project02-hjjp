@@ -16,6 +16,7 @@ const location_controller = require('./controllers/location_controller');
 const data_controller = require('./controllers/data_controller');
 const user_controller = require('./controllers/user_controller');
 const risk_controller = require('./controllers/risk_controller');
+const overview_controller = require('./controllers/overview_controller');
 
 // instantiate  app
 const app = express();
@@ -62,7 +63,7 @@ app.use(bodyParser.urlencoded({
 
 app.use(express.static('public'));
 
-app.use('/', app_controller, user_controller, risk_controller);
+app.use('/', app_controller, user_controller, risk_controller, overview_controller);
 app.use('/location', location_controller);
 app.use('/data', data_controller);
 
