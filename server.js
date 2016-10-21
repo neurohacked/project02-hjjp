@@ -5,9 +5,8 @@ const favicon = require('serve-favicon');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
 const session = require('express-session');
-// const hbs = require('handlebars');
 const exphbs = require('express-handlebars');
-// const hbsHelpers = require('./js/hbsHelpers')
+const hbsHelpers = require('./js/hbsHelpers')
 const methodOverride = require('method-override');
 
 // controllers
