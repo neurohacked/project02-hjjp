@@ -16,25 +16,29 @@
     <!-- /.box-header -->
     <div class="box-body ">
         <div class="row ">
-            <div class="col-lg-12 text-center ">
-                <div class="col-lg-3">
-                    <a href="# " class="risk-info ">
-                        <div class="well info-box {{btnColor this.risk}}">
-                            <span class="info-box-text">Risk</span>
-                            <span class="info-box-number">{{this.risk}}<small>%</small></span>
-                            <a href="#">More info</a>
-                            <!-- /.info-box-content -->
-                        </div>
-                        <!-- /.info-box -->
-                    </a>
-                </div>
-                <div class="col-lg-9">
-                        <div class="well info-box">
-                            <span>Based on this locations risk assessment you should...</span>
-                            <!-- /.info-box-content -->
-                        </div>
-                        <!-- /.info-box -->
-                </div>
+            <div class="col-sm-3 text-center ">
+                <a href="# " class="risk-info ">
+                    <div class="well info-box {{btnColor this.risk}}">
+                        <span class="info-box-text">Risk</span>
+                        <span class="info-box-number">{{this.risk}}<small>%</small></span>
+                        <a href="#">More info</a>
+                        <!-- /.info-box-content -->
+                    </div>
+                    <!-- /.info-box -->
+                </a>
+            </div>
+            <div class="col-sm-9">
+                {{> data/news}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                {{> data/news}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                {{> data/news}}
             </div>
         </div>
         <!-- /.row -->

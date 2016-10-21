@@ -15,7 +15,7 @@ module.exports = {
         var addressQuery = addressList.join('%2C%20');
 
         var queryURL = 'https://webhose.io/search?token=de1360f9-bb70-42d4-9144-188c63a822be&format=json&q=' + addressQuery + '%20(terror%20OR%20attack)%20(site_type%3Anews%20OR%20site_type%3Ablogs)'
-
+        console.log(queryURL);
         request(queryURL, function(error, response, body) {
             if (!error && response.statusCode == 200) {
                 var returned = JSON.parse(body).posts;
