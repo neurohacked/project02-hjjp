@@ -11,7 +11,9 @@ $(document).ready(function() {
                         '<button type="button" class="close" data-dismiss="modal">&times;</button>'+
                         '<h4 class="box-title">Risk Overview</h4>'+
                     '</div>'+
-                    '<div id="risk-data" class="box-body">'+
+                    '<div class="box-body">'+
+                        '<div id="risk-data">'+
+                        '</div>'+
                     '</div>'+
                     '<div class="box-footer no-padding text-center">'+
                     '</div>'+
@@ -30,7 +32,7 @@ $(document).ready(function() {
                     {factor: 'Safehouses', risk: 10},
                     {factor: 'Terror', risk: 40}
                 ],
-                xkey: 'device',
+                xkey: 'factor',
                 ykeys: ['risk'],
                 labels: ['Risk'],
                 barRatio: 0.4,
