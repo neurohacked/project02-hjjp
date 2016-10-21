@@ -7,9 +7,11 @@ const weather = require('../js/weather');
 const router = express.Router();
 
 // get overview
-// router.post('/overview', function(req, res) {
-//
-// });
+router.post('/overview', function(req, res) {
+    weather.getWeatherObj(req.body.lat, req.body.lng, function(weatherObj) {
+        res.send(weatherObj);
+    })
+});
 
 // get safezones
 router.post('/safezones', function(req, res) {

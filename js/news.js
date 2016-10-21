@@ -34,6 +34,7 @@ module.exports = {
                     }
                     newsResultList.push(newsObj);
                 });
+                console.log(newsResultList);
                 cb(newsResultList);
             } else {
                 console.log("Error on getting news Locations " + error);

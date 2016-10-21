@@ -22,7 +22,6 @@ module.exports = {
                     day6: returned.daily.data[5],
                     day7: returned.daily.data[6],
                 };
-                console.log(weatherObj);
                 cb(weatherObj);
             } else {
                 console.log("Error getting weather info:" + error);
