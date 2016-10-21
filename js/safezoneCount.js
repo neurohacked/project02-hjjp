@@ -10,7 +10,7 @@ module.exports = {
             lng: parseFloat(lng)
         }
         safezones.getSafezonesList(locationObj, function(safezonesResultList) {
-            cb(safezonesResultList);
+            cb(safezonesResultList.length);
         });
     }
 }
