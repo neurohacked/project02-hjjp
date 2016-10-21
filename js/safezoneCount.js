@@ -1,4 +1,4 @@
-safezones = require('../js/safezone.js');
+const safezones = require('../js/safezone');
 
 module.exports = {
 
@@ -6,8 +6,8 @@ module.exports = {
     getSafezoneCount: function(address, cb) {
         var addressObj = safezones.getAddressObj(address);
         safezones.getGeoObj(addressObj, function(geoObj) {
-            safezone.getSafezoneList(geoObj, function(safezoneResultList) {
-                cb(safezoneResultList.length);
+            safezones.getSafezonesList(geoObj, function(safezonesResultList) {
+                cb(safezonesResultList);
             });
         });
     }

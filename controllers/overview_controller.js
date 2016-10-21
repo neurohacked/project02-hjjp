@@ -1,23 +1,21 @@
 const models = require('../models');
 const express = require('express');
+const weather = require('../js/weather');
+const safezones = require('../js/safezone');
 const router = express.Router();
 
 
 router.get('/overview', function(req, res) {
-    // safetyScore: 
-    // totally safe: 100pts
-    // danger! do not go: 0pts
+    var address = "New York City Hall, New York, NY 10007, USA";
+    var lat = "40.7127461";
+    var lng = "-74.005974"
+    var locationObj = {
+        address: address,
+        lat: parseFloat(lat),
+        lng: parseFloat(lng)
+    }
 
-    // safehouse max pts: 30
-    // terror & other db max pts: 50
-    // crime max pts: 20
-    // weather max pts: 20
-
-   safezoneNum = require('../js/safezoneCount');
-   console.log(safezoneNum.getSafezoneCount());
-
-   console.log('hi!')
-    // // initial declared global variables to be modified later:
+    // initial declared global variables to be modified later:
     var safetyScore = 0;
     // max pts 30
     var safeHouseScore = 0;
@@ -28,8 +26,25 @@ router.get('/overview', function(req, res) {
     // max pts 30
     var terrorScore = 0;
 
-    weatherNum = require ('../js/weather.js')
-    console.log(weatherNum.getWeatherObj());
+    // safetyScore:
+    // totally safe: 100pts
+    // danger! do not go: 0pts
+
+    // safehouse max pts: 30
+    // terror & other db max pts: 50
+    // crime max pts: 20
+    // weather max pts: 20
+
+    console.log('hi!')
+
+    weather.getWeatherObj(lat, lng, function(weatherObj) {
+        console.log('Weather Data: ', weatherObj);;
+    })
+
+    safezones.getSafezonesList(locationObj, function(safezonesResultList) {
+        var safezoneCount = safezonesResultList.length;
+        console.log('Safeszones: ', safezoneCount);
+    });
 
 
     // //grab all the variables:
@@ -41,7 +56,7 @@ router.get('/overview', function(req, res) {
 
     // var crimeIndex = 15;
 
-    // var terrorIndex = 18; 
+    // var terrorIndex = 18;
 
 
     // var overview = function() {
