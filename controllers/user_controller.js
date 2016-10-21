@@ -7,54 +7,37 @@ const router = express.Router();
 
 // user dashboard
 router.get('/dashboard', function(req, res) {
-    models.Location.findAll({
+    if (req.session.user_id) {
+        if (process.env === "localhost") {
+            var uri = "http://localhost:3000/risk";
+        } else {
+            var uri = "/risk";
+        }
+        models.Location.findAll({
             where: {
                 user_id: req.session.user_id
             },
             include: [models.User]
         }).then(function(riskLocations) {
             var options = {
-              method: 'GET',
-              url: 'http://localhost:3000/risk',
-              qs: {locs: JSON.stringify(riskLocations)}
+                method: 'GET',
+                url: uri,
+                qs: {
+                    locs: JSON.stringify(riskLocations)
+                }
             };
-            request(options, function(error, response, body){
+            request(options, function(error, response, body) {
                 return body;
-        }).then(function(locations) {
-            locations = JSON.parse(locations);
-            if (req.session.user_id) {
-
-                /*
-            Get location data and use it to populate
-            the search queries for risk analysis.
-
-            Once the data is retrieved, use a promise to
-            contain that data. Then, get
-            the data that was retrieved and run calculations
-            on them using helpers.
-
-            Once the calculations are done, you should have
-            a single score that is generated. This score will
-            be stored in the location database.
-
-            Pass the locations to the render method.
-
-            For the overview, make a request to dashboard/overview
-            so that overview is a route of its own but is still
-            in users controller. Overview can just pull the data
-            from locations, since the score is already created.
-            If a more detailed overview is required, we can just
-            run the calculations again, split them apart, and send
-            them in parts.
-            */
+            }).then(function(locations) {
+                locations = JSON.parse(locations);
 
                 //random number
                 function getRandomIntInclusive(min, max) {
-                  min = Math.ceil(min);
-                  max = Math.floor(max);
-                  return Math.floor(Math.random() * (max - min + 1)) + min;
+                    min = Math.ceil(min);
+                    max = Math.floor(max);
+                    return Math.floor(Math.random() * (max - min + 1)) + min;
                 }
-                var riskNum = getRandomIntInclusive(0,100);
+                var riskNum = getRandomIntInclusive(0, 100);
 
                 res.render('dashboard', {
                     layout: 'dash',
@@ -90,11 +73,12 @@ router.get('/dashboard', function(req, res) {
                         }
                     }
                 });
-            } else {
-                res.redirect('/');
-            }
+
+            });
         });
-    });
+    } else {
+        res.redirect('/');
+    }
 });
 
 // logout
