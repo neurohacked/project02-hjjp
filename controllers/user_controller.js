@@ -63,7 +63,6 @@ router.get('/dashboard', function(req, res) {
                     email: req.session.user_email,
                     logged_in: req.session.logged_in,
                     locations: locations,
-                    riskNum: riskNum,
                     helpers: {
                         // box color based on risk
                         boxColor: function(risk) {
