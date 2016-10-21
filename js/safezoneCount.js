@@ -1,4 +1,4 @@
-safezones = require('safezone.js');
+safezones = require('../js/safezone.js');
 
 module.exports = {
 
