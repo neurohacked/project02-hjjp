@@ -8,13 +8,13 @@ const router = express.Router();
 // user dashboard
 router.get('/dashboard', function(req, res) {
     if (req.session.user_id) {
-        var uri = req.protocol + '://' + req.get('host') + '/risk';
         models.Location.findAll({
             where: {
                 user_id: req.session.user_id
             },
             include: [models.User]
         }).then(function(riskLocations) {
+            const uri = req.protocol + '://' + req.get('host') + '/risk';
             var options = {
                 method: 'GET',
                 url: uri,
