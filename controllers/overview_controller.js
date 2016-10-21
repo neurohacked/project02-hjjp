@@ -7,12 +7,12 @@ const router = express.Router();
 
 router.get('/overview', function(req, res) {
     var address = "New York City Hall, New York, NY 10007, USA";
-    var lat = "40.7127461";
-    var lng = "-74.005974"
+    var lat = parseFloat("40.7127461");
+    var lng = parseFloat("-74.005974");
     var locationObj = {
         address: address,
-        lat: parseFloat(lat),
-        lng: parseFloat(lng)
+        lat: lat,
+        lng: lng
     }
 
     // initial declared global variables to be modified later:
@@ -38,11 +38,20 @@ router.get('/overview', function(req, res) {
     console.log('hi!')
 
     weather.getWeatherObj(lat, lng, function(weatherObj) {
-        console.log('Weather Data: ', weatherObj);;
+        var weatherData = {
+        dewPoint: weatherObj.today.dewPoint,
+        humidity: weatherObj.today.humidity,
+        windSpeed: weatherObj.today.windSpeed,
+        windBearing: weatherObj.today.windBearing,
+        cloudCover: weatherObj.today.cloudCover,
+        pressure: weatherObj.today.pressure,
+        ozone: weatherObj.today.ozone
+    }
+        console.log('Weather Data: ', weatherData);;
     })
 
     safezones.getSafezonesList(locationObj, function(safezonesResultList) {
-        var safezoneCount = safezonesResultList.length;
+        var safezoneCount = safezonesResultList.length
         console.log('Safeszones: ', safezoneCount);
     });
 
@@ -180,7 +189,7 @@ router.get('/overview', function(req, res) {
 
 
     // safeHouseRisk();
-
+    res.send('foo');
 });
 
 module.exports = router;
