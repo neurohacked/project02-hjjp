@@ -14,6 +14,15 @@ router.get('/dashboard', function(req, res) {
         })
         .then(function(locations) {
             if (req.session.user_id) {
+
+                //random number
+                function getRandomIntInclusive(min, max) {
+                  min = Math.ceil(min);
+                  max = Math.floor(max);
+                  return Math.floor(Math.random() * (max - min + 1)) + min;
+                }
+                var riskNum = getRandomIntInclusive(0,100);
+
                 res.render('dashboard', {
                     layout: 'dash',
                     user_id: req.session.user_id,
@@ -21,6 +30,7 @@ router.get('/dashboard', function(req, res) {
                     email: req.session.user_email,
                     logged_in: req.session.logged_in,
                     locations: locations,
+                    riskNum: riskNum,
                     helpers: {
                         // box color based on risk
                         boxColor: function(risk) {
@@ -29,7 +39,7 @@ router.get('/dashboard', function(req, res) {
                             } else if (risk >= 60) {
                                 return "box-warning";
                             } else if (risk >= 40) {
-                                return "box-default";
+                                return "box-primary";
                             } else {
                                 return "box-success";
                             }
@@ -41,7 +51,7 @@ router.get('/dashboard', function(req, res) {
                             } else if (risk >= 60) {
                                 return "bg-orange";
                             } else if (risk >= 40) {
-                                return "bg-gray";
+                                return "bg-light-blue";
                             } else {
                                 return "bg-green";
                             }
