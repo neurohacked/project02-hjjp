@@ -143,13 +143,11 @@ $(document).ready(function(){
                         var weatherType = list[i], elements = document.getElementsByClassName( weatherType );
                           for (e = elements.length; e--;){
                         icons.set( elements[e], weatherType );
+                        }
                     }
-                }
-
-      icons.play();
+                    icons.play();
                 })
             });
-
         return false;
     });
 
