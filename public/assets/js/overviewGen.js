@@ -4,7 +4,7 @@ $(document).ready(function() {
 
         $('.overview-collection').empty();
         var modalHtml = '<div class="modal fade overview-modal" tabindex="-1" role="dialog" aria-labelledby="overview-modal">'+
-            '<div class="modal-dialog modal-lg" role="document">'+
+            '<div class="modal-dialog modal-md" role="document">'+
                 '<!-- Modal content-->'+
                 '<div class="modal-content">'+
                     '<div class="box-header with-border">'+
@@ -24,22 +24,18 @@ $(document).ready(function() {
 
         $('.overview-modal').modal('show');
         $('.overview-modal').on('shown.bs.modal', function () {
-            Morris.Bar({
+            Morris.Donut({
                 element: 'risk-data',
                 data: [
-                    {factor: 'Crime', risk: 50},
-                    {factor: 'Weather', risk: 20},
-                    {factor: 'Safehouses', risk: 10},
-                    {factor: 'Terror', risk: 40}
+                  {label: 'Crime', value: 25 },
+                  {label: 'Weather', value: 40 },
+                  {label: 'Safehouses', value: 25 },
+                  {label: 'Terrror', value: 10 }
                 ],
-                xkey: 'factor',
-                ykeys: ['risk'],
-                labels: ['Risk'],
-                barRatio: 0.4,
-                xLabelAngle: 35,
-                hideHover: 'auto'
-            });
-        })
+                formatter: function (y) { return y + "%" },
+                colors: ["#dd4b39", "#357ca5", "#00a65a", "#f39c12"]
+                });
+            })
 
         return false;
     });
