@@ -67,21 +67,21 @@ app.use('/location', location_controller);
 app.use('/data', data_controller);
 
 // catch 404 and forward to error handler
-// app.use(function(req, res, next) {
-//     const err = new Error('Not Found');
-//     err.status = 404;
-//     next(err);
-// });
+app.use(function(req, res, next) {
+    const err = new Error('Not Found');
+    err.status = 404;
+    next(err);
+});
 
 // error handler
 // no stacktraces leaked to user unless in development environment
-// app.use(function(err, req, res, next) {
-//     res.status(err.status || 500);
-//     res.render('error', {
-//         message: err.message,
-//         error: (app.get('env') === 'development') ? err : {}
-//     });
-// });
+app.use(function(err, req, res, next) {
+    res.status(err.status || 500);
+    res.render('error', {
+        message: err.message,
+        error: (app.get('env') === 'development') ? err : {}
+    });
+});
 
 // module gets exported as app.
 module.exports = app;
