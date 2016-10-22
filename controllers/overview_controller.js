@@ -11,13 +11,13 @@ router.get('/overview', function(req, res) {
      * totally safe: 100pts
      * danger! do not go: 0pts
      * safehouse max pts: 30
-     * terror & other db max pts: 50
+     * natural & other db max pts: 50
      * crime max pts: 20
      * weather max pts: 20
      */
 
     // initial declared global variables to be modified later:
-    var safetyScore = 0;
+    var safetyScore = 100;
     // max pts 30
     var safeHouseScore = 0;
     // max pts 20
@@ -25,56 +25,62 @@ router.get('/overview', function(req, res) {
     // max pts 20
     var crimeScore = 0;
     // max pts 30
-    var terrorScore = 0;
+    var naturalScore = 0;
 
-    var safeHouseNum;
-    var currentCondition;
-    var currentTemp;
-    var crimeIndex;
-    var naturalIndex;
+    var safeHouseNum = 2;
+    var currentCondition = 1.5;
+    var currentTemp = 27;
+    var crimeIndex = 20;
+    var naturalIndex = 80;
 
     var overview = function() {
         if (safetyScore <= 0) {
-            // console.log('safetyScore ' + safetyScore);
-            // console.log('crimeScore ' + crimeScore);
-            // console.log('weatherScore ' + weatherScore);
-            // console.log('safeHouseScore ' + safeHouseScore);
-            // console.log('terrorScore ' + terrorScore);
+            console.log('safetyScore ' + safetyScore);
+            console.log('crimeScore ' + crimeScore);
+            console.log('weatherScore ' + weatherScore);
+            console.log('safeHouseScore ' + safeHouseScore);
+            console.log('naturalScore ' + naturalScore);
+            console.log(safetyScore);
             console.log('The professionals at Aegis strongly advise you NOT to visit this location. You will not return. Cancel this trip immediately.')
         } else if (safetyScore <= 20) {
-            // console.log('safetyScore ' + safetyScore);
-            // console.log('crimeScore ' + crimeScore);
-            // console.log('weatherScore ' + weatherScore);
-            // console.log('safeHouseScore ' + safeHouseScore);
-            // console.log('terrorScore ' + terrorScore);
-            console.log('Taking this trip will put you at extreme risk. Should you choose to execute your travel plans, please be prepared to encounter a number of dangers, including but not limited to risk of terrorism, biological threats, environmental and weather catastrophes, and little or no access to resources. Be prepared to conduct all daily operations without access to electricity or the Internet. We recommend you travel with extra medicine and have a few safezone locations memorized, especially that of the nearest embassy. It is imperative that you leave a detailed itinerary with a trusted confidante.')
+            console.log('safetyScore ' + safetyScore);
+            console.log('crimeScore ' + crimeScore);
+            console.log('weatherScore ' + weatherScore);
+            console.log('safeHouseScore ' + safeHouseScore);
+            console.log('naturalScore ' + naturalScore);
+            console.log(safetyScore);
+            console.log('Taking this trip will put you at extreme risk. Should you choose to execute your travel plans, please be prepared to encounter a number of dangers, including but not limited to risk of naturalism, biological threats, environmental and weather catastrophes, and little or no access to resources. Be prepared to conduct all daily operations without access to electricity or the Internet. We recommend you travel with extra medicine and have a few safezone locations memorized, especially that of the nearest embassy. It is imperative that you leave a detailed itinerary with a trusted confidante.')
         } else if (safetyScore <= 40) {
-            // console.log('safetyScore ' + safetyScore);
-            // console.log('crimeScore ' + crimeScore);
-            // console.log('weatherScore ' + weatherScore);
-            // console.log('safeHouseScore ' + safeHouseScore);
-            // console.log('terrorScore ' + terrorScore);
+            console.log('safetyScore ' + safetyScore);
+            console.log('crimeScore ' + crimeScore);
+            console.log('weatherScore ' + weatherScore);
+            console.log('safeHouseScore ' + safeHouseScore);
+            console.log('naturalScore ' + naturalScore);
+            console.log(safetyScore);
             console.log('Taking this trip is not advised. Should you choose to execute your travel plans, please be extremely vigilant and have an emergency plan in place. It is recommended that you leave a detailed itinerary with a trusted confidante.');
         } else if (safetyScore <= 60) {
-            // console.log('safetyScore ' + safetyScore);
-            // console.log('crimeScore ' + crimeScore);
-            // console.log('weatherScore ' + weatherScore);
-            // console.log('safeHouseScore ' + safeHouseScore);
-            // console.log('terrorScore ' + terrorScore);
+            console.log('safetyScore ' + safetyScore);
+            console.log('crimeScore ' + crimeScore);
+            console.log('weatherScore ' + weatherScore);
+            console.log('safeHouseScore ' + safeHouseScore);
+            console.log('naturalScore ' + naturalScore);
+            console.log(safetyScore);
             console.log('Taking this trip presents signficiant risk. We recommend that you ')
         } else if (safetyScore <= 80) {
-            // console.log('safetyScore ' + safetyScore);
-            // console.log('crimeScore ' + crimeScore);
-            // console.log('weatherScore ' + weatherScore);
-            // console.log('safeHouseScore ' + safeHouseScore);
-            // console.log('terrorScore ' + terrorScore);
+            console.log('safetyScore ' + safetyScore);
+            console.log('crimeScore ' + crimeScore);
+            console.log('weatherScore ' + weatherScore);
+            console.log('safeHouseScore ' + safeHouseScore);
+            console.log('naturalScore ' + naturalScore);
+            console.log(safetyScore);
             console.log('You are likely to be safe on your trip. You should exercise the same caution you would traveling to any unfamiliar place and be constantly aware of your surroundings.')
         } else if (safetyScore <= 95) {
-            // console.log('safetyScore ' + safetyScore);
-            // console.log('crimeScore ' + crimeScore);
-            // console.log('weatherScore ' + weatherScore);
-            // console.log('safeHouseScore ' + safeHouseScore);
-            // console.log('terrorScore ' + terrorScore);
+            console.log('safetyScore ' + safetyScore);
+            console.log('crimeScore ' + crimeScore);
+            console.log('weatherScore ' + weatherScore);
+            console.log('safeHouseScore ' + safeHouseScore);
+            console.log('naturalScore ' + naturalScore);
+            console.log(safetyScore);
             console.log('There are no immediate risks that threaten your overall safety. as with all travel, you should be on the lookout for suspicoius activity.')
         }
     };
@@ -82,73 +88,69 @@ router.get('/overview', function(req, res) {
     // // calculate risk based on safehouse results:
     var safeHouseRisk = function() {
         if (safeHouseNum <= 0) {
-            safeHouseScore += 0;
-            safetyScore += safeHouseScore;
+            safeHouseScore = 30;
+            safetyScore -= safeHouseScore;
             weatherRisk();
         } else if (safeHouseNum <= 5) {
-            safeHouseScore += 5;
-            safetyScore += safeHouseScore;
+            safeHouseScore = 20;
+            safetyScore -= safeHouseScore;
             weatherRisk();
         } else if (safeHouseNum <= 10) {
-            safeHouseScore += 10
-            safetyScore += safeHouseScore;
+            safeHouseScore = 10
+            safetyScore -= safeHouseScore;
             weatherRisk();
         } else if (safeHouseNum <= 25) {
-            safeHouseScore += 20
-            safetyScore += safeHouseScore;
+            safeHouseScore = 5
+            safetyScore -= safeHouseScore;
             weatherRisk();
         } else if (safeHouseNum >= 50) {
-            safeHouseScore += 30;
-            safetyScore += safeHouseScore;
+            safeHouseScore = 0;
+            safetyScore -= safeHouseScore;
             weatherRisk();
         } else {
-            safeHouseScore += 15
-            safetyScore += safeHouseScore;
+            safeHouseScore = 15
+            safetyScore -= safeHouseScore;
             weatherRisk();
         }
     }
 
     var weatherRisk = function() {
         if (currentTemp <= -50 && currentTemp >= 50 && currentCondition >= 0.50) {
-            weatherScore += 5;
+            weatherScore = 20;
+            safetyScore -= weatherScore;
+            crimeRisk();
+        } else if (currentTemp < -50 && currentTemp > 50 && currentCondition <= 0.50) {
+            weatherScore = 8;
             safetyScore += weatherScore;
             crimeRisk();
-        } else if (currentTemp < -50 && currentTemp > 50 && currentCondition < 0.50) {
-            weatherScore += 8;
-            safetyScore += weatherScore;
-            console.log('weatherScore ' + weatherScore);
-            crimeRisk();
-        } else if (currentTemp < 90 && currentTemp > 51 && currentCondition > 0.50) {
-            weatherScore += 15;
-            safetyScore += weatherScore;
+        } else if (currentTemp > 51 && currentTemp < 90 && currentCondition >= 0.50) {
+            weatherScore = 15;
+            safetyScore -= weatherScore;
             crimeRisk();
 
-        } else if (currentTemp < 90 && currentTemp > 51 && currentCondition < 0.50) {
-            weatherScore += 20;
+        } else if (currentTemp > 51 && currentTemp < 90 && currentCondition <= 0.50) {
+            weatherScore = 5;
             safetyScore += weatherScore;
             crimeRisk();
         } else {
-            weatherScore += 10;
-            safetyScore += weatherScore;
-            console.log(safetyScore);
+            weatherScore = 10;
+            safetyScore -= weatherScore;
             crimeRisk();
         }
     };
 
     var crimeRisk = function() {
-
         crimeScore = (crimeIndex * 20) / 100
         safetyScore += crimeScore;
-        terrorRisk();
+        naturalRisk();
 
     }
 
-    var terrorRisk = function() {
-        terrorScore = (terrorIndex * 30) / 100
-        safetyScore += terrorScore;
+    var naturalRisk = function() {
+        naturalScore = (naturalIndex * 30) / 100
+        safetyScore -= naturalScore;
         overview();
     }
-
     safeHouseRisk();
     res.send('foo');
 });
