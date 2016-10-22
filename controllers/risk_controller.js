@@ -83,8 +83,7 @@ router.get('/risk', function(req, res) {
                         }
                     }
                 }
-                // var riskData = calcRisk.getRiskCalculation(riskFactors);
-                var riskData = riskFactors;
+                var riskData = calcRisk.getRiskCalculation(riskFactors);
                 location.risk = riskData.risk;
                 locationCounter++;
                 if (locationCounter === locationArray.length) {
