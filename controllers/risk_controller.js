@@ -6,6 +6,7 @@ const natural = require('../js/crimeTableCalculator');
 const safezone = require('../js/safezone');
 const weather = require('../js/weather');
 const crg = require('city-reverse-geocoder');
+const calcRisk = require('../js/overview');
 const router = express.Router();
 
 // Returns a random integer between min (included) and max (included)
@@ -25,12 +26,7 @@ router.get('/risk', function(req, res) {
     }
     var locationCounter = 0;
 
-    var riskFactors = {
-        crime: 0,
-        weather: 1,
-        safehouses: 2,
-        natural: 3
-    };
+
 
     locationArray.forEach(function(location) {
         var locationAddress = location.address;
@@ -51,6 +47,12 @@ router.get('/risk', function(req, res) {
         ]).then(function (searchResults) {
             var randomNumber = getRandomIntInclusive(0,100);
             var riskCalc = 0;
+            var riskFactors = {
+                crime: 0,
+                weather: 1,
+                safehouses: 2,
+                natural: 3
+            };
             for (var tableNum = 0; tableNum < searchResults.length; tableNum++) {
                 var tableArray = [];
                 if (tableNum < 5) {
@@ -80,12 +82,12 @@ router.get('/risk', function(req, res) {
                     }
                 }
             }
-            location.risk = riskCalc;
+            var riskData = calcRisk.getRiskCalculation(riskFactors);
+            location.risk = riskData.risk;
             locationCounter++;
             if (locationCounter === locationArray.length) {
-                console.log(riskFactors);
                 if (overview) {
-                    res.send(riskFactors);
+                    res.send(riskData);
                 } else {
                     res.send(locationArray);
                 }

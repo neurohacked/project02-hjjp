@@ -41,16 +41,17 @@ module.exports = {
             queryList.push(state);
         }
         query = queryList.join(',+');
-        var queryURL = "https://maps.googleapis.com/maps/api/geocode/json?address=" + query + "&key=AIzaSyAyysdormtiR7lDE-jHt3Hvf6YLo2NK4Ds";
+        var queryURL = "https://maps.googleapis.com/maps/api/geocode/json?address=" + query + "&key=AIzaSyAyysdormtiR7lDE-jHt3Hvf6YLo2NK4Ds&language=en";
         request(queryURL, function(error, response, body) {
             if (!error && response.statusCode == 200) {
                 var returned = JSON.parse(body).results[0];
                 var lat1 = returned.geometry.location.lat;
                 var lng1 = returned.geometry.location.lng;
-                var queryURL1 = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=' + lat1 + ',' + lng1 + '&key=AIzaSyAyysdormtiR7lDE-jHt3Hvf6YLo2NK4Ds'
+                var queryURL1 = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=' + lat1 + ',' + lng1 + '&key=AIzaSyAyysdormtiR7lDE-jHt3Hvf6YLo2NK4Ds&language=en'
                 request(queryURL1, function(error, response, body) {
                     if (!error && response.statusCode == 200) {
                         var returned1 = JSON.parse(body).results[0];
+                        console.log(returned1);
                         var geoObj = {
                             lat: returned1.geometry.location.lat,
                             lng: returned1.geometry.location.lng,
