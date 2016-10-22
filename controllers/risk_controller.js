@@ -13,6 +13,13 @@ function getRandomIntInclusive(min, max) {
 }
 
 router.get('/risk', function(req, res) {
+    var overview = false;
+    if ('overview' in req.query) {
+        var overview = true;
+    }
+
+    console.log(overview);
+
     var locationArray = JSON.parse(req.query.locs);
     var locationCounter = 0;
 
