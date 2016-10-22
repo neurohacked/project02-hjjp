@@ -1,7 +1,9 @@
 const models = require('../models');
 const express = require('express');
 const Q = require('q');
-const isos = require('countries-iso')
+const isos = require('countries-iso');
+const natural = require('../js/crimeTableCalculator');
+
 const router = express.Router();
 
 // Returns a random integer between min (included) and max (included)
@@ -13,13 +15,21 @@ function getRandomIntInclusive(min, max) {
 }
 
 router.get('/risk', function(req, res) {
+    var locationArray = JSON.parse(req.query.locs);
     var overview = false;
     if ('overview' in req.query) {
         var overview = true;
+        locationArray = [locationArray];
     }
-    var locationArray = JSON.parse(req.query.locs);
     console.log(locationArray);
     var locationCounter = 0;
+
+    var riskFactors = {
+        crime: 0,
+        weather: 1,
+        safehouses: 2,
+        natural: 3
+    };
 
     locationArray.forEach(function(location) {
         var locationAddress = location.address;
@@ -47,12 +57,19 @@ router.get('/risk', function(req, res) {
                      }
                      tableArray.push(rowObj);
                 }
-                riskCalc += tableArray.length;
+                riskCalc += natural.calculate(tableArray);
             }
             location.risk = riskCalc;
             locationCounter++;
             if (locationCounter === locationArray.length) {
-                res.send(locationArray);
+                if (overview) {
+                    console.log("To Overview...");
+                    console.log(riskFactors);
+                    res.send(riskFactors);
+                } else {
+                    console.log("To Dashboard...");
+                    res.send(locationArray);
+                }
             }
         });
     });
