@@ -29,6 +29,7 @@ router.get('/risk', function(req, res) {
         }
         var locationCounter = 0;
 
+
         locationArray.forEach(function(location) {
             var locationAddress = location.address;
             var splitAddress = locationAddress.split(', ');
