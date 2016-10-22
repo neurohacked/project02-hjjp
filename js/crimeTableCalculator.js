@@ -1,52 +1,71 @@
 module.exports = {
+    // Calculate correlation coefficient for table
     calculate: function(tableList) {
-        var scoreList = [];
-        var totalTableScore = 0;
-        table.forEach(function(row) {
-            var yearPattern = /^\d\d\d\d/g;
-            var year = row.disasterID.match(yearPattern);
+        var xList = [];
+        var yList = [];
+        tableList.forEach(function(row) {
             var totalDeaths = row.totalDeaths;
             var totalAffected = row.totalAffected;
-            var disasterType = row.disasterType;
-            var disasterScore;
-            if (disasterType === 'Animal Accident') {
-                disasterScore = 4;
+            if (totalDeaths === 0) {
+                totalDeaths = 1;
             }
-            if (disasterType === 'Epidemic') {
-                disasterScore = 6;
+            if (totalAffected === 0) {
+                totalAffected = 1;
             }
-            if (disasterType === 'Insect Infestation') {
-                disasterScore = 3;
-            }
-            if (disasterType === 'Drought') {
-                disasterScore = 6;
-            }
-            if (disasterType === 'Wildfire') {
-                disasterScore = 7;
-            }
-            if (disasterType === 'Earthquake') {
-                disasterScore = 8;
-            }
-            if (disasterType === 'Mass Movement (Dry)') {
-                disasterScore = 6;
-            }
-            if (disasterType === 'Volcanic Activity') {
-                disasterScore = 6;
-            }
-            if (disasterType === 'Flood') {
-                disasterScore = 7;
-            }
-            if (disasterType === 'Landslide') {
-                disasterScore = 6;
-            }
-            var totalAffectedScore = (totalAffected / 100);
-            var totalDeathsScore = (totalDeaths / 10);
-            var totalRowScore = (totalAffectedScore + totalDeathsScore) * disasterScore;
-            scoreList.push(totalRowScore);
+            xList.push(totalDeaths);
+            yList.push(totalAffected);
         });
-        for (var i = 0; i < scoreList.length; i++) {
-            totalTableScore += scoreList[i];
+        var naturalIndex = module.exports.getPearsonCorrelation(xList, yList);
+        if (naturalIndex < 0) {
+            naturalIndex = naturalIndex * -1;
         }
-        return totalTableScore;
+        return naturalIndex;
+    },
+
+    // Calculate pearson correlation based of totalDeaths and TotalAffected row values in the table
+    getPearsonCorrelation: function(x, y) {
+        var shortestArrayLength = 0;
+         
+        if(x.length == y.length) {
+            shortestArrayLength = x.length;
+        } else if(x.length > y.length) {
+            shortestArrayLength = y.length;
+            console.error('x has more items in it, the last ' + (x.length - shortestArrayLength) + ' item(s) will be ignored');
+        } else {
+            shortestArrayLength = x.length;
+            console.error('y has more items in it, the last ' + (y.length - shortestArrayLength) + ' item(s) will be ignored');
+        }
+      
+        var xy = [];
+        var x2 = [];
+        var y2 = [];
+      
+        for(var i=0; i<shortestArrayLength; i++) {
+            xy.push(x[i] * y[i]);
+            x2.push(x[i] * x[i]);
+            y2.push(y[i] * y[i]);
+        }
+      
+        var sum_x = 0;
+        var sum_y = 0;
+        var sum_xy = 0;
+        var sum_x2 = 0;
+        var sum_y2 = 0;
+      
+        for(var i=0; i< shortestArrayLength; i++) {
+            sum_x += x[i];
+            sum_y += y[i];
+            sum_xy += xy[i];
+            sum_x2 += x2[i];
+            sum_y2 += y2[i];
+        }
+      
+        var step1 = (shortestArrayLength * sum_xy) - (sum_x * sum_y);
+        var step2 = (shortestArrayLength * sum_x2) - (sum_x * sum_x);
+        var step3 = (shortestArrayLength * sum_y2) - (sum_y * sum_y);
+        var step4 = Math.sqrt(step2 * step3);
+        var answer = step1 / step4;
+      
+        return answer;
     }
 }
