@@ -15,18 +15,20 @@ function getRandomIntInclusive(min, max) {
 }
 
 router.get('/risk', function(req, res) {
+    var locationArray = JSON.parse(req.query.locs);
     var overview = false;
     if ('overview' in req.query) {
         var overview = true;
+        locationArray = [locationArray];
     }
-    var locationArray = JSON.parse(req.query.locs);
+    console.log(locationArray);
     var locationCounter = 0;
 
     var riskFactors = {
         crime: 0,
-        weather: 0,
-        safehouses: 0,
-        natural: 0
+        weather: 1,
+        safehouses: 2,
+        natural: 3
     };
 
     locationArray.forEach(function(location) {
@@ -61,8 +63,11 @@ router.get('/risk', function(req, res) {
             locationCounter++;
             if (locationCounter === locationArray.length) {
                 if (overview) {
+                    console.log("To Overview...");
+                    console.log(riskFactors);
                     res.send(riskFactors);
                 } else {
+                    console.log("To Dashboard...");
                     res.send(locationArray);
                 }
             }
