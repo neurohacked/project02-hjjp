@@ -1,4 +1,4 @@
-<div class="box {{box-color this.risk}}">
+<div class="box {{boxColor this.risk}}">
     <div class="box-header with-border">
         <h3 class="box-title">{{this.address}}</h3>
         <div class="box-tools pull-right">
@@ -16,26 +16,29 @@
     <!-- /.box-header -->
     <div class="box-body ">
         <div class="row ">
-            <div class="col-lg-12 text-center ">
-                <div class="col-lg-3">
-                    <a href="# " class="risk-info ">
-                        <div class="well info-box {{btn-color this.risk}}">
-                            <span class="info-box-text">Risk</span>
-                            <span class="info-box-number">{{this.risk}}<small>%</small></span>
-                            <a href="#">More info</a>
-                            <!-- /.info-box-content -->
-                        </div>
-                        <!-- /.info-box -->
-                    </a>
-                </div>
-                <div class="col-lg-9">
-                        <div class="well info-box">
-                            <h5 class="risk-state">{{risk-state this.risk}}</h5>
-                            <span>Based on this location's risk assessment, {{risk-suggest this.risk}} </span>
-                            <!-- /.info-box-content -->
-                        </div>
-                        <!-- /.info-box -->
-                </div>
+            <div class="col-sm-3 text-center ">
+                <a href="# " class="risk-info ">
+                    <div class="well info-box {{btnColor this.risk}}">
+                        <span class="info-box-text">Risk</span>
+                        <span class="info-box-number">{{this.risk}}<small>%</small></span>
+                        <a href="#">More info</a>
+                        <!-- /.info-box-content -->
+                    </div>
+                    <!-- /.info-box -->
+                </a>
+            </div>
+            <div class="col-sm-9">
+                {{> data/news}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                {{> data/news}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                {{> data/news}}
             </div>
         </div>
         <!-- /.row -->

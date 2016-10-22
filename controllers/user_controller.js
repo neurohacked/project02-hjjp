@@ -2,50 +2,38 @@ const bcrypt = require('bcryptjs');
 const models = require('../models');
 const express = require('express');
 const exphbs = require('express-handlebars');
+const request = require("request-promise");
 const router = express.Router();
 
 // user dashboard
 router.get('/dashboard', function(req, res) {
-    models.Location.findAll({
+    if (req.session.user_id) {
+        models.Location.findAll({
             where: {
                 user_id: req.session.user_id
             },
             include: [models.User]
-        })
-        .then(function(locations) {
-            if (req.session.user_id) {
-
-                /*
-            Get location data and use it to populate
-            the search queries for risk analysis.
-
-            Once the data is retrieved, use a promise to
-            contain that data. Then, get
-            the data that was retrieved and run calculations
-            on them using helpers.
-
-            Once the calculations are done, you should have
-            a single score that is generated. This score will
-            be stored in the location database.
-
-            Pass the locations to the render method.
-
-            For the overview, make a request to dashboard/overview
-            so that overview is a route of its own but is still
-            in users controller. Overview can just pull the data
-            from locations, since the score is already created.
-            If a more detailed overview is required, we can just
-            run the calculations again, split them apart, and send
-            them in parts.
-            */
+        }).then(function(riskLocations) {
+            const uri = req.protocol + '://' + req.get('host') + '/risk';
+            var options = {
+                method: 'GET',
+                url: uri,
+                qs: {
+                    locs: JSON.stringify(riskLocations)
+                }
+            };
+            request(options, function(error, response, body) {
+                return body;
+            }).then(function(locations) {
+                locations = JSON.parse(locations);
 
                 //random number
                 function getRandomIntInclusive(min, max) {
-                  min = Math.ceil(min);
-                  max = Math.floor(max);
-                  return Math.floor(Math.random() * (max - min + 1)) + min;
+                    min = Math.ceil(min);
+                    max = Math.floor(max);
+                    return Math.floor(Math.random() * (max - min + 1)) + min;
                 }
-                var riskNum = getRandomIntInclusive(0,100);
+                var riskNum = getRandomIntInclusive(0, 100);
 
                 res.render('dashboard', {
                     layout: 'dash',
@@ -53,39 +41,14 @@ router.get('/dashboard', function(req, res) {
                     username: req.session.user_name,
                     email: req.session.user_email,
                     logged_in: req.session.logged_in,
-                    locations: locations,
-                    riskNum: riskNum,
-                    helpers: {
-                        // box color based on risk
-                        boxColor: function(risk) {
-                            if (risk >= 80) {
-                                return "box-danger";
-                            } else if (risk >= 60) {
-                                return "box-warning";
-                            } else if (risk >= 40) {
-                                return "box-primary";
-                            } else {
-                                return "box-success";
-                            }
-                        },
-                        // btn color based on risk
-                        btnColor: function(risk) {
-                            if (risk >= 80) {
-                                return "bg-red";
-                            } else if (risk >= 60) {
-                                return "bg-orange";
-                            } else if (risk >= 40) {
-                                return "bg-light-blue";
-                            } else {
-                                return "bg-green";
-                            }
-                        }
-                    }
+                    locations: locations
                 });
-            } else {
-                res.redirect('/');
-            }
+
+            });
         });
+    } else {
+        res.redirect('/');
+    }
 });
 
 // logout

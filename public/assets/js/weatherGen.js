@@ -53,45 +53,47 @@ $(document).ready(function(){
                             '<div class="forecast row">'+
                                 '<div class="col-xs-2 text-center">'+
                                     '<h5>' + convertedDate(today.time) + '</h5>'+
+                                    '<a href="#" data-toggle="tooltip" data-placement="bottom" title="' + today.summary + '">'+
                                     '<canvas class="' + today.icon + '" width="50" height="50"></canvas>'+
+                                    '</a>'+
                                     '<p><i style="color: DeepSkyBlue;" class="fa fa-arrow-down"></i> ' + today.temperatureMin + '°F | ' + today.temperatureMax + '°F <i style="color: DarkOrange;" class="fa fa-arrow-up"></i></p>'+
-                                    '<p>'+ today.summary + '</p>'+
                                     '<p>Precipitation: '+ today.precipProbability + '%</p>'+
                                     '<p>Humidity: '+ today.humidity + '%</p>'+
                                     '<p>Ozone: '+ today.ozone + '</p>'+
                                 '</div>'+
                                 '<div class="col-xs-2 text-center">'+
                                     '<h5>' + convertedDate(tomorrow.time) + '</h5>'+
+                                    '<a href="#" data-toggle="tooltip" data-placement="bottom" title="' + tomorrow.summary + '">'+
                                     '<canvas class="' + tomorrow.icon + '" width="50" height="50"></canvas>'+
+                                    '</a>'+
                                     '<p><i style="color: DeepSkyBlue;" class="fa fa-arrow-down"></i> ' + tomorrow.temperatureMin + '°F | ' + tomorrow.temperatureMax + '°F <i style="color: DarkOrange;" class="fa fa-arrow-up"></i></p>'+
-                                    '<p>'+ tomorrow.summary + '</p>'+
                                     '<p>Precipitation: '+ tomorrow.precipProbability + '%</p>'+
                                     '<p>Humidity: '+ tomorrow.humidity + '%</p>'+
                                     '<p>Ozone: '+ tomorrow.ozone + '</p>'+
                                 '</div>'+
                                 '<div class="col-xs-2 text-center">'+
-                                    '<h5>' + convertedDate(day3.time) + '</h5>'+
+                                    '<h5>' + convertedDate(day3.time) + '</h5>'+'<a href="#" data-toggle="tooltip" data-placement="bottom" title="' + day3.summary + '">'+
                                     '<canvas class="' + day3.icon + '" width="50" height="50"></canvas>'+
+                                    '</a>'+
                                     '<p><i style="color: DeepSkyBlue;" class="fa fa-arrow-down"></i> ' + day3.temperatureMin + '°F | ' + day3.temperatureMax + '°F <i style="color: DarkOrange;" class="fa fa-arrow-up"></i></p>'+
-                                    '<p>'+ day3.summary + '</p>'+
                                     '<p>Precipitation: '+ day3.precipProbability + '%</p>'+
                                     '<p>Humidity: '+ day3.humidity + '%</p>'+
                                     '<p>Ozone: '+ day3.ozone + '</p>'+
                                 '</div>'+
                                 '<div class="col-xs-2 text-center">'+
-                                    '<h5>' + convertedDate(day4.time) + '</h5>'+
+                                    '<h5>' + convertedDate(day4.time) + '</h5>'+'<a href="#" data-toggle="tooltip" data-placement="bottom" title="' + day4.summary + '">'+
                                     '<canvas class="' + day4.icon + '" width="50" height="50"></canvas>'+
+                                    '</a>'+
                                     '<p><i style="color: DeepSkyBlue;" class="fa fa-arrow-down"></i> ' + day4.temperatureMin + '°F | ' + day4.temperatureMax + '°F <i style="color: DarkOrange;" class="fa fa-arrow-up"></i></p>'+
-                                    '<p>'+ day4.summary + '</p>'+
                                     '<p>Precipitation: '+ day4.precipProbability + '%</p>'+
                                     '<p>Humidity: '+ day4.humidity + '%</p>'+
                                     '<p>Ozone: '+ day4.ozone + '</p>'+
                                 '</div>'+
                                 '<div class="col-xs-2 text-center">'+
-                                    '<h5>' + convertedDate(day5.time) + '</h5>'+
+                                    '<h5>' + convertedDate(day5.time) + '</h5>'+'<a href="#" data-toggle="tooltip" data-placement="bottom" title="' + day5.summary + '">'+
                                     '<canvas class="' + day5.icon + '" width="50" height="50"></canvas>'+
+                                    '</a>'+
                                     '<p><i style="color: DeepSkyBlue;" class="fa fa-arrow-down"></i> ' + day5.temperatureMin + '°F | ' + day5.temperatureMax + '°F <i style="color: DarkOrange;" class="fa fa-arrow-up"></i></p>'+
-                                    '<p>'+ day5.summary + '</p>'+
                                     '<p>Precipitation: '+ day5.precipProbability + '%</p>'+
                                     '<p>Humidity: '+ day5.humidity + '%</p>'+
                                     '<p>Ozone: '+ day5.ozone + '</p>'+
@@ -131,6 +133,9 @@ $(document).ready(function(){
 
                 $('.weather-modal').modal('show');
                 $('.weather-modal').on('shown.bs.modal', function () {
+                    $(function () {
+                      $('[data-toggle="popover"]').popover({trigger: "hover"})
+                    })
                     var icons = new Skycons({"color": "#222"}),
                     list  = [
                         "clear-day", "clear-night", "partly-cloudy-day",
@@ -143,13 +148,11 @@ $(document).ready(function(){
                         var weatherType = list[i], elements = document.getElementsByClassName( weatherType );
                           for (e = elements.length; e--;){
                         icons.set( elements[e], weatherType );
+                        }
                     }
-                }
-
-      icons.play();
+                    icons.play();
                 })
             });
-
         return false;
     });
 

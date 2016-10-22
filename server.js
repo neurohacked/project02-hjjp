@@ -5,9 +5,8 @@ const favicon = require('serve-favicon');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
 const session = require('express-session');
-// const hbs = require('handlebars');
 const exphbs = require('express-handlebars');
-// const hbsHelpers = require('./js/hbsHelpers')
+const hbsHelpers = require('./js/hbsHelpers')
 const methodOverride = require('method-override');
 
 // controllers
@@ -17,6 +16,8 @@ const data_controller = require('./controllers/data_controller');
 const user_controller = require('./controllers/user_controller');
 const risk_controller = require('./controllers/risk_controller');
 const overview_controller = require('./controllers/overview_controller');
+const news_controller = require('./controllers/news_controller');
+const calculator_controller = require('./controllers/calculator_controller');
 
 // instantiate  app
 const app = express();
@@ -63,26 +64,27 @@ app.use(bodyParser.urlencoded({
 
 app.use(express.static('public'));
 
-app.use('/', app_controller, user_controller, risk_controller, overview_controller);
+app.use('/', app_controller, user_controller, risk_controller, overview_controller, news_controller);
 app.use('/location', location_controller);
 app.use('/data', data_controller);
+app.use('/calculate', calculator_controller);
 
 // catch 404 and forward to error handler
-// app.use(function(req, res, next) {
-//     const err = new Error('Not Found');
-//     err.status = 404;
-//     next(err);
-// });
+app.use(function(req, res, next) {
+    const err = new Error('Not Found');
+    err.status = 404;
+    next(err);
+});
 
 // error handler
 // no stacktraces leaked to user unless in development environment
-// app.use(function(err, req, res, next) {
-//     res.status(err.status || 500);
-//     res.render('error', {
-//         message: err.message,
-//         error: (app.get('env') === 'development') ? err : {}
-//     });
-// });
+app.use(function(err, req, res, next) {
+    res.status(err.status || 500);
+    res.render('error', {
+        message: err.message,
+        error: (app.get('env') === 'development') ? err : {}
+    });
+});
 
 // module gets exported as app.
 module.exports = app;

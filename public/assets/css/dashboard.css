@@ -1052,22 +1052,20 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .info-well .media-heading {
     font-weight: bold;
 }
-.info-well a {
-    color: #eee;
-}
-
-.info-well a:hover, a:focus {
-    text-decoration: none;
-    color: #222;
-}
 
 .info-box a {
     color: #fff;
 }
 
+.info-box h5 {
+    margin: 0 0 5px 0;
+    font-weight: bold;
+}
+
 .info-box {
     border-radius: 0;
-    margin-bottom: 15px;
+    margin: 15px 0;
+    height: 100px;
 }
 
 .info-box small {
@@ -1116,8 +1114,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .progress-description, .info-box-text {
     display: block;
     font-size: 14px;
-    white-space: nowrap;
-    overflow: hidden;
+    /*max-height: 65px;*/
+    /*white-space: nowrap;*/
+    overflow: scroll;;
     text-overflow: ellipsis;
 }
 
