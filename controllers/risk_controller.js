@@ -17,10 +17,8 @@ router.get('/risk', function(req, res) {
     if ('overview' in req.query) {
         var overview = true;
     }
-
-    console.log(overview);
-
     var locationArray = JSON.parse(req.query.locs);
+    console.log(locationArray);
     var locationCounter = 0;
 
     locationArray.forEach(function(location) {
