@@ -17,6 +17,7 @@ const user_controller = require('./controllers/user_controller');
 const risk_controller = require('./controllers/risk_controller');
 const overview_controller = require('./controllers/overview_controller');
 const news_controller = require('./controllers/news_controller');
+const calculator_controller = require('./controllers/calculator_controller');
 
 // instantiate  app
 const app = express();
@@ -66,6 +67,7 @@ app.use(express.static('public'));
 app.use('/', app_controller, user_controller, risk_controller, overview_controller, news_controller);
 app.use('/location', location_controller);
 app.use('/data', data_controller);
+app.use('/calculate', calculator_controller);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
