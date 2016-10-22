@@ -3,12 +3,19 @@ const express = require('express');
 const path = require('path');
 const favicon = require('serve-favicon');
 const logger = require('morgan');
-const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
+const cookieParser = require('cookie-parser');
 const session = require('express-session');
 const exphbs = require('express-handlebars');
 const hbsHelpers = require('./js/hbsHelpers')
 const methodOverride = require('method-override');
+
+// controllers
+const app_controller = require('./controllers/app_controller');
+const location_controller = require('./controllers/location_controller');
+const data_controller = require('./controllers/data_controller');
+const user_controller = require('./controllers/user_controller');
+const risk_controller = require('./controllers/risk_controller');
 
 // instantiate  app
 const app = express();
@@ -49,7 +56,9 @@ app.use(bodyParser.urlencoded({
 
 app.use(express.static('public'));
 
-require('./routes')(app);
+app.use('/', app_controller, user_controller, risk_controller);
+app.use('/location', location_controller);
+app.use('/data', data_controller);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
