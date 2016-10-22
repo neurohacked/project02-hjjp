@@ -3,6 +3,8 @@ const express = require('express');
 const Q = require('q');
 const isos = require('countries-iso');
 const natural = require('../js/crimeTableCalculator');
+const safezone = require('../js/safezone');
+const weather = require('../js/weather');
 
 const router = express.Router();
 
@@ -42,32 +44,41 @@ router.get('/risk', function(req, res) {
             models.Climatological.findAll({where: {ISO: countryISO}}),
             models.Geophysical.findAll({where: {ISO: countryISO}}),
             models.Hydrological.findAll({where: {ISO: countryISO}}),
-            models.Metrological.findAll({where: {ISO: countryISO}})
+            models.Metrological.findAll({where: {ISO: countryISO}}),
+            safezone.getSafezonesNumber(location),
+            weather.getWeatherData(location.lat, location.lng)
         ]).then(function (searchResults) {
             var randomNumber = getRandomIntInclusive(0,100);
             var riskCalc = 0;
             for (var tableNum = 0; tableNum < searchResults.length; tableNum++) {
                 var tableArray = [];
-                var rows = searchResults[tableNum].value.length;
-                var curRows = searchResults[tableNum].value;
-                for (var rowNum = 0; rowNum < rows; rowNum++){
-                    var rowObj = {
-                        totalDeaths: curRows[rowNum].totalDeaths,
-                        totalAffected: curRows[rowNum].totalAffected
-                     }
-                     tableArray.push(rowObj);
+                if (tableNum < 5) {
+                    var rows = searchResults[tableNum].value.length;
+                    var curRows = searchResults[tableNum].value;
+                    for (var rowNum = 0; rowNum < rows; rowNum++){
+                        var rowObj = {
+                            totalDeaths: curRows[rowNum].totalDeaths,
+                            totalAffected: curRows[rowNum].totalAffected
+                         }
+                         tableArray.push(rowObj);
+                    }
+                    riskFactors.natural = natural.calculate(tableArray);
+                } else {
+                    if (tableNum === 5) {
+                        riskFactors.safehouses = searchResults[tableNum].value.length;
+                    }
+                    if (tableNum === 6) {
+                        riskFactors.weather = searchResults[tableNum].value;
+                    }
                 }
-                riskCalc += natural.calculate(tableArray);
+
             }
             location.risk = riskCalc;
             locationCounter++;
             if (locationCounter === locationArray.length) {
                 if (overview) {
-                    console.log("To Overview...");
-                    console.log(riskFactors);
                     res.send(riskFactors);
                 } else {
-                    console.log("To Dashboard...");
                     res.send(locationArray);
                 }
             }

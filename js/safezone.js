@@ -111,6 +111,48 @@ module.exports = {
                 }
             });
         })
-    }
+    },
 
+    getSafezonesNumber: function(geoObj) {
+        return new Promise(function(resolve, reject) {
+            var locationTypeList = ['embassy', 'hospital', 'police', 'airport', 'bank'];
+            var safezonesCounter = 0;
+            var safezonesResultList = [];
+
+            var sourceObj = {
+                lat: geoObj.lat,
+                lng: geoObj.lng,
+                address: geoObj.address,
+                name: 'Target Location',
+                locationType: 'home',
+            };
+            safezonesResultList.push(sourceObj);
+
+            locationTypeList.forEach(function(locationType) {
+                var queryURL = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=' + geoObj.lat + ',' + geoObj.lng + '&radius=5000&types=' + locationType + '&key=AIzaSyCdKTEHizAqhcNWoqo7TjU3WN0E4miTwBc'
+                request(queryURL, function(error, response, body) {
+                    if (!error && response.statusCode == 200) {
+                        var returned = JSON.parse(body).results;
+                        returned.forEach(function(child) {
+                            var safezonesObj = {
+                                lat: child.geometry.location.lat,
+                                lng: child.geometry.location.lng,
+                                address: child.vicinity,
+                                name: child.name,
+                                locationType: locationType,
+                            }
+                            safezonesResultList.push(safezonesObj);
+                        });
+                    } else {
+                        console.log("Error on getting safezone Locations " + error);
+                        return;
+                    }
+                    safezonesCounter++;
+                    if (safezonesCounter === locationTypeList.length) {
+                        resolve(safezonesResultList);
+                    }
+                });
+            });
+        });
+    }
 }
