@@ -14,14 +14,17 @@ router.get('/dashboard', function(req, res) {
             },
             include: [models.User]
         }).then(function(riskLocations) {
-            const uri = req.protocol + '://' + req.get('host') + '/risk';
             var options = {
                 method: 'GET',
-                url: uri,
+                url: req.protocol + '://' + req.get('host') + '/risk',
                 qs: {
-                    locs: JSON.stringify(riskLocations)
+                    locs: JSON.stringify(riskLocations),
                 }
             };
+            if (!(riskLocations.length)) {
+                options.qs.locs = riskLocations;
+                options.qs.empty = true;
+            }
             request(options, function(error, response, body) {
                 return body;
             }).then(function(locations) {
