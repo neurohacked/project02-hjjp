@@ -5,7 +5,7 @@ const isos = require('countries-iso');
 const natural = require('../js/crimeTableCalculator');
 const safezone = require('../js/safezone');
 const weather = require('../js/weather');
-
+const crg = require('city-reverse-geocoder');
 const router = express.Router();
 
 // Returns a random integer between min (included) and max (included)
@@ -23,7 +23,6 @@ router.get('/risk', function(req, res) {
         var overview = true;
         locationArray = [locationArray];
     }
-    console.log(locationArray);
     var locationCounter = 0;
 
     var riskFactors = {
@@ -38,7 +37,8 @@ router.get('/risk', function(req, res) {
         var splitAddress = locationAddress.split(', ');
         var countryName = splitAddress[splitAddress.length - 1].trim();
         var countryISO = isos[countryName]; // 'ECU'
-
+        var cityName = crg(location.lat, location.lng, 1, 'mi');
+        cityName = cityName[0].city;
         Q.allSettled([
             models.Biological.findAll({where: {ISO: countryISO}}),
             models.Climatological.findAll({where: {ISO: countryISO}}),
@@ -46,7 +46,8 @@ router.get('/risk', function(req, res) {
             models.Hydrological.findAll({where: {ISO: countryISO}}),
             models.Metrological.findAll({where: {ISO: countryISO}}),
             safezone.getSafezonesNumber(location),
-            weather.getWeatherData(location.lat, location.lng)
+            weather.getWeatherData(location.lat, location.lng),
+            models.Crime.findAll({where: {cityName: cityName}})
         ]).then(function (searchResults) {
             var randomNumber = getRandomIntInclusive(0,100);
             var riskCalc = 0;
@@ -70,12 +71,19 @@ router.get('/risk', function(req, res) {
                     if (tableNum === 6) {
                         riskFactors.weather = searchResults[tableNum].value;
                     }
+                    if (tableNum === 7) {
+                        if (searchResults[tableNum].value.length === 0) {
+                            riskFactors.crime = 35;
+                        } else {
+                            riskFactors.crime = searchResults[tableNum].value[0].safetyIndex;
+                        }
+                    }
                 }
-
             }
             location.risk = riskCalc;
             locationCounter++;
             if (locationCounter === locationArray.length) {
+                console.log(riskFactors);
                 if (overview) {
                     res.send(riskFactors);
                 } else {
