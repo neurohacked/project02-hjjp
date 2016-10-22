@@ -19,8 +19,8 @@ module.exports = {
 
         locationTypeList.forEach(function(locationType) {
 
-            // var queryURL = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=' + geoObj.lat + ',' + geoObj.lng + '&radius=5000&types=' + locationType + '&key=AIzaSyAyysdormtiR7lDE-jHt3Hvf6YLo2NK4Ds'
-            var queryURL = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=' + geoObj.lat + ',' + geoObj.lng + '&radius=5000&types=' + locationType + '&key=AIzaSyCdKTEHizAqhcNWoqo7TjU3WN0E4miTwBc'
+            var queryURL = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=' + geoObj.lat + ',' + geoObj.lng + '&radius=5000&types=' + locationType + '&key=AIzaSyAyysdormtiR7lDE-jHt3Hvf6YLo2NK4Ds'
+            // var queryURL = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=' + geoObj.lat + ',' + geoObj.lng + '&radius=5000&types=' + locationType + '&key=AIzaSyCdKTEHizAqhcNWoqo7TjU3WN0E4miTwBc'
             request(queryURL, function(error, response, body) {
                 if (!error && response.statusCode == 200) {
                     var returned = JSON.parse(body).results;
