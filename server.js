@@ -14,14 +14,21 @@ const methodOverride = require('method-override');
 const app = express();
 
 // sessions
-app.use(session({
+const sess = {
     secret: 'app',
     cookie: {
         maxAge: null
     },
     resave: true,
     saveUninitialized: true
-}));
+}
+
+if (app.get('env') === 'production') {
+    app.set('trust proxy', 1) // trust first proxy
+    sess.cookie.secure = true // serve secure cookies
+}
+
+app.use(session(sess));
 app.use(cookieParser());
 
 // view engine setup
