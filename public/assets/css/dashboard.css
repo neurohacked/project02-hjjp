@@ -1114,8 +1114,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .progress-description, .info-box-text {
     font-size: 14px;
-    overflow: scroll;;
-    text-overflow: ellipsis;
 }
 
 .info-box-text {

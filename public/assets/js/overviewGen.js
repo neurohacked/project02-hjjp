@@ -1,13 +1,13 @@
 $(document).ready(function() {
 
     $('.col-xs-3').on('click', '.overview-display', function () {
-        var newLocation = {
-            address: $(this).data('address')
+        var newLocation = JSON.stringify({
+            address: $(this).data('address'),
             lat: $(this).data('lat'),
             lng: $(this).data('lng')
-        };
+        });
         var currentURL = window.location.origin;
-        $.post('/risk?losc=[{}]?overview=1', newLocation)
+        $.get('/risk?locs='+newLocation+'&overview=1')
             .done(function (data) {
                 $('.overview-collection').empty();
                 var modalHtml = '<div class="modal fade overview-modal" tabindex="-1" role="dialog" aria-labelledby="overview-modal">'+
