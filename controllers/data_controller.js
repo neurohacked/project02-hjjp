@@ -6,11 +6,6 @@ const news = require('../js/news');
 const weather = require('../js/weather');
 const router = express.Router();
 
-// get overview
-router.post('/overview', function(req, res) {
-    
-});
-
 // get safezones
 router.post('/safezones', function(req, res) {
     var locationObj = {

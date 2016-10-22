@@ -20,6 +20,8 @@
     "bcryptjs": "^2.3.0",
     "bluebird": "^3.4.6",
     "body-parser": "^1.15.2",
+    "city-reverse-geocoder": "0.0.1",
+    "cookie-parser": "^1.4.3",
     "countries-iso": "^1.0.1",
     "csv": "^1.1.0",
     "csv-parse": "^1.1.7",

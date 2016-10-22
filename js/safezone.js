@@ -41,16 +41,17 @@ module.exports = {
             queryList.push(state);
         }
         query = queryList.join(',+');
-        var queryURL = "https://maps.googleapis.com/maps/api/geocode/json?address=" + query + "&key=AIzaSyAyysdormtiR7lDE-jHt3Hvf6YLo2NK4Ds";
+        var queryURL = "https://maps.googleapis.com/maps/api/geocode/json?address=" + query + "&key=AIzaSyAyysdormtiR7lDE-jHt3Hvf6YLo2NK4Ds&language=en";
         request(queryURL, function(error, response, body) {
             if (!error && response.statusCode == 200) {
                 var returned = JSON.parse(body).results[0];
                 var lat1 = returned.geometry.location.lat;
                 var lng1 = returned.geometry.location.lng;
-                var queryURL1 = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=' + lat1 + ',' + lng1 + '&key=AIzaSyAyysdormtiR7lDE-jHt3Hvf6YLo2NK4Ds'
+                var queryURL1 = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=' + lat1 + ',' + lng1 + '&key=AIzaSyAyysdormtiR7lDE-jHt3Hvf6YLo2NK4Ds&language=en'
                 request(queryURL1, function(error, response, body) {
                     if (!error && response.statusCode == 200) {
                         var returned1 = JSON.parse(body).results[0];
+                        console.log(returned1);
                         var geoObj = {
                             lat: returned1.geometry.location.lat,
                             lng: returned1.geometry.location.lng,
@@ -111,6 +112,48 @@ module.exports = {
                 }
             });
         })
-    }
+    },
 
+    getSafezonesNumber: function(geoObj) {
+        return new Promise(function(resolve, reject) {
+            var locationTypeList = ['embassy', 'hospital', 'police', 'airport', 'bank'];
+            var safezonesCounter = 0;
+            var safezonesResultList = [];
+
+            var sourceObj = {
+                lat: geoObj.lat,
+                lng: geoObj.lng,
+                address: geoObj.address,
+                name: 'Target Location',
+                locationType: 'home',
+            };
+            safezonesResultList.push(sourceObj);
+
+            locationTypeList.forEach(function(locationType) {
+                var queryURL = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=' + geoObj.lat + ',' + geoObj.lng + '&radius=5000&types=' + locationType + '&key=AIzaSyCdKTEHizAqhcNWoqo7TjU3WN0E4miTwBc'
+                request(queryURL, function(error, response, body) {
+                    if (!error && response.statusCode == 200) {
+                        var returned = JSON.parse(body).results;
+                        returned.forEach(function(child) {
+                            var safezonesObj = {
+                                lat: child.geometry.location.lat,
+                                lng: child.geometry.location.lng,
+                                address: child.vicinity,
+                                name: child.name,
+                                locationType: locationType,
+                            }
+                            safezonesResultList.push(safezonesObj);
+                        });
+                    } else {
+                        console.log("Error on getting safezone Locations " + error);
+                        return;
+                    }
+                    safezonesCounter++;
+                    if (safezonesCounter === locationTypeList.length) {
+                        resolve(safezonesResultList);
+                    }
+                });
+            });
+        });
+    }
 }

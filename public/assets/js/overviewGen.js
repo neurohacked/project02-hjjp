@@ -57,7 +57,7 @@ $(document).ready(function() {
                         xkey: 'factor',
                         ykeys: ['risk'],
                         labels: ['Risk'],
-                        barRatio: 0.4,  
+                        barRatio: 0.4,
                         xLabelAngle: 35,
                         hideHover: 'auto',
                         stacked: true,
