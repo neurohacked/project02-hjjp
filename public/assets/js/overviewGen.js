@@ -1,6 +1,12 @@
 $(document).ready(function() {
 
     $('.col-xs-3').on('click', '.overview-display', function () {
+        var riskFactors = {
+            crime: 25,
+            weather: 40,
+            safehouses: 25,
+            terror: 10
+        }
 
         $('.overview-collection').empty();
         var modalHtml = '<div class="modal fade overview-modal" tabindex="-1" role="dialog" aria-labelledby="overview-modal">'+
@@ -15,8 +21,12 @@ $(document).ready(function() {
                         '<div class="row">'+
                             '<div class="col-lg-12">'+
                                 '<div class="col-lg-4">'+
-                                    '<div class="well info-box">'+
-                                        '<span></span>' +
+                                    '<div class="well text-center">'+
+                                        '<h4 >Risk Factors</h4>'+
+                                        '<p>Crime: ' + riskFactors.crime + '%</p>'+
+                                        '<p>Weather: ' + riskFactors.weather + '%</p>'+
+                                        '<p>Safehouses: ' + riskFactors.safehouses + '%</p>'+
+                                        '<p>Terror: ' + riskFactors.terror + '%</p>'+
                                     '</div>'+
                                 '</div>'+
                                 '<div class="col-lg-8">'+
@@ -35,25 +45,42 @@ $(document).ready(function() {
 
         $('.overview-modal').modal('show');
         $('.overview-modal').on('shown.bs.modal', function () {
-            var riskFactors = {
-                crime: 25,
-                weather: 40,
-                safehouses: 25,
-                terror: 10
-            }
-
-            Morris.Donut({
+            Morris.Bar({
                 element: 'risk-data',
                 data: [
-                  {label: 'Crime', value: 25 },
-                  {label: 'Weather', value: 40 },
-                  {label: 'Safehouses', value: 25 },
-                  {label: 'Terrror', value: 10 }
+                    {factor: 'Crime', risk: 50},
+                    {factor: 'Weather', risk: 20},
+                    {factor: 'Safehouses', risk: 10},
+                    {factor: 'Terror', risk: 40}
                 ],
-                formatter: function (y) { return y + "%" },
-                colors: ["#dd4b39", "#357ca5", "#00a65a", "#f39c12"]
-                });
-            })
+                xkey: 'factor',
+                ykeys: ['risk'],
+                labels: ['Risk'],
+                barRatio: 0.4,
+                xLabelAngle: 35,
+                hideHover: 'auto',
+                stacked: true,
+                barColors: function (row, series, type) {
+                  if(row.label == "Crime") return "#dd4b39";
+                  else if(row.label == "Weather") return "#357ca5";
+                  else if(row.label == "Safehouses") return "#00a65a";
+                  else if(row.label == "Terror") return "#f39c12";
+                }
+            });
+        })
+
+        //     Morris.Donut({
+        //         element: 'risk-data',
+        //         data: [
+        //           {label: 'Crime', value: 25 },
+        //           {label: 'Weather', value: 40 },
+        //           {label: 'Safehouses', value: 25 },
+        //           {label: 'Terrror', value: 10 }
+        //         ],
+        //         formatter: function (y) { return y + "%" },
+        //         colors: ["#dd4b39", "#357ca5", "#00a65a", "#f39c12"]
+        //     });
+        // })
 
         return false;
     });

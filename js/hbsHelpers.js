@@ -25,5 +25,29 @@ module.exports = {
         } else {
             return "bg-green";
         }
+    }),
+    // risk suggestions
+    riskState: hbs.registerHelper("risk-state", function(risk) {
+        if (risk >= 80) {
+            return "Risk is high.";
+        } else if (risk >= 60) {
+            return "Risk is moderate.";
+        } else if (risk >= 40) {
+            return "Risk is average.";
+        } else {
+            return "Risk is low.";
+        }
+    }),
+    // risk suggestions
+    riskSuggest: hbs.registerHelper("risk-suggest", function(risk) {
+        if (risk >= 80) {
+            return "we suggest using extreme caution if you decide to travel here.";
+        } else if (risk >= 60) {
+            return "we suggest you be prepared and remain vigilant.";
+        } else if (risk >= 40) {
+            return "we suggest basic preparedness.";
+        } else {
+            return "we suggest having a great time.";
+        }
     })
 }
