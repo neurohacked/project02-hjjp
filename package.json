@@ -38,7 +38,6 @@
     "sequelize": "^3.24.3",
     "sequelize-cli": "^1.7.1",
     "serve-favicon": "~2.3.0",
-    "skycons": "^1.0.0",
-    "weather-js": "^1.0.2"
+    "skycons": "^1.0.0"
   }
 }
