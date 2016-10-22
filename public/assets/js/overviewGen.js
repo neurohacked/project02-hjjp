@@ -24,10 +24,10 @@ $(document).ready(function() {
                                         '<div class="col-lg-4">'+
                                             '<div class="well text-center">'+
                                                 '<h4 >Risk Factors</h4>'+
-                                                '<p>Crime: ' + riskFactors.crime + '%</p>'+
-                                                '<p>Weather: ' + riskFactors.weather + '%</p>'+
-                                                '<p>Safehouses: ' + riskFactors.safehouses + '%</p>'+
-                                                '<p>Terror: ' + riskFactors.terror + '%</p>'+
+                                                '<p>Crime: ' + data.crime + '%</p>'+
+                                                '<p>Weather: ' + data.weather + '%</p>'+
+                                                '<p>Safehouses: ' + data.safehouses + '%</p>'+
+                                                '<p>Natural: ' + data.natural + '%</p>'+
                                             '</div>'+
                                         '</div>'+
                                         '<div class="col-lg-8">'+
@@ -49,15 +49,15 @@ $(document).ready(function() {
                     Morris.Bar({
                         element: 'risk-data',
                         data: [
-                            {factor: 'Crime', risk: 50},
-                            {factor: 'Weather', risk: 20},
-                            {factor: 'Safehouses', risk: 10},
-                            {factor: 'Terror', risk: 40}
+                            {factor: 'Crime', risk: data.crime},
+                            {factor: 'Weather', risk: data.weather},
+                            {factor: 'Safehouses', risk: data.safehouses},
+                            {factor: 'Natural', risk: data.natural}
                         ],
                         xkey: 'factor',
                         ykeys: ['risk'],
                         labels: ['Risk'],
-                        barRatio: 0.4,
+                        barRatio: 0.4,  
                         xLabelAngle: 35,
                         hideHover: 'auto',
                         stacked: true,
@@ -65,7 +65,7 @@ $(document).ready(function() {
                           if(row.label == "Crime") return "#dd4b39";
                           else if(row.label == "Weather") return "#357ca5";
                           else if(row.label == "Safehouses") return "#00a65a";
-                          else if(row.label == "Terror") return "#f39c12";
+                          else if(row.label == "Natural") return "#f39c12";
                         }
                     });
                 })
